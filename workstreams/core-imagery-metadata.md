@@ -40,11 +40,18 @@ How can we track provenance in a simple way? Like to describe a processed image 
  
 ### Background Reading / Prep work
  
-**Top:** Please contribute any good imagery metadata files you’ve worked with to https://github.com/radiantearth/imagery-metadata-spec/tree/dev/non-standard-implementations. Ideally JSON, but others also accepted.
+#### Top
+Please contribute any good imagery metadata files you’ve worked with to https://github.com/radiantearth/imagery-metadata-spec/tree/dev/non-standard-implementations. Ideally JSON, but others also accepted.
  
-**All:** Everyone in this group should read over all the implementations https://github.com/radiantearth/imagery-metadata-spec/tree/dev/non-standard-implementations 
- 
+#### All
+Everyone in this group should read over all the implementations https://github.com/radiantearth/imagery-metadata-spec/tree/dev/non-standard-implementations Also read the [issues](https://github.com/radiantearth/imagery-metadata-spec/issues) in the repository for the latest discussion. And add issues you want to discuss, can be in the repo as issues or questions here.
+
+#### Above and Beyond
 If at least a couple people could dive deep on what linked data in general and JSON-LD in particular could offer us in the way of schema definition that would be really great. It seems like it has potential, but also seems like the linked data advocates get way to deep in obscure architectures. Is there something practical there for us to use?
+
+Pull requests to https://github.com/radiantearth/imagery-metadata-spec to start to evolve it before we get there. The spec there is very half baked, and there's little attachment to it. Just don't make something way more complicated. 
+
+If someone can turn the questions above to issues and link to them that would also be awesome.
  
 ### Participants
  
