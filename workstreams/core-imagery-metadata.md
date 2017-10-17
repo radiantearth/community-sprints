@@ -9,9 +9,9 @@ The starting point for this is OIN-metadata and the Radiant draft Imagery Metada
 **Day 3:** By the end of the sprint should have a nice ‘extension’ mechanism that gives vendors and communities (for example ‘elevation’) a way to build on the core fields with additional metadata they care about. The core spec should be well documented, with good examples. 
 
 **Stretch goals / Follow up:**
-Have a dedicated website that has the core specification in html as well as one or two ‘guides’ on using it. And links to the spec, and how to give feedback to it and extend it.
-Code and online service to validate conformance with the spec. 
-HTML, Linked data and GeoTIFF version of the spec (if the group decides these are valuable).
+* Have a dedicated website that has the core specification in html as well as one or two ‘guides’ on using it. And links to the spec, and how to give feedback to it and extend it.
+* Code and online service to validate conformance with the spec. 
+* HTML, Linked data and GeoTIFF version of the spec (if the group decides these are valuable).
  
 ### Questions to discuss
 
