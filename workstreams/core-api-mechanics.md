@@ -56,6 +56,8 @@ Describe in BNF notation? GET vs POST?
 
 * GRPC version of spec? What would that look like? Should we specify it as well?
 
+* Projections - only return records in one projection? Reprojection as an extension? How to handle data that is delivered in different projections?
+
 
  
 ### Background Reading / Prep work
@@ -66,7 +68,7 @@ Read up on all the implementations in <https://github.com/radiantearth/catalog-a
 #### All
 
 #### Above and Beyond
-Set up a dev environment and start trying to build draft API's. Join https://gitter.im/Imagery-Catalog-API-Team/presprint-planning 
+Set up a dev environment and start trying to build draft API's. Join <https://gitter.im/Imagery-Catalog-API-Team/presprint-planning> 
 to discuss attempts to build with others.
 
  
