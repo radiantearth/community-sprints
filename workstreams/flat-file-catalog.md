@@ -11,16 +11,34 @@ investigate the HTML version of imagery metadata records, to follow [Spatial Dat
  
 ### Goals
 
-**Day 1:** 
+**Day 1:** A specification for the link structure of a catalog that does not need code to run, and can be easily crawled. With a default type decided by the group. JSON, HTML, JSON-LD?
 
-**Day 3:** Decide on a solid name for this, with a clear spec and an example implementation.
+**Day 3:** Decide on a solid name for this, with a clear spec, that is aligned with main specs (api + metadata). Stand up an example implementation with data to be crawled (can just use landsat or OAM data).
 
-**Stretch goals / Follow up:**
+**Stretch goals / Follow up:** Get a full dataset on AWS or GCP (like Landsat, NAIP, Open Aerial Map, etc) represented in this crawlable structure, including generating this on new updates.
 
  
 ### Questions to discuss
 
-* Question 1
+* Do we want to optimize for internet search engines? This would likely mean HTML as the main format, and ideally even
+figure out SEO for it.
+
+* What is the default / recommended 'best practice' format - HTML or JSON?
+
+* Should we try to make it [Linked Data](https://www.w3.org/standards/semanticweb/data)? Or at least a light weight with [JSON-LD](https://json-ld.org/) with a published schema? The [metadata](core-imagery-metadata.md) workstream will also
+hopefully be investigating this deeply.
+
+* Specify in OpenAPI 3.0? And a swagger 2.0 version? Can it be a clean subset of the core api? This will need dialog with
+them the [core api workstream](core-api-mechanics.md).
+
+* What is the core link structure, to direct crawlers to all the resources? Do catalog items link to one another? Are there
+pages for large catalogs? 
+
+* Are the core catalog items the exact same as a fully featured api? Or a subset? Are there less links? etc.
+
+* What does the HTML version look like? Does it have a thumbnail? What does it look like? 
+
+
 
  
 ### Background Reading / Prep work
