@@ -58,6 +58,21 @@ Describe in BNF notation? GET vs POST?
 
 * Projections - only return records in one projection? Reprojection as an extension? How to handle data that is delivered in different projections?
 
+* How can the user specify a bbox query that crosses the anti-meridian?  Could define bbox as (westLon, southLat, eastLon, northLat)
+
+* Should geometry queries be performed on a flat earth or a sphere? It affects how a bbox query behaves and what a radius search means.
+
+* Streaming - Could the api support streaming the results rather than pagination for clients that apply their own 
+
+* List and Sets - Support for lists in the result set using a native format rather use putting things into csv strings.
+
+* Configurable fields returned -  What if a user only wants id and title and to exclude the large the fields like footprint?
+
+* Mutliple images in one file - how to represent that a file that contains multiple distinct imagery, E.g., NITF
+
+* One image split into multiple files  - how to group imagery into a logical image when there are multiple physical files
+
+* How might derived products be linked with the original image?  E.g., Dem product of LIDAR
 
  
 ### Background Reading / Prep work
