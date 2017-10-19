@@ -72,6 +72,9 @@ If someone can turn the questions above to issues and link to them that would al
 ### Participants
 * Seth Fitzsimmons 
 * Mark Korver
+* Sasha Hart
+* Beau Legeer
+* Rob Emanuele
  
 ### Notes 
 (link to etherpad)
