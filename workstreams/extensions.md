@@ -54,7 +54,12 @@ assets, coverage maps and additional metadata fields.
 
  
 ### Participants
-
+* Pramukta Kumar
+* Robert St. John
+* Ami Rahav
+* Dan Lopez
+* Ian Schneider
+ 
  
 ### Notes 
 (link to etherpad)
