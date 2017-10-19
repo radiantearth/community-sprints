@@ -26,12 +26,19 @@ assets, coverage maps and additional metadata fields.
     * Saved searches
     * Different fields
     * Transactions / catalog management
+    * Subscription extensions for push updates / event stream
     * Links to tile servers of the data
     * Different format types (jp2, netcdf, etc)
     * Processing data on the fly (apply NDVI, surface reflectance)
     * Bulk download service
     * GRPC
  * In general how does a catalog work to make the core data available, but also can be transformed / processed.
+ * Pieces needed in core spec to make records cacheable.
+    * Just cache control headers?
+    * Also update / publish time as a field?
+ * Mobile catalog, is there a use case for running on a mobile device?
+ * Disconnected scenario, shipping out hard drives of imagery with a catalog for first responders, etc.
+    * How to refer back to source catalog?
 
 
  
