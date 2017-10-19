@@ -56,8 +56,9 @@ If someone can turn the questions above to issues and link to them that would al
 ### Participants
  
 * Paul Smith, Harris
-* Rob Emanuele, Azavea / GeoTrellis
 * Nate Smith, HOT / OAM
 * Matt Hanson, DevSeed / sat-api
+* Hamed Alemohammad, Radiant Earth
+* Dan Pilone, Element84
  
 ### Notes (link to etherpad)
