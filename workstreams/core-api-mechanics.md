@@ -78,6 +78,12 @@ to discuss attempts to build with others.
 * Kasey Kirkham, Planet
 * Matt Hancher, Google / Earth Engine
 * Alex Kaminsky, Azavea / RasterFoundry
+* Jason Gilman, Element84
+* Chris Schiavone, DigitalGlobe
+* Ryan Osial, Pixia
+
+
+(Yes, this group is a bit large, if it feels to large it should break out, perhaps one on core granular components, one on overall api for imagery)
  
 ### Notes 
 (link to etherpad)
