@@ -20,7 +20,7 @@ also defined as OpenAPI snippets that can be reused. Plus feedback to WFS 3.0 gr
 
 **Stretch goals / Follow up:** 
 * 3 working servers and 2 working clients (and aiming for 7+ servers and 4+ clients in 3 months)
-* Working servers and a solid spec that reuses some of the granular components (stats?)
+* A test engine that can validate specification compliance
 
  
 ### Questions to discuss
