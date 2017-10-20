@@ -81,6 +81,7 @@ Describe in BNF notation? GET vs POST?
 Read up on all the implementations in <https://github.com/radiantearth/catalog-api-spec/tree/dev/implementations>
 
 #### All
+Read [Google's API Design Guide](https://cloud.google.com/apis/design/), [JSON-API](http://jsonapi.org/) and other anti-[bikeshedding](http://bikeshed.org/) tools (feel free to add more to this list).
 
 #### Above and Beyond
 Set up a dev environment and start trying to build draft API's. Join <https://gitter.im/Imagery-Catalog-API-Team/presprint-planning> 
