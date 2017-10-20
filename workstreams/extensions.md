@@ -41,6 +41,8 @@ assets, coverage maps and additional metadata fields.
  * Mobile catalog, is there a use case for running on a mobile device?
  * Disconnected scenario, shipping out hard drives of imagery with a catalog for first responders, etc.
     * How to refer back to source catalog?
+ * Global catalog network functionality. Could we have an extension where a catalog reports its number of records, number of non-duplicative records (like if it's just caching landsat or something it could report that), and perhaps even number of searches performed? And then a meta-catalog could crawl and report on the network health, like total number of imagery records served by the spec.
+ * Functionality on popular searches served by this catalog? Report back heatmaps of usage, and most searched queries.
 
 
  
