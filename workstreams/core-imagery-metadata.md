@@ -60,5 +60,6 @@ If someone can turn the questions above to issues and link to them that would al
 * Matt Hanson, DevSeed / sat-api
 * Hamed Alemohammad, Radiant Earth
 * Dan Pilone, Element84
+* Chris Schiavone, DigitalGlobe
  
 ### Notes (link to etherpad)
