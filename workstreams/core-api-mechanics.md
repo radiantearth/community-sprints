@@ -16,11 +16,12 @@ and give it the option to break out.
 metadata workstream. Ideally there is also a way to define a vendor specific set of fields using the same API structure.
 
 **Day 3:** An OpenAPI 3.0 version of the specification that is validated by running code. With coherent granular components 
-also defined as OpenAPI snippets that can be reused. Plus feedback to WFS 3.0 group of what works and doesn't in their spec. Also a solid name for the specification.
+also defined as OpenAPI snippets that can be reused. Plus feedback to WFS 3.0 group of what works and doesn't in their spec. Also a solid name for the specification, and a clear mechanism for reporting / validating the metadata schema.
 
 **Stretch goals / Follow up:** 
 * 3 working servers and 2 working clients (and aiming for 7+ servers and 4+ clients in 3 months)
 * A test engine that can validate specification compliance
+* Solid schema definition in a good online location, that can be validated against.
 
  
 ### Questions to discuss
@@ -75,6 +76,8 @@ Describe in BNF notation? GET vs POST?
 * How might derived products be linked with the original image?  E.g., Dem product of LIDAR
 
 * What do we call this specification? 
+
+* Schema - Is there a way to report global schemas, or at least adherence to a global schema? How can we know that one catalog's 'cloud cover' means the same thing as another's, and that they use the same range (0 - 100 vs 0 - 1). 
  
 ### Background Reading / Prep work
  
