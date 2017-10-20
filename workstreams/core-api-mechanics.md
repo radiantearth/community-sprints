@@ -16,7 +16,7 @@ and give it the option to break out.
 metadata workstream. Ideally there is also a way to define a vendor specific set of fields using the same API structure.
 
 **Day 3:** An OpenAPI 3.0 version of the specification that is validated by running code. With coherent granular components 
-also defined as OpenAPI snippets that can be reused. Plus feedback to WFS 3.0 group of what works and doesn't in their spec.
+also defined as OpenAPI snippets that can be reused. Plus feedback to WFS 3.0 group of what works and doesn't in their spec. Also a solid name for the specification.
 
 **Stretch goals / Follow up:** 
 * 3 working servers and 2 working clients (and aiming for 7+ servers and 4+ clients in 3 months)
@@ -74,6 +74,7 @@ Describe in BNF notation? GET vs POST?
 
 * How might derived products be linked with the original image?  E.g., Dem product of LIDAR
 
+* What do we call this specification? 
  
 ### Background Reading / Prep work
  
