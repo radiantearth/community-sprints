@@ -94,7 +94,7 @@ to discuss attempts to build with others.
 * Matt Hancher, Google / Earth Engine
 * Alex Kaminsky, Azavea / RasterFoundry
 * Jason Gilman, Element84
-* Chris Schiavone, DigitalGlobe
+* Jeff Naus, DigitalGlobe
 * Ryan Osial, Pixia
 
 
