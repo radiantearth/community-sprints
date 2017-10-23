@@ -36,6 +36,7 @@ How can we track provenance in a simple way? Like to describe a processed image 
 * How do we handle and track record duplication? Ideally there is just one catalog record for each ‘item’ online, but it’s also may be useful to have local indexes of other catalogs. How can a record describe itself as a duplicate and refer back to a ‘canonical’ one. Is this valuable or overkill?
 * How do we handle and track data duplication. Landsat is on USGS, Amazon and Google Cloud. Do we represent the additional data as mirrors? Provide links to all of them from the main imagery item record? Or have mirror catalogs that refer to both the mirror data and the source data? The mirror catalogs are likely valuable for local cloud access. (These catalogs may be ‘level 0’, none interactive, just sidecar data).
 * Licensing - can we get to a core standard set. An enumeration instead of a totally open string? To help nudge people towards a more limited set of options. Does it make sense to get to linking to license terms? Or maybe this is something schema definitions can help with?
+* Sensors - how do we standardize on sensors? Describe different bands across platforms, so algorithms know what they can work on? Radiant started a repo on this but it is empty - https://github.com/radiantearth/sensor-metadata-spec
 
  
 ### Background Reading / Prep work
