@@ -77,4 +77,4 @@ If someone can turn the questions above to issues and link to them that would al
 * Rob Emanuele
  
 ### Notes 
-(link to etherpad)
+Use https://board.net/p/flat-catalog for collaborative note taking. Please take great notes! This will enable those who want to collaborate with us in the future to be aware of all the initial discussions.
