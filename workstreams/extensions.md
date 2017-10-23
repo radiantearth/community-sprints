@@ -64,4 +64,4 @@ Look in to extension mechanisms best practices in web API design.
  
  
 ### Notes 
-(link to etherpad)
+Use https://board.net/p/icapi-extensions for collaborative note taking. Please take great notes! This will enable those who want to collaborate with us in the future to be aware of all the initial discussions.
