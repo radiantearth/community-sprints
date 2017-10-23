@@ -106,4 +106,4 @@ to discuss attempts to build with others.
 (Yes, this group is a bit large, if it feels to large it should break out, perhaps one on core granular components, one on overall api for imagery)
  
 ### Notes 
-(link to etherpad)
+Use https://board.net/p/core-api-mechanics for collaborative note taking. Please take great notes! This will enable those who want to collaborate with us in the future to be aware of all the initial discussions.
