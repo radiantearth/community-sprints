@@ -2,10 +2,10 @@ import json
 import sys
 
 
-def convert_records(fname):
+def convert_records(fname, converter):
     with open(fname) as fp:
         records = json.loads(fp.read())['features']
-        return [convert_record(r) for r in records]
+        return [converter(r) for r in records]
 
 
 def bbox_from_poly(poly):
@@ -19,7 +19,7 @@ def bbox_from_poly(poly):
     return [nx, ny, mx, my]
 
 
-def convert_record(rec):
+def convert_record_to_minimal(rec):
     props = rec['properties']
     rec.pop('_permissions')
     rec.pop('_links')
@@ -41,8 +41,26 @@ def convert_record(rec):
     return rec
 
 
+def convert_record_to_extended(rec):
+    old = rec['properties']
+    rec = convert_record_to_minimal(rec)
+    neu = rec['properties']
+    for key in [
+        "item_type",
+        "satellite_id",
+    ]:
+        neu['planet:%s' % key] = old[key]
+    neu['osgeo:tms'] = 'https://tiles.planet.com/data/v1/%s/%s/{z}/{x}/{y}.png?api_key=' % (
+        old['item_type'],
+        rec['id'],
+    )
+    return rec
+
+
 if __name__ == '__main__':
-    converted = convert_records(sys.argv[1])
+    converter = convert_record_to_minimal if '--min' in sys.argv \
+        else convert_record_to_extended
+    converted = convert_records(sys.argv[-1], converter)
     print(json.dumps({
         'type': 'FeatureCollection',
         'features': converted,
