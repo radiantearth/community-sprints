@@ -1,1 +1,1171 @@
-{"type": "FeatureCollection", "features": [{"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.44287552, 40.05180596], [-105.2211955, 40.0538293], [-105.22263662, 39.92469458], [-105.44234337, 39.92487962], [-105.44287552, 40.05180596]]]]}, "type": "Feature", "bbox": [-105.44287552, 39.92469458, -105.2211955, 40.0538293], "properties": {"end_date": "2016-06-02T18:07:34.954Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/41bdf497-a8e1-4fea-8658-5fe30e301b63/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2016-06-02T18:07:34.954Z", "provider": "DigitalGlobe", "id": "41bdf497-a8e1-4fea-8658-5fe30e301b63"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.39717481, 40.08169161], [-105.20477994, 40.08181418], [-105.20496852, 39.96464891], [-105.39702597, 39.96458489], [-105.39717481, 40.08169161]]]]}, "type": "Feature", "bbox": [-105.39717481, 39.96458489, -105.20477994, 40.08181418], "properties": {"end_date": "2017-03-19T18:04:04.430Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/3d84faf0-7e39-4d22-8793-1a618a2b686a/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2017-03-19T18:04:04.430Z", "provider": "DigitalGlobe", "id": "3d84faf0-7e39-4d22-8793-1a618a2b686a"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.40056673, 40.09275008], [-105.18294478, 40.08213974], [-105.18298383, 39.97340485], [-105.4003535, 39.98294796], [-105.40056673, 40.09275008]]]]}, "type": "Feature", "bbox": [-105.40056673, 39.97340485, -105.18294478, 40.09275008], "properties": {"end_date": "2014-12-19T17:56:10.360Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/dcd07612-2f18-4b63-9f46-d2ffe7119ede/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2014-12-19T17:56:10.360Z", "provider": "DigitalGlobe", "id": "dcd07612-2f18-4b63-9f46-d2ffe7119ede"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.40666729, 40.04763272], [-105.1821339, 40.04999267], [-105.18175008, 39.92183799], [-105.40513203, 39.91915984], [-105.40666729, 40.04763272]]]]}, "type": "Feature", "bbox": [-105.40666729, 39.91915984, -105.18175008, 40.04999267], "properties": {"end_date": "2013-11-07T18:04:16.042Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/9b9e05e5-2baf-4374-be3a-0a0e62a46127/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2013-11-07T18:04:16.042Z", "provider": "DigitalGlobe", "id": "9b9e05e5-2baf-4374-be3a-0a0e62a46127"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.4016898, 40.11018144], [-105.18291477, 40.09892066], [-105.18298383, 39.97340485], [-105.4003535, 39.98294796], [-105.4016898, 40.11018144]]]]}, "type": "Feature", "bbox": [-105.4016898, 39.97340485, -105.18291477, 40.11018144], "properties": {"end_date": "2014-12-19T17:56:10.544Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/81270316-f4a9-489c-9e83-b4241e632c77/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2014-12-19T17:56:10.544Z", "provider": "DigitalGlobe", "id": "81270316-f4a9-489c-9e83-b4241e632c77"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.34060591, 40.07605551], [-105.11304337, 40.09452702], [-105.11294273, 39.96664552], [-105.340714, 39.94744113], [-105.34060591, 40.07605551]]]]}, "type": "Feature", "bbox": [-105.340714, 39.94744113, -105.11294273, 40.09452702], "properties": {"end_date": "2016-10-16T17:48:42.430Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/380ac709-3f5b-4293-b7a2-d8e316b82b72/9/106/193?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2016-10-16T17:48:42.430Z", "provider": "DigitalGlobe", "id": "380ac709-3f5b-4293-b7a2-d8e316b82b72"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.43719751, 40.09835144], [-105.23320359, 40.09409628], [-105.23328252, 39.97778681], [-105.4370483, 39.9821143], [-105.43719751, 40.09835144]]]]}, "type": "Feature", "bbox": [-105.43719751, 39.97778681, -105.23320359, 40.09835144], "properties": {"end_date": "2010-10-31T18:19:39.362Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/f4574099-3c55-426c-bd05-a8911a4fee2a/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2010-10-31T18:19:39.362Z", "provider": "DigitalGlobe", "id": "f4574099-3c55-426c-bd05-a8911a4fee2a"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.37076582, 40.07377692], [-105.16855194, 40.07672906], [-105.16828179, 39.96236325], [-105.37045778, 39.9592877], [-105.37076582, 40.07377692]]]]}, "type": "Feature", "bbox": [-105.37076582, 39.9592877, -105.16828179, 40.07672906], "properties": {"end_date": "2010-01-27T18:01:57.966Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/3355ff21-3ad8-41e5-b120-d3e43c67bc7e/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2010-01-27T18:01:57.966Z", "provider": "DigitalGlobe", "id": "3355ff21-3ad8-41e5-b120-d3e43c67bc7e"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.41911343, 40.08777126], [-105.21124261, 40.09885273], [-105.2116919, 39.9739381], [-105.41851508, 39.96380616], [-105.41911343, 40.08777126]]]]}, "type": "Feature", "bbox": [-105.41911343, 39.96380616, -105.21124261, 40.09885273], "properties": {"end_date": "2010-06-24T18:10:19.298Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/cb769123-e3cd-4345-8c7b-83a7786de29f/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2010-06-24T18:10:19.298Z", "provider": "DigitalGlobe", "id": "cb769123-e3cd-4345-8c7b-83a7786de29f"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.38044841, 40.05964152], [-105.18000815, 40.05464506], [-105.17962011, 39.92705487], [-105.37997536, 39.93216327], [-105.38044841, 40.05964152]]]]}, "type": "Feature", "bbox": [-105.38044841, 39.92705487, -105.17962011, 40.05964152], "properties": {"end_date": "2010-02-15T18:09:40.349Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/c5439197-322f-45cd-ae01-9389dc736d09/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2010-02-15T18:09:40.349Z", "provider": "DigitalGlobe", "id": "c5439197-322f-45cd-ae01-9389dc736d09"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.37844343, 40.06585738], [-105.16328293, 40.07031668], [-105.16363181, 39.96188663], [-105.37859125, 39.95769874], [-105.37844343, 40.06585738]]]]}, "type": "Feature", "bbox": [-105.37859125, 39.95769874, -105.16328293, 40.07031668], "properties": {"end_date": "2010-04-08T18:15:17.027Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/ae8361c4-3908-47c1-a688-f54f927ba0f9/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2010-04-08T18:15:17.027Z", "provider": "DigitalGlobe", "id": "ae8361c4-3908-47c1-a688-f54f927ba0f9"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.42483315, 40.11793139], [-105.22046424, 40.11055323], [-105.2203618, 39.99096735], [-105.4245323, 39.9982417], [-105.42483315, 40.11793139]]]]}, "type": "Feature", "bbox": [-105.42483315, 39.99096735, -105.2203618, 40.11793139], "properties": {"end_date": "2010-10-31T18:19:28.763Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/21540118-4515-417b-9498-d89266f347ba/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2010-10-31T18:19:28.763Z", "provider": "DigitalGlobe", "id": "21540118-4515-417b-9498-d89266f347ba"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.38303972, 40.09505036], [-105.15010899, 40.0933657], [-105.1507377, 39.97868483], [-105.38220883, 39.97981174], [-105.38303972, 40.09505036]]]]}, "type": "Feature", "bbox": [-105.38303972, 39.97868483, -105.15010899, 40.09505036], "properties": {"end_date": "2010-01-08T17:56:18.367Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/95f3a05b-d09c-494c-861a-b9d8bbc380e6/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2010-01-08T17:56:18.367Z", "provider": "DigitalGlobe", "id": "95f3a05b-d09c-494c-861a-b9d8bbc380e6"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.30377614, 40.11804956], [-105.08574338, 40.12279565], [-105.08584025, 39.99451849], [-105.30515952, 39.98991243], [-105.30377614, 40.11804956]]]]}, "type": "Feature", "bbox": [-105.30515952, 39.98991243, -105.08574338, 40.12279565], "properties": {"end_date": "2015-09-21T18:09:56.085Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/b460da83-20c7-4de0-a71b-20c2a9c4c1b6/9/106/193?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2015-09-21T18:09:56.085Z", "provider": "DigitalGlobe", "id": "b460da83-20c7-4de0-a71b-20c2a9c4c1b6"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.38833607, 40.11718352], [-105.18101948, 40.11724577], [-105.18129029, 39.98902229], [-105.38871836, 39.98926473], [-105.38833607, 40.11718352]]]]}, "type": "Feature", "bbox": [-105.38871836, 39.98902229, -105.18101948, 40.11724577], "properties": {"end_date": "2016-07-10T18:05:37.482Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/38cf919a-512d-4fca-9e56-42f1aeb66d0b/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2016-07-10T18:05:37.482Z", "provider": "DigitalGlobe", "id": "38cf919a-512d-4fca-9e56-42f1aeb66d0b"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.42039073, 40.10835868], [-105.20522756, 40.09407184], [-105.20521731, 39.95977573], [-105.42056548, 39.97394158], [-105.42039073, 40.10835868]]]]}, "type": "Feature", "bbox": [-105.42056548, 39.95977573, -105.20521731, 40.10835868], "properties": {"end_date": "2016-07-10T18:04:48.192Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/dd776095-c7c3-451b-bec5-05a44157a9d7/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2016-07-10T18:04:48.192Z", "provider": "DigitalGlobe", "id": "dd776095-c7c3-451b-bec5-05a44157a9d7"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.38024976, 40.06056505], [-105.18663532, 40.06045479], [-105.18681919, 39.93254954], [-105.38008116, 39.93272789], [-105.38024976, 40.06056505]]]]}, "type": "Feature", "bbox": [-105.38024976, 39.93254954, -105.18663532, 40.06056505], "properties": {"end_date": "2011-08-23T18:19:52.265Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/252f4aff-0725-4485-a340-0140aeceeb6b/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2011-08-23T18:19:52.265Z", "provider": "DigitalGlobe", "id": "252f4aff-0725-4485-a340-0140aeceeb6b"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.37924075, 40.06140303], [-105.18656999, 40.06150559], [-105.18676275, 39.93369424], [-105.37905865, 39.93366064], [-105.37924075, 40.06140303]]]]}, "type": "Feature", "bbox": [-105.37924075, 39.93366064, -105.18656999, 40.06150559], "properties": {"end_date": "2011-09-22T18:19:21.582Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/3974dadd-a434-45f7-8339-f4a73a552fd4/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2011-09-22T18:19:21.582Z", "provider": "DigitalGlobe", "id": "3974dadd-a434-45f7-8339-f4a73a552fd4"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.17932487, 39.93361077], [-105.3787733, 39.93491123], [-105.37920044, 40.0624675], [-105.17933885, 40.06125519], [-105.17932487, 39.93361077]]]]}, "type": "Feature", "bbox": [-105.37920044, 39.93361077, -105.17932487, 40.0624675], "properties": {"end_date": "2011-03-01T18:20:46.334Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/8158b639-9730-4535-8747-8aad90a5ccef/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2011-03-01T18:20:46.334Z", "provider": "DigitalGlobe", "id": "8158b639-9730-4535-8747-8aad90a5ccef"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.37255317, 40.08502338], [-105.09735164, 40.07199565], [-105.09724158, 39.97175471], [-105.37109264, 39.98426497], [-105.37255317, 40.08502338]]]]}, "type": "Feature", "bbox": [-105.37255317, 39.97175471, -105.09724158, 40.08502338], "properties": {"end_date": "2012-12-30T17:58:22.056Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/3961a72a-7e73-4899-aabb-23ee230c9ca4/9/106/193?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2012-12-30T17:58:22.056Z", "provider": "DigitalGlobe", "id": "3961a72a-7e73-4899-aabb-23ee230c9ca4"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.35080456, 40.09821211], [-104.94656181, 40.18145315], [-104.9451272, 40.05373733], [-105.34728089, 39.96957533], [-105.35080456, 40.09821211]]]]}, "type": "Feature", "bbox": [-105.35080456, 39.96957533, -104.9451272, 40.18145315], "properties": {"end_date": "2012-01-26T17:48:36.403Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/f732a8c9-c157-4482-8b40-28e67cd6cbfe/9/106/193?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2012-01-26T17:48:36.403Z", "provider": "DigitalGlobe", "id": "f732a8c9-c157-4482-8b40-28e67cd6cbfe"}}, {"geometry": {"type": "MultiPolygon", "coordinates": [[[[-105.41500203, 40.08399374], [-105.21391816, 40.07925019], [-105.21344628, 39.95145474], [-105.41446325, 39.95559999], [-105.41500203, 40.08399374]]]]}, "type": "Feature", "bbox": [-105.41500203, 39.95145474, -105.21344628, 40.08399374], "properties": {"end_date": "2012-10-17T18:25:09.184Z", "links": {"thumbnail": "https://idaho.geobigdata.io/v1/tile/idaho-images/f2173c12-06c0-4900-83ea-1ad42645490d/10/212/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY", "metadata": ""}, "license": "", "start_date": "2012-10-17T18:25:09.184Z", "provider": "DigitalGlobe", "id": "f2173c12-06c0-4900-83ea-1ad42645490d"}}]}
+{
+  "features": [
+    {
+      "properties": {
+        "start_date": "2016-06-02T18:07:34.954Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "41bdf497-a8e1-4fea-8658-5fe30e301b63",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/41bdf497-a8e1-4fea-8658-5fe30e301b63\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2016-06-02T18:07:34.954Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/41bdf497-a8e1-4fea-8658-5fe30e301b63\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.44287552,
+        39.92469458,
+        -105.2211955,
+        40.0538293
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.44287552,
+                40.05180596
+              ],
+              [
+                -105.2211955,
+                40.0538293
+              ],
+              [
+                -105.22263662,
+                39.92469458
+              ],
+              [
+                -105.44234337,
+                39.92487962
+              ],
+              [
+                -105.44287552,
+                40.05180596
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2017-03-19T18:04:04.430Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "3d84faf0-7e39-4d22-8793-1a618a2b686a",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/3d84faf0-7e39-4d22-8793-1a618a2b686a\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2017-03-19T18:04:04.430Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/3d84faf0-7e39-4d22-8793-1a618a2b686a\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.39717481,
+        39.96458489,
+        -105.20477994,
+        40.08181418
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.39717481,
+                40.08169161
+              ],
+              [
+                -105.20477994,
+                40.08181418
+              ],
+              [
+                -105.20496852,
+                39.96464891
+              ],
+              [
+                -105.39702597,
+                39.96458489
+              ],
+              [
+                -105.39717481,
+                40.08169161
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2014-12-19T17:56:10.360Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "dcd07612-2f18-4b63-9f46-d2ffe7119ede",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/dcd07612-2f18-4b63-9f46-d2ffe7119ede\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2014-12-19T17:56:10.360Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/dcd07612-2f18-4b63-9f46-d2ffe7119ede\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.40056673,
+        39.97340485,
+        -105.18294478,
+        40.09275008
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.40056673,
+                40.09275008
+              ],
+              [
+                -105.18294478,
+                40.08213974
+              ],
+              [
+                -105.18298383,
+                39.97340485
+              ],
+              [
+                -105.4003535,
+                39.98294796
+              ],
+              [
+                -105.40056673,
+                40.09275008
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2013-11-07T18:04:16.042Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "9b9e05e5-2baf-4374-be3a-0a0e62a46127",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/9b9e05e5-2baf-4374-be3a-0a0e62a46127\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2013-11-07T18:04:16.042Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/9b9e05e5-2baf-4374-be3a-0a0e62a46127\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.40666729,
+        39.91915984,
+        -105.18175008,
+        40.04999267
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.40666729,
+                40.04763272
+              ],
+              [
+                -105.1821339,
+                40.04999267
+              ],
+              [
+                -105.18175008,
+                39.92183799
+              ],
+              [
+                -105.40513203,
+                39.91915984
+              ],
+              [
+                -105.40666729,
+                40.04763272
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2014-12-19T17:56:10.544Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "81270316-f4a9-489c-9e83-b4241e632c77",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/81270316-f4a9-489c-9e83-b4241e632c77\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2014-12-19T17:56:10.544Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/81270316-f4a9-489c-9e83-b4241e632c77\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.4016898,
+        39.97340485,
+        -105.18291477,
+        40.11018144
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.4016898,
+                40.11018144
+              ],
+              [
+                -105.18291477,
+                40.09892066
+              ],
+              [
+                -105.18298383,
+                39.97340485
+              ],
+              [
+                -105.4003535,
+                39.98294796
+              ],
+              [
+                -105.4016898,
+                40.11018144
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2016-10-16T17:48:42.430Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "380ac709-3f5b-4293-b7a2-d8e316b82b72",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/380ac709-3f5b-4293-b7a2-d8e316b82b72\/9\/106\/193?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2016-10-16T17:48:42.430Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/380ac709-3f5b-4293-b7a2-d8e316b82b72\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.340714,
+        39.94744113,
+        -105.11294273,
+        40.09452702
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.34060591,
+                40.07605551
+              ],
+              [
+                -105.11304337,
+                40.09452702
+              ],
+              [
+                -105.11294273,
+                39.96664552
+              ],
+              [
+                -105.340714,
+                39.94744113
+              ],
+              [
+                -105.34060591,
+                40.07605551
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2010-10-31T18:19:39.362Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "f4574099-3c55-426c-bd05-a8911a4fee2a",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/f4574099-3c55-426c-bd05-a8911a4fee2a\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2010-10-31T18:19:39.362Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/f4574099-3c55-426c-bd05-a8911a4fee2a\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.43719751,
+        39.97778681,
+        -105.23320359,
+        40.09835144
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.43719751,
+                40.09835144
+              ],
+              [
+                -105.23320359,
+                40.09409628
+              ],
+              [
+                -105.23328252,
+                39.97778681
+              ],
+              [
+                -105.4370483,
+                39.9821143
+              ],
+              [
+                -105.43719751,
+                40.09835144
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2010-01-27T18:01:57.966Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "3355ff21-3ad8-41e5-b120-d3e43c67bc7e",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/3355ff21-3ad8-41e5-b120-d3e43c67bc7e\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2010-01-27T18:01:57.966Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/3355ff21-3ad8-41e5-b120-d3e43c67bc7e\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.37076582,
+        39.9592877,
+        -105.16828179,
+        40.07672906
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.37076582,
+                40.07377692
+              ],
+              [
+                -105.16855194,
+                40.07672906
+              ],
+              [
+                -105.16828179,
+                39.96236325
+              ],
+              [
+                -105.37045778,
+                39.9592877
+              ],
+              [
+                -105.37076582,
+                40.07377692
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2010-06-24T18:10:19.298Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "cb769123-e3cd-4345-8c7b-83a7786de29f",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/cb769123-e3cd-4345-8c7b-83a7786de29f\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2010-06-24T18:10:19.298Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/cb769123-e3cd-4345-8c7b-83a7786de29f\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.41911343,
+        39.96380616,
+        -105.21124261,
+        40.09885273
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.41911343,
+                40.08777126
+              ],
+              [
+                -105.21124261,
+                40.09885273
+              ],
+              [
+                -105.2116919,
+                39.9739381
+              ],
+              [
+                -105.41851508,
+                39.96380616
+              ],
+              [
+                -105.41911343,
+                40.08777126
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2010-02-15T18:09:40.349Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "c5439197-322f-45cd-ae01-9389dc736d09",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/c5439197-322f-45cd-ae01-9389dc736d09\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2010-02-15T18:09:40.349Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/c5439197-322f-45cd-ae01-9389dc736d09\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.38044841,
+        39.92705487,
+        -105.17962011,
+        40.05964152
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.38044841,
+                40.05964152
+              ],
+              [
+                -105.18000815,
+                40.05464506
+              ],
+              [
+                -105.17962011,
+                39.92705487
+              ],
+              [
+                -105.37997536,
+                39.93216327
+              ],
+              [
+                -105.38044841,
+                40.05964152
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2010-04-08T18:15:17.027Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "ae8361c4-3908-47c1-a688-f54f927ba0f9",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/ae8361c4-3908-47c1-a688-f54f927ba0f9\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2010-04-08T18:15:17.027Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/ae8361c4-3908-47c1-a688-f54f927ba0f9\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.37859125,
+        39.95769874,
+        -105.16328293,
+        40.07031668
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.37844343,
+                40.06585738
+              ],
+              [
+                -105.16328293,
+                40.07031668
+              ],
+              [
+                -105.16363181,
+                39.96188663
+              ],
+              [
+                -105.37859125,
+                39.95769874
+              ],
+              [
+                -105.37844343,
+                40.06585738
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2010-10-31T18:19:28.763Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "21540118-4515-417b-9498-d89266f347ba",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/21540118-4515-417b-9498-d89266f347ba\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2010-10-31T18:19:28.763Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/21540118-4515-417b-9498-d89266f347ba\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.42483315,
+        39.99096735,
+        -105.2203618,
+        40.11793139
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.42483315,
+                40.11793139
+              ],
+              [
+                -105.22046424,
+                40.11055323
+              ],
+              [
+                -105.2203618,
+                39.99096735
+              ],
+              [
+                -105.4245323,
+                39.9982417
+              ],
+              [
+                -105.42483315,
+                40.11793139
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2010-01-08T17:56:18.367Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "95f3a05b-d09c-494c-861a-b9d8bbc380e6",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/95f3a05b-d09c-494c-861a-b9d8bbc380e6\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2010-01-08T17:56:18.367Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/95f3a05b-d09c-494c-861a-b9d8bbc380e6\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.38303972,
+        39.97868483,
+        -105.15010899,
+        40.09505036
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.38303972,
+                40.09505036
+              ],
+              [
+                -105.15010899,
+                40.0933657
+              ],
+              [
+                -105.1507377,
+                39.97868483
+              ],
+              [
+                -105.38220883,
+                39.97981174
+              ],
+              [
+                -105.38303972,
+                40.09505036
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2015-09-21T18:09:56.085Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "b460da83-20c7-4de0-a71b-20c2a9c4c1b6",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/b460da83-20c7-4de0-a71b-20c2a9c4c1b6\/9\/106\/193?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2015-09-21T18:09:56.085Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/b460da83-20c7-4de0-a71b-20c2a9c4c1b6\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.30515952,
+        39.98991243,
+        -105.08574338,
+        40.12279565
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.30377614,
+                40.11804956
+              ],
+              [
+                -105.08574338,
+                40.12279565
+              ],
+              [
+                -105.08584025,
+                39.99451849
+              ],
+              [
+                -105.30515952,
+                39.98991243
+              ],
+              [
+                -105.30377614,
+                40.11804956
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2016-07-10T18:05:37.482Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "38cf919a-512d-4fca-9e56-42f1aeb66d0b",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/38cf919a-512d-4fca-9e56-42f1aeb66d0b\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2016-07-10T18:05:37.482Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/38cf919a-512d-4fca-9e56-42f1aeb66d0b\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.38871836,
+        39.98902229,
+        -105.18101948,
+        40.11724577
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.38833607,
+                40.11718352
+              ],
+              [
+                -105.18101948,
+                40.11724577
+              ],
+              [
+                -105.18129029,
+                39.98902229
+              ],
+              [
+                -105.38871836,
+                39.98926473
+              ],
+              [
+                -105.38833607,
+                40.11718352
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2016-07-10T18:04:48.192Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "dd776095-c7c3-451b-bec5-05a44157a9d7",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/dd776095-c7c3-451b-bec5-05a44157a9d7\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2016-07-10T18:04:48.192Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/dd776095-c7c3-451b-bec5-05a44157a9d7\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.42056548,
+        39.95977573,
+        -105.20521731,
+        40.10835868
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.42039073,
+                40.10835868
+              ],
+              [
+                -105.20522756,
+                40.09407184
+              ],
+              [
+                -105.20521731,
+                39.95977573
+              ],
+              [
+                -105.42056548,
+                39.97394158
+              ],
+              [
+                -105.42039073,
+                40.10835868
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2011-08-23T18:19:52.265Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "252f4aff-0725-4485-a340-0140aeceeb6b",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/252f4aff-0725-4485-a340-0140aeceeb6b\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2011-08-23T18:19:52.265Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/252f4aff-0725-4485-a340-0140aeceeb6b\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.38024976,
+        39.93254954,
+        -105.18663532,
+        40.06056505
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.38024976,
+                40.06056505
+              ],
+              [
+                -105.18663532,
+                40.06045479
+              ],
+              [
+                -105.18681919,
+                39.93254954
+              ],
+              [
+                -105.38008116,
+                39.93272789
+              ],
+              [
+                -105.38024976,
+                40.06056505
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2011-09-22T18:19:21.582Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "3974dadd-a434-45f7-8339-f4a73a552fd4",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/3974dadd-a434-45f7-8339-f4a73a552fd4\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2011-09-22T18:19:21.582Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/3974dadd-a434-45f7-8339-f4a73a552fd4\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.37924075,
+        39.93366064,
+        -105.18656999,
+        40.06150559
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.37924075,
+                40.06140303
+              ],
+              [
+                -105.18656999,
+                40.06150559
+              ],
+              [
+                -105.18676275,
+                39.93369424
+              ],
+              [
+                -105.37905865,
+                39.93366064
+              ],
+              [
+                -105.37924075,
+                40.06140303
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2011-03-01T18:20:46.334Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "8158b639-9730-4535-8747-8aad90a5ccef",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/8158b639-9730-4535-8747-8aad90a5ccef\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2011-03-01T18:20:46.334Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/8158b639-9730-4535-8747-8aad90a5ccef\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.37920044,
+        39.93361077,
+        -105.17932487,
+        40.0624675
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.17932487,
+                39.93361077
+              ],
+              [
+                -105.3787733,
+                39.93491123
+              ],
+              [
+                -105.37920044,
+                40.0624675
+              ],
+              [
+                -105.17933885,
+                40.06125519
+              ],
+              [
+                -105.17932487,
+                39.93361077
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2012-12-30T17:58:22.056Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "3961a72a-7e73-4899-aabb-23ee230c9ca4",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/3961a72a-7e73-4899-aabb-23ee230c9ca4\/9\/106\/193?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2012-12-30T17:58:22.056Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/3961a72a-7e73-4899-aabb-23ee230c9ca4\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.37255317,
+        39.97175471,
+        -105.09724158,
+        40.08502338
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.37255317,
+                40.08502338
+              ],
+              [
+                -105.09735164,
+                40.07199565
+              ],
+              [
+                -105.09724158,
+                39.97175471
+              ],
+              [
+                -105.37109264,
+                39.98426497
+              ],
+              [
+                -105.37255317,
+                40.08502338
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2012-01-26T17:48:36.403Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "f732a8c9-c157-4482-8b40-28e67cd6cbfe",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/f732a8c9-c157-4482-8b40-28e67cd6cbfe\/9\/106\/193?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2012-01-26T17:48:36.403Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/f732a8c9-c157-4482-8b40-28e67cd6cbfe\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.35080456,
+        39.96957533,
+        -104.9451272,
+        40.18145315
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.35080456,
+                40.09821211
+              ],
+              [
+                -104.94656181,
+                40.18145315
+              ],
+              [
+                -104.9451272,
+                40.05373733
+              ],
+              [
+                -105.34728089,
+                39.96957533
+              ],
+              [
+                -105.35080456,
+                40.09821211
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "properties": {
+        "start_date": "2012-10-17T18:25:09.184Z",
+        "capabilities": [
+          "osgeo:tms"
+        ],
+        "id": "f2173c12-06c0-4900-83ea-1ad42645490d",
+        "links": {
+          "metadata": "",
+          "thumbnail": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/f2173c12-06c0-4900-83ea-1ad42645490d\/10\/212\/387?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+        },
+        "provider": "DigitalGlobe",
+        "end_date": "2012-10-17T18:25:09.184Z",
+        "license": "",
+        "osgeo:tms": "https:\/\/idaho.geobigdata.io\/v1\/tile\/idaho-images\/f2173c12-06c0-4900-83ea-1ad42645490d\/{z}\/{x}\/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+      },
+      "bbox": [
+        -105.41500203,
+        39.95145474,
+        -105.21344628,
+        40.08399374
+      ],
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -105.41500203,
+                40.08399374
+              ],
+              [
+                -105.21391816,
+                40.07925019
+              ],
+              [
+                -105.21344628,
+                39.95145474
+              ],
+              [
+                -105.41446325,
+                39.95559999
+              ],
+              [
+                -105.41500203,
+                40.08399374
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
