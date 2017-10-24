@@ -25,8 +25,14 @@
           "$ref": "#/definitions/geometry"
         },
         "footprint": {
-          "TODO": "Polygon or MultiPolygon",
-          "$ref": "#/definitions/geometry"
+          "oneOf": [
+            {
+              "$ref": "#/definitions/geometry/definitions/Polygon"
+            },
+            {
+              "$ref": "#/definitions/geometry/definitions/MultiPolygon"
+            }
+          ]
         },
         "acquisition_start": {
           "title": "Acquisition Date Start",
@@ -159,8 +165,14 @@
           "type": "string"
         },
         "geometry": {
-          "TODO": "Polygon or MultiPolygon",
-          "$ref": "#/definitions/geometry"
+          "oneOf": [
+            {
+              "$ref": "#/definitions/geometry/definitions/Polygon"
+            },
+            {
+              "$ref": "#/definitions/geometry/definitions/MultiPolygon"
+            }
+          ]
         },
         "startDate": {
           "type": "string",
@@ -213,36 +225,33 @@
             { "minItems": 4 }
           ]
         },
-        "polygon": {
+        "polygonGeometry": {
           "description": "An array of linear rings",
           "type": "array",
           "items": { "$ref": "#/definitions/linearRing" }
-        }
-      },
-      "required": ["type", "coordinates"],
-      "oneOf": [
-        {
+        },
+        "Point": {
           "title": "Point",
           "properties": {
             "type": { "enum": ["Point"] },
             "coordinates": { "$ref": "#/definitions/position" }
           }
         },
-        {
+        "MultiPoint": {
           "title": "MultiPoint",
           "properties": {
             "type": { "enum": ["MultiPoint"] },
             "coordinates": { "$ref": "#/definitions/positionArray" }
           }
         },
-        {
+        "LineString": {
           "title": "LineString",
           "properties": {
             "type": { "enum": ["LineString"] },
             "coordinates": { "$ref": "#/definitions/lineString" }
           }
         },
-        {
+        "MultiLineString": {
           "title": "MultiLineString",
           "properties": {
             "type": { "enum": ["MultiLineString"] },
@@ -252,22 +261,43 @@
             }
           }
         },
-        {
+        "Polygon": {
           "title": "Polygon",
           "properties": {
             "type": { "enum": ["Polygon"] },
-            "coordinates": { "$ref": "#/definitions/polygon" }
+            "coordinates": { "$ref": "#/definitions/polygonGeometry" }
           }
         },
-        {
+        "MultiPolygon": {
           "title": "MultiPolygon",
           "properties": {
             "type": { "enum": ["MultiPolygon"] },
             "coordinates": {
               "type": "array",
-              "items": { "$ref": "#/definitions/polygon" }
+              "items": { "$ref": "#/definitions/polygonGeometry" }
             }
           }
+        }
+      },
+      "required": ["type", "coordinates"],
+      "oneOf": [
+        {
+          "$ref": "#/definitions/Point"
+        },
+        {
+          "$ref": "#/definitions/MultiPoint"
+        },
+        {
+          "$ref": "#/definitions/LineString"
+        },
+        {
+          "$ref": "#/definitions/MultiLineString"
+        },
+        {
+          "$ref": "#/definitions/Polygon"
+        },
+        {
+          "$ref": "#/definitions/MultiPolygon"
         }
       ]
     }
