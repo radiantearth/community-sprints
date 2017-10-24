@@ -21,8 +21,7 @@
           "type": "string"
         },
         "bbox": {
-          "TODO": "geometry/bbox",
-          "$ref": "#/definitions/geometry"
+          "$ref": "#/definitions/geometry/definitions/bbox"
         },
         "footprint": {
           "oneOf": [
@@ -276,6 +275,15 @@
               "type": "array",
               "items": { "$ref": "#/definitions/polygonGeometry" }
             }
+          }
+        },
+        "bbox": {
+          "title": "Bounding box",
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "number"
           }
         }
       },
