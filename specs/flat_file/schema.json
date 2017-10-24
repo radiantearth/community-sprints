@@ -44,11 +44,12 @@
         },
         "product_type": {
           "title": "Product Type",
-          "TODO": "is this an enum?",
           "description": "Product types: [eo, sar, model, point-cloud, video]",
           "type": "array",
           "items": {
-            "type": "string"
+            "type": {
+              "enum": ["eo", "sar", "model", "point-cloud", "video"]
+            }
           }
         },
         "provider": {
