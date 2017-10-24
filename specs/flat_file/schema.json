@@ -33,14 +33,14 @@
             }
           ]
         },
-        "acquisition_start": {
+        "start_date": {
           "title": "Acquisition Date Start",
           "description":
             "First acquisition in UTC (Combined date and time representation)",
           "type": "string",
           "format": "date-time"
         },
-        "acquisition_end": {
+        "end_date": {
           "title": "Acquisition Date End",
           "description":
             "Last acquisition in UTC (Combined date and time representation)",
@@ -58,7 +58,14 @@
         "provider": {
           "title": "Provider",
           "description": "Provider name and contact",
-          "$ref": "#/definitions/catalog/definitions/entity"
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "$ref": "#/definitions/catalog/definitions/entity"
+            }
+          ]
         },
         "license": {
           "title": "Data license",
@@ -68,14 +75,23 @@
           "title": "Resource links",
           "description": "Links to resources, could be download or other URLs",
           "type": "object",
-          "properties": {
-            "TODO": {}
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
           }
         },
         "version_spec": {
           "title": "Spec version",
           "description": "Semantic versioning number",
           "type": "string",
+          "TODO": "extract this out as semver",
+          "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[a-z]+(?:[_\\.-]*[a-z0-9]+)*)*$"
+        },
+        "version": {
+          "title": "Product version",
+          "description": "The version of the imagery metadata fields, for testing/validation",
+          "type": "string",
+          "TODO": "extract this out as semver",
           "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[a-z]+(?:[_\\.-]*[a-z0-9]+)*)*$"
         }
       }
@@ -117,6 +133,9 @@
         }
       },
       "properties": {
+        "TODO": {
+          "TODO": "URL pattern info + frequency"
+        },
         "name": {
           "description": "Name",
           "type": "string"
@@ -192,7 +211,6 @@
       }
     },
     "geometry": {
-      "id": "http://json-schema.org/geojson/geometry.json#",
       "title": "geometry",
       "description": "One geometry as defined by GeoJSON",
       "type": "object",
@@ -207,12 +225,12 @@
         "positionArray": {
           "description": "An array of positions",
           "type": "array",
-          "items": { "$ref": "#/definitions/position" }
+          "items": { "$ref": "#/definitions/geometry/definitions/position" }
         },
         "lineString": {
           "description": "An array of two or more positions",
           "allOf": [
-            { "$ref": "#/definitions/positionArray" },
+            { "$ref": "#/definitions/geometry/definitions/positionArray" },
             { "minItems": 2 }
           ]
         },
@@ -220,34 +238,34 @@
           "description":
             "An array of four positions where the first equals the last",
           "allOf": [
-            { "$ref": "#/definitions/positionArray" },
+            { "$ref": "#/definitions/geometry/definitions/positionArray" },
             { "minItems": 4 }
           ]
         },
         "polygonGeometry": {
           "description": "An array of linear rings",
           "type": "array",
-          "items": { "$ref": "#/definitions/linearRing" }
+          "items": { "$ref": "#/definitions/geometry/definitions/linearRing" }
         },
         "Point": {
           "title": "Point",
           "properties": {
             "type": { "enum": ["Point"] },
-            "coordinates": { "$ref": "#/definitions/position" }
+            "coordinates": { "$ref": "#/definitions/geometry/definitions/position" }
           }
         },
         "MultiPoint": {
           "title": "MultiPoint",
           "properties": {
             "type": { "enum": ["MultiPoint"] },
-            "coordinates": { "$ref": "#/definitions/positionArray" }
+            "coordinates": { "$ref": "#/definitions/geometry/definitions/positionArray" }
           }
         },
         "LineString": {
           "title": "LineString",
           "properties": {
             "type": { "enum": ["LineString"] },
-            "coordinates": { "$ref": "#/definitions/lineString" }
+            "coordinates": { "$ref": "#/definitions/geometry/definitions/lineString" }
           }
         },
         "MultiLineString": {
@@ -256,7 +274,7 @@
             "type": { "enum": ["MultiLineString"] },
             "coordinates": {
               "type": "array",
-              "items": { "$ref": "#/definitions/lineString" }
+              "items": { "$ref": "#/definitions/geometry/definitions/lineString" }
             }
           }
         },
@@ -264,7 +282,7 @@
           "title": "Polygon",
           "properties": {
             "type": { "enum": ["Polygon"] },
-            "coordinates": { "$ref": "#/definitions/polygonGeometry" }
+            "coordinates": { "$ref": "#/definitions/geometry/definitions/polygonGeometry" }
           }
         },
         "MultiPolygon": {
@@ -273,7 +291,7 @@
             "type": { "enum": ["MultiPolygon"] },
             "coordinates": {
               "type": "array",
-              "items": { "$ref": "#/definitions/polygonGeometry" }
+              "items": { "$ref": "#/definitions/geometry/definitions/polygonGeometry" }
             }
           }
         },
@@ -290,22 +308,22 @@
       "required": ["type", "coordinates"],
       "oneOf": [
         {
-          "$ref": "#/definitions/Point"
+          "$ref": "#/definitions/geometry/definitions/Point"
         },
         {
-          "$ref": "#/definitions/MultiPoint"
+          "$ref": "#/definitions/geometry/definitions/MultiPoint"
         },
         {
-          "$ref": "#/definitions/LineString"
+          "$ref": "#/definitions/geometry/definitions/LineString"
         },
         {
-          "$ref": "#/definitions/MultiLineString"
+          "$ref": "#/definitions/geometry/definitions/MultiLineString"
         },
         {
-          "$ref": "#/definitions/Polygon"
+          "$ref": "#/definitions/geometry/definitions/Polygon"
         },
         {
-          "$ref": "#/definitions/MultiPolygon"
+          "$ref": "#/definitions/geometry/definitions/MultiPolygon"
         }
       ]
     }
