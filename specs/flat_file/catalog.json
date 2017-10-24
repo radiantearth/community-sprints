@@ -49,8 +49,8 @@
           "description": "License (as an SPDX license string)",
           "type": "string"
         },
-        "assets": {
-          "description": "Assets",
+        "features": {
+          "description": "Features",
           "type": "array",
           "items": {
             "oneOf": [
@@ -131,7 +131,7 @@
       "$ref": "#/definitions/catalog"
     },
     {
-      "required": ["name", "description", "license", "assets", "links"]
+      "required": ["name", "description", "license", "features", "links"]
     }
   ]
 }
