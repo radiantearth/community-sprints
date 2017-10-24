@@ -3,13 +3,77 @@
 
   "definitions": {
     "asset": {
-      "id": "http://json-schema.org/asset.json#",
       "type": "object",
-      "TODO": "Core Metadata",
+      "TODO": "allOf to combine core + URI",
       "properties": {
         "uri": {
           "type": "string",
           "format": "uri"
+        },
+        "sid": {
+          "title": "Unique ID",
+          "description": "item ID",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "description": "Human-readable item name",
+          "type": "string"
+        },
+        "bbox": {
+          "TODO": "geometry/bbox",
+          "$ref": "#/definitions/geometry"
+        },
+        "footprint": {
+          "TODO": "Polygon or MultiPolygon",
+          "$ref": "#/definitions/geometry"
+        },
+        "acquisition_start": {
+          "title": "Acquisition Date Start",
+          "description":
+            "First acquisition in UTC (Combined date and time representation)",
+          "type": "string",
+          "format": "date-time"
+        },
+        "acquisition_end": {
+          "title": "Acquisition Date End",
+          "description":
+            "Last acquisition in UTC (Combined date and time representation)",
+          "type": "string",
+          "format": "date-time"
+        },
+        "product_type": {
+          "title": "Product Type",
+          "TODO": "is this an enum?",
+          "description": "Product types: [eo, sar, model, point-cloud, video]",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "provider": {
+          "title": "Provider",
+          "description": "Provider name and contact",
+          "$ref": "#/definitions/catalog/definitions/entity"
+        },
+        "license": {
+          "title": "Data license",
+          "description": "Data license name based on SPDX License List"
+        },
+        "links": {
+          "title": "Resource links",
+          "description": "Links to resources, could be download or other URLs",
+          "TODO": "array of objects?",
+          "type": "object",
+          "properties": {
+            "TODO": {}
+          }
+        },
+        "version_spec": {
+          "title": "Spec version",
+          "description": "Semantic versioning number",
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[a-z]+(?:[_\\.-]*[a-z0-9]+)*)*$"
         }
       }
     },
@@ -29,7 +93,7 @@
             }
           }
         },
-        "person": {
+        "entity": {
           "type": "object",
           "properties": {
             "name": {
@@ -77,7 +141,7 @@
           }
         },
         "contact": {
-          "$ref": "#/definitions/catalog/definitions/person"
+          "$ref": "#/definitions/catalog/definitions/entity"
         },
         "formats": {
           "description": "Included asset formats",
@@ -97,6 +161,7 @@
           "type": "string"
         },
         "geometry": {
+          "TODO": "Polygon or MultiPolygon",
           "$ref": "#/definitions/geometry"
         },
         "startDate": {
