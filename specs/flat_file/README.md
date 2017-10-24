@@ -1,16 +1,17 @@
-# Flat File Catalog
+# Static Catalog
 
 ## Purpose
 
-Flat file catalogs, or Asset Networks, define a network of linked
-assets for the purpose of automated crawling. It is defined
-by a network of linked metadata in a standardized format.
+Static Catalogs define a network of linked assets for the purpose of automated
+crawling. It is defined by a network of linked metadata in a standardized
+format.
 
 ## Description
 
-An Asset Network defines a tree graph structure, with a single global entry point from which
-the entire network can be crawled. The nodes in this network are defined by Node metadata,
-which can point downstream to other Nodes as well as directly describe Assets.
+A Static Catalog defines a tree graph structure, with a single global entry
+point from which the entire network can be crawled. The nodes in this network
+are defined by Node metadata, which can point downstream to other Nodes as well
+as directly describe Assets.
 
 ### Nodes
 
@@ -34,9 +35,10 @@ Examples:
 
 ### Assets
 
-Assets contain the metadata that is specific to the format of the asset. The asset must state it's format.
-The Asset network does not have specific requirements for participation in the network; the spec of
-the formats is a downstream concern of the definition of the Asset Network.
+Assets contain the metadata that is specific to the format of the asset. The
+asset must state it's format. The Static Catalog does not have specific
+requirements for participation in the network; the spec of the formats is a
+downstream concern of the definition of the Static Catalog.
 
 _The formats (e.g. "scenes", "cogs") can be written against the ideal information to be determined by the core metadata team_
 
