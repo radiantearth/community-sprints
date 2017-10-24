@@ -59,3 +59,9 @@ that will describe the provider, to allow for details on how to connect to that 
 ## TODO:
 
 - figure out time - we have to argue with other groups. 8601-and-done
+
+# Schema Validation
+
+```bash
+node_modules/.bin/ajv test -s core.json -r geojson.json -d landsat-node.json --valid --verbose
+```

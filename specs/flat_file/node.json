@@ -8,17 +8,12 @@
   "assets": [
     {
       "uri": "https://example.com/foo",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon"
+      },
       "properties": {
-        "uri": ""
       }
-    },
-    {
-      "properties": {
-        "uri": "s3://landsa-pds/.../"
-      }
-    },
-    {
-      "uri": "https://example.com/bar"
     }
   ],
   "links": [
@@ -47,7 +42,6 @@
 
   "startDate": "2007-03-01T13:00:00Z",
   "endDate": "2008-05-11T15:30:00Z",
-  "date": "2007-03-01T13:00:00Z",
 
   "keywords": ["raster", "drone"],
   "homepage": "http://wherever",
