@@ -47,9 +47,7 @@
           "description": "Product types: [eo, sar, model, point-cloud, video]",
           "type": "array",
           "items": {
-            "type": {
-              "enum": ["eo", "sar", "model", "point-cloud", "video"]
-            }
+            "enum": ["eo", "sar", "model", "point-cloud", "video"]
           }
         },
         "provider": {
