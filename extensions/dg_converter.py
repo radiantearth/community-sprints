@@ -16,8 +16,8 @@ def bbox_from_poly(poly):
     return [nx, ny, mx, my]
 
 def tms_template_url(rec):
-    url = "https://idaho.geobigdata.io/v1/tile/idaho-images/{idaho_id}/".format(idaho_id=rec["properties"]["attributes"]["idahoImageId"]) + \
-    "{z}/{x}/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+    url = u"https://idaho.geobigdata.io/v1/tile/idaho-images/{idaho_id}/".format(idaho_id=rec["properties"]["attributes"]["idahoImageId"]) + \
+    u"{z}/{x}/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
     return url
 
 
