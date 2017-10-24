@@ -62,7 +62,6 @@
         "links": {
           "title": "Resource links",
           "description": "Links to resources, could be download or other URLs",
-          "TODO": "array of objects?",
           "type": "object",
           "properties": {
             "TODO": {}
