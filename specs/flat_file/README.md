@@ -62,6 +62,15 @@ that will describe the provider, to allow for details on how to connect to that 
 
 # Schema Validation
 
+## Initialization
+
 ```bash
-node_modules/.bin/ajv test -s core.json -r geojson.json -d landsat-node.json --valid --verbose
+npm install
+```
+
+## Validation
+
+```bash
+node_modules/.bin/ajv test -s asset.json -r geojson.json -d landsat-scene.json --valid --verbose
+node_modules/.bin/ajv test -s catalog.json -r asset.json -r geojson.json -d node.json --valid --verbose
 ```
