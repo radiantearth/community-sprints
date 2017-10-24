@@ -43,4 +43,7 @@ def convert_record(rec):
 
 if __name__ == '__main__':
     converted = convert_records(sys.argv[1])
-    print(json.dumps({'items': converted}))
+    print(json.dumps({
+        'type': 'FeatureCollection',
+        'features': converted,
+    }))
