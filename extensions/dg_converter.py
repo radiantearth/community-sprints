@@ -2,7 +2,7 @@ import json
 import mercantile
 from shapely.geometry import shape
 
-output_file = 'digital_globe-search-results-minimal-test.geojson'
+output_file = 'digital_globe-search-results-minimal.geojson'
 dg_file = 'dg_boulder_available.json'
 
 def bbox_from_poly(poly):
@@ -15,14 +15,16 @@ def bbox_from_poly(poly):
         ny = min(ny, c[1])
     return [nx, ny, mx, my]
 
+def tms_template_url(rec):
+    url = "https://idaho.geobigdata.io/v1/tile/idaho-images/{idaho_id}/".format(idaho_id=rec["properties"]["attributes"]["idahoImageId"]) + \
+    "{z}/{x}/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY"
+    return url
+
 
 def thumbnail_url(rec):
     bounds = shape(rec['geometry']).bounds
     tile = mercantile.bounding_tile(*bounds)
-    url = "https://idaho.geobigdata.io/v1/tile/idaho-images/{idaho_id}/".format(idaho_id=rec["properties"]["attributes"]["idahoImageId"]) + \
-    "{z}/{x}/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY".format(z=tile.z, x=tile.x, y=tile.y)
-    return url
-
+    return tms_template_url(rec).format(z=tile.z, x=tile.x, y=tile.y)
 
 dg = {
   'geometry': 'geometry',
@@ -50,10 +52,12 @@ for feature in dg_data:
       "end_date": feature['properties']['attributes'][dg['attributes']['end_date']],
       "provider": feature['properties']['attributes'][dg['attributes']['provider']],
       "license": '',
+      "osgeo:tms": tms_template_url(feature),
       "links": {
         "metadata": '',
-        "thumbnail": thumbnail_url(feature)
-      }
+          "thumbnail": thumbnail_url(feature)
+      },
+      "capabilities": ["osgeo:tms"]
     }
   }
 )
