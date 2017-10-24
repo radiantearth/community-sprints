@@ -6,7 +6,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "core.json#/definitions/core"
+          "$ref": "asset.json#/definitions/core"
         },
         {
           "properties": {
@@ -78,7 +78,7 @@
           }
         },
         "contact": {
-          "$ref": "core.json#/definitions/entity"
+          "$ref": "asset.json#/definitions/entity"
         },
         "formats": {
           "description": "Included asset formats",
