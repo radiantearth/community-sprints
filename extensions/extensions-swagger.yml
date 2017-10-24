@@ -1,0 +1,113 @@
+swagger: '2.0'
+
+info:
+  description: |
+    Extensions to the core include
+    * Additional metadata
+    * Well-known services (WMTS)
+    * Idiosyncratic services
+    
+    Metadata extensions have 2 scopes
+    * Catalog as a whole
+    * Catalog item, either globally or per-type
+    
+    Services have 3 scopes
+    * Catalog as a whole
+    * Operate on multiple catalog items
+    * Per-item
+  version: "0.0.1"
+  title: Imagery Catalog Extensions
+
+paths:
+  /capabilities:
+    get:
+      description: |
+        Gets the Catalog capabilities and metadata.
+      operationId: GetCapabilities
+      summary: Get Catalog capabilities and metadata.
+      responses:
+        200:
+          description: Successful response
+          schema:
+            $ref: "#/definitions/Capabilities"
+
+
+definitions:
+  Capabilities:
+    type: object
+    properties:
+      services:
+        type: array
+        items:
+          $ref: "#/definitions/Service"
+      metadata:
+          $ref: "#/definitions/CatalogMetadata"
+      items:
+          $ref: "#/definitions/CatalogItem"
+  
+  CatalogMetadata:
+    description: |
+      General Catalog Metadata - NOTE ill-defined/deferred at this time
+    type: object
+    
+    properties:
+      id:
+        type: string
+        description: Some identifier for this service
+      contact:
+        type: string
+        description: Email or such
+      extra:
+        type: object
+        description: High-level catalog metadata extensions
+  
+  CatalogItem:
+    type: object
+    description: Extensions to the core catalog item.
+    properties:
+      scope:
+        type: string
+        enum:
+        - catalog
+        - item
+      schema:
+        description: Extension fields ala swagger
+        type: object
+  
+  ServiceLink:
+    type: object
+    description: A documentation, specification or protocol link
+    properties:
+      type:
+        type: string
+        enum:
+        - documentation
+        - specification
+        - protocol
+      url:
+        type: string
+        description: A concrete URL or one with path parameters
+      parameters:
+        type: object
+        description: |
+          Parameter descriptions, ala swagger, that can be used to generate
+          a concrete URL.
+  
+  Service:
+    type: object
+    description: A Service provides non-catalog APIs
+    properties:
+      type:
+        type: "string"
+        description: "A well-known or vendor-specific identifier"
+      scope:
+        type: "string"
+        description: "The scope of this service"
+        enum:
+        - catalog
+        - items
+        - item
+      links:
+        type: array
+        items:
+          $ref: "#/definitions/ServiceLink"
