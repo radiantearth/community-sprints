@@ -1,5 +1,8 @@
 import json
-output_file = 'digital_globe-search-results-minimal.geojson'
+import mercantile
+from shapely.geometry import shape
+
+output_file = 'digital_globe-search-results-minimal-test.geojson'
 dg_file = 'dg_boulder_available.json'
 
 def bbox_from_poly(poly):
@@ -11,6 +14,15 @@ def bbox_from_poly(poly):
         nx = min(nx, c[0])
         ny = min(ny, c[1])
     return [nx, ny, mx, my]
+
+
+def thumbnail_url(rec):
+    bounds = shape(rec['geometry']).bounds
+    tile = mercantile.bounding_tile(*bounds)
+    url = "https://idaho.geobigdata.io/v1/tile/idaho-images/{idaho_id}/".format(idaho_id=rec["properties"]["attributes"]["idahoImageId"]) + \
+    "{z}/{x}/{y}?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2RpZ2l0YWxnbG9iZS1wbGF0Zm9ybS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8Z2JkeHwxMDQ2IiwiYXVkIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QiLCJleHAiOjE1MDg5NTg5NTYsImlhdCI6MTUwODM1NDE1NiwiYXpwIjoidmhhTkVKeW1MNG0xVUNvNFRxWG11S3RrbjlKQ1lEa1QifQ.s4tqr0rGqF7UXBlBty0oHK-W24X7EVv_wKi3xyTkRRY".format(z=tile.z, x=tile.x, y=tile.y)
+    return url
+
 
 dg = {
   'geometry': 'geometry',
@@ -40,7 +52,7 @@ for feature in dg_data:
       "license": '',
       "links": {
         "metadata": '',
-        "thumbnail": ''
+        "thumbnail": thumbnail_url(feature)
       }
     }
   }
