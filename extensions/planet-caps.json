@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "id": "Planet Imagery Catalog",
+    "contact": "support@planet.com",
+    "extra": {}
+  },
+  "services": [
+    {
+      "type": "osgeo:tms",
+      "scope": "item",
+      "links": [
+        {
+          "type": "documentation",
+          "url": "https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification"
+        },
+        {
+          "type": "protocol",
+          "url": "https://tiles.planet.com/data/v1/{item_type}/{item_id}/{z}/{x}/{y}.png?api_key=",
+          "parameters": [
+            {
+              "in": "path",
+              "name": "item_type",
+              "type": "string",
+              "ref": "planet:item_type"
+            },
+            {
+              "in": "path",
+              "name": "item_id",
+              "type": "string",
+              "ref": "id"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "scope": "item",
+      "schema": {
+          "planet:item_type": {
+            "type": "string"
+          },
+          "planet:satellite_id": {
+            "type": "string"
+          }
+      }
+    }
+  ]
+}

@@ -35,19 +35,25 @@ paths:
 definitions:
   Capabilities:
     type: object
+    description: Top level catalog capabilities and metadata.
     properties:
       services:
         type: array
         items:
           $ref: "#/definitions/Service"
+        description: |
+          Service extensions this catalog supports.
       metadata:
           $ref: "#/definitions/CatalogMetadata"
-      items:
-          $ref: "#/definitions/CatalogItem"
+      extensions:
+        type: array
+        items:
+          $ref: "#/definitions/CatalogExtension"
   
   CatalogMetadata:
     description: |
       General Catalog Metadata - NOTE ill-defined/deferred at this time
+      This will be fleshed out with 'boring' metadata fields.
     type: object
     
     properties:
@@ -61,24 +67,34 @@ definitions:
         type: object
         description: High-level catalog metadata extensions
   
-  CatalogItem:
+  CatalogExtension:
     type: object
-    description: Extensions to the core catalog item.
+    description: |
+      Extensions to the core catalog metadata or catalog item(s).
+      TODO - how would we specify that extension fields only apply to a
+             certain 'type' of catalog item?
     properties:
       scope:
+        description: Scope describes the target of the extension.
         type: string
         enum:
         - catalog
         - item
       schema:
-        description: Extension fields ala swagger
+        description: Extension fields ala swagger.
         type: object
   
   ServiceLink:
     type: object
-    description: A documentation, specification or protocol link
+    description: A documentation, specification or protocol link.
+      TODO - need more support for method, POST bodies, etc.
     properties:
       type:
+        description: |
+          Describes the type of link. Documentation is textual/narrative,
+          specification describes a computer readable specification or schema,
+          and protocol specifies a URL that a client agent would use when
+          interacting with the service.
         type: string
         enum:
         - documentation
@@ -98,11 +114,11 @@ definitions:
     description: A Service provides non-catalog APIs
     properties:
       type:
-        type: "string"
-        description: "A well-known or vendor-specific identifier"
+        type: string
+        description: A well-known or vendor-specific identifier
       scope:
-        type: "string"
-        description: "The scope of this service"
+        type: string
+        description: The scope of this service
         enum:
         - catalog
         - items
