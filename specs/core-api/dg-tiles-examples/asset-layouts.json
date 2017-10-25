@@ -1,0 +1,28 @@
+{
+  "single": {
+    "layout": "single",
+    "single": "uri"
+  },
+  "rcLayout": {
+    "layout": "row-column",
+    "rows": 5,
+    "cols": 4,
+    "r1c1": "uri",
+    "r1c2": "uri",
+    "r2c1": "uri"
+  },
+  "bandLayout": {
+    "layout": "bands",
+    "B": "uri",
+    "G": "uri",
+    "R": "uri"
+  },
+  "bandTileLayout": {
+    "layout": "band-row-column",
+    "rows": 5,
+    "cols": 4,
+    "R-r1c1": "uri",
+    "R-r1c2": "uri",
+    "B-r1c1": "uri"
+  }
+}

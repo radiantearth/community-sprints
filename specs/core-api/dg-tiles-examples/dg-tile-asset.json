@@ -1,0 +1,81 @@
+{
+  "authoring": {
+    "title": "DG tile",
+    "license": "DG license",
+    "time": "creation time of product",
+    "sourceId": "vendor location id of product",
+    "description": "vendor description"
+  },
+  "keywords": [
+    "dg", "foo"
+  ],
+  "links": {
+    "self": "uri",
+    "thumbnail": "uri",
+    "parent": "dg-product-tiles.json",
+    "download": "uri"
+  },
+  "geo": {
+    "srcCrs": "UTM XXX",
+    "srcGeometry": {
+      "type": "Polygon",
+      "coordinates": []
+    },
+    "countryCode": ["IZ"]
+  },
+  "time": {
+    "earliestAcqTimeUs": 33333333,
+    "earliestAcqTime": "2017-MM-HH...",
+    "latestAcqTimeUs": 33333333,
+    "latestAcqTime": "2017-MM-HH..."
+  },
+  "pixel": {
+    "pixelFormat": "RGB",
+    "height": 100,
+    "width": 200,
+    "bitDepth": 8,
+    "numBands": 3,
+    "bands": [
+      {
+        "bandId": "R",
+        "freq": 100,
+        "bitDepth": 8
+      },
+      {
+        "bandId": "G",
+        "freq": 200,
+        "bitDepth": 8
+      },
+      {
+        "bandId": "B",
+        "freq": 300,
+        "bitDepth": 8
+      }
+    ]
+  },
+  "geopixel": {
+    "gsdMeters": 5,
+    "gsdMetersY": 5.1,
+    "gsdMetersX": 5.0
+  },
+  "imageQuality": {
+    "accuracyMeters": 5,
+    "cloudCover": 0.1,
+    "snowCover": 0,
+    "niirs": 4.5,
+    "sunAzDeg": 40,
+    "sunElDeg": 90,
+    "radiometricCorrection": true,
+    "atmosphericCorrection": true,
+    "scale": "1:4000"
+  },
+  "sensor": {
+    "platform": "WV01",
+    "sensor": "EO",
+    "offNadirAngleDeg": 8,
+    "sensorAzDeg": 80
+  },
+  "security": {
+    "classification": "U"
+  }
+}
