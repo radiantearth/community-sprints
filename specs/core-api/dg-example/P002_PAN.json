@@ -1,0 +1,180 @@
+{
+    "id": "103001004B316600_P002_PAN",
+    "type": "Feature",
+    "assets": [
+    {
+      "bands": {
+        "Pan": {
+          "gsd": "0.30",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456,
+          "image_band_index": 0
+        }
+      }],
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.TIF",
+      "metadata": {
+        "filetype": "geotif",
+        "content": "image",
+        "processing": {
+          "RadiometricallyCorrected": true
+        }
+      },
+      {
+      "bands": {
+        "Pan": {
+          "gsd": "0.30",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 0
+        }
+      },
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.TIF",
+      "metadata": {
+        "filetype": "idaho",
+        "bucket": "idaho-images",
+        "idaho_id": "103001004B316600_P002_PAN_056823192010",
+        "content": "image",
+        "processing": {
+          "RadiometricallyCorrected": true
+        }
+      },
+    {
+      "format": "imd",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.IMD"
+    },
+    {
+      "format": "xml",
+      "name": "metadata file",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.XML"
+    },
+    {
+      "format": "til",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.TIL"
+    },
+    {
+      "format": "att",
+      "name": "Att file",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.ATT"
+    },
+    {
+      "format": "geo",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.GEO"
+    },
+    {
+      "format": "rpb",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.RPB"
+    },
+    {
+      "format": "jpeg",
+      "name": "thumbnail",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.JPG"
+    }
+  ],
+"geometry": {
+"type": "MultiPolygon",
+"coordinates": [
+[
+[
+[
+-105.160592519,
+39.1656280221
+],
+[
+-104.947914192,
+39.175001527
+],
+[
+-104.950215937,
+39.0512085534
+],
+[
+-105.16088661,
+39.0436989637
+],
+[
+-105.160592519,
+39.1656280221
+]
+]
+]
+]
+},
+"properties": {
+"schema": "DigitalGlobeProduct",
+"type": [
+"GBDXCatalogRecord",
+"WV02",
+"DigitalGlobeProduct",
+"1BProduct"
+],
+"rpbFile": "15NOV09180446-P1BS-056823192010_01_P002.RPB",
+"sunAzimuth": 168.7,
+"cloudCover": 0,
+"catalogID": "103001004B316600",
+"xmlFile": "15NOV09180446-P1BS-056823192010_01_P002.XML",
+"timestamp": "2015-11-09T18:04:46.000Z",
+"attFile": "15NOV09180446-P1BS-056823192010_01_P002.ATT",
+"browseJpgFile": "15NOV09180446-P1BS-056823192010_01_P002-BROWSE.JPG",
+"offNadirAngle": 18.4,
+"platformName": "WORLDVIEW02",
+"sunElevation": 33.4,
+"vendor": "DigitalGlobe",
+"soli": "056823192",
+"bands": "P",
+"bucketPrefix": "056823192010_01_003/056823192010_01/056823192010_01_P002_PAN",
+"readmeTxtFile": "15NOV09180446-P1BS-056823192010_01_P002_README.TXT",
+"imageFile": "15NOV09180446-P1BS-056823192010_01_P002.TIF",
+"part": 2,
+"bucketName": "receiving-dgcs-tdgplatform-com",
+"resolution": 0.512,
+"footprintWkt": "MULTIPOLYGON(((-105.160592519 39.1656280221, -104.947914192 39.175001527, -104.950215937 39.0512085534, -105.16088661 39.0436989637, -105.160592519 39.1656280221)))",
+"geoFile": "15NOV09180446-P1BS-056823192010_01_P002.GEO",
+"tilFile": "15NOV09180446-P1BS-056823192010_01_P002.TIL",
+"sensorPlatformName": "WORLDVIEW02",
+"productLevel": "LV1B",
+"imdFile": "15NOV09180446-P1BS-056823192010_01_P002.IMD",
+"ephFile": "15NOV09180446-P1BS-056823192010_01_P002.EPH",
+"bandsList": "BAND_P",
+"startDate": "2015-11-09T18:04:46.000Z",
+"endDate": "2015-11-09T18:04:46.000Z",
+"links": [
+{
+"format": "geotif",
+"uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.TIF"
+},
+{
+"format": "imd",
+"uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.IMD"
+},
+{
+"format": "xml",
+"name": "metadata file",
+"uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.XML"
+},
+{
+"format": "til",
+"uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.TIL"
+},
+{
+"format": "att",
+"name": "Att file",
+"uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.ATT"
+},
+{
+"format": "geo",
+"uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.GEO"
+},
+{
+"format": "rpb",
+"uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.RPB"
+},
+{
+"format": "jpeg",
+"name": "thumbnail",
+"uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_PAN/15NOV09180446-P1BS-056823192010_01_P002.JPG"
+}
+]
+}
+}

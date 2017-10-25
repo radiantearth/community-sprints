@@ -1,0 +1,199 @@
+{
+  "id": "103001004B316600_P002_MUL",
+  "type": "Feature",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -105.160846396,
+            39.1656009422
+          ],
+          [
+            -104.947574355,
+            39.1750024943
+          ],
+          [
+            -104.949890373,
+            39.0512153242
+          ],
+          [
+            -105.161151214,
+            39.0436821016
+          ],
+          [
+            -105.160846396,
+            39.1656009422
+          ]
+        ]
+      ]
+    ]
+  },
+  "assets": [
+    {
+      "bands": {
+        "Coastal": {
+          "gsd": "2",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 0
+        },
+        "Blue": {
+          "gsd": "2",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 1
+        },
+        "Green": {
+          "gsd": "2",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 2
+        },
+        "Yellow": {
+          "gsd": "2",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 3
+        },
+        "Red": {
+          "gsd": "2",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 4
+        },
+        "RedEdge": {
+          "gsd": "2",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 5
+        },
+        "NIR1": {
+          "gsd": "2",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 6
+        },
+         "NIR2": {
+          "gsd": "2",
+          "accuracy": {},
+          "center_wavelenght": 123,
+          "effective_wavelength": 456
+          "image_band_index": 7
+        }
+      }
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.TIF"
+      "metadata": {
+        "filetype": "geotif",
+        "content": "image",
+        "processing": {
+           "RadiometricallyCorrected": true
+        }
+      }
+    },
+    {
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.IMD"
+      "metadata": {
+        "filetype": "imd",
+        "content": "image metadata"
+      }
+    },
+    {
+      "format": "xml",
+      "name": "metadata file",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.XML"
+    },
+    {
+      "format": "til",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.TIL"
+    },
+    {
+      "format": "att",
+      "name": "Att file",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.ATT"
+    },
+    {
+      "format": "geo",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.GEO"
+    },
+    {
+      "format": "rpb",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.RPB"
+    },
+    {
+      "format": "jpeg",
+      "name": "thumbnail",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.JPG"
+    }
+  ],
+  "assets": [
+    {
+      "format": "geotif",
+      "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.TIF"
+    },
+    {
+      "format": "idaho",
+      "bucket": "idaho-images",
+      "idaho_id": "6fa40f14-6121-4b11-a613-3f82582e4157"
+    }
+  ],
+  "properties": {
+    "feature_type": [
+      "GBDXCatalogRecord",
+      "WV02",
+      "DigitalGlobeProduct",
+      "1BProduct"
+    ],
+    "rpbFile": "15NOV09180446-M1BS-056823192010_01_P002.RPB",
+    "sunAzimuth": 168.7,
+    "cloudCover": 0,
+    "catalogID": "103001004B316600",
+    "xmlFile": "15NOV09180446-M1BS-056823192010_01_P002.XML",
+    "timestamp": "2015-11-09T18:04:46.000Z",
+    "attFile": "15NOV09180446-M1BS-056823192010_01_P002.ATT",
+    "browseJpgFile": "15NOV09180446-M1BS-056823192010_01_P002-BROWSE.JPG",
+    "offNadirAngle": 18.4,
+    "platformName": "WORLDVIEW02",
+    "sunElevation": 33.4,
+    "vendor": "DigitalGlobe",
+    "soli": "056823192",
+    "bands": "Multi",
+    "bucketPrefix": "056823192010_01_003/056823192010_01/056823192010_01_P002_MUL",
+    "readmeTxtFile": "15NOV09180446-M1BS-056823192010_01_P002_README.TXT",
+    "imageFile": "15NOV09180446-M1BS-056823192010_01_P002.TIF",
+    "part": 2,
+    "bucketName": "receiving-dgcs-tdgplatform-com",
+    "resolution": 2.047,
+    "footprintWkt": "MULTIPOLYGON(((-105.160846396 39.1656009422, -104.947574355 39.1750024943, -104.949890373 39.0512153242, -105.161151214 39.0436821016, -105.160846396 39.1656009422)))",
+    "geoFile": "15NOV09180446-M1BS-056823192010_01_P002.GEO",
+    "tilFile": "15NOV09180446-M1BS-056823192010_01_P002.TIL",
+    "sensorPlatformName": "WORLDVIEW02",
+    "productLevel": "LV1B",
+    "imdFile": "15NOV09180446-M1BS-056823192010_01_P002.IMD",
+    "ephFile": "15NOV09180446-M1BS-056823192010_01_P002.EPH",
+    "bandsList": "BAND_C,BAND_B,BAND_G,BAND_Y,BAND_R,BAND_RE,BAND_N,BAND_N2",
+    "startDate": "2015-11-09T18:04:46.000Z",
+    "endDate": "2015-11-09T18:04:46.000Z",
+    "links": [
+      { "name": "self"
+        "uri": "my url",
+      },
+      {"name":"thumbnail",
+        "uri": "https://s3.amazonaws.com/receiving-dgcs-tdgplatform-com/056823192010_01_003/056823192010_01/056823192010_01_P002_MUL/15NOV09180446-M1BS-056823192010_01_P002.JPG",
+      },
+      {
+        "name": "acquisition",
+        "uri": "uri of acquisition"
+      }
+
+    ]
+  }
+}
