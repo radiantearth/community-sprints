@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "items": [
+  "extensions": [
     {
       "scope": "item",
       "schema": {
