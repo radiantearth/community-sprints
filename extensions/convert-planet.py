@@ -24,7 +24,7 @@ def convert_record_to_minimal(rec):
     rec.pop('_permissions')
     rec.pop('_links')
     rec['bbox'] = bbox_from_poly(rec['geometry'])
-    tmpl = 'https://tiles.planet.com/data/v1/item-types/%s/items/%s/thumb'
+    tmpl = 'https://api.planet.com/data/v1/item-types/%s/items/%s/thumb'
     thumblink = tmpl % (
         props['item_type'],
         rec['id'],
@@ -64,4 +64,4 @@ if __name__ == '__main__':
     print(json.dumps({
         'type': 'FeatureCollection',
         'features': converted,
-    }))
+    }, indent=2))
