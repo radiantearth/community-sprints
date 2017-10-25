@@ -1,0 +1,59 @@
+{
+    "properties": {
+        ...
+    },
+    "geometry": {
+        ...
+    },
+    "bbox": [],
+    "links": {
+        "self": "...",
+        "source_metadata": "...MTL.txt"
+    },
+    "bands": [
+        {
+            "common_name": "COASTAL",
+            "gsd": null,
+            "accuracy": null,
+            "wv": null
+        }, {
+            "common_name": "BLUE",
+            "gsd": null,
+            "accuracy": null,
+            "wv": null
+        }, {
+            "common_name": "GREEN",
+            "gsd": null,
+            "accuracy": null,
+            "wv": null
+        },
+        ...
+    ],
+    "assets": [
+        {
+            "band": "COASTAL",
+            "path": "...B0_11.tif",
+            "type": "GEOTIFF"
+        }, {
+            "band": "BLUE",
+            "path": "...B1_11.tif"
+        }, {
+            "band": "GREEN",
+            "path": "...B2_11.tif"
+        }, 
+        ...
+
+        // If this were a tiled scene
+        {
+            "band": "COASTAL",
+            "path": "...B0_12.tif"
+        }, {
+            "band": "BLUE",
+            "path": "...B1_12.tif"
+        }, {
+            "band": "GREEN",
+            "path": "...B2_12.tif"
+        },
+        ...
+    ]
+}
