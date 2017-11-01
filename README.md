@@ -12,7 +12,7 @@ This repository serves as a historical record, so others can see what was discus
 
 [workstreams/](workstreams/) contains information about the 4 major groups the sprint was divided in to. Each folder contains an overview of the major goals, questions, background work and participants in each workstream. Notes from the main two days are also in the folder.
 
-* [Core Metadata](workstreams/core-metadata/) worked on defining the main fields of metadata records to be searched and crawled, serving as input to the other groups. They established a core set of fields that all spatio-temporal assets should have, and also made progress towards an eo profile for satellite imagery. The work can be found in their [draft-spec](workstreams/core-metadata/draft-spec.md) 
+* [Core Metadata](workstreams/core-metadata/) worked on defining the main fields of metadata records to be searched and crawled, serving as input to the other groups. They established a core set of fields that all spatio-temporal assets should have, and also made progress towards an eo profile for satellite imagery. The work can be found in their [draft-spec](specs/core-metadata/draft-spec.md) 
 
 * [Static Catalog](workstreams/static-catalog/) defined a version of the catalog that could be served just using files sitting on an object store like S3. It wouldn't index fields and respond to queries, but could be crawled by a search engine, or serve as input to a more active api. This group defined a number of [specs](specs/flat_file/) with examples, as well as a first crawler implementation in the [catalog-crawler](catalog-crawler/) folder.
 
