@@ -99,7 +99,11 @@ After a couple hours there was a group-wide check-in, to see if groups needed in
 group got up and presented their work, as the others wanted to start to incorporate it. This lead to a good early course
 correction, as the metadata group went really detailed in to satellite imagery, in a way that would have precluded other
 types of searches. So they were given feedback to get down to a really tight core that would be relevant to all geospatial
-data with location and time.
+data with location and time. Another topic of discussion with all for the static catalog is whether JSON or HTML should
+be the core. The core group had solid arguments that it should be JSON, since it's for machines, and that should be
+the default. But the group agreed it'd be really good to have best practice be to include HTML for humans. And to build
+tools that automatically generate nice HTML that have lots of good links and hopefully even include dynamic tiling of
+data in to openlayers and leaflet maps. And perhaps even on the fly generation of derived products using like RasterFoundry.
 
 There were then a number of good iterations with everyone heads down, and just about every group got to some draft documents
 and some even wrote some code. There are notes from each group in the [workstreams/](workstreams/) folders. 
@@ -183,16 +187,87 @@ Another important topic is extensions, particularly how vendors and communities 
 group came up with some nice flexible mechanisms, using URN's that are flexible but not totally free form. Things divided
 in to 'operations' and 'content', with more focus on the content, as it seemed quite important to get right. 
 
-The day ended with some attempts to figure out naming, that didn't really go anywhere, except that we should get a good name.
+The day ended with some attempts to figure out naming. There was success on calling the core json that includes the metadata
+an 'item'. We considered 'feature' (too general for any geographic type), 'record' (like a record of a catalog, felt a bit
+too old school', 'scene' (too imagery focused) and others. But we decided on an 'item' as the best balance between being
+flexible, with good connotations. And then 'asset' was settled on as the thing linked to. Contemplated just calling them 
+'links', but decided that links should also be used for other things, and assets could be a bit more specific. Naming
+the overall specs didn't make much progress however.
 
-## day 3
+The room and lunch were sponsored by Planet, and then DigitalGlobe treated the participants to dinner and drinks at Avery
+Brewery in Boulder.
 
-rel links
+## Day 3
 
-how to represent RGB vs NIR+RGB - represent bands
- - different representations because we got too abstract
+Day 3 was a smaller group, as many people had to leave, and the goal was to have most everyone there the first two days
+and have the third day be some continued work. The third day as that the DG office. There were a number of good conversations
+diving deeper and getting in to details, with continued momentum from most all the groups.
 
-mosaic type, keep the core EO cleaner
+### Morning Conversations
 
-naming / next steps
+The main groupwide conversation for the morning was about how to represent asset metadata. This arose from a practical
+concern when Rob was trying to represent NAIP data in an item. Each item has two assets to download - an RGB visual
+one and an analytic RGB+NIR. And ideally a client could have some way to 'know' about the band information, so it 
+could automatically apply algorithms. The question was whether to try to make a special 'asset metadata' that is
+populated in each item to give more information about each asset. An alternate idea was to give each major asset
+its own 'item', and then describe more nuanced relationships between items. So you could have a 'parent' item that
+defines the footprint and is the thing that shows up in catalogs, and then there are some child items that have the
+particular assets with more information about them. One potential advantage of this is that parents don't necessarily
+have to know about all their children, but processed assets could easily refer to their parents. Though that doesn't
+necessarily solve the core problem.
 
+The group went in lots of different directions with this, and it was getting very abstract, so instead decided to have people
+sit down and make examples of what they were thinking with a dataset that they knew. 
+
+* The [naip example](specs/core-api/naip-example/) demonstrates the idea of child items with a relationship to the parent.
+* The [landsat example](specs/core-api/landsat-example/landsat.json) shows inline band definition, with the landsat 1 band per asset.
+* The [DG Tiles example](specs/core-api/dg-tiles-examples) shows how it might work with a scene defined by lots of sub-tiles
+* The [DG example](https://github.com/radiantearth/boulder-sprint/tree/master/specs/core-api/dg-example) shows representing all the DG metadata and sidecar files.
+
+Some work needs to be done to consolidate these in to a solid core model that works for everything.
+
+The discussion hit on some other topics. One was the potential usefulness of 'rel' links. This lets you specify what the
+'relation' of an entity is to what it is linking to. A very common one is 'self', where you link to the canonical location
+of something online. This was deemed quite useful, so that items could be downloaded but always refer back to where they came
+from. The research done during the day seemed to indicate that you can put  most anything you want in the 'rel', as there
+was no authoritative list of rel's. So we could define 'asset', 'item', 'parent', 'child', derived-from' and other type
+of relationships to link together the various parts of a catalog.
+
+Another thing that came up was the notion of items that have lots of tiles that make them up. So like a 'colorado' item
+that is composed of lots of different strips and scenes. The consensus was that those should be considered 'mosaics', and
+we'll need a metadata profile to extend the core item metadata with mosiac specific data. And that the core earth imagery
+items should limit themselves to more core 'scenes' instead of putting everything in it. And then the cool thing is that
+a mosaic could refer to its source scenes with a special 'rel' link, so each scene is an item, that is part of the bigger
+mosaic item
+
+### Afternoon conversations
+
+The afternoon was an even smaller group, and focused on the product and project management pieces of the project. Rough
+notes from this section are at https://board.net/p/boulder-sprint-pm (volunteers welcome to move that to the github repo).
+
+The first part of the conversation focused on the various followups to do. These include posting all the notes, getting the readmes of the various repos in good shape, putting issues onto github, getting to json examples and the core specification,
+etc. It was decided to put static catalog, the queryable api and the json instantiation of the metadata spec all in the 
+same repository, so that they could more easily stay up to date with one another. The abstract metadata spec would go 
+in its own repo, so that it might get other instantiations, like a representation in Tiff tags. It was also deemed 
+important to just have one github issues, and to turn issues off in other repos. A flow diagram rendering was also desired, 
+though no one knew good tooling on github for that.
+
+There was also discussion of the project management. Do we eventually get to an RFC / improvement proposal type process? The
+consensus was yes, eventually, but that for now it'd be too heavyweight. There was a volunteer to write up some lighterweight
+process to put in the repo, to be clear to people how to participate.
+
+Another interesting topic was the notion of connecting all the catalogs together, which would be relatively easy to do
+with how the core is designed. There was agreement that the interconnectivity of all catalogs shouldn't be emphasized - 
+we don't want to try to get people to 'join the network' of having their data be searchable by all. We just want them
+to implement a standard, which leads to much more interoperability. It was also pointed out that some people have
+all their data on internal networks and want to keep it that way, and would never connect to the network. But that at 
+some point it would be cool to connect all the pieces.
+
+The final discussion of the day was a solid naming attempt, where each person thought of and wrote down names for a minute, passed them and repeated putting names on the paper they got, and then passed and circled the best too. It got lots of ideas
+flowing, but nothing emerged as a clear winner.
+
+## Post Conference success
+
+Most of the post conference work will be documented in the actual wikis. But one big win was actually reaching consensus
+of good names online, on the [gitter channel for the sprint](https://gitter.im/Imagery-Catalog-API-Team/Lobby). This is
+promising, showing the potential of the group to work together not in person. The final naming is the Spatio-Temporal Asset Catalog. And then the core metadata fields are the Spatio-Temporal Asset metadata.
