@@ -270,4 +270,4 @@ flowing, but nothing emerged as a clear winner.
 
 Most of the post conference work will be documented in the actual wikis. But one big win was actually reaching consensus
 of good names online, on the [gitter channel for the sprint](https://gitter.im/Imagery-Catalog-API-Team/Lobby). This is
-promising, showing the potential of the group to work together not in person. The final naming is the Spatio-Temporal Asset Catalog. And then the core metadata fields are the Spatio-Temporal Asset metadata.
+promising, showing the potential of the group to work together not in person. The final naming is the SpatioTemporal Asset Catalog. And then the core metadata fields are the SpatioTemporal Asset metadata.

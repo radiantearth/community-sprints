@@ -1,8 +1,8 @@
-# Spatio-Temporal Asset Catalog Boulder Sprint 
+# SpatioTemporal Asset Catalog Boulder Sprint 
 
 This repository was used to organize a sprint in boulder that brought together 13 organizations in the general imagery and geospatial domain to collaborate on new standards for searching observed assets. The effort was roughly focused on imagery from satellites, but the goal was to design a core set of search fields that could handle a wider variety of assets - imagery from drones, balloons, etc., point clouds/LiDAR, derived data (like NDVI), mosaics, synthetic aperture radar, hyperspectral, etc. 
 
-The resulting specifications are continuing to evolve, in the Spatio-Temporal Asset Catalog and Spatio-Temporal Asset Metadata repositories. 
+The resulting specifications are continuing to evolve, in the SpatioTemporal Asset Catalog and SpatioTemporal Asset Metadata repositories. 
 
 This repository serves as a historical record, so others can see what was discussed and created during the sprint.
 
@@ -12,7 +12,7 @@ This repository serves as a historical record, so others can see what was discus
 
 [workstreams/](workstreams/) contains information about the 4 major groups the sprint was divided in to. Each folder contains an overview of the major goals, questions, background work and participants in each workstream. Notes from the main two days are also in the folder.
 
-* [Core Metadata](workstreams/core-metadata/) worked on defining the main fields of metadata records to be searched and crawled, serving as input to the other groups. They established a core set of fields that all spatio-temporal assets should have, and also made progress towards an eo profile for satellite imagery. The work can be found in their [draft-spec](specs/core-metadata/draft-spec.md) 
+* [Core Metadata](workstreams/core-metadata/) worked on defining the main fields of metadata records to be searched and crawled, serving as input to the other groups. They established a core set of fields that all spatiotemporal assets should have, and also made progress towards an eo profile for satellite imagery. The work can be found in their [draft-spec](specs/core-metadata/draft-spec.md) 
 
 * [Static Catalog](workstreams/static-catalog/) defined a version of the catalog that could be served just using files sitting on an object store like S3. It wouldn't index fields and respond to queries, but could be crawled by a search engine, or serve as input to a more active api. This group defined a number of [specs](specs/flat_file/) with examples, as well as a first crawler implementation in the [catalog-crawler](catalog-crawler/) folder.
 
