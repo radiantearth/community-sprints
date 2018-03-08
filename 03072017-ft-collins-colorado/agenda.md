@@ -26,5 +26,6 @@ additional breakout topics)
 * **Planet** - Planet Disaster Data static catalog, walk through & decisions made.
 * **Azavea / Radiant Earth** - IServ static catalog & pystac.
 * **Geocatalago** - (not sure if we have anyone to present this)
+* **DevSeed** Present on sat-api and its implementation of STAC, experience implementing and next steps / improvements.
 
 
