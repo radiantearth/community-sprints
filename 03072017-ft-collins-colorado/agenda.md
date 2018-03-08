@@ -37,6 +37,7 @@ it to 'assets'? Does anyone have good reasons not to?
 * **observed / duration vs start / end** - Planet internals ended up using observed + duration. This is probably our last opportunity to change something so substantial.
 * **relative vs absolute links** - We decided to allow both relative and absolute links. Should we adopt one or the other? Or at least a convention of when it is ok to use each? Should 'self' be required to be an absolute link?
 * **assets to dict, asset definition** - A couple items from the EO profile discussion with broader relevance
+* **naming of content extension / profiles / ?** - We don't have a clear name for when someone is using all the same api / static json mechanisms but is making their own validating schema - both community & vendor specific.
 * **process & momentum** - What process should we use for making improvements? PR's/ issues / ? Do we start doing 'releases'?
 What determines a release point? How can we make more progress on the spec virtually? Remote only hack days? other ideas?
 
