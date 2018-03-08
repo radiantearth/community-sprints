@@ -11,7 +11,8 @@ the dedicated STAC day.
 
 ## STAC day (March 8)
 
-*9:00 am* - Welcome, agenda overview Chris Holmes
+*9:00 am* - Welcome, agenda overview Chris Holmes (and airport ride coordination)
+
 *9:15 am* - Logistics for the day, Scott Simmons
 
 *9:20* - Presentations / introductions
