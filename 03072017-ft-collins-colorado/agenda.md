@@ -59,7 +59,7 @@ write it all up, which will likely lead to a number of smaller decisions on how 
 * Write up the 'asset definition' functionality, both for core and for EO profile. Create and merge PR for it.
 * Create and merge PR for turning 'assets' in to a 'dict' instead of an array, with all examples updated.
 * Code a server or static catalog to implement the profile
-
+ 
 #### STAC API
 **Lead**: Josh Fix & Michael Smith
 
@@ -94,7 +94,7 @@ And should better spec the catalog.json and make a tool.
 * Explore html for static catalogs
 * Create / improve static catalogs for the latest spec changes (thumbnails, asset dict, etc)
 
-####Intro to STAC
+#### Intro to STAC
 
 **Lead**: volunteers?
 
@@ -110,3 +110,11 @@ or adapt an existing one (pystac or go-stac) to do more or work with new data
 * Create a test validator. Could crawl static catalogs and check the json schema and links, reporting what's not compliant 
 (this would be an amazing contribution that many would use). Or could do basic interaction with a stac API, testing its
 responses.
+
+### Group Discussion
+
+Individual groups should record any issues they feel are important to discuss with the whole group. Can call an ad hoc session to dive in to it.
+
+### Wrap up
+
+Conclusions & next steps.
