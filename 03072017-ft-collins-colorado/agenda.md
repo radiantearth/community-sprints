@@ -9,7 +9,7 @@ the dedicated STAC day.
 
 *1:00 pm* - Earth Observation Profile
 
-## STAC day
+## STAC day (March 8)
 
 *9:00 am* - Welcome, agenda overview Chris Holmes
 *9:15 am* - Logistics for the day, Scott Simmons
