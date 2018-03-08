@@ -20,11 +20,11 @@ the dedicated STAC day.
 Keep to five minutes or less of pure presentation, will cap discussion to additional 5 minutes (but can schedule 
 additional breakout topics)
 
-**Boundless** - Experiences implementing STAC. Overview of functionality extensions - transactions, grpc, kafka, etc.
-**DigitalGlobe** - Static Catalogs at DG, walk through of data and decisions made. Usage / reception in DG.
-**Harris** - Experiences implementing STAC, details on using content insertion extensions from Boundless.
-**Planet** - Planet Disaster Data static catalog, walk through & decisions made.
-**Azavea / Radiant Earth** - IServ static catalog & pystac.
-**Geocatalago** - (not sure if we have anyone to present this)
+* **Boundless** - Experiences implementing STAC. Overview of functionality extensions - transactions, grpc, kafka, etc.
+* **DigitalGlobe** - Static Catalogs at DG, walk through of data and decisions made. Usage / reception in DG.
+* **Harris** - Experiences implementing STAC, details on using content insertion extensions from Boundless.
+* **Planet** - Planet Disaster Data static catalog, walk through & decisions made.
+* **Azavea / Radiant Earth** - IServ static catalog & pystac.
+* **Geocatalago** - (not sure if we have anyone to present this)
 
 
