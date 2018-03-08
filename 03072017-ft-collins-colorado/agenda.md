@@ -28,6 +28,8 @@ additional breakout topics)
 * **Azavea / Radiant Earth** - IServ static catalog & pystac.
 * **DevSeed** Present on sat-api and its implementation of STAC, experience implementing and next steps / improvements.
 * **David Hemphill** Javascript stac browser, and experience with static catalog for a customer.
+* **Pixia** - Update on pixia catalog.
+* **Tim from Harris** - Mongodb based catalog, converting a pre-stac.
 
 ### ~10:15 Groupwide discussions
 Discussion of several topics that are good for the whole group to discuss. Happy to take some more suggestions on these, but goal is to limit they prevent parallel progress. Aim to limit each to no more than 5-10 minutes, and if conclusion can't be reached then a small group will be assigned to write up a concrete proposal as a PR for all to see. Each should conclude with a volunteer to create the PR.
