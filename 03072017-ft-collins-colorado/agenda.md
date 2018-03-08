@@ -99,7 +99,7 @@ And should better spec the catalog.json and make a tool.
 
 #### Intro to STAC
 
-**Lead**: volunteers?
+**Lead**: Jorge de Jesus
 
 **Overview:** For those who have not been deep on STAC it'd be great to evaluate the specification by trying out an implementation of it. Try it out, see how easy it is to implement, report any errors or improvements.
 
@@ -108,7 +108,7 @@ And should better spec the catalog.json and make a tool.
 * Code a STAC API server (or take a WFS 3 server worked on this week and try to put in imagery data and STAC fields, and
 add the STAC endpoint, etc)
 * Code a STAC client to try out the spec. See https://github.com/radiantearth/stac-spec/blob/dev/implementations.md for some to hit
-* Create a static catalog. Can try to do it by hand to try out with a few records and get a feel. Or can create a new tool
+* Create a static catalog. Can try to do it by hand to try out with a few records and get a feel. Or can create a new tool,  or generate example for a specific domain
 or adapt an existing one (pystac or go-stac) to do more or work with new data
 * Create a test validator. Could crawl static catalogs and check the json schema and links, reporting what's not compliant 
 (this would be an amazing contribution that many would use). Or could do basic interaction with a stac API, testing its
