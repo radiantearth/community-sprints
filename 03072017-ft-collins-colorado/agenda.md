@@ -71,7 +71,7 @@ good to create an extension for 'transactions', ideally submitted to WFS. And an
 
 **Tasks**
 
-* Filter Language - Kasey to present on Planet ideas, Tim Rutherford on what Harris has been thinking, Josh what boundless did, and discuss other options, try to pick one.
+* Filter Language - Kasey to present on Planet ideas, Tim Rutherford on what Harris has been thinking, Josh what boundless did, and discuss other options (like [WFS 3 discussion](https://github.com/opengeospatial/WFS_FES/issues/67)), try to pick one.
 * Go through the STAC OpenAPI document and get it up to date with all the new WFS decisions. Ideally PR, review and merge.
 * Add a better narrative description, detailing how we start with WFS, what opinionated decisions we made, and what additions we made. At https://github.com/radiantearth/stac-spec/tree/dev/api-spec
 * Transactions extension - pull the openapi snippets out of Boundless & Harris implementations, write up a narrative on adding
@@ -95,6 +95,7 @@ And should better spec the catalog.json and make a tool.
 * Update static catalog examples and narratives for other changes agreed upon.
 * Explore html for static catalogs
 * Create / improve static catalogs for the latest spec changes (thumbnails, asset dict, etc)
+* Code a static STAC validator - check all links and json schema conformance.
 
 #### Intro to STAC
 
@@ -115,7 +116,7 @@ responses.
 
 ### Group Discussion
 
-Individual groups should record any issues they feel are important to discuss with the whole group. Can call an ad hoc session to dive in to it.
+Individual groups should record any issues they feel are important to discuss with the whole group. Will likely do a group wide check-in after ~2 hours to report on progress, unless everyone is feeling good being heads down.
 
 ### Wrap up
 
