@@ -24,7 +24,7 @@ additional breakout topics)
 **DigitalGlobe** - Static Catalogs at DG, walk through of data and decisions made. Usage / reception in DG.
 **Harris** - Experiences implementing STAC, details on using content insertion extensions from Boundless.
 **Planet** - Planet Disaster Data static catalog, walk through & decisions made.
-**Azavea** - IServ static catalog & pystac.
+**Azavea / Radiant Earth** - IServ static catalog & pystac.
 **Geocatalago** - (not sure if we have anyone to present this)
 
 
