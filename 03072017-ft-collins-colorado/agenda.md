@@ -21,21 +21,22 @@ the dedicated STAC day.
 Keep to five minutes or less of pure presentation, will cap discussion to additional 5 minutes (but can schedule 
 additional breakout topics)
 
-* **Boundless** - Experiences implementing STAC. Overview of functionality extensions - transactions, querying grpc, kafka, etc.
-* **DigitalGlobe** - Static Catalogs at DG, walk through of data and decisions made. Usage / reception in DG.
 * **Harris** - Experiences implementing STAC, details on using content insertion extensions from Boundless.
+* **DigitalGlobe** - Static Catalogs at DG, walk through of data and decisions made. Usage / reception in DG.
+* **Boundless** - Experiences implementing STAC. Overview of functionality extensions - transactions, querying grpc, kafka, etc.
 * **Planet** - Planet Disaster Data static catalog, walk through & decisions made.
 * **Azavea / Radiant Earth** - IServ static catalog & pystac.
-* **Geocatalago** - (not sure if we have anyone to present this)
 * **DevSeed** Present on sat-api and its implementation of STAC, experience implementing and next steps / improvements.
+* **David Hemphill** Javascript stac browser, and experience with static catalog for a customer.
 
 ### ~10:15 Groupwide discussions
 Discussion of several topics that are good for the whole group to discuss. Happy to take some more suggestions on these, but goal is to limit they prevent parallel progress. Aim to limit each to no more than 5-10 minutes, and if conclusion can't be reached then a small group will be assigned to write up a concrete proposal as a PR for all to see. Each should conclude with a volunteer to create the PR.
 
 * **thumbnails in assets** - The first spec put thumbnail in 'links', though it feels more like an 'asset'. Should we just move
-it to 'assets'? Does anyone have good reasons not to? 
+it to 'assets'? Does anyone have good reasons not to?
 * **observed / duration vs start / end** - Planet internals ended up using observed + duration. This is probably our last opportunity to change something so substantial.
 * **relative vs absolute links** - We decided to allow both relative and absolute links. Should we adopt one or the other? Or at least a convention of when it is ok to use each? Should 'self' be required to be an absolute link?
+* **assets to dict, asset definition** - A couple items from the EO profile discussion with broader relevance
 * **process & momentum** - What process should we use for making improvements? PR's/ issues / ? Do we start doing 'releases'?
 What determines a release point? How can we make more progress on the spec virtually? Remote only hack days? other ideas?
 
@@ -70,9 +71,9 @@ good to create an extension for 'transactions', ideally submitted to WFS. And an
 
 **Tasks**
 
+* Filter Language - Kasey to present on Planet ideas, Tim Rutherford on what Harris has been thinking, Josh what boundless did, and discuss other options, try to pick one.
 * Go through the STAC OpenAPI document and get it up to date with all the new WFS decisions. Ideally PR, review and merge.
 * Add a better narrative description, detailing how we start with WFS, what opinionated decisions we made, and what additions we made. At https://github.com/radiantearth/stac-spec/tree/dev/api-spec
-* Filter Language - Kasey to present on Planet ideas, Josh what boundless did and Michael what harris has done, and discuss other options, try to pick one.
 * Transactions extension - pull the openapi snippets out of Boundless & Harris implementations, write up a narrative on adding
 / using it, and add to https://github.com/opengeospatial/WFS_FES/issues/72
 * Code updates to servers to reflect latest spec changes, make sure they're all sane.
