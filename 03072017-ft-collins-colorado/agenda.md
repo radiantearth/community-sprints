@@ -77,6 +77,8 @@ good to create an extension for 'transactions', ideally submitted to WFS. And an
 * Filter Language - Kasey to present on Planet ideas, Tim Rutherford on what Harris has been thinking, Josh what boundless did, and discuss other options (like [WFS 3 discussion](https://github.com/opengeospatial/WFS_FES/issues/67)), try to pick one.
 * Go through the STAC OpenAPI document and get it up to date with all the new WFS decisions. Ideally PR, review and merge.
 * Add a better narrative description, detailing how we start with WFS, what opinionated decisions we made, and what additions we made. At https://github.com/radiantearth/stac-spec/tree/dev/api-spec
+* BBOX vs taking full geometries
+* Properties fields.
 * Transactions extension - pull the openapi snippets out of Boundless & Harris implementations, write up a narrative on adding
 / using it, and add to https://github.com/opengeospatial/WFS_FES/issues/72
 * Code updates to servers to reflect latest spec changes, make sure they're all sane.
