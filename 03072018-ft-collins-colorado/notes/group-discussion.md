@@ -51,6 +51,18 @@ The core spec left it wide open for implementations to use relative and absolute
 mix them, even in the same Item. This was seen as less desirable. The group punted on making absolute recommendations / trying
 to figure out an overall scheme of when to use one or the other. Though it is desired. 
 
-Did reach consensus on one thing though, which is that all 'self' links should be absolute. There were some examples of those, but 
-all felt those are pretty useless, since it doesn't actually tell you where it should go. So the next spec version will
-require the self link be absolute.
+The group did reach consensus on one thing though, which is that all 'self' links should be absolute. There were some 
+implementations built that , but 
+all felt those are pretty useless, since it doesn't actually tell you where it should go. 
+
+So the next spec version will require the self link be absolute.
+
+### Naming of profiles / content extensions
+
+One consistent source of confusion in the group is that everyone uses different names to refer to additions to the core STAC
+content model. Names include 'profiles' (which the author uses, like the earth observation profile), 'extensions', 'classes', etc. There was much discussion on a new name for these, as extension and profile are both overloaded, especially as we 
+merge STAC with WFS. 
+
+One idea that had legs was 'traits'. On trying it out more it did feel less than perfect, as the 'Earth Observation Trait' seems to imply just a single thing, not a set of metadata fields. Tried out 'traitsets' which seemed perhaps a bit better.
+Tim encouraged the group to look in to the real definitions of these, as 'characteristics' are the manifestation of 'traits', 
+so might be more appropriate. So didn't reach any real decision point on these.
