@@ -5,19 +5,19 @@ the dedicated STAC day.
 
 ## STAC during WFS 3 sprint
 
-*9:30 am* - STAC + WFS alignment
+*9:30 am* - STAC + WFS alignment ([notes](notes/wfs-stac.md))
 
-*1:00 pm* - Earth Observation Profile
+*1:00 pm* - Earth Observation Profile ([notes](notes/stac-eo.md))
 
 ## STAC day (March 8)
 
-*9:00 am* - Welcome, agenda overview Chris Holmes (and airport ride coordination)
+*9:00 am* - Welcome, agenda overview Chris Holmes (and airport ride coordination) ([presentation](notes/stac-intro.pdf))
 
 *9:15 am* - Logistics for the day, Scott Simmons
 
-*9:20* - Presentations / introductions
+*9:20* - Introductions
 
-### ~9:30 State of STAC implementation Presentations
+### ~9:30 State of STAC implementation Presentations ([notes](notes/presentations.md))
 Keep to five minutes or less of pure presentation, will cap discussion to additional 5 minutes (but can schedule 
 additional breakout topics)
 
@@ -31,7 +31,7 @@ additional breakout topics)
 * **Pixia** - Update on pixia catalog.
 * **Tim from Harris** - Mongodb based catalog, converting a pre-stac.
 
-### ~10:15 Groupwide discussions
+### ~10:15 Groupwide discussions ([notes](notes/group-discussion.md))
 Discussion of several topics that are good for the whole group to discuss. Happy to take some more suggestions on these, but goal is to limit they prevent parallel progress. Aim to limit each to no more than 5-10 minutes, and if conclusion can't be reached then a small group will be assigned to write up a concrete proposal as a PR for all to see. Each should conclude with a volunteer to create the PR.
 
 * **thumbnails in assets** - The first spec put thumbnail in 'links', though it feels more like an 'asset'. Should we just move
@@ -48,7 +48,7 @@ What determines a release point? How can we make more progress on the spec virtu
 Breakout groups should aim to deliver real updates to the specification, discussing the best way to do things but then actually
 getting things down in to a real change to the spec. 
 
-#### Earth Observation Profile
+#### Earth Observation Profile 
 **Lead**: Matt Hanson
 
 **Overview**: Yesterday the group made great progress on an earth observation profile. But there's still work to be done to 
@@ -65,7 +65,7 @@ write it all up, which will likely lead to a number of smaller decisions on how 
 * Create and merge PR for turning 'assets' in to a 'dict' instead of an array, with all examples updated.
 * Code a server or static catalog to implement the profile
  
-#### STAC API
+#### STAC API ([notes](notes/stac-api.md))
 **Lead**: Josh Fix & Michael Smith
 
 **Overview**: The main task here is to update the openapi spec to follow the WFS, as discussed on wednesday. The other main
@@ -83,7 +83,7 @@ good to create an extension for 'transactions', ideally submitted to WFS. And an
 / using it, and add to https://github.com/opengeospatial/WFS_FES/issues/72
 * Code updates to servers to reflect latest spec changes, make sure they're all sane.
 
-#### Static STAC
+#### Static STAC ([notes](notes/static-stac.md))
 **Lead**: Jeff Naus
 
 **Overview:** Main task is figuring out how to make static STAC's more compatible with the dynamic api and WFS. And just 
@@ -102,7 +102,7 @@ And should better spec the catalog.json and make a tool.
 * Create / improve static catalogs for the latest spec changes (thumbnails, asset dict, etc)
 * Code a static STAC validator - check all links and json schema conformance.
 
-#### Intro to STAC
+#### Intro to STAC ([notes](notes/stac-beginners.md))
 
 **Lead**: Jorge de Jesus
 
