@@ -1,4 +1,4 @@
-## STAC Community Sprint March 2017
+# STAC Community Sprint March 2017
 
 For the second in person collaboration on [SpatioTemporal Asset Catalogs](https://github.com/radiantearth/stac-spec) 
 the group combined forces with the [WFS 3 Hackathon](https://github.com/opengeospatial/wfs3hackathon/), to enable 
@@ -8,7 +8,7 @@ out sessions that focused on STAC.
 Day 3 was the dedicated STAC Day, sponsored by [Radiant.Earth](http://radiant.earth). Lots of progress was made, with 
 numerous specification improvements coming out of great discussions.
 
-### Background
+## Background
 
 The SpatioTemporal Asset Catalog specification was the main outcome of the [Boulder Sprint](../10252017-boulder-co/). The
 goal for the second gathering was to work with a smaller group of those who have actually implemented the specification. 
@@ -18,17 +18,17 @@ organizing the [OGC](http://opengeospatial.org) was moving ahead on organizing a
 STAC used WFS 3.0 as a starting point, but then diverged it a bit. Having both groups in the same room would help to 
 bring the two together, improving both.
 
-### Overview
+## Overview
 
 To see all the details on what happened see the [agenda](agenda.md), and check out the [notes/](notes/) folder. But for
 those who want the higher level summary read on (and follow the links to the individual 'notes' pages which have more in
 depth overviews.
 
-#### STAC during WFS 3 hackathon
+### STAC during WFS 3 hackathon
 
 During the WFS 3 hacakthon there were two solid sessions with smaller groups of people working on STAC.
 
-##### STAC + WFS Alignment
+#### STAC + WFS Alignment
 ([summary and notes](notes/wfs-stac.md))
 
 The main goal was to align the [STAC API](https://github.com/radiantearth/stac-spec/tree/dev/api-spec), which the team
@@ -38,7 +38,7 @@ main one is to enable cross 'collection' search, as STAC users expect to search 
 So an additional search endpoint will be added as a WFS extension. STAC will also likely help push forward some particular
 WFS extensions, like simple transactions and the query language.
 
-##### Earth Observation 'profile'
+#### Earth Observation 'profile'
 ([summary and notes](notes/stac-eo.md))
 
 The other session on wednesday was talking about additional metadata fields for catalogs that are serving up satellite imagery
@@ -48,9 +48,9 @@ of additional fields. It turned out most fields are more at the 'collection' lev
 mean a lot of repetition. So the group pushed towards an 'asset definition' where more common metadata could live. This also
 lead to some improvements in the core spec, like changing the 'assets' from an array to a dict.
 
-#### STAC Day
+### STAC Day
 
-##### Introductions
+#### Introductions
 
 Chris Holmes on behalf of Radiant Earth and Scott Simmons of OGC welcomed the participants, covered logistics and laid out the 
 agenda and  goals for the day. The aim was to improve the specification in real concrete ways, informed by the implementation 
@@ -58,7 +58,7 @@ work people had done so far. To keep things out of the abstract and ground them 
 without too much work. The win of aligning WFS and STAC was also celebrated. From there the group went straight in to 
 presentations by everyone who had built STAC implementations in the past four months.
 
-###### STAC implementation Presentations 
+##### STAC implementation Presentations 
 ([summary and notes](notes/presentations.md))
 
 This session went deep in to all the work various organizations have done for the past few months. **Harris** built a full
@@ -73,7 +73,7 @@ catalog of IServ data](https://s3-us-west-2.amazonaws.com/radiant-nasa-iserv/ise
 **DevSeed** talked about [sat-api](https://github.com/sat-utils/sat-api) and [sat-search](https://github.com/sat-utils/sat-search) which will both soon be adapted to STAC. And **Pixia** shared their internal catalog work that is getting up to speed 
 with STAC and WFS 3.
 
-#### Groupwide discussions 
+### Groupwide discussions 
 ([summary and notes](notes/group-discussion.md))
 
 The whole group spent about an hour on cross cutting topics, making a number of concrete decisions to improve the specification. 
@@ -89,11 +89,11 @@ link at the very least should be required to be absolute.
 * Naming of profiles / extension - no real conclusion was reached on how to refer to the schemas vendors and communities make, 
 though 'traits' and 'traitsets' were popular ideas.
 
-#### Breakout groups
+### Breakout groups
 
 Three breakout groups delved deeper in to various aspects of the specification.
 
-##### STAC API 
+#### STAC API 
 ([summary and notes](notes/stac-api.md))
 
 Discussion continued from the [STAC + WFS session](notes/wfs-stac.md), getting into all the details about endpoints. The
@@ -114,7 +114,7 @@ was offline usage and syncing.
 
 A group of participants who were new to STAC had a session exploring the spec and thinking about where it could all lead.
 
-#### Wrap up
+### Wrap up
 
 The day wrapped up a bit early, since the group had all been going quite hard the previous two days on WFS. But everyone
 felt great about the decisions made and the progress on STAC overall. The STAC day and collaborations with WFS were a big
