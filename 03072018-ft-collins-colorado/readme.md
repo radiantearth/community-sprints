@@ -31,17 +31,30 @@ During the WFS 3 hacakthon there were two solid sessions with smaller groups of 
 ##### STAC + WFS Alignment
 ([summary and notes](notes/wfs-stac.md))
 
-The main goal was to align the [STAC API](https://github.com/radiantearth/stac-spec/tree/dev/api-spec
+The main goal was to align the [STAC API](https://github.com/radiantearth/stac-spec/tree/dev/api-spec), which the team
+made great progress on. Having the WFS spec editors in the room at the end really helped make a great interchange, and
+both specs should be stronger as a result. STAC will be an opinionated set of WFS options, with a couple extensions. The 
+main one is to enable cross 'collection' search, as STAC users expect to search all imagery, not just a particular collection.
+So an additional search endpoint will be added as a WFS extension. STAC will also likely help push forward some particular
+WFS extensions, like simple transactions and the query language.
 
-*1:00 pm* - Earth Observation Profile ([notes](notes/stac-eo.md))
+##### Earth Observation 'profile'
+([summary and notes](notes/stac-eo.md))
 
-## STAC day (March 8)
+The other session on wednesday was talking about additional metadata fields for catalogs that are serving up satellite imagery
+and related products. The core STAC fields aimed to not preclude any data, but most of the providers have fields like 
+'cloud cover', 'off nadir angle' and 'sun elevation'. So to help interoperability this group aimed to standardize that set
+of additional fields. It turned out most fields are more at the 'collection' level, and having them all at an Item level would
+mean a lot of repetition. So the group pushed towards an 'asset definition' where more common metadata could live. This also
+lead to some improvements in the core spec, like changing the 'assets' from an array to a dict.
 
-*9:00 am* - Welcome, agenda overview Chris Holmes (and airport ride coordination) ([presentation](notes/stac-intro.pdf))
+#### Introductions
 
-*9:15 am* - Logistics for the day, Scott Simmons
-
-*9:20* - Introductions
+Chris Holmes on behalf of Radiant Earth and Scott Simmons of OGC welcomed the participants, covered logistics and laid out the 
+agenda and  goals for the day. The aim was to improve the specification in real concrete ways, informed by the implementation 
+work people had done so far. To keep things out of the abstract and ground them in what has been built or could be added 
+without too much work. The win of aligning WFS and STAC was also celebrated. From there the group went straight in to 
+presentations by everyone who had built STAC implementations in the past four months.
 
 ### ~9:30 State of STAC implementation Presentations ([notes](notes/presentations.md))
 Keep to five minutes or less of pure presentation, will cap discussion to additional 5 minutes (but can schedule 
