@@ -23,7 +23,7 @@ The spec will be updated for thumbnails in assets, and not made required.
 
 ### Assets to Dict, Asset Definition.
 
-One thing discussed in the [earth observation session](stac-eo-notes.md) was that assets are tough to use an array. Much
+One thing discussed in the [earth observation session](stac-eo.md) was that assets are tough to use an array. Much
 more useful is to make them a 'dict' with the name as the key. This was then also used as a key in the asset definition. This
 will be have more detail in the EO notes, but in general the group thought this was a good idea.
 
