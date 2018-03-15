@@ -24,7 +24,11 @@ present for Planet - something inspired from mongo / elastic.
 #### Transactions
 
 Transactions will be done against the /collections/ endpoint, in line with WFS. This should be published as an 'extension' 
-(not required to implement), to both STAC and WFS. Once it's a full WFS extension STAC can just say 'see this for transactions'
+(not required to implement), to both STAC and WFS. Once it's a full WFS extension STAC can just say 'see this for transactions'.
+
+The other thing discussed was a bulk endpoint. The daily update use case is well covered by simple POST and PUT endpoints, but when trying to populate a catalog with millions of records it can be a bit slow. It was agreed that an extension that enabled
+bulk import of data, likely with a more efficient format, would be good to have. There were also ideas of using static STAC's
+as a bulk import format.
 
 #### API Document & spec
 
