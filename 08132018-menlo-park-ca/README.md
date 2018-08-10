@@ -17,6 +17,12 @@ See https://github.com/radiantearth/community-sprints/raw/master/08132018-menlo-
 
 ### Small Groups
 
+The majority of the time in the STAC sprint will be heads down working on advancing the specification or coding on 
+implementations and supporting libraries. The 'spec advances' groups will be limited to those who have actually implemented 
+the specification, so we can have conversations that are very grounded in the reality of implementing, instead of theoretical 
+ideas of how the spec *could* advance. Such conversations will definitely happen in the evenings, but we want to keep our 
+sprint focused on concrete steps forward.
+
 #### Static STAC Spec Advances 
 
 Implementors of Static STAC's will gather to compare their implementation notes, and discover where they differed. 
