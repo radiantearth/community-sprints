@@ -44,7 +44,7 @@ is of particular interest. The group should also touch on what formats people us
 asset definitions could be standardized. A stretch goal would be to explore how STAC Browser could be compatible with STAC 
 API's – what to change in the spec or in the browser implementation to align.
 
-**People**: Frederico Liporace, Chris Brown, Damien Ayers, David Lindenbaum, Seth Fitzsimmons
+**People**: Frederico Liporace, Chris Brown, Damien Ayers, David Lindenbaum, Jeff Naus
 
 #### Client & Testing Tools
 
@@ -55,7 +55,7 @@ compatibility, QGIS support, OpenLayers/Leaflet, etc. WFS3 is working in OGR, so
 implementations would be great. And recommending to the implementations what they need to be compliant, or extending OGR, 
 would be awesome. 
 
-**People**: 
+**People**: Guillaume Morin, Alex Mandel, Seth Fitzsimmons
 
 #### Collection Level Searching
 
@@ -64,14 +64,21 @@ collection. STAC is focused on search within a collection, but it includes some 
 ideal is an independent spec that STAC uses, and GEE and OpenEO can also use, to describe collections in a lightweight way. 
 Ideally this aligns with other efforts like DCAT, CAT 4.0 and WFS 3.0
 
-**People**: Simon Ilyushchenko, Matthias Mohr
+**People**: Simon Ilyushchenko, Matthias Mohr, Justin Poehnelt
 
 #### Spec Editing / Website / Outreach
 
 Another way people can help advance the spec is reading it over and fixing any inconsistencies and errors. And ideally helping explain better how it works within the spec, with more examples / samples, etc. People are also welcome to sprint on making a website to explain STAC, or on other 'outreach' tasks like tutorials or blog posts to help raise STAC's awareness.
+
+**People**: Chris Holmes
 
 #### Sprint on your own implementation 
 
 Some participants have not managed to find the time to build their own implementation, but are excited for some dedicated time during the sprint to work. They are encouraged to, and to ask for help from those around who have already implemented.
 
 **People**: Simeon Fitch, Kirk Larsen
+
+#### Unassigned
+
+*Currently Unassigned people*: Karla King, Rinkal Patel, David Gavin, Wes Richardet, Tom Jones, Tanushree Biswas, Jeremy Schoos
+
