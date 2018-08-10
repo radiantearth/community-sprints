@@ -70,7 +70,7 @@ Ideally this aligns with other efforts like DCAT, CAT 4.0 and WFS 3.0
 
 Another way people can help advance the spec is reading it over and fixing any inconsistencies and errors. And ideally helping explain better how it works within the spec, with more examples / samples, etc. People are also welcome to sprint on making a website to explain STAC, or on other 'outreach' tasks like tutorials or blog posts to help raise STAC's awareness.
 
-**People**: Chris Holmes
+**People**: Chris Holmes, Karla King
 
 #### Sprint on your own implementation 
 
@@ -80,5 +80,5 @@ Some participants have not managed to find the time to build their own implement
 
 #### Unassigned
 
-*Currently Unassigned people*: Karla King, Rinkal Patel, David Gavin, Wes Richardet, Tom Jones, Tanushree Biswas, Jeremy Schoos
+*Currently Unassigned people*: Rinkal Patel, David Gavin, Wes Richardet, Tom Jones, Tanushree Biswas, Jeremy Schoos
 
