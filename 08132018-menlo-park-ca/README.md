@@ -66,6 +66,10 @@ Ideally this aligns with other efforts like DCAT, CAT 4.0 and WFS 3.0
 
 **People**: Simon Ilyushchenko, Matthias Mohr
 
+#### Spec Editing / Website / Outreach
+
+Another way people can help advance the spec is reading it over and fixing any inconsistencies and errors. And ideally helping explain better how it works within the spec, with more examples / samples, etc. People are also welcome to sprint on making a website to explain STAC, or on other 'outreach' tasks like tutorials or blog posts to help raise STAC's awareness.
+
 #### Sprint on your own implementation 
 
 Some participants have not managed to find the time to build their own implementation, but are excited for some dedicated time during the sprint to work. They are encouraged to, and to ask for help from those around who have already implemented.
