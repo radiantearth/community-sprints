@@ -74,4 +74,4 @@ Another way people can help advance the spec is reading it over and fixing any i
 
 Some participants have not managed to find the time to build their own implementation, but are excited for some dedicated time during the sprint to work. They are encouraged to, and to ask for help from those around who have already implemented.
 
-**People**: Simeon Fitch
+**People**: Simeon Fitch, Kirk Larsen
