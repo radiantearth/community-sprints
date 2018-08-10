@@ -9,6 +9,12 @@ Goals:
     * And use these implementations to flesh out core changes and extensions needed
 * Build and advance client libraries and test engines to exercise implementations
 
+### Agenda
+
+
+See https://github.com/radiantearth/community-sprints/raw/master/08132018-menlo-park-ca/Satellite%20Data%20Interoperability%20Workshop%20%20-%20Technical%20Program.pdf (will port over to be here, and a pull request to include it is *much* appreciated)
+
+
 ### Small Groups
 
 #### Static STAC Spec Advances 
