@@ -64,7 +64,7 @@ collection. STAC is focused on search within a collection, but it includes some 
 ideal is an independent spec that STAC uses, and GEE and OpenEO can also use, to describe collections in a lightweight way. 
 Ideally this aligns with other efforts like DCAT, CAT 4.0 and WFS 3.0
 
-**People**: Simon Ilyushchenko, Matthias Mohr, Justin Poehnelt
+**People**: Simon Ilyushchenko, Matthias Mohr, Justin Poehnelt, Rinkal Patel
 
 #### Spec Editing / Website / Outreach
 
@@ -80,5 +80,5 @@ Some participants have not managed to find the time to build their own implement
 
 #### Unassigned
 
-*Currently Unassigned people*: Rinkal Patel, David Gavin, Wes Richardet, Tom Jones, Tanushree Biswas, Jeremy Schoos
+*Currently Unassigned people*: David Gavin, Wes Richardet, Tom Jones, Tanushree Biswas, Jeremy Schoos
 
