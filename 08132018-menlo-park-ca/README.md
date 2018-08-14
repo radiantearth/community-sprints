@@ -11,8 +11,22 @@ Goals:
 
 ### Agenda
 
+|**Time**|**Title**|Description|
+|--------|------------|-------------------------------|
+|9:00-9:30| Overview of Github Issues| Quick overview of the [stac-sprint-3-discuss](https://github.com/radiantearth/stac-spec/issues?q=is%3Aissue+is%3Aopen+label%3Astac-sprint-3-discuss) issues|
+|9:30-11:45| Informal Presentations on Implementations | 5 minutes of content, up to 5 minutes of interspersed discussion. Share your implementation, what decisions you made about the spec, what you want to change, what you added.|
+| | *STAC API’s* | *Harris, sat-api by DevSeed, NASA CMR Proxy by Element 84, Hexagon, Astraea* |
+| | *Static STAC* | *CBERS (bridge with API), Spacenet, Google Earth Engine, DigitalGlobe, Planet, Azavea* |
+| | *Clients* | *STAC Browser* | 
+|10:20-10:40| **Break** | Coffee break, network with ARD folks|
+|11:45-2:30| Small Group Sessions | Groups are formed to enable smaller discussions. Those with experience implementing the spec will be grouped to resolve specification issues, with github tickets assigned. Those who are newer to the spec can sprint on their own implementation or join an existing tool effort. See below for details on groups | 
+|12:00-1:00| **Lunch** | Ideally small groups continue through lunch, or can break and network with other STAC and ARD people |
+|2:30-2:50| Full Group Check-in | Check on status, report on progress, resolve any burning questions with the full group, figure out if we need to shift small groups |
+|2:50-5:20| Small Group Sessions (continued)|Keep working in small groups, updating stac-spec repo|
+|3:30-5:00| **Open STAC Session OPEN TO ALL!** | **OPEN TO ALL ARD ATTENDEES** Deep Dive on STAC overview, Q&A on how to use STAC, and show and tell of leading STAC implementations. A small group of STAC sprinters will present in an alternate room that anyone from the ARD tracks is welcome to attend and learn more. *Presented by Chris Holmes, Michael Smith, Frederico Liporace, Seth Fitzsimmons and others* |
+|5:20-6:00| Review of Pull Requests with full group | Check in on progress on the [stac-sprint-3-discuss](https://github.com/radiantearth/stac-spec/issues?q=is%3Aissue+is%3Aopen+label%3Astac-sprint-3-discuss), with quick feedback, so we can get everyone thinking about them for discussion with everyone on tuesday|
 
-See https://github.com/radiantearth/community-sprints/raw/master/08132018-menlo-park-ca/Satellite%20Data%20Interoperability%20Workshop%20%20-%20Technical%20Program.pdf (will port over to be here, and a pull request to include it is *much* appreciated)
+See https://github.com/radiantearth/community-sprints/raw/master/08132018-menlo-park-ca/Satellite%20Data%20Interoperability%20Workshop%20%20-%20Technical%20Program.pdf for day too (will port over to be here, and a pull request to include it is *much* appreciated)
 
 
 ### Small Groups
@@ -22,6 +36,8 @@ implementations and supporting libraries. The 'spec advances' groups will be lim
 the specification, so we can have conversations that are very grounded in the reality of implementing, instead of theoretical 
 ideas of how the spec *could* advance. Such conversations will definitely happen in the evenings, but we want to keep our 
 sprint focused on concrete steps forward.
+
+These groups our tentative, and we'll form them when the time comes. But the aim is to have no more than 5 people in any one group, for efficient parallel conversations.
 
 #### Static STAC Spec Advances 
 
@@ -55,7 +71,7 @@ compatibility, QGIS support, OpenLayers/Leaflet, etc. WFS3 is working in OGR, so
 implementations would be great. And recommending to the implementations what they need to be compliant, or extending OGR, 
 would be awesome. 
 
-**People**: Guillaume Morin, Alex Mandel, Seth Fitzsimmons
+**People**: Guillaume Morin, Alex Mandel, Seth Fitzsimmons, Wes Richardet
 
 #### Collection Level Searching
 
@@ -70,7 +86,7 @@ Ideally this aligns with other efforts like DCAT, CAT 4.0 and WFS 3.0
 
 Another way people can help advance the spec is reading it over and fixing any inconsistencies and errors. And ideally helping explain better how it works within the spec, with more examples / samples, etc. People are also welcome to sprint on making a website to explain STAC, or on other 'outreach' tasks like tutorials or blog posts to help raise STAC's awareness.
 
-**People**: Chris Holmes, Karla King
+**People**: Chris Holmes, Karla King, David Gavin
 
 #### Sprint on your own implementation 
 
@@ -80,5 +96,5 @@ Some participants have not managed to find the time to build their own implement
 
 #### Unassigned
 
-*Currently Unassigned people*: David Gavin, Wes Richardet, Tom Jones, Tanushree Biswas, Jeremy Schoos
+*Currently Unassigned people*: , , Tom Jones, Tanushree Biswas, Jeremy Schoos
 
