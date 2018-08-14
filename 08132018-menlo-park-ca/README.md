@@ -24,9 +24,9 @@ Goals:
 |2:30-2:50| Full Group Check-in | Check on status, report on progress, resolve any burning questions with the full group, figure out if we need to shift small groups |
 |2:50-5:20| Small Group Sessions (continued)|Keep working in small groups, updating stac-spec repo|
 |3:30-5:00| **Open STAC Session OPEN TO ALL!** | **OPEN TO ALL ARD ATTENDEES** Deep Dive on STAC overview, Q&A on how to use STAC, and show and tell of leading STAC implementations. A small group of STAC sprinters will present in an alternate room that anyone from the ARD tracks is welcome to attend and learn more. *Presented by Chris Holmes, Michael Smith, Frederico Liporace, Seth Fitzsimmons and others* |
-|5:20-6:00| Review of Pull Requests with full group | Check in on progress on the [stac-sprint-3-discuss](https://github.com/radiantearth/stac-spec/issues?q=is%3Aissue+is%3Aopen+label%3Astac-sprint-3-discuss), with quick feedback, so we can get everyone thinking about them for discussion with everyone on tuesday|
+|5:20-6:00| Review of Pull Requests with full group | Check in on progress on the [stac-sprint-3-discuss](https://github.com/radiantearth/stac-spec/issues?q=is%3Aissue+is%3Aopen+label%3Astac-sprint-3-discuss), with quick feedback, so we can get everyone thinking about them for discussion with everyone on Wednesday|
 
-See https://github.com/radiantearth/community-sprints/raw/master/08132018-menlo-park-ca/Satellite%20Data%20Interoperability%20Workshop%20%20-%20Technical%20Program.pdf for day too (will port over to be here, and a pull request to include it is *much* appreciated)
+See https://github.com/radiantearth/community-sprints/raw/master/08132018-menlo-park-ca/Satellite%20Data%20Interoperability%20Workshop%20%20-%20Technical%20Program.pdf for day two (will port over to be here, and a pull request to include it is *much* appreciated)
 
 
 ### Small Groups
@@ -41,7 +41,7 @@ These groups our tentative, and we'll form them when the time comes. But the aim
 
 #### Static STAC Spec Advances 
 
-Implementors of Static STAC's will gather to compare their implementation notes, and discover where they differed. 
+Implementers of Static STACs will gather to compare their implementation notes, and discover where they differed. 
 The core of the static spec needs a refresh, particularly in aligning with 'validation', and really fleshing out 
 what each fields means. Should discuss relative vs absolute links – if we can align on one. Also the organization of 
 sub-catalogs, if we want to make any recommendations. The group should also touch on what formats people used, and what 
