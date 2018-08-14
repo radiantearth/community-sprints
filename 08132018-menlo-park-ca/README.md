@@ -11,7 +11,9 @@ Goals:
 
 ### Agenda
 
-|**Time**|**Title**|Description|
+#### Tuesday
+
+|**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
 |9:00-9:30| Overview of Github Issues| Quick overview of the [stac-sprint-3-discuss](https://github.com/radiantearth/stac-spec/issues?q=is%3Aissue+is%3Aopen+label%3Astac-sprint-3-discuss) issues|
 |9:30-11:45| Informal Presentations on Implementations | 5 minutes of content, up to 5 minutes of interspersed discussion. Share your implementation, what decisions you made about the spec, what you want to change, what you added.|
@@ -25,6 +27,16 @@ Goals:
 |2:50-5:20| Small Group Sessions (continued)|Keep working in small groups, updating stac-spec repo|
 |3:30-5:00| **Open STAC Session OPEN TO ALL!** | **OPEN TO ALL ARD ATTENDEES** Deep Dive on STAC overview, Q&A on how to use STAC, and show and tell of leading STAC implementations. A small group of STAC sprinters will present in an alternate room that anyone from the ARD tracks is welcome to attend and learn more. *Presented by Chris Holmes, Michael Smith, Frederico Liporace, Seth Fitzsimmons and others* |
 |5:20-6:00| Review of Pull Requests with full group | Check in on progress on the [stac-sprint-3-discuss](https://github.com/radiantearth/stac-spec/issues?q=is%3Aissue+is%3Aopen+label%3Astac-sprint-3-discuss), with quick feedback, so we can get everyone thinking about them for discussion with everyone on Wednesday|
+
+#### Wednesday
+
+|**Time**|**Title**|**Description**|
+|--------|------------|-------------------------------|
+|9:00 - 11:00 | Full Group Spec Discussion| Review Pull Requests and their related discussions from the previous day, resolve differences and assign leads to move each aspect forward.|
+|11:00 - 2:30| Small Group Sessions|Break in to small groups as makes sense from full group discussions, to move forward on writing up and making Pull Requests on the issues discussed.|
+|12:00 - 1:00| Lunch|Ideally small groups continue through lunch, or can break and network with other STAC and ARD people|
+|2:30 - 4:00| End With Delivery|Core group shifts to direct specification work – reviewing and merging pull requests, updating the spec copy, preparing for release, etc. Small group sessions on implementations continue, to be able to demo.|
+|4:00 - 5:00|Demo Session & Wrap up| Everyone shows what they worked on during the sprint. Close with commitments on what people will continue to work on after.|
 
 See https://github.com/radiantearth/community-sprints/raw/master/08132018-menlo-park-ca/Satellite%20Data%20Interoperability%20Workshop%20%20-%20Technical%20Program.pdf for day two (will port over to be here, and a pull request to include it is *much* appreciated)
 
