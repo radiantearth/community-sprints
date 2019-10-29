@@ -41,14 +41,19 @@ of them, but don't require immediate understanding by all users looking at the f
 * Access to and query of solid geometries and other geometries in a 3D CRS
 * Accessing different versions (including historic representations) of features
 
+## Filter options
+
+* [OGC CQL](cql-filter-info.md) - Currently buried in Catalog specification, could be extracted and updated. 
+STAC - https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/query (and didn't we have at least some ideas for a GET one? And staccato perhaps implemented).
+GraphQL - See https://docs.opengeospatial.org/per/18-021.html#_graphql - and sat-api has experimented with this, hopefully Sean Harkins can do a writeup on this.
+Other inspirations / candidates: https://github.com/araddon/qlbridge/blob/master/FilterQL.md plus mongo's and elastic's query languages (which were generally the inspiration for STAC's).
+
 
 ## Example operations
 
 These are the operations that potential implementations should write up so that everyone can get a sense of how they are used.
 
 Let's assume a building example like in the core Features API spec, but with a few additional fields:
-
-(todo, put in a table)
 
 | Property  | Type | Example|
 |-----------|------|---------|
@@ -78,8 +83,10 @@ Return all buildings with:
 13. Built after June 5, 2012
 14. Updated between 7:30am June 10, 2017 and 10:30am June 11, 2017
 15. Location in the box between -118,33.8 and -117.9,34 in lat/long (geometry 1)
+16. Geometry that intersects with geometry 2 (below)
+17. More than 5 floors and is within geometry 1 (below)
 
-
+TODO: Add more complex filters that may stretch things or at least illustrate how different filters work.
 
 **Geometry 1**
 ```
@@ -112,6 +119,55 @@ Return all buildings with:
             [
               -118,
               33.8
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
+
+**Geometry 2**
+
+```
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.023,
+              34.068
+            ],
+            [
+              -118.039,
+              34.079
+            ],
+            [
+              -118.041,
+              34.075
+            ],
+            [
+              -118.033,
+              34.072
+            ],
+            [
+              -118.042,
+              34.072
+            ],
+            [
+              -118.043,
+              34.069
+            ],
+            [
+              -118.0235,
+              34.068
             ]
           ]
         ]
