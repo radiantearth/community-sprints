@@ -50,11 +50,13 @@ Let's assume a building example like in the core Features API spec, but with a f
 
 (todo, put in a table)
 
-| Property  | Type | Example
+| Property  | Type | Example|
+|-----------|------|---------|
 | function | string | "public use" |
 | material | string | "brick" |
 | owner_name | string | "Mike Jones" |
 | floors   | int | 10 |
+| swimming_pool | boolean | true |
 | taxes    | float | 3404.23 |
 | built  | datetime |  2013-12-03T10:15:37 |
 | updated | datetime | 2018-10-13T11:23:21 |
@@ -66,5 +68,56 @@ Return all buildings with:
 3. Owner name contains 'Jones'
 4. Owner name starts with 'Mike'
 5. Owner name does not contain 'Mike'
+6. A swimming pool
+7. More than 5 floors and a swimming pool
+8. A swimming pool and (more than five floors or material is brick)
+9. (More than five floors and material is brick) or swimming pool is true
+10. Not under 5 floors or a swimming pool
+11. Owner name starts with 'mike' or 'Mike' and is less than 4 floors
+12. Built before 2015
+13. Built after June 5, 2012
+14. Updated between 7:30am June 10, 2017 and 10:30am June 11, 2017
+15. Location in the box between -118,33.8 and -117.9,34 in lat/long (geometry 1)
 
+
+
+**Geometry 1**
+```
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118,
+              33.8
+            ],
+            [
+              -117.9,
+              33.8
+            ],
+            [
+              -117.9,
+              34
+            ],
+            [
+              -118,
+              34
+            ],
+            [
+              -118,
+              33.8
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
 
