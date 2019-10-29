@@ -45,8 +45,21 @@ of them, but don't require immediate understanding by all users looking at the f
 
 * [OGC CQL](cql-filter-info.md) - Currently buried in Catalog specification, could be extracted and updated. 
 STAC - https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/query (and didn't we have at least some ideas for a GET one? And staccato perhaps implemented).
-GraphQL - See https://docs.opengeospatial.org/per/18-021.html#_graphql - and sat-api has experimented with this, hopefully Sean Harkins can do a writeup on this.
-Other inspirations / candidates: https://github.com/araddon/qlbridge/blob/master/FilterQL.md plus mongo's and elastic's query languages (which were generally the inspiration for STAC's).
+* GraphQL - See https://docs.opengeospatial.org/per/18-021.html#_graphql - and sat-api has experimented with this, hopefully Sean Harkins can do a writeup on this.
+* Other inspirations / candidates: https://github.com/araddon/qlbridge/blob/master/FilterQL.md plus mongo's and elastic's query languages (which were generally the inspiration for STAC's).
+
+## Overall Considerations
+
+Each option will have its own considerations, but there are some that are relevant to most any.
+
+**GET vs POST and large geometries** - How do we handle geometries that are too big to fit in a GET request? That pushed
+STAC to default to POST, and then use the same JSON query directly in the GET, and we've seen similar things in the past.
+Or do we not try to align the two closely, and have a GET that is useful for most things, but specify a more JSON-y post as
+an option?
+
+**Multiple filter languages vs default** - How do we let users specify which filter (or query) language they want? And how do
+we make a clear default for new users to start with? Do we require one for interoperability? Or just rely on the minimal
+bits in WFS core?
 
 
 ## Example operations
