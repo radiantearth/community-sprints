@@ -40,13 +40,19 @@ of them, but don't require immediate understanding by all users looking at the f
 * Querying features based on properties of related or nested objects or structured data types (one level & several levels)
 * Access to and query of solid geometries and other geometries in a 3D CRS
 * Accessing different versions (including historic representations) of features
+* Can be represented in BNF notation.
 
 ## Filter options
 
 * [OGC CQL](cql-filter-info.md) - Currently buried in Catalog specification, could be extracted and updated. 
-STAC - https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/query (and didn't we have at least some ideas for a GET one? And staccato perhaps implemented).
-* GraphQL - See https://docs.opengeospatial.org/per/18-021.html#_graphql - and sat-api has experimented with this, hopefully Sean Harkins can do a writeup on this.
-* Other inspirations / candidates: https://github.com/araddon/qlbridge/blob/master/FilterQL.md plus mongo's and elastic's query languages (which were generally the inspiration for STAC's).
+* STAC - https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/query TODO: Make page here to talk about
+STAC filters and how we got to the current solution and how we potentially see it evolve.
+* GraphQL - See the [GraphQL section of the testbed-14 engineering report](https://docs.opengeospatial.org/per/18-021.html#_graphql) 
+- and sat-api has experimented with this, hopefully Sean Harkins can do a writeup on this. TODO: Make a page to talk about it.
+Can likely port a decent bit of Clemens's observations.
+* Other inspirations / candidates: https://github.com/araddon/qlbridge/blob/master/FilterQL.md plus mongo's and elastic's 
+query languages (which were generally the inspiration for STAC's). TODO: Perhaps just make a single page for people to put 
+up what they want to work on.
 
 ## Overall Considerations
 
