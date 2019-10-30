@@ -26,6 +26,8 @@ https://services.interactive-instruments.de/t15/daraa
 https://www.ldproxy.nrw.de/kataster
 https://demo.pygeoapi.io/master
 https://stac.boundlessgeo.io/
+https://tamn.snapplanet.io
+
 
 ### Clients
 
