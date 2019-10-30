@@ -20,13 +20,13 @@ welcome.
 
 Clients can hit these endpoints to ensure their client works.
 
-https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/wfs3/v1
-http://www.pvretano.com/cubewerx/cubeserv/default/wfs/3.0.0/framework  
-https://services.interactive-instruments.de/t15/daraa
-https://www.ldproxy.nrw.de/kataster
-https://demo.pygeoapi.io/master
-https://stac.boundlessgeo.io/
-https://tamn.snapplanet.io
+* https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/wfs3/v1
+* http://www.pvretano.com/cubewerx/cubeserv/default/wfs/3.0.0/framework  
+* https://services.interactive-instruments.de/t15/daraa
+* https://www.ldproxy.nrw.de/kataster
+* https://demo.pygeoapi.io/master
+* https://stac.boundlessgeo.io/
+* https://tamn.snapplanet.io
 
 
 ### Clients
