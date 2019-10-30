@@ -132,6 +132,10 @@ STAC Summaries
 OGC API - Catalog(ue) aka CAT4 aka OACat. SWG is formed, should align with all these efforts well. Someone from the
 community please help fleshing out a page with top topics to discuss, and relevant links of work done.
 
+## Testing and Validation
 
+* STAC Validator / STAC Lint
+* OGC CITE
+* Rumbles about a python-based test suite as a community-lead alternative to CITE
 
 
