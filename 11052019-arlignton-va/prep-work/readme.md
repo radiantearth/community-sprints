@@ -87,6 +87,11 @@ to discuss.
 
 STAC Community - please help with a page about sprint topics we want to discuss.
 
+## STAC Label Extension
+
+* Lots of good energy on this at the last STAC sprint - what do we do next?
+* Would be awesome to at least have a demo of a STAC Item with Label extension that is powered by WFS requests instead of static.
+
 ## Transactions
 
 https://github.com/opengeospatial/ogcapi-features/issues/140
@@ -127,10 +132,6 @@ STAC Summaries
 OGC API - Catalog(ue) aka CAT4 aka OACat. SWG is formed, should align with all these efforts well. Someone from the
 community please help fleshing out a page with top topics to discuss, and relevant links of work done.
 
-## Label Extension
-
-* Lots of good energy on this at the last STAC sprint - what do we do next?
-* Would be awesome to at least have a demo of a STAC Item with Label extension that is powered by WFS requests instead of static.
 
 
 
