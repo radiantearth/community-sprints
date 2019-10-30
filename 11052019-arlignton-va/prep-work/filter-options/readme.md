@@ -78,6 +78,7 @@ Let's assume a building example like in the core Features API spec, but with a f
 | taxes    | float | 3404.23 |
 | built  | datetime |  2013-12-03T10:15:37 |
 | updated | datetime | 2018-10-13T11:23:21 |
+|footprint|geometry| <polygon WKT>|
 
 Return all buildings with:
 
