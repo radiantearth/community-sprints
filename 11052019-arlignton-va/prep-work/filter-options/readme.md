@@ -28,7 +28,7 @@ first one implementors should consider. STAC will likely fully adopt it as requi
 * Draws at least inspiration from existing filtering options that many people know / understand
 
 
-**stretch goals**
+**Stretch Goals**
 
 Some of these goals should explicitly be in 'extensions' to the core filter specification, so that we have clear specification
 of them, but don't require immediate understanding by all users looking at the filter language for the first time.
@@ -47,8 +47,8 @@ of them, but don't require immediate understanding by all users looking at the f
 * [OGC CQL](cql-filter-info.md) - Currently buried in Catalog specification, could be extracted and updated. 
 * STAC - https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/query TODO: Make page here to talk about
 STAC filters and how we got to the current solution and how we potentially see it evolve.
-* GraphQL - See the [GraphQL section of the testbed-14 engineering report](https://docs.opengeospatial.org/per/18-021.html#_graphql) 
-- and sat-api has experimented with this, hopefully Sean Harkins can do a writeup on this. TODO: Make a page to talk about it.
+* GraphQL - See the [GraphQL section of the testbed-14 engineering report](https://docs.opengeospatial.org/per/18-021.html#_graphql)
+and sat-api has experimented with this, hopefully Sean Harkins can do a writeup on this. TODO: Make a page to talk about it.
 Can likely port a decent bit of Clemens's observations.
 * Other inspirations / candidates: https://github.com/araddon/qlbridge/blob/master/FilterQL.md plus mongo's and elastic's 
 query languages (which were generally the inspiration for STAC's). TODO: Perhaps just make a single page for people to put 
