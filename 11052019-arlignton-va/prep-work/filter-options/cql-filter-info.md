@@ -26,6 +26,21 @@ requiring attributes to be on the left side.
 * [OGC Testbed 14 report on CQL as a query option](https://docs.opengeospatial.org/per/18-021.html#cql) - this was a report
 on more complex query requirements for features API, and includes a nice overview of CQL, as well as sample queries for the
 more complex requirements being considered.
+* [OGC
+CommonQL](https://github.com/opengeospatial/ogcapi-features/tree/master/extensions/cql)
+This is a BNF for CQL that is intended to supersede the BNF from the
+[CSW 3.0
+specification](http://docs.opengeospatial.org/is/12-168r6/12-168r6.html).
+It is meant to be somewhat backward compatible with the CSW CQL but it
+also extends that CQL to support the full set of spatial and temporal
+operators that are supported in OGC filter.  It also support stuff like
+logically connected predicates, regular expression searching (i.e. LIKE)
+and functions/methods, etc. Since we don't yet have a document
+describing this updated CQL, I (pvretano@cubewerx.com) have added
+comments to the cql.bnf file to help understand what is going on.  This
+work may start life as an extension to OGC API - Features but ultimately
+it may end up in OGC Common because it is likely that a number of OGC
+specifications will need this functionality.
 
 
 ### Considerations 
