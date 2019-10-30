@@ -29,7 +29,7 @@ POST https://stac.boundlessgeo.io/stac/search
 
 ```
 {
-	"query": "eo:cloud_cover>0.1 AND eo:cloud_cover<0.2 AND landsat:wrs_row=28 AND landsat:wrs_path=203"
+    "query": "eo:cloud_cover>0.1 AND eo:cloud_cover<0.2 AND landsat:wrs_row=28 AND landsat:wrs_path=203"
 }
 ```
 
@@ -51,11 +51,11 @@ GET https://stac.boundlessgeo.io/stac/search?fields=id,bbox,type
 POST https://stac.boundlessgeo.io/stac/search
 ```
 {
-	"fields": {
-		"exclude": [
-			"properties.datetime"
-			]
-	}
+    "fields": {
+        "exclude": [
+            "properties.datetime"
+	]
+    }
 }
 ```
 
@@ -63,25 +63,25 @@ POST https://stac.boundlessgeo.io/stac/search
 * POST https://stac.boundlessgeo.io/stac/search
 ```
 {
-	"fields": {
-		"include": [
-			"id",
+    "fields": {
+	"include": [
+	    "id",
             "geometry"
-			]
-	}
+	]
+    }
 }
 ```
 
 ## Other Interesting Bits
 
-At the FeatureCollection level, OAF defines the fields `numberMatched` and `numberReturned` (camelCase, oh my!).  Stac defines it's own fields in the `search:metadata` object, [as defined here](https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/search).  Staccato currently implements both until a final decision is made.
+* At the FeatureCollection level, OAF defines the fields `numberMatched` and `numberReturned` (camelCase, oh my!).  Stac defines it's own fields in the `search:metadata` object, [as defined here](https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/search).  Staccato currently implements both until a final decision is made.
 
-Staccato implements a root-level landing page (https://stac.boundlessgeo.io) that provides OAF endpoints, as well as the "STAC" landing page at https://stac.boundlessgio.io/stac that provides sub-catalog and search links, as well as OAF collections link.
+* Staccato implements a root-level landing page (https://stac.boundlessgeo.io) that provides OAF endpoints, as well as the "STAC" landing page at https://stac.boundlessgio.io/stac that provides sub-catalog and search links, as well as OAF collections link.
 
-Staccato does not currently support query parameter limits:  http://docs.opengeospatial.org/DRAFTS/17-069r3.html#_parameter_limit
+* Staccato does not currently support query parameter limits:  http://docs.opengeospatial.org/DRAFTS/17-069r3.html#_parameter_limit
 
-Staccato does not currently support open ranges (eg the `..` syntax) for datetime queries:  http://docs.opengeospatial.org/DRAFTS/17-069r3.html#_parameter_datetime
+* Staccato does not currently support open ranges (eg the `..` syntax) for datetime queries:  http://docs.opengeospatial.org/DRAFTS/17-069r3.html#_parameter_datetime
 
-From Even Rouault: For a OGR or QGIS client point of view, accessing a formal schema describing the properties of a collection would be ideal. OGR or QGIS use a fixed schema for features of a layer. So for now, the OGR driver fetches the first page of features of the collection and analyses the geojson features to guess the schema. But this might be error prone if by bad luck, those features lack properties that are going to be in later features, or if the type has been badly guessed (the first values only contain integer values, but later features contain floating-point numbers) or could not be guessed (only null values for example). The OAPI-F spec suggests that a collection description could include a link "rel":"describedBy" to a JSON Schema.
+* From Even Rouault: For a OGR or QGIS client point of view, accessing a formal schema describing the properties of a collection would be ideal. OGR or QGIS use a fixed schema for features of a layer. So for now, the OGR driver fetches the first page of features of the collection and analyses the geojson features to guess the schema. But this might be error prone if by bad luck, those features lack properties that are going to be in later features, or if the type has been badly guessed (the first values only contain integer values, but later features contain floating-point numbers) or could not be guessed (only null values for example). The OAPI-F spec suggests that a collection description could include a link "rel":"describedBy" to a JSON Schema.
 
 
