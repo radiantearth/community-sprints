@@ -94,57 +94,61 @@ swimming_pool = TRUE
 ```
 (not sure about that one)
 
-7. More than 5 floors and a swimming pool
+7. Less than 5 floors and a swimming pool
 ```
-floors > 5 AND swimming_pool = TRUE
-```
-
-8. A swimming pool and (more than five floors or material is brick)
+floors < 5 AND swimming_pool = TRUE
 ```
 
+8. A swimming pool and (exactly five floors or material is brick)
+```
+swimming_pool = TRUE AND (floors = 5 OR material LIKE 'brick')
+```
+(not 100% sure on this one, if you have to do like, or can do a string =.
+
+9. (Five floors or more and material is brick) or swimming pool is true
+```
+(floors >= 5 AND material LIKE 'brick') OR swimming_pool = TRUE
 ```
 
-9. (More than five floors and material is brick) or swimming pool is true
+10. Not under 4 floors or under 5000 in taxes
 ```
+NOT( floors < 4 OR taxes < 5000)
 
 ```
 
-10. Not under 5 floors or a swimming pool
+11. Owner name starts with 'mike' or 'Mike' and is not 3 floors
 ```
-
+(owner_name LIKE 'mike%' OR owner_name LIKE 'Mike%) AND floors <> 3
 ```
-
-11. Owner name starts with 'mike' or 'Mike' and is less than 4 floors
-```
-
-```
+Note - GeoServer can do strToLowerCase(owner_name), but it is a 'filter function', so not part of CQL spec
 
 12. Built before 2015
 ```
-
+built BEFORE 2015-01-01
 ```
+Note - I'm not actually sure if CQL 'rounds' time, or if you have to specify an exact time
 
 13. Built after June 5, 2012
 ```
-
+built AFTER 2012-06-05
 ```
 
 14. Updated between 7:30am June 10, 2017 and 10:30am June 11, 2017
 ```
-
+updated DURING 2017-06-10T07:30:00Z/2017-06-11T10:30:00Z
 ```
 
 15. Location in the box between -118,33.8 and -117.9,34 in lat/long (geometry 1)
 ```
-
+INTERSECTS(footprint, ENVELOPE(-118,33.8,-117.9,34))
 ```
 
-16. Geometry that intersects with geometry 2 (below)
+16. Geometry that intersects with geometry 2 
+```
+INTERSECTS(footprint, POLYGON((-118.023 34.068, -118.039 34.079, -118.041 34.075, -118.033 34.072, -118.042 34.072, -118.043 34.069))
 ```
 
+17. More than 5 floors and is within geometry 1 
 ```
-
-17. More than 5 floors and is within geometry 1 (below)
-```
-
+floors > 5 AND WITHIN(footprint, ENVELOPE(-118,33.8,-117.9,34))
 ```
