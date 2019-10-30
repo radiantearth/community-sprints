@@ -36,11 +36,16 @@ Servers can use these clients to make sure they're working right.
 * OpenLayers? Leaflet? Esri Koop? 
 * Are CITE tests up to date with 1.0?
 
-### Projects to contribute to
+### Classifieds
 
-* pygeoapi - https://pygeoapi.io/
+#### Projects to contribute to
+*Add your project or project idea here if you'd like people to help out during the sprint*
+
+* pygeoapi - https://pygeoapi.io/ (Tom/Angelos/Just/Francesco - what types of things would be good for people to work on?)
 * Add yours
 
+### Interested people
+*Add your name and interests here if you'd like to work*
  
 ## Query
 
@@ -137,5 +142,14 @@ community please help fleshing out a page with top topics to discuss, and releva
 * STAC Validator / STAC Lint
 * OGC CITE
 * Rumbles about a python-based test suite as a community-lead alternative to CITE
+
+## Outreach
+
+TODO: Good write-ups on outreach projects.
+* stacspec.org improvements
+* features api website? Tutorials?
+* stac tutorials
+* Blog posts / promotion opportunities - podcasts? videos? speaking opportunities?
+* Good overview decks for people to reuse
 
 
