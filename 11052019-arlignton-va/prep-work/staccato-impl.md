@@ -1,5 +1,7 @@
 # Staccato Implementation Details
 
+Staccato is available here: https://github.com/planetlabs/staccato
+
 ## Query
 Staccato has never been compliant with the proposed Query extensions.  Since before any official query extension was proposed/published, Staccato has implemented CQL query filters.  A version of this implementation was deployed at customer sites and has been very successful in allowing users to quickly construct complex queries and easily share links to these queries without the need to construct difficult-to-read GET URLs containing JSON strings in request parameters.  Staccato does not currently implement the proposed JSON query structure for POST requests, as the CQL implementation seems to be simpler and just as effective.  Once the final specification stabalizes, Staccato will be updated accordingly.
 
