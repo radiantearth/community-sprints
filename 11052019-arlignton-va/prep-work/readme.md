@@ -134,6 +134,7 @@ STAC Summaries
 
 * What's the equivalent to a static STAC? 
 * OGC Collection (in Commons repo), plus link to geopackage / geojson(+newline+cloud-optimized?) / avro (w/ wkb) - for bigquery import
+* OGC 14-055r2 OWC:Context and OWC:Resource (http://docs.opengeospatial.org/is/14-055r2/14-055r2.html) to be algned with minimal OGC API -Features requirements for (static) Feature (e.g. "id" (no URI), "self" link, Links object, xy.links instead of xy.properties.links, "rel" attribute of Link etc.)
 
 ## OACat
 
