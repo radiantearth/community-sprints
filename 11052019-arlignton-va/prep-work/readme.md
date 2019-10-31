@@ -82,6 +82,9 @@ and https://github.com/opengeospatial/ogcapi-features/issues/16 - This was known
 I believe.
 * *Cross-collection queries* - Default in STAC, as most everything people want spans collections. See https://github.com/opengeospatial/ogcapi-features/issues/154
 
+See https://github.com/radiantearth/community-sprints/blob/master/11052019-arlignton-va/prep-work/staccato-impl.md#query for
+lots of good information of how Staccato (a STAC API) is handling a number of these topics.
+
 ## Filter
 
 Filter options are fully explored in [filter_options directory](filter-options/).
