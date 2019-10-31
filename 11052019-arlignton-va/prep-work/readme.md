@@ -27,6 +27,7 @@ Clients can hit these endpoints to ensure their client works.
 * https://demo.pygeoapi.io/master
 * https://stac.boundlessgeo.io/
 * https://tamn.snapplanet.io
+* http://databio.spacebel.be/eo-features/ (In progress)
 
 
 ### Clients
@@ -72,7 +73,7 @@ camelCase. See also https://github.com/opengeospatial/ogcapi-features/issues/251
 * *Sorting* - There is desire for OAFeat to [support sorting](https://github.com/opengeospatial/ogcapi-features/issues/157). 
 STAC has an extension for this in use, see https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/sort 
 [Staccato](https://github.com/planetlabs/staccato) also experimented with a simpler GET syntax for sorting and ordering. Note
-also the original ogc filter specification has a [section on sortBy](http://docs.opengeospatial.org/is/09-026r2/09-026r2.html#88) which should also be reviewed.
+also the original ogc filter specification has a [section on sortBy](http://docs.opengeospatial.org/is/09-026r2/09-026r2.html#88) which should also be reviewed.  The SRU Extension for OpenSearch () and SRU 2.0 (http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/part3-sru2.0/searchRetrieve-v1.0-os-part3-sru2.0.html#_Toc324162458) also propose a syntax for sorting which was borrowed by OGC 13-026r9.
 * *Ordering* - Though pretty implicit in both of the above topics, we need to specify exactly how to specify an order, and be
 clear on what the default order of things is.
 * *Fields* - Another key capability is the ability for a client to request for the server to only return certain fields,
