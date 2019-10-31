@@ -44,6 +44,7 @@ Servers can use these clients to make sure they're working right.
 *Add your project or project idea here if you'd like people to help out during the sprint*
 
 * pygeoapi - https://pygeoapi.io/ (Tom/Angelos/Just/Francesco - what types of things would be good for people to work on?)
+  * Would like to flesh out and add more features to the postgres provider - Mary Bucknell
 * Add yours
 
 ### Interested people
