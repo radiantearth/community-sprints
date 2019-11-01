@@ -1,8 +1,28 @@
-## Overview
+# Overview
 
-TODO: Flesh this out.
+The big topic that is bringing this diverse group of people together is aligning the SpatioTemporal Asset Catalog
+specificiation with the OGC API - Features standard. STAC implements the Features API, but adds on quite a bit of
+extra things, and has ideas to add on even more as extensions. OAFeat has been hyper-focused on the core, keeping it
+as tight as possible. But as it has reached 1.0 that group is quite interested in the next set of functionality to come, 
+in extensions. Some of those are seen as 'core' to STAC, but there is a happy end state where all extensions for both
+are defined at the Features API level, and STAC requires some of those in its 'core', and then both share a robust
+ecosystem of additional extensions that are easily used in both STAC and non-STAC Features API implementations.
 
-## Query
+This page is broken down into 3 sections. These joint topics are at the top, and the hope is all of these end up as
+extensions to OGC API - Features, and we walk out of the sprint with clear proposals on many of these topics. The second
+section is STAC-specific topics. STAC is stablizing, and should work to approach version 1.0-beta, before too long.
+So this sprint will hopefully serve as a chance to decide on that exact path, and there will be some sessions that are
+just for the STAC community.
+
+The third section is some additional topics, that are of interest to both groups, but a little bit outside. The main one
+is OACat - OGC API - Catalogues, as we'll have 5 of the 8 SWG members participating in the sprint, and it should hopefully
+mirror STAC as a Features API core + required extensions, with a well-defined content model. Also in there is the idea of
+a feature equivalent to STAC's 'static catalog', which likely leverages the OGC Common 'collections' building block, but
+links to static resources instead of an API.
+
+## Joint Topics
+
+### Query
 
 Getting to a standardized, easy to implement and powerful query (with filter) is the main thing that has brought these two
 groups together. The OAFeat core spec is deliberately minimal, and many users need more powerful options from it. STAC is 
@@ -14,7 +34,7 @@ filters.
 
 Related PR: [https://github.com/radiantearth/stac-spec/pull/500]
 
-### Query Topics
+#### Query Topics
 
 TODO: Turn this into its own page / directory, and add examples of potential proposals to discuss ahead of meeting in person.
 
@@ -39,16 +59,28 @@ and https://github.com/opengeospatial/ogcapi-features/issues/16 - This was known
 See https://github.com/radiantearth/community-sprints/blob/master/11052019-arlignton-va/prep-work/staccato-impl.md#query for
 lots of good information of how Staccato (a STAC API) is handling a number of these topics.
 
-## Filter
+### Filter
 
 Filter options are fully explored in [filter_options directory](filter-options/).
 
-# Help Wanted
+### Transactions
 
-All of the below need quite a bit more fleshing out. Most are just headings and a couple relevant links of things
-to discuss.
+https://github.com/opengeospatial/ogcapi-features/issues/140
+https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/transaction
 
-## STAC
+### Reprojection / additional projection information
+
+* OAFeat CRS extension - is it sufficient? Does it need more?
+* STAC proposal on EPSG stuff from Phil Varner. See PR [https://github.com/radiantearth/stac-spec/pull/485]
+
+### Describing data
+
+* Both full JSON Schema as well as lighterweight 'summaries' that are just field names and potential values/ranges. 
+[DescribeFeatureType issue](https://github.com/opengeospatial/ogcapi-features/issues/56)
+STAC Summaries
+
+
+## STAC Topics
 
 STAC Community - please help with a page about sprint topics we want to discuss.
 
@@ -57,24 +89,7 @@ STAC Community - please help with a page about sprint topics we want to discuss.
 * Lots of good energy on this at the last STAC sprint - what do we do next?
 * Would be awesome to at least have a demo of a STAC Item with Label extension that is powered by WFS requests instead of static.
 
-
-## Transactions
-
-https://github.com/opengeospatial/ogcapi-features/issues/140
-https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/transaction
-
-## Reprojection / additional projection information
-
-* OAFeat CRS extension - is it sufficient? Does it need more?
-* STAC proposal on EPSG stuff from Phil Varner. See PR [https://github.com/radiantearth/stac-spec/pull/485]
-
-
-
-## Describing data
-
-* Both full JSON Schema as well as lighterweight 'summaries' that are just field names and potential values/ranges. 
-[DescribeFeatureType issue](https://github.com/opengeospatial/ogcapi-features/issues/56)
-STAC Summaries
+## Additional OGC Topics
 
 ## Static OGC Features
 
