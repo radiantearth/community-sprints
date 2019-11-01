@@ -27,7 +27,7 @@ Clients can hit these endpoints to ensure their client works.
 * https://demo.pygeoapi.io/master
 * https://stac.boundlessgeo.io/
 * https://tamn.snapplanet.io
-
+* https://eod-catalog-svc-prod.astraea.earth/api/v2/
 
 ### Clients
 
@@ -60,6 +60,8 @@ that meets its needs and gets fully standardized.
 Though obviously quite linked to the Filter, we are going to try to make parallel progress on both 'everything but filter' and
 filters.
 
+Related PR: [https://github.com/radiantearth/stac-spec/pull/500]
+
 ### Query Topics
 
 TODO: Turn this into its own page / directory, and add examples of potential proposals to discuss ahead of meeting in person.
@@ -72,15 +74,15 @@ for bringing back startIndex. The STAC group would like to pick a name that is a
 camelCase. See also https://github.com/opengeospatial/ogcapi-features/issues/251 and https://github.com/opengeospatial/ogcapi-features/issues/253
 * *Sorting* - There is desire for OAFeat to [support sorting](https://github.com/opengeospatial/ogcapi-features/issues/157). 
 STAC has an extension for this in use, see https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/sort 
-[Staccato](https://github.com/planetlabs/staccato) also experimented with a simpler GET syntax for sorting and ordering. Note
+[Staccato](https://github.com/planetlabs/staccato) also experimented with a simpler GET syntax for sorting and ordering. Relevant PR: [https://github.com/radiantearth/stac-spec/pull/513] Note
 also the original ogc filter specification has a [section on sortBy](http://docs.opengeospatial.org/is/09-026r2/09-026r2.html#88) which should also be reviewed.
 * *Ordering* - Though pretty implicit in both of the above topics, we need to specify exactly how to specify an order, and be
 clear on what the default order of things is.
 * *Fields* - Another key capability is the ability for a client to request for the server to only return certain fields,
 instead of returning the whole payload each time. See the [STAC Fields extension](https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/fields)
-and https://github.com/opengeospatial/ogcapi-features/issues/16 - This was known as 'propertyNames' in previous WFS version 
-I believe.
+and https://github.com/opengeospatial/ogcapi-features/issues/16 - This was known as 'propertyNames' in previous WFS version I believe.
 * *Cross-collection queries* - Default in STAC, as most everything people want spans collections. See https://github.com/opengeospatial/ogcapi-features/issues/154
+* *Aggregations* Queries that return aggregated statistics over the result sets rather than in Items. One example is [Astraea Earth OnDemand API](https://eod-catalog-svc-prod.astraea.earth/api/v2/), that takes the same parameters as search, but returns result identitical to an Elasticsearch aggregation, with the addition of a `search:metadata` attribute
 
 ## Filter
 
@@ -108,7 +110,7 @@ https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/transa
 ## Reprojection / additional projection information
 
 * OAFeat CRS extension - is it sufficient? Does it need more?
-* STAC proposal on EPSG stuff from Phil Varner
+* STAC proposal on EPSG stuff from Phil Varner. See PR [https://github.com/radiantearth/stac-spec/pull/485]
 
 ## STAC Implementation - create or improve a compliant Catalog
 
@@ -118,7 +120,7 @@ a STAC Browser, custom-styling a STAC Browser, indexing in a STAC API, and getti
 
 ### Potential Data to stand-up
  
- * To add
+ * Astraea MODIS MCD43A4, MxD11A1, and MxD13A1 COGs (all time, global) at s3://astraea-opendata (currently being moved from an internal bucket in AWS us-east-1 to a public requester-pays bucket in us-west-2)
 
 ### Existing Data to enhance
 
@@ -143,6 +145,7 @@ community please help fleshing out a page with top topics to discuss, and releva
 ## Testing and Validation
 
 * STAC Validator / STAC Lint
+    * [https://github.com/s22s/stac-api-validator]
 * OGC CITE
 * Rumbles about a python-based test suite as a community-lead alternative to CITE
 
@@ -154,5 +157,3 @@ TODO: Good write-ups on outreach projects.
 * stac tutorials
 * Blog posts / promotion opportunities - podcasts? videos? speaking opportunities?
 * Good overview decks for people to reuse
-
-
