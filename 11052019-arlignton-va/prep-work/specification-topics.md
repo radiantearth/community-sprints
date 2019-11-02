@@ -103,4 +103,4 @@ STAC Community - please help with a page about sprint topics we want to discuss.
 OGC API - Catalog(ue) aka CAT4 aka OACat. SWG is formed, should align with all these efforts well. Someone from the
 community please help fleshing out a page with top topics to discuss, and relevant links of work done.
 
-* As part of EOPAD activities in Testbed-15, several catalog endpoints serving EO application/services metadata were setup by participants which combined OGC API Common and OpenSearch (OGC 13-026r8).  See the https://portal.opengeospatial.org/wiki/pub/Testbed15/ConvertDocsOutputTestbed15/testbed15/T-15-D010-Catalog_ER.pdf[Engineering Report] for details.  DataBio implementation available at https://databio.spacebel.be/eo-catalog/.
+* As part of EOPAD activities in Testbed-15, several catalog endpoints serving a.o. EO application/services metadata were setup by participants which combined OGC API Common and OpenSearch (OGC 13-026r8).  See the ER at  https://portal.opengeospatial.org/wiki/pub/Testbed15/ConvertDocsOutputTestbed15/testbed15/T-15-D010-Catalog_ER.pdf for details.  DataBio endpoint available at https://databio.spacebel.be/eo-catalog/.
