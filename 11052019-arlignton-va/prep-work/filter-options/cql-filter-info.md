@@ -36,7 +36,8 @@ I believe this is the official definition, and you can see it's not too develope
 overview I could find online. GeoServer extends the core standard a bit for more flexibility, like encoding ID's and not
 requiring attributes to be on the left side.
 * [Wikipedia Contextual Query Language](https://en.wikipedia.org/wiki/Contextual_Query_Language) article, on the parent standard.
-* [Official CQL Spec](https://www.loc.gov/standards/sru/cql/)
+* [Official CQL Spec](https://www.loc.gov/standards/sru/cql/)?
+* [OASIS CQL Spec](http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/part5-cql/searchRetrieve-v1.0-os-part5-cql.html) (maybe more used? Seems to be java library support of it)
 * [OGC Testbed 14 report on CQL as a query option](https://docs.opengeospatial.org/per/18-021.html#cql) - this was a report
 on more complex query requirements for features API, and includes a nice overview of CQL, as well as sample queries for the
 more complex requirements being considered.
