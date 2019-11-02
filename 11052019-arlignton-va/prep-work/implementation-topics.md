@@ -31,6 +31,7 @@ Clients can hit these endpoints to ensure their client works.
 * https://stac.boundlessgeo.io/
 * https://tamn.snapplanet.io
 * https://eod-catalog-svc-prod.astraea.earth/api/v2/
+* https://databio.spacebel.be/eo-features/ (Work in progress)
 
 ### Clients
 
