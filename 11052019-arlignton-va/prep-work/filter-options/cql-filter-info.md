@@ -14,6 +14,20 @@ a number of servers do, including GeoServer - the open source reference implemen
 
 #### Links
 
+* [OGC
+CommonQL](https://github.com/opengeospatial/ogcapi-features/tree/master/extensions/cql) is now in the OAFeat 
+'extensions' folder. It includes a BNF for CQL that is intended to supersede the BNF from the
+[CSW 3.0 specification](http://docs.opengeospatial.org/is/12-168r6/12-168r6.html).
+It is meant to be somewhat backward compatible with the CSW CQL but it
+also extends that CQL to support the full set of spatial and temporal
+operators that are supported in OGC filter.  It also support stuff like
+logically connected predicates, regular expression searching (i.e. LIKE)
+and functions/methods, etc. Since we don't yet have a document
+describing this updated CQL, I (pvretano@cubewerx.com) have added
+comments to the cql.bnf file to help understand what is going on.  This
+work may start life as an extension to OGC API - Features but ultimately
+it may end up in OGC Common because it is likely that a number of OGC
+specifications will need this functionality.
 * [CSW 3.0 specification](http://docs.opengeospatial.org/is/12-168r6/12-168r6.html) - the Annex B that actually contains the
 formal BNF definition does not have a link, go to http://docs.opengeospatial.org/is/12-168r6/12-168r6.html#62 and then scroll down a bit.
 I believe this is the official definition, and you can see it's not too developer friendly.
@@ -26,21 +40,7 @@ requiring attributes to be on the left side.
 * [OGC Testbed 14 report on CQL as a query option](https://docs.opengeospatial.org/per/18-021.html#cql) - this was a report
 on more complex query requirements for features API, and includes a nice overview of CQL, as well as sample queries for the
 more complex requirements being considered.
-* [OGC
-CommonQL](https://github.com/opengeospatial/ogcapi-features/tree/master/extensions/cql)
-This is a BNF for CQL that is intended to supersede the BNF from the
-[CSW 3.0
-specification](http://docs.opengeospatial.org/is/12-168r6/12-168r6.html).
-It is meant to be somewhat backward compatible with the CSW CQL but it
-also extends that CQL to support the full set of spatial and temporal
-operators that are supported in OGC filter.  It also support stuff like
-logically connected predicates, regular expression searching (i.e. LIKE)
-and functions/methods, etc. Since we don't yet have a document
-describing this updated CQL, I (pvretano@cubewerx.com) have added
-comments to the cql.bnf file to help understand what is going on.  This
-work may start life as an extension to OGC API - Features but ultimately
-it may end up in OGC Common because it is likely that a number of OGC
-specifications will need this functionality.
+
 
 
 ### Considerations 
@@ -55,10 +55,14 @@ we are less sure of how well document store / nosql backends work with it. [Stac
 is a STAC API implementation that is backed by elasticsearch and implements CQL, so should be a good test. Ideally we have
 some others also test with OGC CQL as well. This could result in a more abbreviated 'core' of CQL, with some extended optional operations.
 
-**Geometry Operations** - Related to the above point, CQL specifies 11 geometry operations, including more obscure ones like 
+**Geometry + Other advanced Operations** - Related to the above point, CQL specifies 11 geometry operations, including more obscure ones like 
 CROSSES and BEYOND that many of the more recent geospatial backends (like [BigQuery](https://cloud.google.com/bigquery/docs/gis-data#using_joins_with_spatial_data)
 [MongoDB](https://docs.mongodb.com/manual/reference/operator/query-geospatial/) and [Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-geo-shape-query.html).
-See [backend spatial support overview](backend-spatial-support.md) for more.
+See [backend spatial support overview](backend-spatial-support.md) for more. There are also a lot of time options, that
+are more extensive than many backends support (though arguably they wouldn't be that hard to code up). 
+We should consider subsetting the full power in favor of a set that most all the backends we can imagine would support without 
+too much trouble. What is the set of CQL operations that make sense in a 'core', and then how do we put in extension points
+and specify additional operations?
 
 **Well Known Text spec** - Similar to CQL, the [Well Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) (WKT) 
 format that CQL uses is buried in specs - behind an ISO paywall seems to be the official, or buried in Simple Features for SQL
