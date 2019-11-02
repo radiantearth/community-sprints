@@ -56,6 +56,7 @@ and https://github.com/opengeospatial/ogcapi-features/issues/16 - This was known
 * *Cross-collection queries* - Default in STAC, as most everything people want spans collections. See https://github.com/opengeospatial/ogcapi-features/issues/154
 * *Aggregations* Queries that return aggregated statistics over the result sets rather than in Items. One example is [Astraea Earth OnDemand API](https://eod-catalog-svc-prod.astraea.earth/api/v2/), that takes the same parameters as search, but returns result identitical to an Elasticsearch aggregation, with the addition of a `search:metadata` attribute.
 * *Query by Example (QBE)* - Would GraphQL be a possible approach ?
+* *Faceted search* - The OGC Testbed-15 EOPAD ER proposes an approach compatible with GeoJSON FeatureCollection responses (derived from OASIS searchRetrieve).  See https://portal.opengeospatial.org/wiki/pub/Testbed15/ConvertDocsOutputTestbed15/testbed15/T-15-D010-Catalog_ER.pdf.
 
 See https://github.com/radiantearth/community-sprints/blob/master/11052019-arlignton-va/prep-work/staccato-impl.md#query for
 lots of good information of how Staccato (a STAC API) is handling a number of these topics.
