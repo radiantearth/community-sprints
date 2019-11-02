@@ -107,13 +107,6 @@ content side, how items can report the CRS they are in, and also represent their
 of imagery data is stored in UTM, with many diverse projections, and it's convenient to give the bounds in both lat/long
 and the native projection. See discussion on the [pull request](https://github.com/radiantearth/stac-spec/pull/485).
 
-#### Meta topic - Extension workflow
-The CRS extension has a *ton* of files, but most of them aren't actually useful - they are boilerplate for OGC specs. Can
-we have a few 'maturity' steps before it has to be turned into an official 'spec', where it is just markdown and easier
-to edit and consume? Or else we should have automated builds that create the documents, and those documents should have 'edit'
-buttons that take you straight to the relevant file. It's just too burdensome right now to quickly iterate between seeing
-a problem in the spec and suggesting and improvement. Chuck is working on this, should make it a clear goal for the sprint
-to get something in the official repos. 
 
 ### Describing data
 
@@ -138,25 +131,102 @@ have to fully describe in full validating detail their data.
 In STAC we decided that both approaches have value, and should be optional in all cases. Would be great to have solid,
 interoperable (like on path each) Features API extensions for both approaches.
 
+### Meta-topics
 
-## STAC Topics
+#### Extension workflow
 
-STAC Community - please help with a page about sprint topics we want to discuss.
+The CRS extension has a *ton* of files, but most of them aren't actually useful - they are boilerplate for OGC specs. Can
+we have a few 'maturity' steps before it has to be turned into an official 'spec', where it is just markdown and easier
+to edit and consume? Or else we should have automated builds that create the documents, and those documents should have 'edit'
+buttons that take you straight to the relevant file. It's just too burdensome right now to quickly iterate between seeing
+a problem in the spec and suggesting and improvement. Chuck is working on this, should make it a clear goal for the sprint
+to get something in the official repos. 
 
-## STAC Label Extension
+#### Basing other standards on OAFeat
+
+STAC has been struggling to find a good path to have its specification based on the OGC API - Features specification. It'd be
+good to work to make things like STAC easier, where we make use of features and a set of extensions, along with more set
+content types. It should be easy to 'build' a reference OpenAPI document from the various parts, and have it make sense.
+Should brainstorm on how to make it easier, and also what a future looks like where many components are part of OGC Commons.
+OGC API - Catalogues should likely be another opportunity to try things out, as it ideally is a Features API in the same way
+STAC is - just adds on some extensions and required content types. 
+
+#### Content extensions in OAFeat
+
+Much of what STAC has made progress on is actually the content of features, not just the API. There is a robust community
+of '[content extensions](https://github.com/radiantearth/stac-spec/tree/master/extensions)' that are just fields for people
+to reuse. It'd be good to extend that type of collaboration beyond just STAC. The OGC has a robust history of doing this,
+with all the \*ML groups (like WaterML, CityGML, etc). JSON encodings actually allow for more flexibility and upfront
+definition, but we should figure out ways that a community of interest can easily set shared schemas (and indeed just
+sets of fields that can be used and combined with others).
+
+## STAC-specific Topics
+
+### Path to 1.0
+
+Establish a clear roadmap and release path to STAC Version 1.0. The main idea floating in the community is to separate out
+the API specification from the core Item/Catalog/Collection constructs, that can be implemented statically or dynamically. 
+That core is feeling quite solid, and this would allow the API specification to take the time to fully align with OAFeat, 
+including all the relevant extensions reaching maturity. We should triage all the additional topics to decide if they
+need to be done pre-1.0, and then likely start work on separating out the API specification.
+
+### Common extensions in 'core extensions'
+
+Another much discussed issue in STAC is that different extensions are using the same or very similar fields and concepts, and
+it could help interoperability to just have them defined once, and then particular extensions can reuse them. This could be
+done as another set of 'component' extensions, like 'satellite' that has constellation and orbit direction, that can be used
+in SAR and EO extensions. We've wanted to wait until there was substantial use and real implementations, but that has 
+happened.
+
+We should also consider whether we should drop the prefixes for the ones we do feel are core, putting them in like the 
+default namespace. This does open up a can of worms about adding in more in the future. But it could be useful to have
+new users go to a single page that is part of the core spec that lists 20 or so terms that they can use immediately without
+having to dig through all the extensions, judging their maturity, etc. 
+
+### Root catalog placement in STAC API's
+
+Since STAC's integration with OAFeat has been a somewhat muddled path, it is not super clear the best practice to make
+a fully crawlable catalog that implements the core specification, while also implementing the WFS collection endpoints.
+The most common interpretation seems to be that the root catalog references collections that then just have an 'items'
+endpoint. But they miss the 'child' structure that allows a search engine to crawl all the way down. This crawlability 
+is one of the key features of the STAC specification, but most API's don't allow it. 
+
+One idea is to make an explicit 'browse' endpoint, that is designed to be fully crawled and exactly implements the STAC
+core structure. If a server is implemented by ingesting static catalogs one could also see the browse endpoint just linking
+off directly to the source data. 
+
+In general we do need to invest more in making it so STAC Catalogs get crawled and show up on public search engines like 
+google. STAC Browser has had some success in this, but we should pursue it more, and make sure large catalogs show up in 
+search engines.
+
+### Ensure top OAFeat concerns are met
+
+* cross collection search, more powerful query, standard filter language (that is easy for nosql to implement), describing
+data, transactions, aggregations.
+
+### Versioning and provenance
+
+We've made a very light attempt at a nod to provenance, with the derived_from field in core. But people are starting to 
+need more. Ideally static catalogs have a recommended method to create a static catalog that also captures the history, like
+creating new files when things are modified, and marking previous versions so people know they are the same. And then STAC
+API's should be able to import and stay in sync with a versioned static catalog, but have more sophisticated API mechanisms
+to request particular versions. 
+
+
+### STAC Label Extension
 
 * Lots of good energy on this at the last STAC sprint - what do we do next?
 * Would be awesome to at least have a demo of a STAC Item with Label extension that is powered by WFS requests instead of static.
 
 ## Additional OGC Topics
 
-## Static OGC Features
+### Static OGC Features
 
 * What's the equivalent to a static STAC? 
 * OGC Collection (in Commons repo), plus link to geopackage / geojson(+newline+cloud-optimized?) / avro (w/ wkb) - for bigquery import
 * Make OWC:Context and OWC:Resource (https://docs.opengeospatial.org/is/14-055r2/14-055r2.html#14) consistent with the minimal Feature requirements from OGC API Features (e.g. "self" link, "id" not a URI, Link model, "rel" attribute of link, $.links instead of $.properties.links) for use as static features.
 
-## OACat
+### OACat
 
 OGC API - Catalog(ue) aka CAT4 aka OACat. SWG is formed, should align with all these efforts well. Someone from the
 community please help fleshing out a page with top topics to discuss, and relevant links of work done.
