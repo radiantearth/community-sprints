@@ -47,7 +47,8 @@ camelCase. See also https://github.com/opengeospatial/ogcapi-features/issues/251
 * *Sorting* - There is desire for OAFeat to [support sorting](https://github.com/opengeospatial/ogcapi-features/issues/157). 
 STAC has an extension for this in use, see https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/sort 
 [Staccato](https://github.com/planetlabs/staccato) also experimented with a simpler GET syntax for sorting and ordering. Relevant PR: [https://github.com/radiantearth/stac-spec/pull/513] Note
-also the original ogc filter specification has a [section on sortBy](http://docs.opengeospatial.org/is/09-026r2/09-026r2.html#88) which should also be reviewed.  The SRU Extension for OpenSearch () and OASIS searchRetrieve Part 3 - SRU 2.0 (http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/part3-sru2.0/searchRetrieve-v1.0-os-part3-sru2.0.html#_Toc324162458) also propose a syntax for sorting which was borrowed by the EO Extension of OpenSearch (OGC 13-026r9).
+also the original ogc filter specification has a [section on sortBy](http://docs.opengeospatial.org/is/09-026r2/09-026r2.html#88) which should also be reviewed.  
+The SRU Extension for OpenSearch () and [OASIS search Retrieve Part 3 - SRU 2.0](http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/part3-sru2.0/searchRetrieve-v1.0-os-part3-sru2.0.html#_Toc324162458) also propose a syntax for sorting which was borrowed by the EO Extension of OpenSearch (OGC 13-026r9).
 * *Ordering* - Though pretty implicit in both of the above topics, we need to specify exactly how to specify an order, and be
 clear on what the default order of things is.
 * *Fields* - Another key capability is the ability for a client to request for the server to only return certain fields,
@@ -65,21 +66,77 @@ lots of good information of how Staccato (a STAC API) is handling a number of th
 
 Filter options are fully explored in [filter_options directory](filter-options/).
 
-### Transactions
+### Transactions (& versioning)
 
-https://github.com/opengeospatial/ogcapi-features/issues/140
-https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/transaction
+The ability to modify (insert, update, delete) items through the REST API is a key requirement for many users. Without a clear
+standard people have been exploring different approaches. There is [an 
+issue](https://github.com/opengeospatial/ogcapi-features/issues/140) in features api to track things.
 
-### Reprojection / additional projection information
+The STAC community specified a straight-forward REST interpretation of how to do transactions, see the [rendered 
+OpenAPI](https://stacspec.org/STAC-ext-api.html#tag/Transaction-Extension) and [the 
+specified extension](https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/transaction). 
 
-* OAFeat CRS extension - is it sufficient? Does it need more?
-* STAC proposal on EPSG stuff from Phil Varner. See PR [https://github.com/radiantearth/stac-spec/pull/485]
+The main thing that has not been specified, but for which there is clear need, is **bulk transactions**. The REST paradigm
+operates on individual resources, but importing a dataset with millions of features (which is quite common) can be a huge
+pain. 
+
+[sat-api](https://github.com/sat-utils/sat-api) actually does not implement the transaction extension in STAC, but did build
+endpoints for bulk import. So it is clear a prioritized use case that we should aim to specify. See their [ingestion 
+docs](https://github.com/sat-utils/sat-api-deployment#ingesting-data) for some additional information.
+
+[Staccato](http://github.com/planetlabs/staccato) and Harris both support the transaction extension. Harris has been using
+it extensively, and found the need to [add etags](https://github.com/radiantearth/stac-spec/pull/534) for optimistic locking,
+so that is also part of the spec.
+
+Etags point to the general topic of **versioning** - as Tim from Harris pointed out that a 'version' field (which has been
+discussed in STAC recently) is what should be used in the Etag. So we should decide on how we handle not only transactions
+but also versioning. Likely transactions should be specified, and versioning should be a set of experiments that we do to
+figure out what to standardize, as it is a lot less straightforward.
+
+* *Others*? Anyone else implementing transactions for Features API? pygeoapi? 
+
+
+### Projections 
+
+Another key extension for OGC API - Features and STAC is reprojection. CRS is actually the first [extension](https://github.com/opengeospatial/ogcapi-features/tree/master/extensions) 
+in the features api repository. It doesn't feel finished, as there are a number of empty sections. The key
+information can be found in the [clause 6 ascii doc](https://github.com/opengeospatial/ogcapi-features/blob/master/extensions/crs/standard/clause_6_crs.adoc). 
+
+It is mostly concerned with the mechanics of CRS in the API. The STAC community has been more focused on the
+content side, how items can report the CRS they are in, and also represent their footprints in alternative CRS's. A lot
+of imagery data is stored in UTM, with many diverse projections, and it's convenient to give the bounds in both lat/long
+and the native projection. See discussion on the [pull request](https://github.com/radiantearth/stac-spec/pull/485).
+
+#### Meta topic - Extension workflow
+The CRS extension has a *ton* of files, but most of them aren't actually useful - they are boilerplate for OGC specs. Can
+we have a few 'maturity' steps before it has to be turned into an official 'spec', where it is just markdown and easier
+to edit and consume? Or else we should have automated builds that create the documents, and those documents should have 'edit'
+buttons that take you straight to the relevant file. It's just too burdensome right now to quickly iterate between seeing
+a problem in the spec and suggesting and improvement. Chuck is working on this, should make it a clear goal for the sprint
+to get something in the official repos. 
 
 ### Describing data
 
-* Both full JSON Schema as well as lighterweight 'summaries' that are just field names and potential values/ranges. 
-[DescribeFeatureType issue](https://github.com/opengeospatial/ogcapi-features/issues/56)
-STAC Summaries
+One of the biggest challenges for many clients talking to a OGC API - Features server is the lack of a 'schema' for the data, 
+to be able to know what data it is about to receive. See [issue 56](https://github.com/opengeospatial/ogcapi-features/issues/56)
+for a good description of the issue. 
+
+It sounds like there has been considerable progress in OAFeat, using OpenAPI to also serve as the schema, and to also 
+leverage OpenAPI to [represent alternate schemas](https://github.com/opengeospatial/ogcapi-features/blob/master/proposals/001_Alternative-Schema-Proposal.md) 
+(like JSONSchema and XMLSchema). There does not yet seem to be consensus on the path - a dedicated /schema/ or just a link
+from collections. Staccato also has a [schema endpoint](https://github.com/planetlabs/staccato#schema-endpoints) that
+returns the JSON schema for a collection. Hopefully we can make clear progress on this issue, and get it added as a
+well documented extension.
+
+There has also been interest in several directions in a lighterweight approach - not describing the whole schema in a 
+complicated way (like above), but in just providing 'summaries'. These tend to be the names of the fields and the potential
+values (a range and/or type). See the 'summaries' section of the [STAC Catalog 
+spec](https://github.com/radiantearth/stac-spec/blob/master/catalog-spec/catalog-spec.md#catalog-fields). This should enable
+many clients to get enough information to populate their data structures and even fill in a GUI, without making implementors
+have to fully describe in full validating detail their data.
+
+In STAC we decided that both approaches have value, and should be optional in all cases. Would be great to have solid,
+interoperable (like on path each) Features API extensions for both approaches.
 
 
 ## STAC Topics
