@@ -40,6 +40,7 @@ Servers can use these clients to make sure they're working right.
 
 * GDAL/OGR - https://gdal.org/drivers/vector/oapif.html#vector-oapif (GDAL 3.1 is OAPIF 1.0, not yet released)
 * QGIS - https://qgis.org/en/site/forusers/alldownloads.html#qgis-nightly-release
+* Leaflet-based - https://opengeogroep.github.io/ogc-api-features-testclient/src/index.html
 * OpenLayers? Leaflet? Esri Koop? 
 * Are CITE tests up to date with 1.0?
 
