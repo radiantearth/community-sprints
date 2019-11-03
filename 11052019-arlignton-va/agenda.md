@@ -1,0 +1,78 @@
+# Overview
+
+The sprint runs for 3 days, november 5, 6 and 7th. The main iractivities will run 9-5 eastern time (todo - add a good 
+worldclock link) - check your timezone as we are in the midst of time changes. Each day we will have a kickoff in the morning
+at 9, as one big group, including remotes. But most work through the sprint will be done in smaller groups, who will work
+for a time and then come together to report out and get feedback from other groups. 1-2 sessions will be done using the
+conferencing facilities, and smaller groups can also set up video calls if they want to discuss with remotes. 
+
+Each day will also have a broad theme, though those mostly at the sprint to work on coding a particular implementation are 
+encouraged to mostly just focus on their coding (while feeling welcome to pop in on other discussions). The broad focus on 
+the first day will be the Features API Extensions, particularly the ones of joint interest to the STAC and OAFeat community. 
+On day 2 many people will continue working on turning those extensions into reality, but those who work on the STAC spec 
+will break out and tackle the STAC-specific topics on day two. The goal for day 3 will be testing and finalizing.
+Implementations should try out other clients / servers to get to real-world interoperability. Ideally most of the new OAFeat
+extensions will be exercised in implementations as well. And spec work should move into the writing stage - creating PR's,
+and getting them reviewed and merged.
+
+## Day 1 - Joint STAC API / OAFeat Extensions
+
+The goal for day one is to reach consensus on the various desired OAFeat extensions, and hopefully to get work started on all
+of the key ones. The end goal is to get super clear proposals that are in a state to become 'official', with at least 3
+server implementations and one client implementation, to ensure that they are truly tested. So the goal of day 1 is to 
+discuss enough with everyone on that day to get everyone aligned enough to spend the rest of the sprint turning the ideas 
+into reality - clear pull requests of the proposals, and progress on implementations. 
+
+|**Time**|**Title**|**Description**|
+|--------|------------|-------------------------------|
+|8:30 - 9  | Arrival    | In person arrivals / breakfast at 2107 Wilson Blvd, Arlington, VA. Go to the 7th floor and enter through the glass doors with the IQT logo. Remember to bring passport or a REAL ID drivers license every day|
+|9 - 9:20  | Welcome    | Overview of event, logistics,  etc |
+|9:20 - 10:45 | Introductions | Brief introductions from everyone, so we all know who else is there and where they're coming from|
+|10:45 | Break| |
+|11:00 - 12:30 | Group work kickoffs | Break up into small groups to advance topics |
+|11:30 - 12:30 | Beginner Session #1 | Beginner session on STAC - overview of spec, main implementations, Q&A  |
+|12:30 | Lunch | Break for lunch, continue chatting on topics |
+|1:00 - 2:30  | Group work continues | Continue on work in small groups |
+|2:30 - 2:50  | Full group check-in  | Check on status, report on progress, resolve any burning questions with the full group, figure out if we need to shift small groups|
+|3:00 - 5:15  | Continued group work | |
+|5:30 | Bus leaves for Happy Hour at Element84 | Location: Element 84 HQ, 210 North Lee Street, Suite 203, Alexandria, VA 22314 |
+|6:00 | Happy Hour starts | Informal discussion, drinks, food |
+|7:00 - 8:00 | Lightning Talks | Presentations from 8 people on various topics STAC and OAFeat topics|
+|9:00 | Bus goes back to 2107 Wilson Blvd | |
+
+
+## Day 2
+
+For Day 2 group work will continue, and everyone at the sprint primarily for implementations or OAFeat extensions will continue
+work on their topics, with OAFeat work moving from alignment into creating the actual specifications, and implementations that 
+can provide reference implementations of the spec. The STAC group focused on the core specification will break off from the
+OAFeat sessions for some dedicated STAC time, both with the full group and in smaller groups on particular topics.
+
+|**Time**|**Title**|**Description**|
+|--------|------------|-------------------------------|
+|8:30 - 9:00 | Arrival | In person arrivals / breakfast at 2107 Wilson Blvd, 7th floor -  remember to bring your ID |
+|9:00 - 9:45 | Open Lightning Talks | Up to 7 presentations by people who didn't present at Happy Hour, including remotes |
+|9:45 - 10:00 | Small group kick-off | Set stage and goals for small group work.
+|10:00 - 12:30 | Small group work | Continue in groups from previous day, and STAC will be a bigger track|
+|10:15 - 11:15 | Beginner Session #2 | Beginner session on OGC API for Features -  overview of spec,  main implementations, Q&A |
+|12:30 | Lunch ||
+|1:00 - 6:00 | Group work continues, periodic check-ins|
+|7:00 | GeoDC Meetup | Join [GeoDC Meet-up) at [Local 16](https://goo.gl/maps/zyLsizoyq8w8MjYt6) |
+
+## Day 3
+
+For Day 3 we want to focus on 'finishing' - get the key pieces over the line. The goal is to have the 5 or so most important
+OAFeat extensions in shape where they are ready to be built out in implementations, and hopefully we've at least started on
+implementations. STAC spec work should also be moving into creating PR's on the specification, and laying out the roadmap to
+1.0. We also will likely convene the group interested in OACat (OGC API - Catalogues) to meet and map out a plan to use
+the various extensions from OAFeat and create a specification.
+
+
+|**Time**|**Title**|**Description**|
+|--------|------------|-------------------------------|
+|8:30 - 9:00 | Arrival | In person arrivals / breakfast at 2107 Wilson Blvd, 7th floor -  remember to bring your ID |
+|9:00 - 9:15 | Welcome and kick-off||
+|9:15 - 11:30 | Group work continues, periodic check-ins||
+|9:30 - 10:30 | Beginner Session #3 | Open topics? Perhaps tutorials on using particular software | 
+|12:30 | Lunch ||
+|1:00 - 3:30 | Demos and wrap-up | Show off what you've done to the group! Everyone encouraged to share.|
