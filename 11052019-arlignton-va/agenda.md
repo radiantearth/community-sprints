@@ -15,6 +15,10 @@ Implementations should try out other clients / servers to get to real-world inte
 extensions will be exercised in implementations as well. And spec work should move into the writing stage - creating PR's,
 and getting them reviewed and merged.
 
+### Remote participation
+
+
+
 ## Day 1 - Joint STAC API / OAFeat Extensions
 
 The goal for day one is to reach consensus on the various desired OAFeat extensions, and hopefully to get work started on all
@@ -26,18 +30,19 @@ into reality - clear pull requests of the proposals, and progress on implementat
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
 |8:30 - 9  | Arrival    | In person arrivals / breakfast at 2107 Wilson Blvd, Arlington, VA. Go to the 7th floor and enter through the glass doors with the IQT logo. Remember to bring passport or a REAL ID drivers license every day|
-|9 - 9:20  | Welcome    | Overview of event, logistics,  etc |
-|9:20 - 10:45 | Introductions | Brief introductions from everyone, so we all know who else is there and where they're coming from|
+|9 - 9:20  | **Welcome**  | Overview of event, logistics,  etc |
+|9:20 - 10:45 | **Introductions**  | Brief introductions from everyone, so we all know who else is there and where they're coming from|
 |10:45 | Break| |
 |11:00 - 12:30 | Group work kickoffs | Break up into small groups to advance topics |
-|11:30 - 12:30 | Beginner Session #1 | Beginner session on STAC - overview of spec, main implementations, Q&A  |
+|11:30 - 12:30 | **Beginner Session #1** | Beginner session on STAC - overview of spec, main implementations, Q&A  |
 |12:30 | Lunch | Break for lunch, continue chatting on topics |
 |1:00 - 2:30  | Group work continues | Continue on work in small groups |
-|2:30 - 2:50  | Full group check-in  | Check on status, report on progress, resolve any burning questions with the full group, figure out if we need to shift small groups|
+|1:00 - 1:30 | **Beginner Session #2** | Beginner session on [PySTAC](https://github.com/azavea/pystac) - how to create static catalogs |
+|2:30 - 2:50  | **Full group check-in**  | Check on status, report on progress, resolve any burning questions with the full group, figure out if we need to shift small groups|
 |3:00 - 5:15  | Continued group work | |
-|5:30 | Bus leaves for Happy Hour at Element84 | Location: Element 84 HQ, 210 North Lee Street, Suite 203, Alexandria, VA 22314 |
+|5:30 | Bus leaves for Happy Hour | Location: Element 84 HQ, 210 North Lee Street, Suite 203, Alexandria, VA 22314 |
 |6:00 | Happy Hour starts | Informal discussion, drinks, food |
-|7:00 - 8:00 | Lightning Talks | Presentations from 8 people on various topics STAC and OAFeat topics|
+|7:00 - 8:00 | Lightning Talks | Presentations from 8 people on various topics STAC and OAFeat topics. We likely won't stream these as they are late for many people, but will try to record and post asap for those who are remote.|
 |9:00 | Bus goes back to 2107 Wilson Blvd | |
 
 
@@ -51,10 +56,11 @@ OAFeat sessions for some dedicated STAC time, both with the full group and in sm
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
 |8:30 - 9:00 | Arrival | In person arrivals / breakfast at 2107 Wilson Blvd, 7th floor -  remember to bring your ID |
-|9:00 - 9:45 | Open Lightning Talks | Up to 7 presentations by people who didn't present at Happy Hour, including remotes |
-|9:45 - 10:00 | Small group kick-off | Set stage and goals for small group work.
+|9:00 - 9:45 | **Open Lightning Talks** | Up to 7 presentations by people who didn't present at Happy Hour, including remotes |
+|9:45 - 10:00 | **Small group kick-off** | Set stage and goals for small group work.
 |10:00 - 12:30 | Small group work | Continue in groups from previous day, and STAC will be a bigger track|
-|10:15 - 11:15 | Beginner Session #2 | Beginner session on OGC API for Features -  overview of spec,  main implementations, Q&A |
+|10:15 - 11:15 | **Beginner Session #3** | Beginner session on OGC API for Features -  overview of spec,  main implementations, Q&A |
+|11:15 - 12:15 | **Beginner Session #4** | Beginner session on OAFeat software - hopefully [pygeoapi](https://pygeoapi.io/)|
 |12:30 | Lunch ||
 |1:00 - 6:00 | Group work continues, periodic check-ins|
 |7:00 | GeoDC Meetup | Join [GeoDC Meet-up) at [Local 16](https://goo.gl/maps/zyLsizoyq8w8MjYt6) |
