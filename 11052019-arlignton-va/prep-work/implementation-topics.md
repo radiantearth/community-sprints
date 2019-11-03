@@ -28,6 +28,7 @@ Clients can hit these endpoints to ensure their client works.
 * https://services.interactive-instruments.de/t15/daraa
 * https://www.ldproxy.nrw.de/kataster
 * https://demo.pygeoapi.io/master
+* https://geo.weather.gc.ca/geomet-beta/features
 * https://stac.boundlessgeo.io/
 * https://tamn.snapplanet.io
 * https://eod-catalog-svc-prod.astraea.earth/api/v2/
