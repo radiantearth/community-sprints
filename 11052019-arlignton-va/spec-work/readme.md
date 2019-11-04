@@ -1,11 +1,10 @@
 
 ## Spec work
 
-This folder is where extensions and components should be proposed. Our focus is on features API, but other parts of the
-OGC API ecosystem are also fair game to work on. 
+This folder is where extensions and components should be proposed. Our focus is on features API, but other parts of the OGC API ecosystem are also fair game to work on. 
 
 ### Transition
-It is important that the work we do in this Sprint has a transition path into standards and implementations. The OGC is developing a process for identifying, maturing, test-driving, and adopting new API modules. The "proposals" subdirectory contains a description of the process (README.md), templates, and a couple examples. Teams are encouraged to use this resource to capture both normative and informative information about what you have developed.   
+It is important that the work we do in this Sprint has a transition path into standards and implementations. The OGC is developing a process for identifying, maturing, test-driving, and adopting new API modules. A description of this process is provided in PROCESS.md. Teams are encouraged to use this resource to capture both normative and informative information about what you have developed.   
 
 ### Documenting Your Solution
 Developers don’t read standards. So we don’t want to give
