@@ -38,26 +38,27 @@ Related PR: [https://github.com/radiantearth/stac-spec/pull/500]
 
 TODO: Turn this into its own page / directory, and add examples of potential proposals to discuss ahead of meeting in person.
 
-* *Paging & Search Metadata* - OAFeat 1.0 has a good bit speced on this, and aligning has always been a bit confusing with STAC,
+* **Paging & Search Metadata** - OAFeat 1.0 has a good bit speced on this, and aligning has always been a bit confusing with STAC,
 so we need to properly align the two. STAC has https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/search
 which specifies the 'search metadata', and the community generally wants a clear mechanism to specify an offset - at least as 
 an option. In OAFeat land, there is an [issue](https://github.com/opengeospatial/ogcapi-features/issues/75)
 for bringing back startIndex. The STAC group would like to pick a name that is a single word, so it doesn't have to be 
 camelCase. See also https://github.com/opengeospatial/ogcapi-features/issues/251 and https://github.com/opengeospatial/ogcapi-features/issues/253
-* *Sorting* - There is desire for OAFeat to [support sorting](https://github.com/opengeospatial/ogcapi-features/issues/157). 
+* **Sorting** - There is desire for OAFeat to [support sorting](https://github.com/opengeospatial/ogcapi-features/issues/157). 
 STAC has an extension for this in use, see https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/sort 
 [Staccato](https://github.com/planetlabs/staccato) also experimented with a simpler GET syntax for sorting and ordering. Relevant PR: [https://github.com/radiantearth/stac-spec/pull/513] Note
 also the original ogc filter specification has a [section on sortBy](http://docs.opengeospatial.org/is/09-026r2/09-026r2.html#88) which should also be reviewed.  
 The SRU Extension for OpenSearch () and [OASIS search Retrieve Part 3 - SRU 2.0](http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/part3-sru2.0/searchRetrieve-v1.0-os-part3-sru2.0.html#_Toc324162458) also propose a syntax for sorting which was borrowed by the EO Extension of OpenSearch (OGC 13-026r9).
-* *Ordering* - Though pretty implicit in both of the above topics, we need to specify exactly how to specify an order, and be
+* **Ordering** - Though pretty implicit in both of the above topics, we need to specify exactly how to specify an order, and be
 clear on what the default order of things is.
-* *Fields* - Another key capability is the ability for a client to request for the server to only return certain fields,
+* **Fields** - Another key capability is the ability for a client to request for the server to only return certain fields,
 instead of returning the whole payload each time. See the [STAC Fields extension](https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/fields)
 and https://github.com/opengeospatial/ogcapi-features/issues/16 - This was known as 'propertyNames' in previous WFS version I believe. See discussion on [Staccato's approach](staccato-impl.md#fields)
-* *Cross-collection queries* - Default in STAC, as most everything people want spans collections. See https://github.com/opengeospatial/ogcapi-features/issues/154
+* **Cross-collection queries** - Default in STAC, as most everything people want spans collections. See https://github.com/opengeospatial/ogcapi-features/issues/154
 * *Aggregations* Queries that return aggregated statistics over the result sets rather than in Items. One example is [Astraea Earth OnDemand API](https://eod-catalog-svc-prod.astraea.earth/api/v2/), that takes the same parameters as search, but returns result identitical to an Elasticsearch aggregation, with the addition of a `search:metadata` attribute.
-* *Query by Example (QBE)* - Would GraphQL be a possible approach ?
-* *Faceted search* - The OGC Testbed-15 EOPAD ER proposes an approach compatible with GeoJSON FeatureCollection responses (derived from OASIS searchRetrieve).  See https://portal.opengeospatial.org/wiki/pub/Testbed15/ConvertDocsOutputTestbed15/testbed15/T-15-D010-Catalog_ER.pdf.
+* **Query by Example (QBE)** - Would GraphQL be a possible approach ?
+* **Faceted search** - The OGC Testbed-15 EOPAD ER proposes an approach compatible with GeoJSON FeatureCollection responses (derived from OASIS searchRetrieve).  See https://portal.opengeospatial.org/wiki/pub/Testbed15/ConvertDocsOutputTestbed15/testbed15/T-15-D010-Catalog_ER.pdf.
+* **Authentication** - we've made the decision to be agnostic on authentication in the specification, but we should discuss ensuring that auth will work with our decisions, and possibly defining HATEOS-style behaviors that are predicated on authorization (e.g., different users have access to different collections or behaviors)
 
 See https://github.com/radiantearth/community-sprints/blob/master/11052019-arlignton-va/prep-work/staccato-impl.md#query for
 lots of good information of how Staccato (a STAC API) is handling a number of these topics.

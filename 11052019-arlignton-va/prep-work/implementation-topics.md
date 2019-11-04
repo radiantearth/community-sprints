@@ -1,23 +1,23 @@
 ## Overview
 
 As STAC and OGC API - Features are aiming to be much more implementation-lead than previous geospatial specifications, the
-key activity at any sprint is to actually build - not just talk about specifications. Obviously 3 days isn't enough to 
+key activity at any sprint is to actually build - not just talk about specifications. Obviously 3 days isn't enough to
 build a full solution from scratch, but it can provide the space to start and bring together collaborators. Indeed the
 [pygeoapi](https://pygeoapi.io/) project started at the first [STAC / OGC joint sprint](https://medium.com/@cholmes/wfs-3-0-and-spatiotemporal-asset-catalog-stac-in-person-collaboration-609e10d7f714).
 
-As both specs are maturing we hope to see lots of cross-implementation testing, and hopefully more clients built as we 
+As both specs are maturing we hope to see lots of cross-implementation testing, and hopefully more clients built as we
 finally have a number of stable services to rely upon. And you can also work on specific testing tools, like the STAC
 validator or the OGC CITE tests, or make new, innovative testing tools.
 
 We also are really excited about standing up more **data** - as the end goal of this work is to make more geospatial data
-available to people. So don't feel like you need to be coding, using someone else's software to make a new service or 
+available to people. So don't feel like you need to be coding, using someone else's software to make a new service or
 static catalog is a *huge* contribution to the community. More details on all these topics below.
 
 
 ## Implementing a Features API Server or Client
 
-Start a new project or evolve an existing one with the latest spec and experimental features - client and servers both 
-welcome. 
+Start a new project or evolve an existing one with the latest spec and experimental features - client and servers both
+welcome.
 
 ### Service Endpoints
 
@@ -42,7 +42,7 @@ Servers can use these clients to make sure they're working right.
 * QGIS - https://qgis.org/en/site/forusers/alldownloads.html#qgis-nightly-release
 * Leaflet-based - https://opengeogroep.github.io/ogc-api-features-testclient/src/index.html
 * rocket - https://rocket.snapplanet.io
-* OpenLayers? Leaflet? Esri Koop? 
+* OpenLayers? Leaflet? Esri Koop?
 * Are CITE tests up to date with 1.0?
 
 ### Classifieds
@@ -58,22 +58,24 @@ Servers can use these clients to make sure they're working right.
 
 ### Interested people
 *Add your name and interests here if you'd like to work*
- 
- 
+
+
 ## STAC Implementation - create or improve a compliant Catalog
 
-Get more data that is publicly available as a STAC catalog, or enhance an existing one. Enhancements include getting 
-a STAC Browser, custom-styling a STAC Browser, indexing in a STAC API, and getting it working with clients like QGIS, 
+Get more data that is publicly available as a STAC catalog, or enhance an existing one. Enhancements include getting
+a STAC Browser, custom-styling a STAC Browser, indexing in a STAC API, and getting it working with clients like QGIS,
 [sat-api-browser](https://github.com/sat-utils/sat-api-browser), sat-search, etc.
 
 ### Potential Data to stand-up
- 
+
  * Astraea MODIS MCD43A4, MxD11A1, and MxD13A1 COGs (all time, global) at s3://astraea-opendata (currently being moved from an internal bucket in AWS us-east-1 to a public requester-pays bucket in us-west-2)
+ * United States Geological Survey (USGS) has a large amount of timeseries data collected at locations through the United States and territories. It would be great to work on figuring how use STAC with hydrologic data as a starting point to making this data more discoverable.
+
 
 ### Existing Data to enhance
 
  * To add
- 
+
 ## Testing and Validation
 
 * STAC Validator / STAC Lint
