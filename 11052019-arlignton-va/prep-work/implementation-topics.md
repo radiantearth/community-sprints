@@ -38,7 +38,7 @@ Clients can hit these endpoints to ensure their client works.
 
 Servers can use these clients to make sure they're working right.
 
-* GDAL/OGR - https://gdal.org/drivers/vector/oapif.html#vector-oapif (GDAL 3.1 is OAPIF 1.0, not yet released)
+* GDAL/OGR - https://gdal.org/drivers/vector/oapif.html#vector-oapif (GDAL 3.0.2 is OAPIF 1.0. GDAL master Docker images are also usable such as osgeo/gdal:alpine-normal-latest . See https://github.com/OSGeo/gdal/tree/master/gdal/docker )
 * QGIS - https://qgis.org/en/site/forusers/alldownloads.html#qgis-nightly-release
 * Leaflet-based - https://opengeogroep.github.io/ogc-api-features-testclient/src/index.html
 * rocket - https://rocket.snapplanet.io
