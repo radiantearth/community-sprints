@@ -17,6 +17,17 @@ and getting them reviewed and merged.
 
 ### Remote participation
 
+We aspire to make the sprint as accessible as possible to remotes. At the onsite facility there are two rooms that should
+have good built-in video conferencing facilities. We will post the information here when we get it. In the agenda below
+any session in **bold** will be in the 'main' room and we be sure the video works. Small groups are encouraged to have
+remote participation, either on gitter / github, or setting up video conferencing.  The second room at the venue will also
+be available for one group to use its video capabilities - to be determined each day.
+
+The main hub of activity will likely be the [features-stac-sprint](https://gitter.im/opengeospatial/features-stac-sprint) 
+channel on gitter.
+
+Remote participants are encouraged to work during normal hours, and please introduce yourselves on the first day, and
+share what you're working on each day. 
 
 
 ## Day 1 - Joint STAC API / OAFeat Extensions
