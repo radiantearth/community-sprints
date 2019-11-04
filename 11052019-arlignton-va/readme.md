@@ -2,8 +2,9 @@
 
 The STAC / OGC API Sprint is taking place November 5-7 in Arlington, VA. 
 
-This folder will evolve to hold the full agenda, tracks and space for experimentation. To start 
-it is the following folders:
+Check the [agenda](agenda.md) for the main schedule.
+
+This folder will evolve to hold various workspaces, and currently has two main spaces:
 
 [prep-work/](prep-work/) - Lists of topics to be covered at the sprint, being fleshed out with
 info to read and think about ahead of time, and overviews of the states of various discussions. 
