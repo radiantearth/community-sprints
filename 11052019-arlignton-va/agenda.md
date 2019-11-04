@@ -1,7 +1,8 @@
 # Overview
 
-The sprint runs for 3 days, november 5, 6 and 7th. The main iractivities will run 9-5 eastern time (todo - add a good 
-worldclock link) - check your timezone as we are in the midst of time changes. Each day we will have a kickoff in the morning
+The sprint runs for 3 days, november 5, 6 and 7th. The main iractivities will run 9-5 eastern time (be sure to check the 
+[start time on worldclock](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2019&month=11&day=5&hour=14&min=0&sec=0&p1=263&p2=136&p3=16&p4=224&p5=145) as we're in the midst of time changes, so it 
+may be different than you expect). Each day we will have a kickoff in the morning
 at 9, as one big group, including remotes. But most work through the sprint will be done in smaller groups, who will work
 for a time and then come together to report out and get feedback from other groups. 1-2 sessions will be done using the
 conferencing facilities, and smaller groups can also set up video calls if they want to discuss with remotes. 
@@ -88,8 +89,7 @@ the various extensions from OAFeat and create a specification.
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
 |8:30 - 9:00 | Arrival | In person arrivals / breakfast at 2107 Wilson Blvd, 7th floor -  remember to bring your ID |
-|9:00 - 9:15 | Welcome and kick-off||
-|9:15 - 11:30 | Group work continues, periodic check-ins||
-|9:30 - 10:30 | Beginner Session #3 | Open topics? Perhaps tutorials on using particular software | 
+|9:00 - 9:15 | **Welcome and kick-off**| May extend this longer if we have good topics|
+|9:15 - 12:30 | Group work continues, periodic check-ins|Push for 'completion', getting things wrapped up and ready to share and demo |
 |12:30 | Lunch ||
-|1:00 - 3:30 | Demos and wrap-up | Show off what you've done to the group! Everyone encouraged to share.|
+|1:00 - 3:30 | Demos and wrap-up | Show off what you've done to the group! Everyone encouraged to share. And commit to next steps and actions to keep moving forward|
