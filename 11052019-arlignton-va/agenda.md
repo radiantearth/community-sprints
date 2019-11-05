@@ -26,9 +26,9 @@ be available for one group to use its video capabilities - to be determined each
 
 Dial info for the main room is: 
 
-Click to join by using Google Chrome: https://join.iqt.org/invited.sf?secret=ea8qp4mqKF5oaEeaE4zucA&id=424374534
-IQT video system or Cisco system: stac@join.iqt.org
-Phone: 703.248.3003, call ID: 424374534
+* Click to join by using Google Chrome: https://join.iqt.org/invited.sf?secret=ea8qp4mqKF5oaEeaE4zucA&id=424374534
+* IQT video system or Cisco system: stac@join.iqt.org
+* Phone: 703.248.3003, call ID: 424374534
 
 The main hub of activity will likely be the [features-stac-sprint](https://gitter.im/opengeospatial/features-stac-sprint) 
 channel on gitter. If the dial in is not working then check there, as we may do a backup option.
