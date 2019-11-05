@@ -12,6 +12,11 @@ and the result is a pretty intuitive little language for filters. It has never r
 specification, where its definition is quite buried. There is no official specification for using it in a WFS, but 
 a number of servers do, including GeoServer - the open source reference implementation for WFS 1 and 2.
 
+Peter has published work in the last week as a Features API extension, see the [cql extension 
+page](https://github.com/opengeospatial/ogcapi-features/tree/master/extensions/cql). It makes great strides to
+pull it out of the catalog specification, and maps everything in the latest filter specification into it, so that
+should likely be the main jumping off point. It includes a JSON equivalent as well.
+
 #### Links
 
 * [OGC
@@ -73,6 +78,9 @@ specification. So it should likely be elevated to be its own baseline OGC API sp
 browser limits. So do we allow POST of the same CQL if it's too big? Or adopt some other strategy?
 
 ### Examples
+
+Peter just posted https://github.com/opengeospatial/ogcapi-features/blob/master/extensions/cql/examples.txt that has the
+main examples in CQL and CQL JSON.
 
 CQL just specifies the WHERE clause, so it does not need its own endpoint or fuller query. Using the same notation that 
 Clemens did in the testbed report will be like:
