@@ -15,5 +15,5 @@ what they want help with.
 so that it can easily evolve to official parts of the OGC API collection of API's, components and
 extensions.
 
-[in-work](in-work/) - Workspace for information in-development. This is material which has advanced past the prep-work phase but is not mature enough to be included in the spec-work.
+[group-work](group-work/) - Workspace for information in-development. This is material which has advanced past the prep-work phase but is not mature enough to be included in the spec-work.
 
