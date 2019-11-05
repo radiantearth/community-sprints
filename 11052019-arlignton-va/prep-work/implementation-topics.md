@@ -54,6 +54,8 @@ Servers can use these clients to make sure they're working right.
   * Would like to flesh out and add more features to the postgres provider. Some things I have been thinking of: mapping column names to key names; ability to specify more complex queries for the collection rather than having to put a collection into a single table; can we add something like a count of features (right now I don't know of a way to get in a single query the number of items in a collection) - Mary Bucknell
 * pystac - https://pystac.readthedocs.io
   * Python library for core stac. Could use contribution for implementations of additional extensions, as well as general kicking-the-tires usage to ensure it fits the Python STAC community's use cases. Interested in how this can be integrated into existing or new Python tooling to help enable Client and Service Endpoint projects. Ping Rob Emanuele (@lossyrob) if interested.
+* franklin - https://github.com/azavea/franklin
+  * Franklin is (will be) a STAC and OGC API Features compliant web service focused on ease-of-use for end-users. It's goal is to enable the following workflow: start server, POST catalog.json, browse and query STAC catalog. Written in Scala, backed by [geotrellis-server](https://github.com/geotrellis/geotrellis-server), [http4s](https://github.com/http4s/http4s), and [tapir](https://github.com/softwaremill/tapir).
 * Add yours
 
 ### Interested people
