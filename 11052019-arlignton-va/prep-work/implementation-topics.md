@@ -54,6 +54,10 @@ Servers can use these clients to make sure they're working right.
   * Would like to flesh out and add more features to the postgres provider. Some things I have been thinking of: mapping column names to key names; ability to specify more complex queries for the collection rather than having to put a collection into a single table; can we add something like a count of features (right now I don't know of a way to get in a single query the number of items in a collection) - Mary Bucknell
 * pystac - https://pystac.readthedocs.io
   * Python library for core stac. Could use contribution for implementations of additional extensions, as well as general kicking-the-tires usage to ensure it fits the Python STAC community's use cases. Interested in how this can be integrated into existing or new Python tooling to help enable Client and Service Endpoint projects. Ping Rob Emanuele (@lossyrob) if interested.
+* koop-provider-ogc-api-features
+  * [KoopJS provider plugin](https://koopjs.github.io/docs/basics/overview#provider) to fetch and query features from the OGC API - Feature. This provider allows the developer to translates the OGC API into [Esri GeoService](https://geoservices.github.io/), which can be consumed by Esri softwares. With existing KoopJS [outputs](https://koopjs.github.io/docs/available-plugins/outputs), data from OGC API can be translated into many other formats.
+ * koop-output-ogc-api-features
+   * [KoopJS output plugin](https://koopjs.github.io/docs/basics/overview#output) to return data in OGC API - Feature spec. This output allows the developer to expose any data fetched by [Koop providers](https://koopjs.github.io/docs/available-plugins/providers) as OGC API.
 * Add yours
 
 ### Interested people
