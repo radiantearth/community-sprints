@@ -24,11 +24,17 @@ any session in **bold** will be in the 'main' room and we be sure the video work
 remote participation, either on gitter / github, or setting up video conferencing.  The second room at the venue will also
 be available for one group to use its video capabilities - to be determined each day.
 
-Dial info for the main room is: 
+Dial info for the **main room** is: 
 
-* Click to join by using Google Chrome: https://join.iqt.org/invited.sf?secret=ea8qp4mqKF5oaEeaE4zucA&id=424374534
+* Click to join (Google Chrome recommended): https://join.iqt.org/invited.sf?secret=ea8qp4mqKF5oaEeaE4zucA&id=424374534
 * IQT video system or Cisco system: stac@join.iqt.org
 * Phone: 703.248.3003, call ID: 424374534
+
+Dial info for the second room is:
+
+- Click to join (Google Chrome recommended): https://join.iqt.org/invited.sf?secret=yPRXYo0R0iLu3Xb84fEnxg&id=156358612
+- IQT Video system or Cisco system: stac2@join.iqt.org
+- Phone: 703.248.3003, call ID: 156358612
 
 The main hub of activity will likely be the [features-stac-sprint](https://gitter.im/opengeospatial/features-stac-sprint) 
 channel on gitter. If the dial in is not working then check there, as we may do a backup option.
@@ -51,11 +57,11 @@ into reality - clear pull requests of the proposals, and progress on implementat
 |9 - 9:20  | **Welcome**  | Overview of event, logistics,  etc |
 |9:20 - 10:45 | **Introductions**  | Brief introductions from everyone, so we all know who else is there and where they're coming from|
 |10:45 | Break| |
-|11:00 - 12:30 | Group work kickoffs | Break up into small groups to advance topics |
-|11:30 - 12:30 | **Beginner Session #1** | Beginner session on STAC - overview of spec, main implementations, Q&A  |
-|12:30 | Lunch | Break for lunch, continue chatting on topics |
-|1:00 - 2:30  | Group work continues | Continue on work in small groups |
-|1:00 - 1:30 | **Beginner Session #2** | Beginner session on [PySTAC](https://github.com/azavea/pystac) - how to create static catalogs |
+|11:00 - 12:00 | Group work kickoffs | Break up into small groups to advance topics |
+|11:15 - 12:00 | **Beginner Session #1** | Beginner session on STAC - overview of spec, main implementations, Q&A  |
+|12:00 | Lunch | Break for lunch, continue chatting on topics |
+|12:30 - 2:30  | Group work continues | Continue on work in small groups |
+|12:30 - 1:30 | **Beginner Session #2** | Beginner session on [PySTAC](https://github.com/azavea/pystac) - how to create static catalogs |
 |2:30 - 2:50  | **Full group check-in**  | Check on status, report on progress, resolve any burning questions with the full group, figure out if we need to shift small groups|
 |3:00 - 5:15  | Continued group work | |
 |5:30 | Bus leaves for Happy Hour | Location: Element 84 HQ, 210 North Lee Street, Suite 203, Alexandria, VA 22314 |
@@ -78,9 +84,9 @@ OAFeat sessions for some dedicated STAC time, both with the full group and in sm
 |9:45 - 10:00 | **Small group kick-off** | Set stage and goals for small group work.
 |10:00 - 12:30 | Small group work | Continue in groups from previous day, and STAC will be a bigger track|
 |10:15 - 11:15 | **Beginner Session #3** | Beginner session on OGC API for Features -  overview of spec,  main implementations, Q&A |
-|11:15 - 12:15 | **Beginner Session #4** | Beginner session on OAFeat software - hopefully [pygeoapi](https://pygeoapi.io/)|
-|12:30 | Lunch ||
-|1:00 - 6:00 | Group work continues, periodic check-ins|
+|11:15 - 12:00 | **Beginner Session #4** | Beginner session on OAFeat software - hopefully [pygeoapi](https://pygeoapi.io/)|
+|12:00 | Lunch ||
+|12:30 - 6:00 | Group work continues, periodic check-ins|
 |7:00 | GeoDC Meetup | Join [GeoDC Meet-up) at [Local 16](https://goo.gl/maps/zyLsizoyq8w8MjYt6) |
 
 ## Day 3
@@ -96,6 +102,6 @@ the various extensions from OAFeat and create a specification.
 |--------|------------|-------------------------------|
 |8:30 - 9:00 | Arrival | In person arrivals / breakfast at 2107 Wilson Blvd, 7th floor -  remember to bring your ID |
 |9:00 - 9:15 | **Welcome and kick-off**| May extend this longer if we have good topics|
-|9:15 - 12:30 | Group work continues, periodic check-ins|Push for 'completion', getting things wrapped up and ready to share and demo |
-|12:30 | Lunch ||
-|1:00 - 3:30 | Demos and wrap-up | Show off what you've done to the group! Everyone encouraged to share. And commit to next steps and actions to keep moving forward|
+|9:15 - 12:00 | Group work continues, periodic check-ins|Push for 'completion', getting things wrapped up and ready to share and demo |
+|12:00 | Lunch ||
+|12:30 - 3:30 | Demos and wrap-up | Show off what you've done to the group! Everyone encouraged to share. And commit to next steps and actions to keep moving forward|
