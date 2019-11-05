@@ -45,8 +45,8 @@ of them, but don't require immediate understanding by all users looking at the f
 ## Filter options
 
 Each of these options should have a page that explains the option in depth, with lots of links. And each should
-show how the examples below look in their language.(OGC CQL is the only one
-filled out right now, it should be used as a template for others)
+show how the examples below look in their language, be sure to click on the links for full discussion of the options. 
+(OGC CQL + STAC are filled out right now, and can be used as a template for others)
 
 * [OGC CQL](cql-filter-info.md) - Is a nice lightweight filtering language, that a few 
 geospatial servers implement today. Currently buried in Catalog specification, could be extracted and updated. Likely should 
