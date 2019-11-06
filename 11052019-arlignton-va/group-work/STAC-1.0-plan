@@ -32,3 +32,9 @@ Desire to specify a time frame for when we will reach this.
 
 Aim to release 1.0-beta in the next ~3 months. Aim for API 1.0-beta to follow 3-5 months after.
 Going to 1.0.0 for either.
+
+
+Other todos:
+
+Move issues to extensions and to api repos
+Move 'best practices' out of spec to website, and then put links there. So we don't have to bump minor revisions for new best practices.
