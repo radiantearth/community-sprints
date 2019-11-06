@@ -30,7 +30,7 @@ Dial info for the **main room** is:
 * IQT video system or Cisco system: stac@join.iqt.org
 * Phone: 703.248.3003, call ID: 424374534
 
-If you are presenting, install the chrome plugin to be able to share your screen.
+If you are presenting, install the [chrome plugin](https://chrome.google.com/webstore/detail/cisco-meeting-app-screen/jkjmickbkhfhkkjheiankkklnkajbimj) to be able to share your screen.
 
 Dial info for the second room is:
 
