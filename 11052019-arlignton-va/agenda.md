@@ -36,6 +36,10 @@ Dial info for the second room is:
 - IQT Video system or Cisco system: stac2@join.iqt.org
 - Phone: 703.248.3003, call ID: 156358612
 
+The backup zoom meeting that we are using when the main system is flaky is https://planet.zoom.us/j/8171436529. When we
+use this with the main screen, audio will still come from the cisco conference, and in-person people will be using the
+cisco system to present on the big screen,
+
 The main hub of activity will likely be the [features-stac-sprint](https://gitter.im/opengeospatial/features-stac-sprint) 
 channel on gitter. If the dial in is not working then check there, as we may do a backup option.
 
