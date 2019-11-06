@@ -1,0 +1,34 @@
+## Overview
+
+This document is the draft plan to go to STAC 1.0.
+
+### Splitting API and core
+
+TODO: More explanation / justification
+
+* pre-req - merge in all PR's for API that are out. Potentially do a quick 0.9.0 release, or just make sure all PR's are in.
+
+* stac-spec repo forks to stac-api, which becomes just the /api-spec folder
+* stac-spec repo removes the /api-spec folder (says that it has moved for a bit).
+* create new stac-extensions repo, for the 'non-mature' extensions
+* Evaluate all extensions and put them in the right repo of maturity
+  - this may shift some depending on extensions
+  
+### Versioning in core in 1.0 and beyond
+
+We want to keep things very stable when we go 1.0. We want to use real semantic versioning to call out breaking changes.
+
+* Even extension changes should mean a version bump.  
+* Can be 1.1 for bumps for additions of fields (and we can use deprecation in them). Even there we likely want to try to do that
+less.  
+* We see value in having extensions in core, so people can rely on the fields. 
+
+
+### API path to 1.0
+
+Desire to specify a time frame for when we will reach this.
+
+### Timing
+
+Aim to release 1.0-beta in the next ~3 months. Aim for API 1.0-beta to follow 3-5 months after.
+Going to 1.0.0 for either.
