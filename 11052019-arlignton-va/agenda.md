@@ -86,7 +86,7 @@ OAFeat sessions for some dedicated STAC time, both with the full group and in sm
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
 |8:30 - 9:00 | Arrival | In person arrivals / breakfast at 2107 Wilson Blvd, 7th floor -  remember to bring your ID |
-|9:00 - 9:45 | **Open Lightning Talks** | Up to 7 presentations by people who didn't present at Happy Hour, including remotes |
+|9:00 - 9:45 | **Open Lightning Talks** | Tim from L3Harris, Yves from Spacebel, Hyu from Esri, Jerome on Resto / SnapPlanet, Even on OGR + QGIS|
 |9:45 - 10:00 | **Small group kick-off** | Set stage and goals for small group work.
 |10:00 - 12:30 | Small group work | Continue in groups from previous day, and STAC will be a bigger track|
 |10:15 - 11:15 | **Beginner Session #3** | Beginner session on OGC API for Features -  overview of spec,  main implementations, Q&A |
