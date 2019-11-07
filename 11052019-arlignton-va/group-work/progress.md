@@ -3,15 +3,19 @@
 This document should link to all work happening at the sprint. Links to PR's and proposals
 
 
-### Filter
+## Filter
 - filter capabilities: https://github.com/opengeospatial/ogcapi-features/blob/master/extensions/cql/filter_capabilities.json
   - full text search: https://github.com/opengeospatial/ogcapi-features/pull/284
   
 ## Query
-- sorting
+- sorting - change the name of the sort parameter to `sortby` to align with OGC specs, provide a simplified, non-JSON syntax for use by GET
   - https://github.com/radiantearth/stac-spec/pull/513
   - https://github.com/opengeospatial/ogcapi-features/issues/157
   - needs harmonization
+  
+
+## Item
+- [Added purpose field to Asset](https://github.com/radiantearth/stac-spec/pull/637) - added field `purpose` as a corollary field to Links `rel`, to describe a common set of usages for specific assets in an item, for example `thumbnail`.  
 
 ## Implementations
 - pygeoapi STAC support
