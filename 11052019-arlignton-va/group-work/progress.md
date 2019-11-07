@@ -7,6 +7,8 @@ This document should link to all work happening at the sprint. Links to PR's and
   - https://github.com/radiantearth/stac-spec/pull/513
   - https://github.com/opengeospatial/ogcapi-features/issues/157
   - needs harmonization
+- Pagination is now using hypermedia links exclusively to align with OAFeat
+  - https://github.com/radiantearth/stac-spec/pull/631
 
 ## Item
 - [Added purpose field to Asset](https://github.com/radiantearth/stac-spec/pull/637) - added field `purpose` as a corollary field to Links `rel`, to describe a common set of usages for specific assets in an item, for example `thumbnail`.  
@@ -19,6 +21,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 - pygeoapi STAC support
   - https://github.com/radiantearth/community-sprints/pull/19/files
   - discussion: https://github.com/geopython/pygeoapi/issues/221
+  - [WIP code](https://github.com/geopython/pygeoapi/tree/stac)
 - pygeoapi features
   - discussion around a `search/` endpoint to match the STAC `/search` across collections https://github.com/geopython/pygeoapi/issues/292
   - allowing many:many feature:collection connections: https://github.com/geopython/pygeoapi/issues/293 @mbucknell is working on an implementation for postgres
@@ -42,12 +45,6 @@ This document should link to all work happening at the sprint. Links to PR's and
   * can use a rel=queryables end point (as implemented by GeoServer or https://services.interactive-instruments.de/t15/daraa) to get the list of queryables property. This is probably a temporary measure, pending a rel=summary endpoint is defined
   * can detect a filter-lang=cql-text parameter advertized by the OpenAPI document, and then turn OGR SQL attribute filters as CQL text. Tested against http://ows.geo-solutions.it/geoserver/ne/ogc/features
   
-- QGIS Server:
-  * Simple transactions: implemented POST and PUT https://github.com/qgis/QGIS/pull/32694
-  * Bug fixes and template enhancements: https://github.com/qgis/QGIS/pull/32596 , https://github.com/qgis/QGIS/pull/32645 , https://github.com/qgis/QGIS/pull/32656 
-  * Support for `properties` https://github.com/qgis/QGIS/pull/32655
-  * Documentation on `datetime` and `properties`: https://github.com/qgis/QGIS-Documentation/pull/4364
-    
 ## Core
 * [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
 * [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
