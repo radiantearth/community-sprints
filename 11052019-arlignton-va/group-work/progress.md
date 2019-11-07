@@ -69,6 +69,7 @@ This document should link to all work happening at the sprint. Links to PR's and
   * Documentation on `datetime` and `properties`: https://github.com/qgis/QGIS-Documentation/pull/4364
  
 - GeoServer CQL implementation:
+  * Presentation slides: https://drive.google.com/file/d/1bs0mGMtV4wVk8i8_J7u4IRn-kAfKZMon/view?usp=sharing
   * Landing page: http://ows.geo-solutions.it/geoserver/ne/ogc/features
   * API: http://ows.geo-solutions.it/geoserver/ne/ogc/features/api?f=text%2Fhtml
   * Queryables WIP: http://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/queryables?f=json
