@@ -107,7 +107,7 @@ the various extensions from OAFeat and create a specification.
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
 |8:30 - 9:00 | Arrival | In person arrivals / breakfast at 2107 Wilson Blvd, 7th floor -  remember to bring your ID |
-|9:00 - 9:15 | **Welcome and kick-off**| May extend this longer if we have good topics|
+|9:00 - 9:15 | Welcome and kick-off| May extend this longer if we have good topics|
 |9:15 - 12:00 | Group work continues, periodic check-ins|Push for 'completion', getting things wrapped up and ready to share and demo |
 |12:00 | Lunch ||
 |1:00 - 3:30 | **Demos and wrap-up** | Show off what you've done to the group! Everyone encouraged to share. And commit to next steps and actions to keep moving forward|
