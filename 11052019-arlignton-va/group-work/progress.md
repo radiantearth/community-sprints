@@ -22,6 +22,8 @@ This document should link to all work happening at the sprint. Links to PR's and
 - [API Version Extension](https://github.com/radiantearth/stac-spec/pull/635): Provides endpoints and semantics for keeping and viewing previous vesions of Collections and Items
 - [Item and Collection Version Extension](https://github.com/radiantearth/stac-spec/pull/643): Provides a version and deprecated field for Item and Collections. Removes collection field from Collection spec.
 - [WIP DateTime Range Extension](https://github.com/radiantearth/stac-spec/pull/638)
+- [WIP Sat Extension](https://github.com/radiantearth/stac-spec/pull/644)
+- [WIP Update Maturity Levels](https://github.com/radiantearth/stac-spec/pull/636) - Need to add implementations for each extension to accurately determine maturity level
 
 ## Implementations
 - pygeoapi
@@ -34,10 +36,28 @@ This document should link to all work happening at the sprint. Links to PR's and
     - allowing many:many feature:collection connections: https://github.com/geopython/pygeoapi/issues/293 @mbucknell is working on an implementation for postgres
     - allowing `properties` to be added to a collection: https://github.com/geopython/pygeoapi/issues/294
     - more sophisticated postgres connections: https://github.com/geopython/pygeoapi/pull/283
+    - issue to use `theme` to group related collections together: https://github.com/geopython/pygeoapi/issues/298
   - OGC API - Catalogue
     - generate catalogue/search index atop pygeoapi collection level metadata in configuration: https://github.com/geopython/pygeoapi/pull/297
 
-* [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls)
+- USGS WMA and USGS Landsat/EROS are going to work together via STAC. https://code.usgs.gov/stac
+
+* [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls). Documentation for running Franklin is [here](https://azavea.github.io/franklin). Franklin is capable of importing local STACs, then querying them at the following endpoints:
+
+  CAPABILITIES
+  - [x] `GET /`
+  - [x] `GET /conformance`
+  - [x] `GET /collections`
+  - [x] `GET /collections/{collectionId}`
+
+  DATA
+  - [x] `GET /collections/{collectionId}/items`
+  - [x] `GET /collections/{collectionId}/items/{featureId}`
+
+  STAC
+  - [x] `GET /stac`
+  - [x] `GET /stac/search` -- responds but does not yet actually search
+  - [x] `POST /stac/search` -- responds but does not yet actually search
 
 * Completed some initial work on Python client for Maxar STAC catalog API
 * Created a [SpaceNet 2 static STAC catalog](https://spacenet-dataset.s3.amazonaws.com/spacenet-stac/SN2_buildings/catalog.json) with label extension integrated
@@ -60,9 +80,13 @@ This document should link to all work happening at the sprint. Links to PR's and
 - nls-fi Features server (https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/)
   * added support for two filter language variants: [json-filter-expr](https://github.com/tschaub/ogcapi-features/blob/json-array-expression/extensions/cql/jfe/readme.md) and cql-json-array (what later became json-filter-expr, same as json-filter-expr but with different op codes)
   * [tieviiva (roadlink) features in bbox 24.00,66.00,24.05,66.05 and kohdeluokka >= 121111 and kohdeluokka <= 12132](https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/collections/tieviiva/items?bbox=24.00,66.00,24.05,66.05&filter-lang=json-filter-expr&filter=[%22all%22,[%22%3E=%22,[%22get%22,%22kohdeluokka%22],12111],[%22%3C=%22,[%22get%22,%22kohdeluokka%22],12132]]) 
+
+* KoopJS
+  * provider plugin [@koopjs/provider-ogcapi-features](https://github.com/koopjs/provider-ogcapi-features) to read features from a collection with the Data APIs.
+  * output plugin [@koopjs/output-ogcapi-features](https://github.com/koopjs/output-ogcapi-features) to expose data from providers with Data APIs in the OGC API - Features core spec. 
+  * see the demo app https://github.com/haoliangyu/koop-ogcapi-features-demo-app
   
-- sat-api-pg Added OGC endpoints for [sat-api-pg](https://github.com/developmentseed/sat-api-pg).
-  
+ - sat-api-pg Added OGC endpoints for [sat-api-pg](https://github.com/developmentseed/sat-api-pg).
 
 ## Core
 * [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
