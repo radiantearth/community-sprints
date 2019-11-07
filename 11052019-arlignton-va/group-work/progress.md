@@ -37,7 +37,22 @@ This document should link to all work happening at the sprint. Links to PR's and
   - OGC API - Catalogue
     - generate catalogue/search index atop pygeoapi collection level metadata in configuration: https://github.com/geopython/pygeoapi/pull/297
 
-* [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls)
+* [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls). Documentation for running Franklin is [here](https://azavea.github.io/franklin). Franklin is capable of importing local STACs, then querying them at the following endpoints:
+
+  CAPABILITIES
+  - [x] `GET /`
+  - [x] `GET /conformance`
+  - [x] `GET /collections`
+  - [x] `GET /collections/{collectionId}`
+
+  DATA
+  - [x] `GET /collections/{collectionId}/items`
+  - [x] `GET /collections/{collectionId}/items/{featureId}`
+
+  STAC
+  - [x] `GET /stac`
+  - [x] `GET /stac/search`
+  - [x] `POST /stac/search`
 
 * Completed some initial work on Python client for Maxar STAC catalog API
 * Created a [SpaceNet 2 static STAC catalog](https://spacenet-dataset.s3.amazonaws.com/spacenet-stac/SN2_buildings/catalog.json) with label extension integrated
