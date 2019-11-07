@@ -21,6 +21,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 - [WIP Aerial Extension](https://github.com/radiantearth/stac-spec/pull/639)
 - [API Version Extension](https://github.com/radiantearth/stac-spec/pull/635): Provides endpoints and semantics for keeping and viewing previous vesions of Collections and Items
 - [Item and Collection Version Extension](https://github.com/radiantearth/stac-spec/pull/643): Provides a version and deprecated field for Item and Collections. Removes collection field from Collection spec.
+- [WIP DateTime Range Extension](https://github.com/radiantearth/stac-spec/pull/638)
 
 ## Implementations
 - pygeoapi
