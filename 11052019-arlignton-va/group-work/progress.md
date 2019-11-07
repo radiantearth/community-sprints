@@ -36,6 +36,12 @@ This document should link to all work happening at the sprint. Links to PR's and
   - [OSM Generated Training Data](http://demo-mlhub-earth.s3-website-us-west-2.amazonaws.com)
   - [Landcover Classification / Building Footprints / African Crops](http://browser.radiant.earth)
   
+- GDAL: https://github.com/rouault/gdal/tree/oapif_hackathon
+  * can use XML Schema to create the OGR layer field structure
+  * can use JSON Schema to create the OGR layer field structure
+  * can use a rel=queryables end point (as implemented by GeoServer or https://services.interactive-instruments.de/t15/daraa) to get the list of queryables property. This is probably a temporary measure, pending a rel=summary endpoint is defined
+  * can detect a filter-lang=cql-text parameter advertized by the OpenAPI document, and then turn OGR SQL attribute filters as CQL text. Tested against http://ows.geo-solutions.it/geoserver/ne/ogc/features
+  
 ## Core
 * [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
 * [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
