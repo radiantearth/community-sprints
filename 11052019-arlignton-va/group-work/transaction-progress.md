@@ -21,3 +21,17 @@
 - If we don’t advertise versions then how do we refer to them?
 - Scott was using e-tags for providing bulk safe concurrent updates
 - E-tags only let you know the current version
+
+# Consensus 
+## Transaction Endpoints (based on Staccato)
+- `POST /stac/{collection_id}/items` - creates a new item
+- `PUT /stac/{collection_id}/items/{item_id}` - creates updates a new item
+- - Optional If-Match header must match E-tag
+- `PATCH /stac/{collection_id}/items/{item_id}` - updates an item item
+- - Optional If-Match header must match E-tag
+- `DELETE /stac/{collection_id}/items/{item_id}` - deletes an item
+- - Optional If-Match header must match E-tag
+
+## Bulk Transaction Endpoints
+- `POST /stac/{collection_id}/items` - creates n items but posting a feature collection to the 
+- `DELETE /stac/{collection_id}/items` - truncates an item collection
