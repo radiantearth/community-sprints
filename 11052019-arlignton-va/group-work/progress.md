@@ -61,6 +61,8 @@ This document should link to all work happening at the sprint. Links to PR's and
   * added support for two filter language variants: [json-filter-expr](https://github.com/tschaub/ogcapi-features/blob/json-array-expression/extensions/cql/jfe/readme.md) and cql-json-array (what later became json-filter-expr, same as json-filter-expr but with different op codes)
   * [tieviiva (roadlink) features in bbox 24.00,66.00,24.05,66.05 and kohdeluokka >= 121111 and kohdeluokka <= 12132](https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/collections/tieviiva/items?bbox=24.00,66.00,24.05,66.05&filter-lang=json-filter-expr&filter=[%22all%22,[%22%3E=%22,[%22get%22,%22kohdeluokka%22],12111],[%22%3C=%22,[%22get%22,%22kohdeluokka%22],12132]]) 
   
+- sat-api-pg Added OGC endpoints for [sat-api-pg](https://github.com/developmentseed/sat-api-pg).
+  
 
 ## Core
 * [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
