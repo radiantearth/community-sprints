@@ -13,6 +13,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 
 ## Extensions
 - [WIP Aerial Extension](https://github.com/radiantearth/stac-spec/pull/639)
+- [DateTime Range Extension(https://github.com/radiantearth/stac-spec/pull/638)
 
 ## Implementations
 - pygeoapi STAC support
