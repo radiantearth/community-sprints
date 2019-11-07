@@ -25,9 +25,8 @@ This document should link to all work happening at the sprint. Links to PR's and
   - allowing `properties` to be added to a collection: https://github.com/geopython/pygeoapi/issues/294
   - more sophisticated postgres connections: https://github.com/geopython/pygeoapi/pull/283
 
-* [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
 * [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls)
-* [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
+
 * Completed some initial work on Python client for Maxar STAC catalog API
 * Begun creating a SpaceNet 2 static STAC catalog with label extension integrated
 - Validation Group
@@ -36,6 +35,10 @@ This document should link to all work happening at the sprint. Links to PR's and
 - Training Data
   - [OSM Generated Training Data](http://demo-mlhub-earth.s3-website-us-west-2.amazonaws.com)
   - [Landcover Classification / Building Footprints / African Crops](http://browser.radiant.earth)
+  
+## Core
+* [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
+* [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
 
 ## Filter (Common Query Language)
 
