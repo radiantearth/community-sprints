@@ -1,6 +1,10 @@
 ## Overview
 
 This document should link to all work happening at the sprint. Links to PR's and proposals
+
+## Core
+* [Aligned STAC-specific endpoints with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
+* [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
   
 ## Query
 - sorting - change the name of the sort parameter to `sortby` to align with OGC specs, provide a simplified, non-JSON syntax for use by GET
@@ -9,13 +13,15 @@ This document should link to all work happening at the sprint. Links to PR's and
   - needs harmonization
 - Pagination is now using hypermedia links exclusively to align with OAFeat
   - https://github.com/radiantearth/stac-spec/pull/631
+- [Aligned paging with OAFeat](https://github.com/radiantearth/stac-spec/pull/631) by using next links and adding a POST extension to the links definition for our /search endpoint.
 
 ## Item
 - [Added purpose field to Asset](https://github.com/radiantearth/stac-spec/pull/637) - added field `purpose` as a corollary field to Links `rel`, to describe a common set of usages for specific assets in an item, for example `thumbnail`.  
 
 ## Extensions
 - [WIP Aerial Extension](https://github.com/radiantearth/stac-spec/pull/639)
-- [Version Extension](https://github.com/radiantearth/stac-spec/pull/635): Provides endpoints and semantics for keeping and viewing previous vesions of Collections and Items
+- [API Version Extension](https://github.com/radiantearth/stac-spec/pull/635): Provides endpoints and semantics for keeping and viewing previous vesions of Collections and Items
+- [Item and Collection Version Extension](https://github.com/radiantearth/stac-spec/pull/643): Provides a version and deprecated field for Item and Collections. Removes collection field from Collection spec.
 
 ## Implementations
 - pygeoapi STAC support
@@ -35,6 +41,9 @@ This document should link to all work happening at the sprint. Links to PR's and
 - Validation Group
   - Created validation Circle CI script (pending PR)
   - PySTAC implementation to identify object type, verion and extensions from JSON, to be used in CircleCI script (pending PR)
+  - Stac-Validator will import and use PySTAC to identify object type, version, and extensions and will use this information to infer paths to schemas on [cdn.staclint.com](cdn.staclint.com). CDN contains schemas for all versions, extensions.
+  - Extension schema filenames will be adjusted to consistently infer path to schema during validation `extensions/extension-name/json-schema/extension-name.json`, for example `extensions/eo/json-schema/eo.json`. [Issue 624](https://github.com/radiantearth/stac-spec/issues/624)
+  - Stac-validator will have an exit on failure mode for CICD implementations.
 - Training Data
   - [OSM Generated Training Data](http://demo-mlhub-earth.s3-website-us-west-2.amazonaws.com)
   - [Landcover Classification / Building Footprints / African Crops](http://browser.radiant.earth)
@@ -44,10 +53,30 @@ This document should link to all work happening at the sprint. Links to PR's and
   * can use JSON Schema to create the OGR layer field structure
   * can use a rel=queryables end point (as implemented by GeoServer or https://services.interactive-instruments.de/t15/daraa) to get the list of queryables property. This is probably a temporary measure, pending a rel=summary endpoint is defined
   * can detect a filter-lang=cql-text parameter advertized by the OpenAPI document, and then turn OGR SQL attribute filters as CQL text. Tested against http://ows.geo-solutions.it/geoserver/ne/ogc/features
+
+- nls-fi Features server (https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/)
+  * added support for two filter language variants: [json-filter-expr](https://github.com/tschaub/ogcapi-features/blob/json-array-expression/extensions/cql/jfe/readme.md) and cql-json-array (what later became json-filter-expr, same as json-filter-expr but with different op codes)
+  * [tieviiva (roadlink) features in bbox 24.00,66.00,24.05,66.05 and kohdeluokka >= 121111 and kohdeluokka <= 12132](https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/collections/tieviiva/items?bbox=24.00,66.00,24.05,66.05&filter-lang=json-filter-expr&filter=[%22all%22,[%22%3E=%22,[%22get%22,%22kohdeluokka%22],12111],[%22%3C=%22,[%22get%22,%22kohdeluokka%22],12132]]) 
   
+
 ## Core
 * [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
 * [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
+- QGIS Server:
+  * Simple transactions: implemented POST and PUT https://github.com/qgis/QGIS/pull/32694
+  * Bug fixes and template enhancements: https://github.com/qgis/QGIS/pull/32596 , https://github.com/qgis/QGIS/pull/32645 , https://github.com/qgis/QGIS/pull/32656 
+  * Support for `properties` https://github.com/qgis/QGIS/pull/32655
+  * Documentation on `datetime` and `properties`: https://github.com/qgis/QGIS-Documentation/pull/4364
+ 
+- GeoServer CQL implementation:
+  * Landing page: http://ows.geo-solutions.it/geoserver/ne/ogc/features
+  * API: http://ows.geo-solutions.it/geoserver/ne/ogc/features/api?f=text%2Fhtml
+  * Queryables WIP: http://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/queryables?f=json
+  * Filter on Megacities: https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=MEGACITY=1&filter-lang=cql-text
+  * Cities starting with "Bo": https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=NAME%20LIKE%20%27Bo%25%27&filter-lang=cql-text
+  * Cities starting with "Bo" in north america, using a separate BBOX filter: https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=NAME%20LIKE%20%27Bo%25%27&filter-lang=cql-text&bbox=-130,20,-60,60
+  * Sample filter capabilities output (not yet available on the server online): https://gist.github.com/aaime/b6ebe137b2dc318cfd31348c7e1749a3
+
 
 ## Filter (Common Query Language)
 
