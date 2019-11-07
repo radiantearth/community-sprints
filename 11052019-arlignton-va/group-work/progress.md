@@ -53,8 +53,8 @@ This document should link to all work happening at the sprint. Links to PR's and
 
   STAC
   - [x] `GET /stac`
-  - [x] `GET /stac/search`
-  - [x] `POST /stac/search`
+  - [x] `GET /stac/search` -- responds but does not yet actually search
+  - [x] `POST /stac/search` -- responds but does not yet actually search
 
 * Completed some initial work on Python client for Maxar STAC catalog API
 * Created a [SpaceNet 2 static STAC catalog](https://spacenet-dataset.s3.amazonaws.com/spacenet-stac/SN2_buildings/catalog.json) with label extension integrated
