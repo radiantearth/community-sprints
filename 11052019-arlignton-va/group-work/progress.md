@@ -24,6 +24,9 @@ This document should link to all work happening at the sprint. Links to PR's and
 - [WIP DateTime Range Extension](https://github.com/radiantearth/stac-spec/pull/638)
 - [WIP Sat Extension](https://github.com/radiantearth/stac-spec/pull/644)
 - [WIP Update Maturity Levels](https://github.com/radiantearth/stac-spec/pull/636) - Need to add implementations for each extension to accurately determine maturity level
+- [CRUD Extension](https://github.com/radiantearth/stac-spec/pull/634)
+  - Proposal for adding some bulk CRUD capabilities to the `/collections/{collectionId}/items` endpoint. The STAC Transaction extension as it existed before is not quite in alignment with the current OAF proposal for "Simple Transactions" (JSON Merge vs. JSON Patch for PATCHing a single item). Still some discussion/consensus building required.
+  - Issue opened for discussion with the OGC folks here: https://github.com/opengeospatial/ogcapi-features/issues/290
 
 ## Implementations
 - pygeoapi
