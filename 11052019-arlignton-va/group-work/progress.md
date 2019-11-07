@@ -32,6 +32,10 @@ This document should link to all work happening at the sprint. Links to PR's and
 - Validation Group
   - Created validation Circle CI script (pending PR)
   - PySTAC implementation to identify object type, verion and extensions from JSON, to be used in CircleCI script (pending PR)
+  - Stac-Validator will import and use PySTAC to identify object type, version, and extensions and will use this information to infer paths to schemas on [cdn.staclint.com](cdn.staclint.com). CDN contains schemas for all versions, extensions.
+  - Extension schema filenames will be adjusted to consistently infer path to schema during validation `extensions/extension-name/json-schema/extension-name.json`, for example `extensions/eo/json-schema/eo.json`. [Issue 624](https://github.com/radiantearth/stac-spec/issues/624)
+  - STAC version and extensions defined on item_collection in support of PySTAC implementation. [PR 640](https://github.com/radiantearth/stac-spec/pull/640)
+  - Stac-validator will have an exit on failure mode for CICD implementations.
 - Training Data
   - [OSM Generated Training Data](http://demo-mlhub-earth.s3-website-us-west-2.amazonaws.com)
   - [Landcover Classification / Building Footprints / African Crops](http://browser.radiant.earth)
