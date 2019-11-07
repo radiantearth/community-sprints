@@ -11,3 +11,8 @@ This document should link to all work happening at the sprint. Links to PR's and
   - https://github.com/radiantearth/stac-spec/pull/513
   - https://github.com/opengeospatial/ogcapi-features/issues/157
   - needs harmonization
+
+## Implementations
+- pygeoapi STAC support
+  - https://github.com/radiantearth/community-sprints/pull/19/files
+  - discussion: https://github.com/geopython/pygeoapi/issues/221
