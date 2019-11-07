@@ -42,6 +42,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 
 - USGS WMA and USGS Landsat/EROS are going to work together via STAC. https://code.usgs.gov/stac
 
+- Java Spring Boot https://os-ogc-features-api.azurewebsites.net
 * [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls). Documentation for running Franklin is [here](https://azavea.github.io/franklin). Franklin is capable of importing local STACs, then querying them at the following endpoints:
 
   CAPABILITIES
