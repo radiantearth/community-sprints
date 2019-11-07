@@ -36,8 +36,11 @@ This document should link to all work happening at the sprint. Links to PR's and
     - allowing many:many feature:collection connections: https://github.com/geopython/pygeoapi/issues/293 @mbucknell is working on an implementation for postgres
     - allowing `properties` to be added to a collection: https://github.com/geopython/pygeoapi/issues/294
     - more sophisticated postgres connections: https://github.com/geopython/pygeoapi/pull/283
+    - issue to use `theme` to group related collections together: https://github.com/geopython/pygeoapi/issues/298
   - OGC API - Catalogue
     - generate catalogue/search index atop pygeoapi collection level metadata in configuration: https://github.com/geopython/pygeoapi/pull/297
+
+- USGS WMA and USGS Landsat/EROS are going to work together via STAC. https://code.usgs.gov/stac
 
 * [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls). Documentation for running Franklin is [here](https://azavea.github.io/franklin). Franklin is capable of importing local STACs, then querying them at the following endpoints:
 
