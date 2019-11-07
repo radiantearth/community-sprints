@@ -1,6 +1,21 @@
 ## Overview
 
 This document should link to all work happening at the sprint. Links to PR's and proposals
+
+
+
+## Filter
+- Spec work:
+  - Schemas (BNF for text, JSON schema, filter capabilities): https://github.com/opengeospatial/ogcapi-features/blob/master/extensions/cql/schema
+  - Examples: https://github.com/opengeospatial/ogcapi-features/tree/master/extensions/cql/examples
+  - full text search: https://github.com/opengeospatial/ogcapi-features/pull/284
+- GeoServer CQL implementation:
+  - Landing page: http://ows.geo-solutions.it/geoserver/ne/ogc/features
+  - API: http://ows.geo-solutions.it/geoserver/ne/ogc/features/api?f=text%2Fhtml
+  - Queryables WIP: http://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/queryables?f=json
+  - Filter on Megacities: https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=MEGACITY=1&filter-lang=cql-text
+  - Cities starting with "Bo": https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=NAME%20LIKE%20%27Bo%25%27&filter-lang=cql-text
+  - Cities starting with "Bo" in north america, using a separate BBOX filter: https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=NAME%20LIKE%20%27Bo%25%27&filter-lang=cql-text&bbox=-130,20,-60,60
   
 ## Query
 - sorting - change the name of the sort parameter to `sortby` to align with OGC specs, provide a simplified, non-JSON syntax for use by GET
@@ -8,8 +23,15 @@ This document should link to all work happening at the sprint. Links to PR's and
   - https://github.com/opengeospatial/ogcapi-features/issues/157
   - needs harmonization
 
+## CRUD
+- [CRUD Extension](https://github.com/radiantearth/stac-spec/pull/634)
+  - Proposal for adding some bulk CRUD capabilities to the `/collections/{collectionId}/items` endpoint. The STAC Transaction extension as it existed before is not quite in alignment with the current OAF proposal for "Simple Transactions" (JSON Merge vs. JSON Patch for PATCHing a single item). Still some discussion/consensus building required.
+
 ## Item
 - [Added purpose field to Asset](https://github.com/radiantearth/stac-spec/pull/637) - added field `purpose` as a corollary field to Links `rel`, to describe a common set of usages for specific assets in an item, for example `thumbnail`.  
+
+## Extensions
+- [WIP Aerial Extension](https://github.com/radiantearth/stac-spec/pull/639)
 
 ## Implementations
 - pygeoapi STAC support
@@ -19,6 +41,8 @@ This document should link to all work happening at the sprint. Links to PR's and
 * [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
 * [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls)
 * [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
+* [Aligned paging with OAFeat](https://github.com/radiantearth/stac-spec/pull/631) by using next links and adding a POST extension to the links definition for our /search endpoint.
+
 
 ## Filter (Common Query Language)
 
