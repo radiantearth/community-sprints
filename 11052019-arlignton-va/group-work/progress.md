@@ -29,6 +29,10 @@ This document should link to all work happening at the sprint. Links to PR's and
 * [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
 * Completed some initial work on Python client for Maxar STAC catalog API
 
+- Validation Group
+  - Created validation Circle CI script (pending PR)
+  - PySTAC implementation to identify object type, verion and extensions from JSON, to be used in CircleCI script (pending PR)
+
 ## Filter (Common Query Language)
 
 * [Cleaned up BNF from OGC Catalgue](https://github.com/opengeospatial/ogcapi-features/blob/master/extensions/cql/schema/cql.bnf)
