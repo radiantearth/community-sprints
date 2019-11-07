@@ -40,7 +40,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 * [Franklin](https://github.com/azavea/franklin) work ongoing around filling in OFeat / STAC endpoints and an importer. Endpoint progress is visible in the README, open work is visible in the [PRs](https://github.com/azavea/franklin/pulls)
 
 * Completed some initial work on Python client for Maxar STAC catalog API
-* Begun creating a SpaceNet 2 static STAC catalog with label extension integrated
+* Created a [SpaceNet 2 static STAC catalog](https://spacenet-dataset.s3.amazonaws.com/spacenet-stac/SN2_buildings/catalog.json) with label extension integrated
 - Validation Group
   - Created validation Circle CI script (pending PR)
   - PySTAC implementation to identify object type, verion and extensions from JSON, to be used in CircleCI script (pending PR)
