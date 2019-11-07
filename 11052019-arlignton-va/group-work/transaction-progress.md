@@ -33,5 +33,5 @@
 - - Optional If-Match header must match E-tag
 
 ## Bulk Transaction Endpoints
-- `POST /stac/{collection_id}/items` - creates n items but posting a feature collection to the 
+- `POST /stac/{collection_id}/items` - creates n items by posting a feature collection (?) or array of features or feature stream
 - `DELETE /stac/{collection_id}/items` - truncates an item collection
