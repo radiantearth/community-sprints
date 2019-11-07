@@ -7,6 +7,8 @@ This document should link to all work happening at the sprint. Links to PR's and
   - https://github.com/radiantearth/stac-spec/pull/513
   - https://github.com/opengeospatial/ogcapi-features/issues/157
   - needs harmonization
+- Pagination is now using hypermedia links exclusively to align with OAFeat
+  - https://github.com/radiantearth/stac-spec/pull/631
 
 ## Item
 - [Added purpose field to Asset](https://github.com/radiantearth/stac-spec/pull/637) - added field `purpose` as a corollary field to Links `rel`, to describe a common set of usages for specific assets in an item, for example `thumbnail`.  
