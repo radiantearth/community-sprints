@@ -8,6 +8,10 @@ This document should link to all work happening at the sprint. Links to PR's and
   - https://github.com/opengeospatial/ogcapi-features/issues/157
   - needs harmonization
 
+## CRUD
+- [CRUD Extension](https://github.com/radiantearth/stac-spec/pull/634)
+  - Proposal for adding some bulk CRUD capabilities to the `/collections/{collectionId}/items` endpoint. The STAC Transaction extension as it existed before is not quite in alignment with the current OAF proposal for "Simple Transactions" (JSON Merge vs. JSON Patch for PATCHing a single item). Still some discussion/consensus building required.
+
 ## Item
 - [Added purpose field to Asset](https://github.com/radiantearth/stac-spec/pull/637) - added field `purpose` as a corollary field to Links `rel`, to describe a common set of usages for specific assets in an item, for example `thumbnail`.  
 
