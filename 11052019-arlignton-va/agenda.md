@@ -24,6 +24,8 @@ any session in **bold** will be in the 'main' room and we be sure the video work
 remote participation, either on gitter / github, or setting up video conferencing.  The second room at the venue will also
 be available for one group to use its video capabilities - to be determined each day.
 
+**Final Session video link is https://planet.zoom.us/j/8171436529** - hopefully it'll work better.
+
 Dial info for the **main room** is: 
 
 * Click to join (Google Chrome recommended): https://join.iqt.org/invited.sf?secret=ea8qp4mqKF5oaEeaE4zucA&id=424374534
