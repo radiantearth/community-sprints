@@ -39,8 +39,8 @@ This document should link to all work happening at the sprint. Links to PR's and
 * Completed some initial work on Python client for Maxar STAC catalog API
 * Begun creating a SpaceNet 2 static STAC catalog with label extension integrated
 - Validation Group
-  - Created validation Circle CI script (pending PR)
-  - PySTAC implementation to identify object type, verion and extensions from JSON, to be used in CircleCI script (pending PR)
+  - Created validation Circle CI script ([WIP PR](https://github.com/radiantearth/stac-spec/pull/642))
+  - PySTAC implementation to identify object type, verion and extensions from JSON, to be used in CircleCI script ([PR](https://github.com/azavea/pystac/pull/50))
   - Stac-Validator will import and use PySTAC to identify object type, version, and extensions and will use this information to infer paths to schemas on [cdn.staclint.com](cdn.staclint.com). CDN contains schemas for all versions, extensions.
   - Extension schema filenames will be adjusted to consistently infer path to schema during validation `extensions/extension-name/json-schema/extension-name.json`, for example `extensions/eo/json-schema/eo.json`. [Issue 624](https://github.com/radiantearth/stac-spec/issues/624)
   - Stac-validator will have an exit on failure mode for CICD implementations.
