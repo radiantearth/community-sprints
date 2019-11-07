@@ -43,6 +43,10 @@ This document should link to all work happening at the sprint. Links to PR's and
   * can use JSON Schema to create the OGR layer field structure
   * can use a rel=queryables end point (as implemented by GeoServer or https://services.interactive-instruments.de/t15/daraa) to get the list of queryables property. This is probably a temporary measure, pending a rel=summary endpoint is defined
   * can detect a filter-lang=cql-text parameter advertized by the OpenAPI document, and then turn OGR SQL attribute filters as CQL text. Tested against http://ows.geo-solutions.it/geoserver/ne/ogc/features
+
+- nls-fi Features server (https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/)
+  * added support for two filter language variants: [json-filter-expr](https://github.com/tschaub/ogcapi-features/blob/json-array-expression/extensions/cql/jfe/readme.md) and cql-json-array (what later became json-filter-expr, same as json-filter-expr but with different op codes)
+  * [tieviiva (roadlink) features in bbox 24.00,66.00,24.05,66.05 and kohdeluokka >= 121111 and kohdeluokka <= 12132](https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/collections/tieviiva/items?bbox=24.00,66.00,24.05,66.05&filter-lang=json-filter-expr&filter=[%22all%22,[%22%3E=%22,[%22get%22,%22kohdeluokka%22],12111],[%22%3C=%22,[%22get%22,%22kohdeluokka%22],12132]]) 
   
 ## Core
 * [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
