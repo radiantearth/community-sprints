@@ -108,3 +108,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 ** NOTE: pvretano.com is my development machine so it is Heisenberg-stable!
 * The CAT 4.0 group met during the sprint to discuss CAT 4.0/STAC relationship.  STAC catalogues the spatial temporal assets.  OGC CAT 4.0 catalogues collections of assets and every else that STAC does not care about (e.g. code lists, coordinate reference system definitions, etc).
 * First meeting of the SWG will be announced soon.
+
+### STAC path to 1.0
+
+[STAC 1.0 plan](STAC-1.0-plan) is a path to get to 1.0.0-beta by end of January that everyone has agreed to.
