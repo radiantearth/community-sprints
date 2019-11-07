@@ -108,7 +108,11 @@ This document should link to all work happening at the sprint. Links to PR's and
   * Sample filter capabilities output (not yet available on the server online): https://gist.github.com/aaime/b6ebe137b2dc318cfd31348c7e1749a3
 
 - Open Data COGs for MODIS https://registry.opendata.aws/modis-astraea/ indexed into the Astraea [public STAC API](https://eod-catalog-svc-prod.astraea.earth/api/v2/search), also containing Landsat-8, Sentinel-2 L1C and L2a, driving [Earth OnDemand](https://earthondemand.astraea.earth/)
-
+  * mcd43a4: 1,841,556 scenes, 4.6005327188038E13 bytes 
+  * sentinel2 l1c: 9,390,229 scenes, 4.039931462003551E15 bytes
+  * sentinel2_l2a: 3,184,645 scenes, 2.175544669008515E15 bytes
+  * landsat8_l1tp 952,227 scenes, 7.94090302270726E14 bytes
+  
 ## Filter (Common Query Language)
 
 * [Cleaned up BNF from OGC Catalgue](https://github.com/opengeospatial/ogcapi-features/blob/master/extensions/cql/schema/cql.bnf)
