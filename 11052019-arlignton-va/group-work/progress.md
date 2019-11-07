@@ -17,6 +17,9 @@ This document should link to all work happening at the sprint. Links to PR's and
 ## Item
 - [Added purpose field to Asset](https://github.com/radiantearth/stac-spec/pull/637) - added field `purpose` as a corollary field to Links `rel`, to describe a common set of usages for specific assets in an item, for example `thumbnail`.  
 
+## Extensions
+- [WIP Aerial Extension](https://github.com/radiantearth/stac-spec/pull/639)
+
 ## Implementations
 - pygeoapi STAC support
   - https://github.com/radiantearth/community-sprints/pull/19/files
