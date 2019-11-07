@@ -107,6 +107,7 @@ This document should link to all work happening at the sprint. Links to PR's and
   * Cities starting with "Bo" in north america, using a separate BBOX filter: https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=NAME%20LIKE%20%27Bo%25%27&filter-lang=cql-text&bbox=-130,20,-60,60
   * Sample filter capabilities output (not yet available on the server online): https://gist.github.com/aaime/b6ebe137b2dc318cfd31348c7e1749a3
 
+- Open Data COGs for MODIS https://registry.opendata.aws/modis-astraea/ indexed into the Astraea [public STAC API](https://eod-catalog-svc-prod.astraea.earth/api/v2/search), also containing Landsat-8, Sentinel-2 L1C and L2a, driving [Earth OnDemand](https://earthondemand.astraea.earth/)
 
 ## Filter (Common Query Language)
 
