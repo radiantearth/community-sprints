@@ -11,6 +11,8 @@ This document should link to all work happening at the sprint. Links to PR's and
   - https://github.com/radiantearth/stac-spec/pull/513
   - https://github.com/opengeospatial/ogcapi-features/issues/157
   - needs harmonization
+- Pagination is now using hypermedia links exclusively to align with OAFeat
+  - https://github.com/radiantearth/stac-spec/pull/631
 - [Aligned paging with OAFeat](https://github.com/radiantearth/stac-spec/pull/631) by using next links and adding a POST extension to the links definition for our /search endpoint.
 
 ## Item
@@ -25,6 +27,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 - pygeoapi STAC support
   - https://github.com/radiantearth/community-sprints/pull/19/files
   - discussion: https://github.com/geopython/pygeoapi/issues/221
+  - [WIP code](https://github.com/geopython/pygeoapi/tree/stac)
 - pygeoapi features
   - discussion around a `search/` endpoint to match the STAC `/search` across collections https://github.com/geopython/pygeoapi/issues/292
   - allowing many:many feature:collection connections: https://github.com/geopython/pygeoapi/issues/293 @mbucknell is working on an implementation for postgres
@@ -55,6 +58,10 @@ This document should link to all work happening at the sprint. Links to PR's and
   * added support for two filter language variants: [json-filter-expr](https://github.com/tschaub/ogcapi-features/blob/json-array-expression/extensions/cql/jfe/readme.md) and cql-json-array (what later became json-filter-expr, same as json-filter-expr but with different op codes)
   * [tieviiva (roadlink) features in bbox 24.00,66.00,24.05,66.05 and kohdeluokka >= 121111 and kohdeluokka <= 12132](https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/collections/tieviiva/items?bbox=24.00,66.00,24.05,66.05&filter-lang=json-filter-expr&filter=[%22all%22,[%22%3E=%22,[%22get%22,%22kohdeluokka%22],12111],[%22%3C=%22,[%22get%22,%22kohdeluokka%22],12132]]) 
   
+
+## Core
+* [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
+* [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
 - QGIS Server:
   * Simple transactions: implemented POST and PUT https://github.com/qgis/QGIS/pull/32694
   * Bug fixes and template enhancements: https://github.com/qgis/QGIS/pull/32596 , https://github.com/qgis/QGIS/pull/32645 , https://github.com/qgis/QGIS/pull/32656 
@@ -69,6 +76,7 @@ This document should link to all work happening at the sprint. Links to PR's and
   * Cities starting with "Bo": https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=NAME%20LIKE%20%27Bo%25%27&filter-lang=cql-text
   * Cities starting with "Bo" in north america, using a separate BBOX filter: https://ows.geo-solutions.it/geoserver/ne/ogc/features/collections/popplaces50m/items?limit=50&filter=NAME%20LIKE%20%27Bo%25%27&filter-lang=cql-text&bbox=-130,20,-60,60
   * Sample filter capabilities output (not yet available on the server online): https://gist.github.com/aaime/b6ebe137b2dc318cfd31348c7e1749a3
+
 
 ## Filter (Common Query Language)
 
