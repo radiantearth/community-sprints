@@ -32,6 +32,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 - Validation Group
   - Created validation Circle CI script (pending PR)
   - PySTAC implementation to identify object type, verion and extensions from JSON, to be used in CircleCI script (pending PR)
+* KoopJS [provider](https://github.com/koopjs/provider-ogcapi-features) and [output](https://github.com/koopjs/output-ogcapi-features) work ongoing around finishing up the data APIs in the core spec.
 
 ## Filter (Common Query Language)
 
