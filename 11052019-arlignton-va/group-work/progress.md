@@ -88,9 +88,6 @@ This document should link to all work happening at the sprint. Links to PR's and
   * output plugin [@koopjs/output-ogcapi-features](https://github.com/koopjs/output-ogcapi-features) to expose data from providers with Data APIs in the OGC API - Features core spec. 
   * see the demo app https://github.com/haoliangyu/koop-ogcapi-features-demo-app
 
-## Core
-* [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
-* [Converted search metadata to context object](https://github.com/radiantearth/stac-spec/pull/633) - consolidated search metadata into a context object that the root level of the FeatureCollection. Slimmed down property names.
 - QGIS Server:
   * Simple transactions: implemented POST and PUT https://github.com/qgis/QGIS/pull/32694
   * Bug fixes and template enhancements: https://github.com/qgis/QGIS/pull/32596 , https://github.com/qgis/QGIS/pull/32645 , https://github.com/qgis/QGIS/pull/32656 
