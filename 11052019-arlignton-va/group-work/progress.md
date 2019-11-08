@@ -114,7 +114,7 @@ This document should link to all work happening at the sprint. Links to PR's and
   * landsat8_l1tp 952,227 scenes, 7.94090302270726E14 bytes
 
 <span id="DataBio"></span>
-- **Spacebel DataBio Server Implementation:**
+- **Spacebel DataBio Catalog Server Implementation**
   * Presentation slides: https://docs.google.com/presentation/d/1YJH274rWtkAw_IVtNctLfoXluh2wzNw7F_VaCGiejgU/edit#slide=id.p1
   * Evolution of the Catalog Server used in Testbed-15 EOPAD [Engineering Report OGC 19-020](https://portal.opengeospatial.org/files/90614)
     * Compliant with OGC API - Features, STAC 0.8.0 and OpenSearch (OGC 17-047).
