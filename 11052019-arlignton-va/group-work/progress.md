@@ -112,6 +112,46 @@ This document should link to all work happening at the sprint. Links to PR's and
   * sentinel2 l1c: 9,390,229 scenes, 4.039931462003551E15 bytes
   * sentinel2_l2a: 3,184,645 scenes, 2.175544669008515E15 bytes
   * landsat8_l1tp 952,227 scenes, 7.94090302270726E14 bytes
+  
+- **Spacebel DataBio Server Implementation:**
+  * Presentation slides: https://docs.google.com/presentation/d/1YJH274rWtkAw_IVtNctLfoXluh2wzNw7F_VaCGiejgU/edit#slide=id.p1
+  * Evolution of the Catalog Server used in Testbed-15 EOPAD [Engineering Report OGC 19-020](https://portal.opengeospatial.org/files/90614)
+    * Compliant with OGC API - Features, STAC 0.8.0 and OpenSearch (OGC 17-047).
+    * On-the-fly alignment of GeoJSON objects (OGC 17-003, OGC 17-047, OGC 17-084, OGC 19-020) to GeoJSON Feature expected by OGC API Features and STAC (e.g. different Link objects, extraction of `assets`, `id`, `self` link.
+  * `/`
+    - https://databio.spacebel.be/eo-features/ (Landing Page)
+  * `/collections`
+    - https://databio.spacebel.be/eo-features/collections  ("series", "datasets", "services", "resources"), including service and application descriptions from [OGC Testbed-15](https://www.opengeospatial.org/projects/initiatives/testbed15) EOPAD and [H2020 DataBio Hub](https://www.databiohub.eu/registry/).
+  * `/stac` 
+    - STAC Catalog: https://databio.spacebel.be/eo-features/stac
+  * `/stac/search` (GET)
+    - Integration of Faceted Search queryable `facetLimit` and `facetedResults` response object as defined in OGC 19-020 [Testbed-15 EOPAD Engineering Report](https://portal.opengeospatial.org/files/90614) which reuses syntax from [SRU Extension for OpenSearch](https://web.archive.org/web/20180410065429/http://www.opensearch.org/Community/Proposal/Specifications/OpenSearch/Extensions/SRU/1.0/Draft_1) and [OASIS searchRetrieve](http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/part3-sru2.0/searchRetrieve-v1.0-os-part3-sru2.0.html#_Toc324162453).  We believe this could become a separate faceted search extension to both OpenSearch (OGC 17-047) and STAC.
+        * https://databio.spacebel.be/eo-features/stac/search?platform=landsat
+        * https://databio.spacebel.be/eo-features/stac/search?cloudCover=[5,10]  (supports query syntax from OpenSearch [OGC 13-026r8](http://docs.opengeospatial.org/is/13-026r8/13-026r8.html))
+        * https://databio.spacebel.be/eo-features/stac/search?facetLimit=1 (Only one value per facet in response)
+        * https://databio.spacebel.be/eo-features/stac/search?facetLimit=eo:platform (only include facet values for platform)
+        * https://databio.spacebel.be/eo-features/stac/search?facetLimit=eo:platform:5 (limit number of facet values for platform to 5)
+   * `/stac/search` (POST)
+     - Implementation of [STAC Query Extension](https://github.com/radiantearth/stac-spec/blob/master/api-spec/extensions/query/README.md) done.  Using OGC 13-026r8 queryable names (e.g. eo:cloudCover) to identify the properties to be searched.  See example below.  GeoJSON features returned represent EO Products (OGC 17-003), EO Collections (OGC 17-084) or EO Applications (OGC 19-020).   Implementation with proposed CQL-JSON still to do.
+    
+ ```
+ {
+	"query": {
+		"eo:cloudCover": {
+			"gte": 5,
+			"lte": 10
+		},
+		"eo:platform": {
+			"startsWith": "landsat"
+		},
+		"eo:orbitDirection": {
+			"eq": "DESCENDING"
+		}
+	}
+}
+```
+    
+    
 
 - Client implementations:
   * Set up an online client to test stac endpoints: https://rocket.snapplanet.io
