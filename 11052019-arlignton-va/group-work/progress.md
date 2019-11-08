@@ -113,7 +113,7 @@ This document should link to all work happening at the sprint. Links to PR's and
   * sentinel2_l2a: 3,184,645 scenes, 2.175544669008515E15 bytes
   * landsat8_l1tp 952,227 scenes, 7.94090302270726E14 bytes
 
-<span id="Spacebel"></span>
+<span id="DataBio"></span>
 - **Spacebel DataBio Server Implementation:**
   * Presentation slides: https://docs.google.com/presentation/d/1YJH274rWtkAw_IVtNctLfoXluh2wzNw7F_VaCGiejgU/edit#slide=id.p1
   * Evolution of the Catalog Server used in Testbed-15 EOPAD [Engineering Report OGC 19-020](https://portal.opengeospatial.org/files/90614)
@@ -124,10 +124,10 @@ This document should link to all work happening at the sprint. Links to PR's and
     - https://databio.spacebel.be/eo-features/ (Landing Page)
   * `/collections`
     - https://databio.spacebel.be/eo-features/collections  ("series", "datasets", "services", "resources"), including service and application descriptions from [OGC Testbed-15](https://www.opengeospatial.org/projects/initiatives/testbed15) EOPAD and [H2020 DataBio Hub](https://www.databiohub.eu/registry/).
- * `/collections/{collection-id}/items` 
+  * `/collections/{collection-id}/items` 
     - DataBio: https://databio.spacebel.be/eo-features/collections/services/items?subject=databio
     - TestBed-15: https://databio.spacebel.be/eo-features/collections/services/items?subject=testbed-15
- * `/collections/{collection-id}/items/{feature-id}`  
+  * `/collections/{collection-id}/items/{feature-id}`  
     - EO Collection: https://databio.spacebel.be/eo-features/collections/series/items/EOP:ESA:Sentinel-2
     - EO Product: https://databio.spacebel.be/eo-features/collections/datasets/items/LS07_RMPS_ETM_GTC_1P_20000123T112001_20000123T112030_004119_0205_0050_A02A
     - EO Application: https://databio.spacebel.be/eo-features/collections/services/items/59ce3e48e4b006858838270d 
