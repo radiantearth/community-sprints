@@ -118,6 +118,7 @@ This document should link to all work happening at the sprint. Links to PR's and
   * Evolution of the Catalog Server used in Testbed-15 EOPAD [Engineering Report OGC 19-020](https://portal.opengeospatial.org/files/90614)
     * Compliant with OGC API - Features, STAC 0.8.0 and OpenSearch (OGC 17-047).
     * On-the-fly alignment of GeoJSON objects (OGC 17-003, OGC 17-047, OGC 17-084, OGC 19-020) to GeoJSON Feature expected by OGC API Features and STAC (e.g. different Link objects, extraction of `assets`, `id`, `self` link.
+  * Interoperability tested with SnapPlanet Client: https://rocket.snapplanet.io/#!/home?_url=https:%2F%2Fdatabio.spacebel.be%2Feo-features%2F
   * `/`
     - https://databio.spacebel.be/eo-features/ (Landing Page)
   * `/collections`
