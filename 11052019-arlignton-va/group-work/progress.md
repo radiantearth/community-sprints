@@ -123,6 +123,13 @@ This document should link to all work happening at the sprint. Links to PR's and
     - https://databio.spacebel.be/eo-features/ (Landing Page)
   * `/collections`
     - https://databio.spacebel.be/eo-features/collections  ("series", "datasets", "services", "resources"), including service and application descriptions from [OGC Testbed-15](https://www.opengeospatial.org/projects/initiatives/testbed15) EOPAD and [H2020 DataBio Hub](https://www.databiohub.eu/registry/).
+ * `/collections/{collection-id}/items` 
+    - DataBio: https://databio.spacebel.be/eo-features/collections/services/items?subject=databio
+    - TestBed-15: https://databio.spacebel.be/eo-features/collections/services/items?subject=testbed-15
+ * `/collections/{collection-id}/items/{feature-id}`  
+    - EO Collection: https://databio.spacebel.be/eo-features/collections/series/items/EOP:ESA:Sentinel-2
+    - EO Product: https://databio.spacebel.be/eo-features/collections/datasets/items/LS07_RMPS_ETM_GTC_1P_20000123T112001_20000123T112030_004119_0205_0050_A02A
+    - EO Application: https://databio.spacebel.be/eo-features/collections/services/items/59ce3e48e4b006858838270d 
   * `/stac` 
     - STAC Catalog: https://databio.spacebel.be/eo-features/stac
   * `/stac/search` (GET)
@@ -130,6 +137,7 @@ This document should link to all work happening at the sprint. Links to PR's and
         * https://databio.spacebel.be/eo-features/stac/search?platform=landsat
         * https://databio.spacebel.be/eo-features/stac/search?cloudCover=[5,10]  (supports query syntax from OpenSearch [OGC 13-026r8](http://docs.opengeospatial.org/is/13-026r8/13-026r8.html))
         * https://databio.spacebel.be/eo-features/stac/search?facetLimit=1 (Only one value per facet in response)
+	* https://databio.spacebel.be/eo-features/stac/search?facetLimit=0 (Do not include facet avlues in response)
         * https://databio.spacebel.be/eo-features/stac/search?facetLimit=eo:platform (only include facet values for platform)
         * https://databio.spacebel.be/eo-features/stac/search?facetLimit=eo:platform:5 (limit number of facet values for platform to 5)
    * `/stac/search` (POST)
