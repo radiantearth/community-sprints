@@ -30,6 +30,8 @@ break out zoom sessions. Planet can provide zoom rooms, but others can also just
 
 [zoom link](https://planet.zoom.us/j/93187144321) and [dial-in details](https://applications.zoom.us/addon/invitation/detail?meetingUuid=GaPFphWHSAOgWKKFAZpIpQ%3D%3D&signature=70b83bee0949836eee2c4fda1d40dff9f39ae840a457ad92b0847cb1eb6fdcd1) for kickoff. 
 
+7:25 - SpaceX Launch with Planet Satellites aboard for anyone interested. https://www.spacex.com/launches/
+
 ### Wrap-up
 
 * Post what you did to the 'progress' section
