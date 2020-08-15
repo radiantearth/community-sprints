@@ -25,6 +25,9 @@ break out zoom sessions. Planet can provide zoom rooms, but others can also just
 
 * **Post a written intro** - Share who you are, what your background is, and what you're hoping to work on this sprint. Fill out at [STAC Sprint #6 - Software section Introductions](https://docs.google.com/document/d/1IGgYhnJ5GKW-QGueiix4evJV9pJ7HV9dyciQYako5Ws/edit#) google doc.
 * **Add help offered/wanted and ideas** - Prepare for the sprint by posting to the [STAC Sprint Ideas + Help Offered/Wanted](https://docs.google.com/document/d/1Dk4M0i0_LWWGHlMw4Xd0RRzWeWIXIRM4q_98qNBTV0w/edit) google doc.
+* **Familiarize yourself with STAC if you are not already**: For the software sprint we are assuming most people will hit the ground running, with at least some
+understanding of STAC. If you are not yet familiar then please read up on the [website](http://stacspec.org) and the [spec itself](https://github.com/radiantearth/stac-spec). If you're comfortable with Python then the [PySTAC Tutorials](https://pystac.readthedocs.io/en/latest/tutorials.html)
+are also a great place to start. And you can watch a [recording](https://www.youtube.com/watch?v=SjJTkxzse6A&feature=youtu.be) of the tutorial from the last sprint.
 
 ### Kickoff August 18th
 
@@ -43,7 +46,7 @@ So for the 19th we expect people to schedule more of their 'work' meetings, but 
 
 ## August 20th - Final Software Sprint
 
-13:00 UTC - Check-in
+13:00 UTC - Check-in, see if there are people looking for projects, looking for help, perhaps a brief show and tell.
 
 ### Wrap-up
 
