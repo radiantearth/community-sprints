@@ -23,7 +23,7 @@ break out zoom sessions. Planet can provide zoom rooms, but others can also just
 
 ### Pre-work
 
-* **Post a written intro** - Share who you are, what your background is, and what you're hoping to work on this sprint. Fill out at [STAC Sprint #6 - Software section Introductions](https://docs.google.com/document/d/1IGgYhnJ5GKW-QGueiix4evJV9pJ7HV9dyciQYako5Ws/edit#) google doc.
+
 * **Add help offered/wanted and ideas** - Prepare for the sprint by posting to the [STAC Sprint Ideas + Help Offered/Wanted](https://docs.google.com/document/d/1Dk4M0i0_LWWGHlMw4Xd0RRzWeWIXIRM4q_98qNBTV0w/edit) google doc.
 * **Familiarize yourself with STAC if you are not already**: For the software sprint we are assuming most people will hit the ground running, with at least some
 understanding of STAC. If you are not yet familiar then please read up on the [website](http://stacspec.org) and the [spec itself](https://github.com/radiantearth/stac-spec). If you're comfortable with Python then the [PySTAC Tutorials](https://pystac.readthedocs.io/en/latest/tutorials.html)
@@ -31,7 +31,19 @@ are also a great place to start. And you can watch a [recording](https://www.you
 
 ### Kickoff August 18th
 
-[13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440),
+We've got people coming from lots of different timezones, and we want to keep you working in your normal work hours. So consider the start of the sprint 
+whenever you normally get started on work. Kick-off the day by doing two things:
+
+* **Post a written intro** - Share who you are, what your background is, and what you're hoping to work on this sprint. Do this on the [STAC Sprint #6 - Software section Introductions](https://docs.google.com/document/d/1IGgYhnJ5GKW-QGueiix4evJV9pJ7HV9dyciQYako5Ws/edit#) google doc.
+
+* **Sign-on to Gitter and say 'hi!'** - It should be easy to join gitter, just go to https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby and log-on. Kick off 
+the day by introducing yourself to the group and say what you're working on. We'll also have some Zoom rooms open, so you can jump on video and say hi there.
+
+From there you can look at the [STAC Sprint Ideas + Help Offered/Wanted](https://docs.google.com/document/d/1Dk4M0i0_LWWGHlMw4Xd0RRzWeWIXIRM4q_98qNBTV0w/edit)
+document to find something to work on, or just dive into the project you had in mind.
+
+Then at [13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440) we will all gather on zoom to 
+say hi, so we can associate faces with names, and figure out collaborations.
 
 [zoom link](https://planet.zoom.us/j/93187144321) and [dial-in details](https://applications.zoom.us/addon/invitation/detail?meetingUuid=GaPFphWHSAOgWKKFAZpIpQ%3D%3D&signature=70b83bee0949836eee2c4fda1d40dff9f39ae840a457ad92b0847cb1eb6fdcd1) for kickoff. 
 
@@ -50,5 +62,8 @@ So for the 19th we expect people to schedule more of their 'work' meetings, but 
 
 ### Wrap-up
 
-* Post what you did to the 'progress' section
-* Create a video that shows / talks about your wor
+We are not going to try to do a final 'wrap up' section, as everyone will be ending their days at different times. But you should record an informal 'show and tell'
+presentation that we can share. It'd be great if you could post publicly, but privately is also possible.
+
+* Post what you did to the 'progress' section (TODO: Make the progress section)
+* Create a video that shows / talks about your work
