@@ -65,10 +65,12 @@ say hi, so we can associate faces with names, and figure out collaborations.
 Note that we're not 100% certain the video links will all work right. We'll aim to use Planet's Zoom rooms, but if you want to set up any other type of meeting then
 go for it. Just update on gitter and update this document.
 
-|**Time**|**Title**|**Video Link**|**Description**|
+|**Time**|**Title**|**Link**|**Description**|
 |--------|---------|--------------|---------------|
-|Start of your day | **Remote Introduction**  | Post your [introduction](https://docs.google.com/document/d/1IGgYhnJ5GKW-QGueiix4evJV9pJ7HV9dyciQYako5Ws/edit#), login to [gitter](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) and say hi, and what you're working on or are interested in.|
-|[13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440)| **Zoom Kick-off & introductions** | Put names to faces, with everyone sharing their introduction, and quick introductions of projects you are hoping to work on and/or where you want to help|
+|Start of your day | **Remote Introduction**  | gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) | Post your [introduction](https://docs.google.com/document/d/1IGgYhnJ5GKW-QGueiix4evJV9pJ7HV9dyciQYako5Ws/edit#), login to [gitter](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) and say hi, and what you're working on or are interested in.|
+|[13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440)| **Zoom Kick-off & introductions** | zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321) |Put names to faces, with everyone sharing their introduction, and quick introductions of projects you are hoping to work on and/or where you want to help|
+| [14:25 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1425&p1=1440) | *SpaceX Launch* (optional) |  zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321)  (same as kick-off) to watch with people, or direct at https://www.spacex.com/launches/ | Optional viewing of [SpaceX Launch with 3 Planet SkySats](https://www.planet.com/pulse/skysats-19-21-to-launch-on-spacex-falcon-9-rideshare-mission/), if it doesn't get scrubbed |
+
 
 
 [zoom link](https://planet.zoom.us/j/93187144321) and [dial-in details](https://applications.zoom.us/addon/invitation/detail?meetingUuid=GaPFphWHSAOgWKKFAZpIpQ%3D%3D&signature=70b83bee0949836eee2c4fda1d40dff9f39ae840a457ad92b0847cb1eb6fdcd1) for kickoff. 
