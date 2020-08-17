@@ -33,7 +33,7 @@ unless it is something specific to the call / not STAC related.
 | STAC Validation | James Banting ([jbants](https://gitter.im/jbants)) & Matthias Mohr ([m-mohr](https://gitter.im/m-mohr)) | zoom: [987-2456-6057](https://planet.zoom.us/j/98724566057) / gitter: [STAC Validation](https://gitter.im/SpatioTemporal-Asset-Catalog/validation#) | Discussion of validation of STAC, centered on node and python validation tools, but any validation topics are welcome | Starts after kickoff section: ~[14:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1430&p1=1440) on tuesday, beforehand catch Matthias in the Lobby. |
 | Clients | Kevin Booth ([kbgg](https://gitter.im/kbgg)) | TODO | Discussion of client related topics, including QGIS, STAC Browser, interactive API browsers, etc | Starts after kickoff section: ~[14:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1430&p1=1440), runs at least all day Tuesday| 
 | STAC API | Matt Hanson ([matthewhanson](https://gitter.im/matthewhanson)) | TODO (also make a 'state of stac api' document)| Discussion of STAC API implementations, with an aim to work towards 1.0.0-beta.1 STAC API spec | Starts after kickoff section: ~[14:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1430&p1=1440) on tuesday |
-| Beginner Q&A | Chris Holmes ([cholmes](https://gitter.im/cholmes)) | TODO | Start with an informal 'tour' of the specification, and then general Q&A on any spec topics | [15:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1530&p1=1440) (about an hour after the kick-off section wraps. Can use the time between to read up on the website and the spec) |
+| Beginner Q&A | Chris Holmes ([cholmes](https://gitter.im/cholmes)) | TODO | Start with an informal 'tour' of the specification, and then general Q&A on any spec topics | [15:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1530&p1=1440) (note hour delay from when the other group work starts. Can use the time between to read up on the website and the spec) |
 | *Add Your Room Info* |
 
 ## Schedule
@@ -71,23 +71,22 @@ go for it. Just update on gitter and update this document.
 |[13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440)| **Zoom Kick-off & introductions** | zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321) |Put names to faces, with everyone sharing their introduction, and quick introductions of projects you are hoping to work on and/or where you want to help|
 | [14:25 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1425&p1=1440) | *SpaceX Launch* (optional) |  zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321)  (same as kick-off) to watch with people, or direct at https://www.spacex.com/launches/ | Optional viewing of [SpaceX Launch with 3 Planet SkySats](https://www.planet.com/pulse/skysats-19-21-to-launch-on-spacex-falcon-9-rideshare-mission/), if it doesn't get scrubbed |
 | ~[14:45 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1425&p1=1440) | **Group Kick-offs** | See [room info](#room-info) | Smaller group work, see the [room info](#room-info). Most group sessions will kick off a bit after the main intro session ends. We'll cap it at 1.5 hours, but it may end earlier than that. |
+| [15:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1530&p1=1440) | *Intro to STAC Q&A* | zoom: [918-0718-9441](https://planet.zoom.us/j/91807189441) | This will be an informal session doing a brief overview of the specification, and then extended Q&A for any questions. If you want a full introduction to STAC then it'd be best to wait for the 'outreach day' on September 8th. This session starts an hour after the others, so if you intend to come please use the hour to read up on the [website](http://stacspec.org) and the [spec itself](http://github.com/radiantearth/stac-spec). And if you're comfortable with Python then the [PySTAC Tutorials](https://pystac.readthedocs.io/en/latest/tutorials.html) are also a great place to start. And you can watch a recording of the [tutorial](https://www.youtube.com/watch?v=SjJTkxzse6A&feature=youtu.be) from the last sprint. |
+| [17:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T17&p1=1440) and every two hours after that | **chat check-ins** | gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) | For in person sprints we'd often have quick in person check-ins every couple hours to see if cross-group coordination was needed. That feels unwieldy with zoom, so let's just try to have each 'group' that is working try to post progress every 2 hours. Update others on your progress, and any conversations / help you need to have, since many people will want to be in several topics but can't join every conversation. We can also try video check-ins on the main channel|
 
-
-
-[zoom link](https://planet.zoom.us/j/93187144321) and [dial-in details](https://applications.zoom.us/addon/invitation/detail?meetingUuid=GaPFphWHSAOgWKKFAZpIpQ%3D%3D&signature=70b83bee0949836eee2c4fda1d40dff9f39ae840a457ad92b0847cb1eb6fdcd1) for kickoff. 
-
-14:25 UTC - SpaceX Launch with Planet Satellites aboard for anyone interested. https://www.spacex.com/launches/
-
-TODO: Add break out room information & topics
 
 ### Optional Day August 19th
 
 The 'official' sprint is just August 18th and 20th, so that people can hopefully pause on their day jobs on those days to really focus on STAC software topics. 
-So for the 19th we expect people to schedule more of their 'work' meetings, but will leave the rooms open for collaboration.
+So for the 19th we expect people to try to schedule more of their 'work' meetings, but we hope at least some people will continue to work on STAC topics this day. 
+The same ['rooms'](#room-info) will remain open, on zoom and chat, so feel free to use them and check-in.  
 
 ## August 20th - Final Software Sprint
 
-13:00 UTC - Check-in, see if there are people looking for projects, looking for help, perhaps a brief show and tell.
+|**Time**|**Title**|**Link**|**Description**|
+|--------|---------|--------------|---------------|
+|Start of your day | **Remote Check-in**  | gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) | Drop a line in gitter when you get started for the day, on what you're going to work on|
+|[13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440)| **Zoom Check-in** | zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321) |Optional updates on progress and calls for help|
 
 ### Wrap-up
 
