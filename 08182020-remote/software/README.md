@@ -24,6 +24,7 @@ and you are encouraged to join it when you start your day. It may well get a bit
 it should serve as a place to check-in and ask questions. Please try to use [gitter](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) in favor of zoom chat, 
 unless it is something specific to the call / not STAC related. 
 
+##### Room Info
 
 |**Room**|**Contact**|**Links**|**Description**|**Time**|
 |--------|-----------|--------------|---------------|--------|
