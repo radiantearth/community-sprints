@@ -69,20 +69,7 @@ go for it. Just update on gitter and update this document.
 |--------|---------|--------------|---------------|
 |Start of your day | **Remote Introduction**  | Post your [introduction](https://docs.google.com/document/d/1IGgYhnJ5GKW-QGueiix4evJV9pJ7HV9dyciQYako5Ws/edit#), login to [gitter](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) and say hi, and what you're working on or are interested in.|
 |[13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440)| **Zoom Kick-off & introductions** | Put names to faces, with everyone sharing their introduction, and quick introductions of projects you are hoping to work on and/or where you want to help|
-|9 - 9:20  | **Welcome**  | Overview of event, logistics,  etc |
-|9:20 - 10:45 | **Introductions**  | Brief introductions from everyone, so we all know who else is there and where they're coming from|
-|10:45 | Break| |
-|11:00 - 12:00 | Group work kickoffs | Break up into small groups to advance topics |
-|11:15 - 12:00 | **Beginner Session #1** | Beginner session on STAC - overview of spec, main implementations, Q&A  |
-|12:00 | Lunch | Break for lunch, continue chatting on topics |
-|12:30 - 2:30  | Group work continues | Continue on work in small groups |
-|12:30 - 1:30 | **Beginner Session #2** | Beginner session on [PySTAC](https://github.com/azavea/pystac) - how to create static catalogs |
-|2:30 - 2:50  | **Full group check-in**  | Check on status, report on progress, resolve any burning questions with the full group, figure out if we need to shift small groups|
-|3:00 - 5:15  | Continued group work | |
-|5:30 | Bus leaves for Happy Hour | Location: Element 84 HQ, 210 North Lee Street, Suite 203, Alexandria, VA 22314 |
-|6:00 | Happy Hour starts | Informal discussion, drinks, food |
-|7:00 - 8:00 | Lightning Talks | Presentations from 8 people on various topics STAC and OAFeat topics. We likely won't stream these as they are late for many people, but will try to record and post asap for those who are remote.|
-|9:00 | Bus goes back to 2107 Wilson Blvd | |
+
 
 [zoom link](https://planet.zoom.us/j/93187144321) and [dial-in details](https://applications.zoom.us/addon/invitation/detail?meetingUuid=GaPFphWHSAOgWKKFAZpIpQ%3D%3D&signature=70b83bee0949836eee2c4fda1d40dff9f39ae840a457ad92b0847cb1eb6fdcd1) for kickoff. 
 
