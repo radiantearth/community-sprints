@@ -28,11 +28,11 @@ unless it is something specific to the call / not STAC related.
 
 |**Room**|**Contact**|**Links**|**Description**|**Time**|
 |--------|-----------|--------------|---------------|--------|
-|General | Chris Holmes ([cholmes](https://gitter.im/cholmes) on gitter) & Matthias Mohr ([m-mohr](https://gitter.im/m-mohr)) | zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321) / gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby)| Main room used for kickoff, check-ins and general info. | Available all day tuesday, wednesday + thursday|
+|General | Chris Holmes ([cholmes](https://gitter.im/cholmes) on gitter) & Matthias Mohr ([m-mohr](https://gitter.im/m-mohr)) | zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321) / gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby)| Main room used for kickoff, check-ins and general info. | Available all day tuesday, wednesday + thursday |
 | PySTAC & Python | Rob Emanuele ([lossyrob](https://gitter.im/lossyrob)) | zoom: [924-3251-4203](https://planet.zoom.us/j/92432514203) / gitter: [STAC python](https://gitter.im/SpatioTemporal-Asset-Catalog/python) | Discussing PySTAC, including Command Line Tooling, Pydantic, and any other python related topics - may break into smaller groups | Starts after kickoff section: ~[14:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1430&p1=1440), generally will be available during the sprint|
-| STAC Validation | James Banting ([jbants](https://gitter.im/jbants)) & Matthias Mohr ([m-mohr](https://gitter.im/m-mohr)) | TODO | Discussion of validation of STAC, centered on node and python validation tools, but any validation topics are welcome | Starting late morning in Europe on Tuesday |
+| STAC Validation | James Banting ([jbants](https://gitter.im/jbants)) & Matthias Mohr ([m-mohr](https://gitter.im/m-mohr)) | TODO | Discussion of validation of STAC, centered on node and python validation tools, but any validation topics are welcome | Starts after kickoff section: ~[14:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1430&p1=1440) on tuesday, beforehand catch Matthias in the Lobby. |
 | Clients | Kevin Booth ([kbgg](https://gitter.im/kbgg)) | TODO | Discussion of client related topics, including QGIS, STAC Browser, interactive API browsers, etc | Starts after kickoff section: ~[14:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1430&p1=1440), runs at least all day Tuesday| 
-| STAC API | Matt Hanson ([matthewhanson](https://gitter.im/matthewhanson)) | TODO (also make a 'state of stac api' document)| Discussion of STAC API implementations, with an aim to work towards 1.0.0-beta.1 STAC API spec | Starts after kickoff section: ~[14:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1430&p1=1440)| on tuesday |
+| STAC API | Matt Hanson ([matthewhanson](https://gitter.im/matthewhanson)) | TODO (also make a 'state of stac api' document)| Discussion of STAC API implementations, with an aim to work towards 1.0.0-beta.1 STAC API spec | Starts after kickoff section: ~[14:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1430&p1=1440) on tuesday |
 | Beginner Q&A | Chris Holmes ([cholmes](https://gitter.im/cholmes)) | TODO | Start with an informal 'tour' of the specification, and then general Q&A on any spec topics | [15:30 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?&iso=20200818T1530&p1=1440) (about an hour after the kick-off section wraps. Can use the time between to read up on the website and the spec) |
 | *Add Your Room Info* |
 
@@ -54,7 +54,7 @@ whenever you normally get started on work. Kick-off the day by doing two things:
 * **Post a written intro** - Share who you are, what your background is, and what you're hoping to work on this sprint. Do this on the [STAC Sprint #6 - Software section Introductions](https://docs.google.com/document/d/1IGgYhnJ5GKW-QGueiix4evJV9pJ7HV9dyciQYako5Ws/edit#) google doc.
 
 * **Sign-on to Gitter and say 'hi!'** - It should be easy to join gitter, just go to https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby and log-on. Kick off 
-the day by introducing yourself to the group and say what you're working on. We'll also have some Zoom rooms open, so you can jump on video and say hi there.
+the day by introducing yourself to the group and say what you're working on. We'll also have some Zoom rooms open, so you can jump on video and say hi there
 
 From there you can look at the [STAC Sprint Ideas + Help Offered/Wanted](https://docs.google.com/document/d/1Dk4M0i0_LWWGHlMw4Xd0RRzWeWIXIRM4q_98qNBTV0w/edit)
 document to find something to work on, or just dive into the project you had in mind.
