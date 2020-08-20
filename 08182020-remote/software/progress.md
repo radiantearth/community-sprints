@@ -29,8 +29,10 @@ Released a new version 0.4.0 which now includes support for:
 ### ESA FedEO (ESE-ERGO)
 * Updated ESE-ERGO STAC catalog interface to 1.0.0-beta.2. See [landing page](https://ergo.spacebel.be/).
 * Added [collection asset extension](https://github.com/radiantearth/stac-spec/tree/master/extensions/collection-assets) to provide access to collection-level metadata representations (DIF10, ISO19139-2, OGC 17-084r1).  See example [TropForest](https://ergo.spacebel.be/series/eo:platform/ALOS-1/TropForest).
+* Completed adding paging links (previous/next) in catalogs with too many subcatalogs.  Example [ESA/ESRIN](https://ergo.spacebel.be/series/eo:organisationName/ESA@ESRIN?startRecord=51).  Having this understood by STAC-BROWSER would be very useful.
 * Interoperability test with [STAC-BROWSER](https://geo.spacebel.be/?t=catalogs) supporting 1.0.0-beta.
 * Preliminary tests with [Rocket SnapPlanet Client](https://rocket.snapplanet.io/home?_url=https:%2F%2Fergo.spacebel.be%2F).
+* Validation tests of endpoint with https://staclint.com/.  Only copy/paste of responses as access via URL not working due to invalid SSL certificates on our server.
 
 ### STAC Index
 
