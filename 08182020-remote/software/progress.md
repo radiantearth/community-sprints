@@ -35,6 +35,16 @@ Released a new version 0.4.0 which now includes support for:
 
 Still very much WIP, have implemented a basic server and UI, but no crawling yet: https://github.com/stac-utils/stac-index
 
+### DotNetStac
+
+.Net library for working with Spatio Temporal Asset Catalogs (STAC) 
+First public release of DotNetStac (0.2.0-beta) https://github.com/Terradue/DotNetStac with NuGet package available at https://www.nuget.org/packages/DotNetStac/
+Current features
+* (De)Serialization engine supporting current and older versions of the specifications with an upgrade mechanism
+* Navigation methods to seamlessly traverse from a root STAC catalog through children (csubcat, collections and items) up to assets
+* Enhanced extensions support with plugin system for embedding extension related functions (e.g. sat: orbit file download, sar: interferometric search, eo: calibration parameters)
+
+
 ### (add any software you worked on)
 
 ## Data
