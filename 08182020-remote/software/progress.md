@@ -13,6 +13,7 @@ $5000 prize will be done by everyone who adds their video.
 
 [Enable code coverage](https://github.com/stac-utils/pystac/pull/164) so we can understand how well the tests are doing in covering every bit of code.
 
+[Build and Test under Ubuntu Focal LTS / Universe py3 Stack](https://github.com/stac-utils/pystac/issues/143)
 (link to issue / PR's completed)
 
 ### (add any software you worked on)
