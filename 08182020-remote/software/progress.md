@@ -23,6 +23,7 @@ Released a new version 0.4.0 which now includes support for:
 
 [Enable code coverage](https://github.com/stac-utils/pystac/pull/164) so we can understand how well the tests are doing in covering every bit of code.
 
+[Build and Test under Ubuntu Focal LTS / Universe py3 Stack](https://github.com/stac-utils/pystac/issues/143)
 (link to issue / PR's completed)
 
 ### ESA FedEO (ESE-ERGO)
