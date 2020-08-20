@@ -87,11 +87,18 @@ The same ['rooms'](#room-info) will remain open, on zoom and chat, so feel free 
 |--------|---------|--------------|---------------|
 |Start of your day | **Remote Check-in**  | gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) | Drop a line in gitter when you get started for the day, on what you're going to work on|
 |[13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440)| **Zoom Check-in** | zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321) |Optional updates on progress and calls for help|
+| End of your day | **Virtual Wrap-up** | gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) | Update [the progress page](progress.md) with what you did during the sprint. You can also record your [demo video](progress.md#demo-videos), though they aren't due until Sunday at midnight |
 
 ### Wrap-up
 
-We are not going to try to do a final 'wrap up' section, as everyone will be ending their days at different times. But you should record an informal 'show and tell'
-presentation that we can share. It'd be great if you could post publicly, but privately is also possible.
+We are not going to try to do a final 'wrap up' section, as in past sprints, since everyone will be ending their days at different times. But there are two key 
+things you should do, to enable our 'virtual wrap up'.
 
-* Post what you did to the 'progress' section (TODO: Make the progress section)
-* Create a video that shows / talks about your work
+1. Update [the progress page](progress.md) with any STAC related work you did during the sprint. This can be anything with the ecosystem, and in addition to writing
+code can include testing, packaging, documentation, spec editing, cataloging data, etc - really anything that helps.
+
+2. Record your [demo video](progress.md#demo-videos). You can do this at the end of your day if you want to get it out of the way. But if you're working on 
+finishing something they are not due until Sunday at midnight (in whatever time zone has the most friendly midnight). See the [demo video](progress.md#demo-videos)
+for more information. We may try to have a 'viewing party' of some sort, and we'll also aim for a subset of the videos to evolve into lightning talks at the 
+outreach day.
+
