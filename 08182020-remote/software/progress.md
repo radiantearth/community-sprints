@@ -36,6 +36,14 @@ Released a new version 0.4.0 which now includes support for:
 
 Still very much WIP, have implemented a basic server and UI, but no crawling yet: https://github.com/stac-utils/stac-index
 
+### STAC GeoServer/GeoTools Coverage Store
+The store is functional and capable of pointing to any STAC API service and rendering any asset in a specified collection.
+I was hoping to have it working with the new imageio-ext COG code, but those modules are still in snapshot which causes 
+massive conflicts with GeoServer when attempting to point to multiple versions of the same dependency.
+
+When the new imageio-ext COG reader is released, the store will work with any accessible asset, and will allow for 
+custom client implementations to read COG byte ranges from any source.  
+
 ### (add any software you worked on)
 
 ## Data
