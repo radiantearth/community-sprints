@@ -7,6 +7,16 @@ $5000 prize will be done by everyone who adds their video.
 
 ## Software
 
+Created an overview document that shows the different validators in comparison: https://github.com/m-mohr/stac-node-validator/blob/master/COMPARISON.md
+
+### STAC Node Validator
+
+Released a new version 0.4.0 which now includes support for:
+
+- Validating external extension schemas (e.g. landsat extension)
+- Read URLs and API responses (partial support for API responses only, see readme)
+- Skipping SSL/TLS cert check for HTTPS requests
+
 ### PySTAC
 
 (TODO: Add summary of what happened with pystac) 
@@ -20,6 +30,10 @@ $5000 prize will be done by everyone who adds their video.
 * Added [collection asset extension](https://github.com/radiantearth/stac-spec/tree/master/extensions/collection-assets) to provide access to collection-level metadata representations (DIF10, ISO19139-2, OGC 17-084r1).  See example [TropForest](https://ergo.spacebel.be/series/eo:platform/ALOS-1/TropForest).
 * Interoperability test with [STAC-BROWSER](https://geo.spacebel.be/?t=catalogs) supporting 1.0.0-beta.
 * Preliminary tests with [Rocket SnapPlanet Client](https://rocket.snapplanet.io/home?_url=https:%2F%2Fergo.spacebel.be%2F).
+
+### STAC Index
+
+Still very much WIP, have implemented a basic server and UI, but no crawling yet: https://github.com/stac-utils/stac-index
 
 ### (add any software you worked on)
 
