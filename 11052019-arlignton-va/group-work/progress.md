@@ -83,6 +83,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 - nls-fi Features server (https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/)
   * added support for two filter language variants: [json-filter-expr](https://github.com/tschaub/ogcapi-features/blob/json-array-expression/extensions/cql/jfe/readme.md) and cql-json-array (what later became json-filter-expr, same as json-filter-expr but with different op codes)
   * [tieviiva (roadlink) features in bbox 24.00,66.00,24.05,66.05 and kohdeluokka >= 121111 and kohdeluokka <= 12132](https://beta-paikkatieto.maanmittauslaitos.fi/maastotiedot/features/v1/collections/tieviiva/items?bbox=24.00,66.00,24.05,66.05&filter-lang=json-filter-expr&filter=[%22all%22,[%22%3E=%22,[%22get%22,%22kohdeluokka%22],12111],[%22%3C=%22,[%22get%22,%22kohdeluokka%22],12132]]) 
+
 * KoopJS
   * work focuses on fetch/output dataset from the data APIs in the core spec:
     * `/collections/:collectionId/items`
@@ -90,6 +91,8 @@ This document should link to all work happening at the sprint. Links to PR's and
   * provider plugin [@koopjs/provider-ogcapi-features](https://github.com/koopjs/provider-ogcapi-features) to read features from a collection.
   * output plugin [@koopjs/output-ogcapi-features](https://github.com/koopjs/output-ogcapi-features) to expose data from providers with data APIs. 
   * see the demo app https://github.com/haoliangyu/koop-ogcapi-features-demo-app
+  
+ - sat-api-pg Added OGC endpoints for [sat-api-pg](https://github.com/developmentseed/sat-api-pg).
 
 - QGIS Server:
   * Simple transactions: implemented POST and PUT https://github.com/qgis/QGIS/pull/32694
