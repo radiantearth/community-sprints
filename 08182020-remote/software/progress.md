@@ -50,6 +50,18 @@ custom client implementations to read COG byte ranges from any source.
 
 New project, WIP:  https://github.com/turingtestfail/stac-search-jpa  So far this sprint got JPA modeling for Catalog, Collections, Collection and children.  Today is all about FeatureCollections, Features, and querying/filtering with the basic use case (datetime, bbox, limit).  Tomorrow is about converting Query Extension to CQL to SQL.
 
+### DotNetStac
+
+.Net library for working with Spatio Temporal Asset Catalogs (STAC) 
+
+First public release of DotNetStac (0.2.0-beta) https://github.com/Terradue/DotNetStac with NuGet package available at https://www.nuget.org/packages/DotNetStac/
+
+Current features
+
+* (De)Serialization engine supporting current and older versions of the specifications with an upgrade mechanism
+* Navigation methods to seamlessly traverse from a root STAC catalog through children (csubcat, collections and items) up to assets
+* Enhanced extensions support with plugin system for embedding extension related functions (e.g. sat: orbit file download, sar: interferometric search, eo: calibration parameters)
+
 ### (add any software you worked on)
 
 ## Data
