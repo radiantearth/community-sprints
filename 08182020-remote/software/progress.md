@@ -19,7 +19,7 @@ Released a new version 0.4.0 which now includes support for:
 
 ### PySTAC
 
-(TODO: Add summary of what happened with pystac) 
+Moved PySTAC to the [stac-utils](https://github.com/stac-utils) GitHub org.
 
 [Enable code coverage](https://github.com/stac-utils/pystac/pull/164) so we can understand how well the tests are doing in covering every bit of code.
 
@@ -27,7 +27,12 @@ Released a new version 0.4.0 which now includes support for:
 (link to issue / PR's completed)
 
 [Add ability to update collection extent from Items](https://github.com/stac-utils/pystac/pull/168) - New feature that allows for updating of collection extents once items are added.
+
+[Added the Timestamps extension](https://github.com/stac-utils/pystac/pull/161)
+
 [Fix ExtensionIndex internal docstring retrieval](https://github.com/stac-utils/pystac/pull/159) - Fixed bug that was causing help dialog on ExtensionIndex to fail.
+
+Fixed [a bug](https://github.com/stac-utils/pystac/pull/172) with link resolution.
 
 ### ESA FedEO (ESE-ERGO)
 * Updated ESE-ERGO STAC catalog interface to 1.0.0-beta.2. See [landing page](https://ergo.spacebel.be/).
@@ -66,6 +71,10 @@ Current features
 * Enhanced extensions support with plugin system for embedding extension related functions (e.g. sat: orbit file download, sar: interferometric search, eo: calibration parameters)
 
 ### (add any software you worked on)
+
+### stactools
+
+Created a (currently) barebones repository in the stac-utils org called [stactools](https://github.com/stac-utils/stactools). This will be a CLI that exposes features of PySTAC in combination with heavier dependencies through library methods and a CLI, including validation, migration, copying, and converting from other sources like Landsat, Sentinel, or Planet.
 
 ## Data
 
