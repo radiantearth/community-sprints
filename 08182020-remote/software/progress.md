@@ -2,8 +2,8 @@
 
 This document aims to record any and all progress that was made during the sprint. We want place to catalog everything that happened, no matter how small. 
 Put what you did during the sprint in the appropriate section, and add a link to your 'demo video' at the end of the document. Everyone who adds a video
-and updates this document will get a t-shirt, and be eligible for the bigger prizes - hoodies, jackets and $5000 to continue your work. The 'community' $5000 prize
-will be determined by everyone who is eligible.
+and updates this document will get a t-shirt, and be eligible for the bigger prizes - hoodies, jackets and $5000 to continue your work. Voting for the 'community' 
+$5000 prize will be done by everyone who adds their video.
 
 ## Software
 
