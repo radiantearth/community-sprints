@@ -102,3 +102,6 @@ finishing something they are not due until Sunday at midnight (in whatever time 
 for more information. We may try to have a 'viewing party' of some sort, and we'll also aim for a subset of the videos to evolve into lightning talks at the 
 outreach day.
 
+3. Tweet out any progress you've made or positive words about the sprint - use the #STACSprint6 hashtag. Sharing our progress publicly enables these to continue to 
+happen.
+
