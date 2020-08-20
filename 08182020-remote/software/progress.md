@@ -15,6 +15,12 @@ $5000 prize will be done by everyone who adds their video.
 
 (link to issue / PR's completed)
 
+### ESA FedEO (ESE-ERGO)
+* Updated ESE-ERGO STAC catalog interface to 1.0.0-beta.2. See [landing page](https://ergo.spacebel.be/).
+* Added [collection asset extension](https://github.com/radiantearth/stac-spec/tree/master/extensions/collection-assets) to provide access to collection-level metadata representations (DIF10, ISO19139-2, OGC 17-084r1).  See example [TropForest](https://ergo.spacebel.be/series/eo:platform/ALOS-1/TropForest).
+* Interoperability test with [STAC-BROWSER](https://geo.spacebel.be/?t=catalogs) supporting 1.0.0-beta.
+* Preliminary tests with [Rocket SnapPlanet Client](https://rocket.snapplanet.io/home?_url=https:%2F%2Fergo.spacebel.be%2F).
+
 ### (add any software you worked on)
 
 ## Data
