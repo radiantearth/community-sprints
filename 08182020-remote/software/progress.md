@@ -26,6 +26,9 @@ Released a new version 0.4.0 which now includes support for:
 [Build and Test under Ubuntu Focal LTS / Universe py3 Stack](https://github.com/stac-utils/pystac/issues/143)
 (link to issue / PR's completed)
 
+[Add ability to update collection extent from Items](https://github.com/stac-utils/pystac/pull/168) - New feature that allows for updating of collection extents once items are added.
+[Fix ExtensionIndex internal docstring retrieval](https://github.com/stac-utils/pystac/pull/159) - Fixed bug that was causing help dialog on ExtensionIndex to fail.
+
 ### ESA FedEO (ESE-ERGO)
 * Updated ESE-ERGO STAC catalog interface to 1.0.0-beta.2. See [landing page](https://ergo.spacebel.be/).
 * Added [collection asset extension](https://github.com/radiantearth/stac-spec/tree/master/extensions/collection-assets) to provide access to collection-level metadata representations (DIF10, ISO19139-2, OGC 17-084r1).  See example [TropForest](https://ergo.spacebel.be/series/eo:platform/ALOS-1/TropForest).
