@@ -11,7 +11,7 @@ will be determined by everyone who is eligible.
 
 (TODO: Add summary of what happened with pystac) 
 
-[Enable code coverage](https://github.com/stac-utils/pystac/pull/164)
+[Enable code coverage](https://github.com/stac-utils/pystac/pull/164) so we can understand how well the tests are doing in covering every bit of code.
 
 (link to issue / PR's completed)
 
