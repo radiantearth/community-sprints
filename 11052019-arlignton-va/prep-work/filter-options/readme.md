@@ -45,14 +45,13 @@ of them, but don't require immediate understanding by all users looking at the f
 ## Filter options
 
 Each of these options should have a page that explains the option in depth, with lots of links. And each should
-show how the examples below look in their language.(OGC CQL is the only one
-filled out right now, it should be used as a template for others)
+show how the examples below look in their language, be sure to click on the links for full discussion of the options. 
+(OGC CQL + STAC are filled out right now, and can be used as a template for others)
 
 * [OGC CQL](cql-filter-info.md) - Is a nice lightweight filtering language, that a few 
 geospatial servers implement today. Currently buried in Catalog specification, could be extracted and updated. Likely should 
-use just a subset of it, as its actually quite expansive.
-* STAC - https://github.com/radiantearth/stac-spec/tree/master/api-spec/extensions/query TODO: Make page here to talk about
-STAC filters and how we got to the current solution and how we potentially see it evolve.
+use just a subset of it, as its actually quite expansive. Recent proposals include a JSON mapping of the same CQL core.
+* [STAC](stac-filter-info.md) - is a clean, easily implementable and very extensible JSON query language inspired by elastic and mongodb.
 * GraphQL - See the [GraphQL section of the testbed-14 engineering report](https://docs.opengeospatial.org/per/18-021.html#_graphql)
 and sat-api has experimented with this, hopefully Sean Harkins can do a writeup on this. TODO: Make a page to talk about it.
 Can likely port a decent bit of Clemens's observations.

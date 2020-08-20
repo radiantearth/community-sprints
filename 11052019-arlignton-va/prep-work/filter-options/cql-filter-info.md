@@ -12,25 +12,17 @@ and the result is a pretty intuitive little language for filters. It has never r
 specification, where its definition is quite buried. There is no official specification for using it in a WFS, but 
 a number of servers do, including GeoServer - the open source reference implementation for WFS 1 and 2.
 
+Peter has published work in the last week as a Features API extension, see the [cql extension 
+page](https://github.com/opengeospatial/ogcapi-features/tree/master/extensions/cql). It makes great strides to
+pull it out of the catalog specification, and maps everything in the latest filter specification into it, so that
+should likely be the main jumping off point. It includes a JSON equivalent as well.
+
 #### Links
 
-* [CSW 3.0 specification](http://docs.opengeospatial.org/is/12-168r6/12-168r6.html) - the Annex B that actually contains the
-formal BNF definition does not have a link, go to http://docs.opengeospatial.org/is/12-168r6/12-168r6.html#62 and then scroll down a bit.
-I believe this is the official definition, and you can see it's not too developer friendly.
-* [GeoServer CQL Tutorial](https://docs.geoserver.org/latest/en/user/tutorials/cql/cql_tutorial.html) and 
-[ECQL Reference](https://docs.geoserver.org/latest/en/user/filter/ecql_reference.html#filter-ecql-reference) is the best 
-overview I could find online. GeoServer extends the core standard a bit for more flexibility, like encoding ID's and not
-requiring attributes to be on the left side.
-* [Wikipedia Contextual Query Language](https://en.wikipedia.org/wiki/Contextual_Query_Language) article, on the parent standard.
-* [Official CQL Spec](https://www.loc.gov/standards/sru/cql/)
-* [OGC Testbed 14 report on CQL as a query option](https://docs.opengeospatial.org/per/18-021.html#cql) - this was a report
-on more complex query requirements for features API, and includes a nice overview of CQL, as well as sample queries for the
-more complex requirements being considered.
 * [OGC
-CommonQL](https://github.com/opengeospatial/ogcapi-features/tree/master/extensions/cql)
-This is a BNF for CQL that is intended to supersede the BNF from the
-[CSW 3.0
-specification](http://docs.opengeospatial.org/is/12-168r6/12-168r6.html).
+CommonQL](https://github.com/opengeospatial/ogcapi-features/tree/master/extensions/cql) is now in the OAFeat 
+'extensions' folder. It includes a BNF for CQL that is intended to supersede the BNF from the
+[CSW 3.0 specification](http://docs.opengeospatial.org/is/12-168r6/12-168r6.html).
 It is meant to be somewhat backward compatible with the CSW CQL but it
 also extends that CQL to support the full set of spatial and temporal
 operators that are supported in OGC filter.  It also support stuff like
@@ -41,6 +33,20 @@ comments to the cql.bnf file to help understand what is going on.  This
 work may start life as an extension to OGC API - Features but ultimately
 it may end up in OGC Common because it is likely that a number of OGC
 specifications will need this functionality.
+* [CSW 3.0 specification](http://docs.opengeospatial.org/is/12-168r6/12-168r6.html) - the Annex B that actually contains the
+formal BNF definition does not have a link, go to http://docs.opengeospatial.org/is/12-168r6/12-168r6.html#62 and then scroll down a bit.
+I believe this is the official definition, and you can see it's not too developer friendly.
+* [GeoServer CQL Tutorial](https://docs.geoserver.org/latest/en/user/tutorials/cql/cql_tutorial.html) and 
+[ECQL Reference](https://docs.geoserver.org/latest/en/user/filter/ecql_reference.html#filter-ecql-reference) is the best 
+overview I could find online. GeoServer extends the core standard a bit for more flexibility, like encoding ID's and not
+requiring attributes to be on the left side.
+* [Wikipedia Contextual Query Language](https://en.wikipedia.org/wiki/Contextual_Query_Language) article, on the parent standard.
+* [Official CQL Spec](https://www.loc.gov/standards/sru/cql/)?
+* [OASIS CQL Spec](http://docs.oasis-open.org/search-ws/searchRetrieve/v1.0/os/part5-cql/searchRetrieve-v1.0-os-part5-cql.html) (maybe more used? Seems to be java library support of it)
+* [OGC Testbed 14 report on CQL as a query option](https://docs.opengeospatial.org/per/18-021.html#cql) - this was a report
+on more complex query requirements for features API, and includes a nice overview of CQL, as well as sample queries for the
+more complex requirements being considered.
+
 
 
 ### Considerations 
@@ -55,10 +61,14 @@ we are less sure of how well document store / nosql backends work with it. [Stac
 is a STAC API implementation that is backed by elasticsearch and implements CQL, so should be a good test. Ideally we have
 some others also test with OGC CQL as well. This could result in a more abbreviated 'core' of CQL, with some extended optional operations.
 
-**Geometry Operations** - Related to the above point, CQL specifies 11 geometry operations, including more obscure ones like 
+**Geometry + Other advanced Operations** - Related to the above point, CQL specifies 11 geometry operations, including more obscure ones like 
 CROSSES and BEYOND that many of the more recent geospatial backends (like [BigQuery](https://cloud.google.com/bigquery/docs/gis-data#using_joins_with_spatial_data)
 [MongoDB](https://docs.mongodb.com/manual/reference/operator/query-geospatial/) and [Elastic](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-geo-shape-query.html).
-See [backend spatial support overview](backend-spatial-support.md) for more.
+See [backend spatial support overview](backend-spatial-support.md) for more. There are also a lot of time options, that
+are more extensive than many backends support (though arguably they wouldn't be that hard to code up). 
+We should consider subsetting the full power in favor of a set that most all the backends we can imagine would support without 
+too much trouble. What is the set of CQL operations that make sense in a 'core', and then how do we put in extension points
+and specify additional operations?
 
 **Well Known Text spec** - Similar to CQL, the [Well Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) (WKT) 
 format that CQL uses is buried in specs - behind an ISO paywall seems to be the official, or buried in Simple Features for SQL
@@ -68,6 +78,9 @@ specification. So it should likely be elevated to be its own baseline OGC API sp
 browser limits. So do we allow POST of the same CQL if it's too big? Or adopt some other strategy?
 
 ### Examples
+
+Peter just posted https://github.com/opengeospatial/ogcapi-features/blob/master/extensions/cql/examples.txt that has the
+main examples in CQL and CQL JSON.
 
 CQL just specifies the WHERE clause, so it does not need its own endpoint or fuller query. Using the same notation that 
 Clemens did in the testbed report will be like:

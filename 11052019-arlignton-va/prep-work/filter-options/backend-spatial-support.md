@@ -37,3 +37,7 @@ $geoIntersects	Selects geometries that intersect with a GeoJSON geometry. The 2d
 $geoWithin	Selects geometries within a bounding GeoJSON geometry. The 2dsphere and 2d indexes support $geoWithin.
 $near	Returns geospatial objects in proximity to a point. Requires a geospatial index. The 2dsphere and 2d indexes support $near.
 $nearSphere	Returns geospatial objects in proximity to a point on a sphere. Requires a geospatial index. The 2dsphere and 2d indexes support $nearSphere.
+
+### Solr
+https://lucene.apache.org/solr/guide/6_6/spatial-search.html
+

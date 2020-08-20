@@ -1,0 +1,64 @@
+## Overview
+
+This document is the draft plan to go to STAC 1.0.
+
+### 0.9 Release
+
+Aim for end of November. Time bound release, to get all the great PR's from the sprint incorporated. Big ones are:
+
+* Extensions rework, with idea of 'core extensions'.
+* Lots of API improvements, further aligning with OAFeat
+* More description for assets
+* Many more
+
+### Splitting API and core
+
+After the 0.9.0 release we will split the repository, as detailed below. The item/catalog/collection specs will be the
+'core', as they have been quite stable, and describe a structure and content. So we want to finalize its stability as
+soon as possible, so people can rely on it not changing. API has a bit more work to do, especially with figuring out
+the features api pieces, so it will likely follow a few months later.
+
+Moves to split things up:
+
+* stac-spec repo forks to stac-api, which becomes just the /api-spec folder
+* stac-spec repo removes the /api-spec folder (says that it has moved for a bit).
+* create new stac-extensions repo, for the 'non-mature' extensions
+* Evaluate all extensions and put them in the right repo of maturity
+  - this may shift some depending on extensions
+  
+### Core 1.0-beta
+
+Goal is to have the STAC core 1.0-beta release out by the end of January. Our goal is to keep things stable from this point on,
+but it is marked as beta to communicate that we can change things if there are major problems. The main goal after this
+will be lots of outreach and really building up the ecosystem tools, to reach the bar we set for 1.0.0 final.
+
+### API 1.0-beta
+
+The goal is to have STAC API 1.0-beta around spring of 2020, following just a few months after the core. The specs should be
+considered orthogonal, and will decouple their version numbers from eachother. But STAC API will have dependencies on both
+STAC core and Features API, so if either upgrade then a new release of STAC API will be needed to make use of them.
+
+### 1.0.0 releases
+
+We will aim to go to 1.0.0 final when we reach certain implementation thresholds. So it will not be a time-based release, but
+will be done once we reach the thresholds. The exact numbers have not been set, but will be something like 1 billion public
+records, 25 different datasets represented (X number public), and 5+ modalities represented (ariel, point cloud, etc). STAC
+API will 'count' towards core, and then we will likely have additional requirements for the API, like number of software 
+implementations, both open source and proprietary, and client/server, and a variety of programming languages.
+  
+### Versioning in core in 1.0 and beyond
+
+We want to keep things very stable when we go 1.0. We want to use real semantic versioning to call out breaking changes.
+
+* Even extension changes should mean a version bump.  
+* Can be 1.1 for bumps for additions of fields (and we can use deprecation in them). Even there we likely want to try to do that
+less.  
+* We see value in having extensions in core, so people can rely on the fields. 
+
+
+
+
+Other todos:
+
+Move issues to extensions and to api repos
+Move 'best practices' out of spec to website, and then put links there. So we don't have to bump minor revisions for new best practices.
