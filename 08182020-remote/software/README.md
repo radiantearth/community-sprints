@@ -85,7 +85,7 @@ The same ['rooms'](#room-info) will remain open, on zoom and chat, so feel free 
 
 |**Time**|**Title**|**Link**|**Description**|
 |--------|---------|--------------|---------------|
-|Start of your day | **Remote Check-in**  | gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) | Drop a line in gitter when you get started for the day, on what you're going to work on|
+|Start of your day | **Remote Check-in**  | gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) | Drop a line in gitter when you get started for the day, on what you're going to work on. Feel free to also drop by the [main zoom room](https://planet.zoom.us/j/93187144321) to say hi to anyone working at the same time.|
 |[13:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=STAC+Sprint+%236+Kickoff&iso=20200818T13&p1=1440)| **Zoom Check-in** | zoom: [931-8714-4321](https://planet.zoom.us/j/93187144321) |Optional updates on progress and calls for help|
 | End of your day | **Virtual Wrap-up** | gitter: [STAC Lobby](https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby) | Update [the progress page](progress.md) with what you did during the sprint. You can also record your [demo video](progress.md#demo-videos), though they aren't due until Sunday at midnight |
 
