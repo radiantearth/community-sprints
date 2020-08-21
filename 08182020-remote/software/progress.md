@@ -87,13 +87,27 @@ Current features
 [Enable read from http URLs](https://github.com/azavea/franklin/pull/385)
 [Fix path relativization](https://github.com/azavea/franklin/pull/390)
 
+### QGIS STAC Browser
+
+Though not public yet @kbgg made some good progress getting [qgis-stac-browser](https://github.com/kbgg/qgis-stac-browser/) up to 1.0.0-beta.2
+
 ### (add any software you worked on)
 
 ## Data
 
 ### CBERS
 
-* Updated the CBERS AWS static catalog to 1.0.0-beta.1 (Fred to add more details)
+* Updated the CBERS AWS static catalog to 1.0.0-beta.2. Available at https://cbers-stac-1-0.s3.amazonaws.com/catalog.json
+
+### 3DEP
+
+* New STAC catalog up at https://3dep-stac.s3-us-west-2.amazonaws.com/catalog.json
+
+### eBird Status and Trends Model Results
+
+* Wasn't actually part of the sprint, but during the week there was the start of a new catalog at https://ebirdst-data.s3-us-west-2.amazonaws.com/catalog.json using 
+COG's in an interesting way, and bringing a different data type into STAC.
+
 
 ## Specification
 
