@@ -19,7 +19,7 @@ Released a new version 0.4.0 which now includes support for:
 
 ### PySTAC
 
-Moved PySTAC to the [stac-utils](https://github.com/stac-utils) GitHub org.
+Moved PySTAC to the [stac-utils](https://github.com/stac-utils) GitHub org. And released [0.5.2](https://pypi.org/project/pystac/0.5.2/)
 
 [Enable code coverage](https://github.com/stac-utils/pystac/pull/164) so we can understand how well the tests are doing in covering every bit of code.
 
