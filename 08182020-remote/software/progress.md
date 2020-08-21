@@ -24,7 +24,7 @@ Moved PySTAC to the [stac-utils](https://github.com/stac-utils) GitHub org.
 [Enable code coverage](https://github.com/stac-utils/pystac/pull/164) so we can understand how well the tests are doing in covering every bit of code.
 
 [Build and Test under Ubuntu Focal LTS / Universe py3 Stack](https://github.com/stac-utils/pystac/issues/143)
-(link to issue / PR's completed)
+link
 
 [Add ability to update collection extent from Items](https://github.com/stac-utils/pystac/pull/168) - New feature that allows for updating of collection extents once items are added.
 
