@@ -34,6 +34,14 @@ link
 
 Fixed [a bug](https://github.com/stac-utils/pystac/pull/172) with link resolution.  
 
+### stactools
+
+Created a (currently) barebones repository in the stac-utils org called [stactools](https://github.com/stac-utils/stactools). This will be a CLI that exposes features of PySTAC in combination with heavier dependencies through library methods and a CLI, including validation, migration, copying, and converting from other sources like Landsat, Sentinel, or Planet.
+
+### stac-validator.  
+
+Brought in validation from PySTAC. Started a branch with cli functionality provided by click. Talked about combining efforts with stactools which is obviously a good idea. Worked on better error handling. 
+
 ### ESA FedEO (ESE-ERGO)
 * Updated ESE-ERGO STAC catalog interface to 1.0.0-beta.2. See [landing page](https://ergo.spacebel.be/).
 * Added [collection asset extension](https://github.com/radiantearth/stac-spec/tree/master/extensions/collection-assets) to provide access to collection-level metadata representations (DIF10, ISO19139-2, OGC 17-084r1).  See example [TropForest](https://ergo.spacebel.be/series/eo:platform/ALOS-1/TropForest).
@@ -70,16 +78,16 @@ Current features
 * Navigation methods to seamlessly traverse from a root STAC catalog through children (csubcat, collections and items) up to assets
 * Enhanced extensions support with plugin system for embedding extension related functions (e.g. sat: orbit file download, sar: interferometric search, eo: calibration parameters)
 
+### stac-server
+
+0.2.0 release of [stac-server](https://github.com/stac-utils/stac-server), the evolution of sat-api. Now supports 1.0.0-beta.2.
+
+### Franklin
+
+[Enable read from http URLs](https://github.com/azavea/franklin/pull/385)
+[Fix path relativization](https://github.com/azavea/franklin/pull/390)
+
 ### (add any software you worked on)
-
-### stactools
-
-Created a (currently) barebones repository in the stac-utils org called [stactools](https://github.com/stac-utils/stactools). This will be a CLI that exposes features of PySTAC in combination with heavier dependencies through library methods and a CLI, including validation, migration, copying, and converting from other sources like Landsat, Sentinel, or Planet.
-
-### stac-validator.  
-
-Brought in validation from PySTAC. Started a branch with cli functionality provided by click. Talked about combining efforts with stactools which is obviously a good idea. Worked on better error handling. 
-
 
 ## Data
 
@@ -114,14 +122,20 @@ to put it up publicly but still want to be eligible for prizes and voting you ca
 
 ## Video links
 
-**Name: ESA FedEO STAC Catalog (ESE-ERGO)**
+#### ESA FedEO STAC Catalog (ESE-ERGO)
 
 **Description:** The ESA FedEO Catalog software, prepared as part of the ESE-ERGO project, was extended to support STAC catalog interface version 1.0.0-beta.2.  Interoperability tests with [STACLINT](https://staclint.com/), [STAC-BROWSER](https://github.com/radiantearth/stac-browser) and [Rocket](https://rocket.snapplanet.io/home) clients were performed.
 
 **Link:** https://www.youtube.com/watch?v=pABgI2udfxM
 
-**Name:**
+#### James Santucci
+
+**Description:** Ergonomic fixes on Franklin.
+
+**Link:** https://youtu.be/HGkHeNK8f4Y
+
+#### Name
 
 **Description:**
 
-**Link**
+**Link:**
