@@ -114,6 +114,12 @@ to put it up publicly but still want to be eligible for prizes and voting you ca
 
 ## Video links
 
+**Name: ESA FedEO STAC Catalog (ESE-ERGO)**
+
+**Description:** The ESA FedEO Catalog software, prepared as part of the ESE-ERGO project, was extended to support STAC catalog interface version 1.0.0-beta.2.  Interoperability tests with [STACLINT](https://staclint.com/), [STAC-BROWSER](https://github.com/radiantearth/stac-browser) and [Rocket](https://rocket.snapplanet.io/home) clients were performed.
+
+**Link:** https://www.youtube.com/watch?v=pABgI2udfxM
+
 **Name:**
 
 **Description:**
