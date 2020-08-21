@@ -52,7 +52,9 @@ Brought in validation from PySTAC. Started a branch with cli functionality provi
 
 ### STAC Index
 
-Still very much WIP, have implemented a basic server and UI, but no crawling yet: https://github.com/stac-utils/stac-index
+Still very much WIP, have implemented a basic server and UI, but no crawling yet. Ecosystem list is mostly done.
+Homepage: http://stac-index.lutana.de (trying to get a better domain)
+Repository: https://github.com/stac-utils/stac-index
 
 ### STAC GeoServer/GeoTools Coverage Store
 The store is functional and capable of pointing to any STAC API service and rendering any asset in a specified collection.
