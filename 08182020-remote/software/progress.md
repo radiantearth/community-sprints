@@ -158,7 +158,7 @@ to put it up publicly but still want to be eligible for prizes and voting you ca
 
 #### MAPLABS  aka  Brian M Hamlin, Berkeley CA
 
-**Description:**   pySTAC / edu / Jupyter  / OSGeoLive
+**Description:**   pySTAC / edu / Jupyter  / OSGeoLive    (download file for better playback)
 
 **Link:**  http://blog.light42.com/wordpress/wp-content/uploads/2020/08/STAC6-Code-MAPLABSF-aug2020.m4v
 
