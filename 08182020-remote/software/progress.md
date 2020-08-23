@@ -137,7 +137,7 @@ these will likely evolve into lightning talks to be given at 'outreach day' on S
 
 Use any way to record it that you'd like. Can record in Zoom, or use your favorite screen-recording software of choice. Some options are:
 * [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/) - great solution for Linux users. 
-* [OBS](https://obsproject.com/) - Open source video streaming/recording.  Easy to setup and arrange multiple capture sources.
+* [OBS Studio](https://obsproject.com/) - Open source video streaming/recording.  Easy to setup and arrange multiple capture sources.
 * Please add other suggestions here
 
 To share just add a link in the section below, it can be a google drive or dropbox file, up on youtube, or any other way it's easy to get. If you don't want
