@@ -167,6 +167,23 @@ to put it up publicly but still want to be eligible for prizes and voting you ca
 
 --
 
+#### STAC GeoTools Raster Store [Josh Fix]
+
+**Description:** The STAC GeoTools Raster Store is a store that allows users to build a store in GeoServer that points to a dynamic STAC catalog, definies a 
+collection and an asset ID, and allows any asset in that collection to be dynamically rendered. 
+
+**Link:** https://www.youtube.com/watch?v=B894TGefRjU 
+
+--
+
+#### Staccato [Josh Fix]
+
+**Description:** Staccato is an open source implementation of the STAC spec. It is written in Java using Spring Boot and Project Reactor, backed by Elasticsearch. It has many unique capabilities and is battle-tested in production environments.
+
+**Link:**  https://www.youtube.com/watch?v=rBbu9N6cHzw
+
+--
+
 #### Name
 
 **Description:**
