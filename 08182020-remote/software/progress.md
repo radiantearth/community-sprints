@@ -66,7 +66,19 @@ custom client implementations to read COG byte ranges from any source.
 
 ### STAC-Search-JPA
 
-New project, WIP:  https://github.com/turingtestfail/stac-search-jpa  So far this sprint got JPA modeling for Catalog, Collections, Collection and children.  Today is all about FeatureCollections, Features, and querying/filtering with the basic use case (datetime, bbox, limit).  Tomorrow is about converting Query Extension to CQL to SQL.
+New project, WIP:  https://github.com/turingtestfail/stac-search-jpa  This project aims to give Java, Spring, and JPA developers a jumpstart on creating their own STAC implementations by providing the basic object relational mappings and JSON serialization/deserialization tools.  So far this sprint got JPA modeling for Catalog, Collections, Collection, FeatureCollections, Features, and querying/filtering with the basic use case (datetime, bbox, limit).  
+Implemented Endpoints:
+
+STAC landing page (/)
+/conformance
+/collections
+/collections/{collectionId}
+/collections/{collectionId}/items
+/collections/{collectionId}/items/{featureId}
+/search
+/filter?cql= (CQL is not officially part of the STAC API standard yet, but I hear it is coming soon. Note that this implementation is PostgreSQL specific and will have to be removed for other databases)
+
+After you use JPA to create the tables you can load sample data from the data.sql
 
 ### DotNetStac
 
