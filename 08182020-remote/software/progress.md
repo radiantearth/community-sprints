@@ -196,6 +196,14 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 --
 
+#### STAC-Search-JPA [Joseph Miller]
+
+**Description:** Spring Boot + Spring Data JPA implementation of STAC spec.  This project aims to give Java, Spring, and JPA developers a jumpstart on creating their own STAC implementations by providing the basic object relational mappings and JSON serialization/deserialization tools.
+
+**Link:**  https://youtu.be/vTnovDQkC2w
+
+--
+
 #### Name
 
 **Description:**
