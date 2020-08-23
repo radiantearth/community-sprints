@@ -135,7 +135,10 @@ functionality built during the sprint - it can even just be using the command li
 perhaps show on your screen any text or code written. This doesn't have to be fancy at all, it's just really nice to see what everyone did. Some portion of
 these will likely evolve into lightning talks to be given at 'outreach day' on September 8th, for those who are interested.
 
-Use any way to record it that you'd like. Can record in Zoom, or use your favorite screen-recording software of choice; [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/) is a great solution for Linux users. (Please add other suggestions here)
+Use any way to record it that you'd like. Can record in Zoom, or use your favorite screen-recording software of choice. Some options are:
+* [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/) - great solution for Linux users. 
+* [OBS](https://obsproject.com/) - Open source video streaming/recording.  Easy to setup and arrange multiple capture sources.
+* Please add other suggestions here
 
 To share just add a link in the section below, it can be a google drive or dropbox file, up on youtube, or any other way it's easy to get. If you don't want
 to put it up publicly but still want to be eligible for prizes and voting you can also just email it directly to cholmes [at] radiant dot earth.
