@@ -105,6 +105,14 @@ Current features
 
 Though not public yet @kbgg made some good progress getting [qgis-stac-browser](https://github.com/kbgg/qgis-stac-browser/) up to 1.0.0-beta.2
 
+### resto
+
+Update [resto](https://github.com/jjrom/resto) API to supports STAC 1.0.0-beta.2
+
+### rocket
+
+Update [rocket](https://rocket.snapplanet.io) Web client to supports STAC 1.0.0-beta.2 (note: online demo is still aligned on STAC 0.9.0 - will be updated for STAC data sprint in September)
+
 ### sat-search
 
 [sat-search](https://github.com/sat-utils/sat-search) 0.3.0 was released, upgrading it to 1.0.0-beta.2. It's a python library and CLI to query STAC API's.
