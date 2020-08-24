@@ -202,6 +202,12 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 **Link:**  https://youtu.be/vTnovDQkC2w
 
+#### STAC Index and STAC Node Validator (Matthias Mohr)
+
+**Description:** STAC Node Validator additions in 0.4 (URLs, APIs, external schemas, disable cert check) and [STAC Index](http://stac-index.lutana.de), an index for STAC APIs, catalogs and the STAC ecosystem.
+
+**Link:** https://youtu.be/M4vrUtcg3rw
+
 --
 
 #### Name
