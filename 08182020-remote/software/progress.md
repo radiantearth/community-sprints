@@ -246,6 +246,13 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 **Link:** https://youtu.be/xH7jcSIExSQ
 
+#### Chris Helm
+
+**Description:** Report on the pixel8earth pointcloud extension
+
+**Link:** https://youtu.be/DmszNWvxkGs
+
+
 --
 
 #### Name
