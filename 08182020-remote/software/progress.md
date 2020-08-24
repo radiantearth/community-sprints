@@ -105,6 +105,14 @@ Current features
 
 Though not public yet @kbgg made some good progress getting [qgis-stac-browser](https://github.com/kbgg/qgis-stac-browser/) up to 1.0.0-beta.2
 
+### resto
+
+Update [resto](https://github.com/jjrom/resto) API to supports STAC 1.0.0-beta.2
+
+### rocket
+
+Update [rocket](https://rocket.snapplanet.io) Web client to supports STAC 1.0.0-beta.2 (note: online demo is still aligned on STAC 0.9.0 - will be updated for STAC data sprint in September)
+
 ### sat-search
 
 [sat-search](https://github.com/sat-utils/sat-search) 0.3.0 was released, upgrading it to 1.0.0-beta.2. It's a python library and CLI to query STAC API's.
@@ -140,7 +148,12 @@ COG's in an interesting way, and bringing a different data type into STAC.
 ### Rendering Hints Extension
 
 Started a Pull Request on [Rendering Hints](https://github.com/radiantearth/stac-spec/pull/879), to help dynamic tile services and other renderers be able to 
-portray STAC data more easily and efficiently. Lots of good discussion and ideas.
+portray STAC data more easily and efficiently. Lots of good discussion and ideas. 
+
+### Iterative improvements
+
+Started a PR to [add via & canonical rel types](https://github.com/radiantearth/stac-spec/pull/884). And one to [clarify unique 
+ids](https://github.com/radiantearth/stac-spec/pull/883). Both need a bit more work / discussion.
 
 ## Other
 
@@ -210,7 +223,14 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 **Link:**  https://youtu.be/vTnovDQkC2w
 
+#### STAC Index and STAC Node Validator (Matthias Mohr)
+
+**Description:** STAC Node Validator additions in 0.4 (URLs, APIs, external schemas, disable cert check) and [STAC Index](http://stac-index.lutana.de), an index for STAC APIs, catalogs and the STAC ecosystem.
+
+**Link:** https://youtu.be/M4vrUtcg3rw
+
 --
+
 
 #### SNAP STAC [Luis Veci]
 
@@ -218,10 +238,20 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 **Link:**  https://youtu.be/Foa19gvlNqI
 
+-
+
+#### Chris Holmes
+
+**Description:** Report out on minor tasks done this sprint. And realized I forgot one - [added via & canonical rel types](https://github.com/radiantearth/stac-spec/pull/884)
+
+**Link:** https://youtu.be/xH7jcSIExSQ
+
 --
 
 #### Name
 
-**Description:**
+**Description:** 
 
-**Link:**
+**Link:** 
+
+
