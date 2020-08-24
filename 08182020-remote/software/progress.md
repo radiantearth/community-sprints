@@ -132,7 +132,12 @@ COG's in an interesting way, and bringing a different data type into STAC.
 ### Rendering Hints Extension
 
 Started a Pull Request on [Rendering Hints](https://github.com/radiantearth/stac-spec/pull/879), to help dynamic tile services and other renderers be able to 
-portray STAC data more easily and efficiently. Lots of good discussion and ideas.
+portray STAC data more easily and efficiently. Lots of good discussion and ideas. 
+
+### Iterative improvements
+
+Started a PR to [add via & canonical rel types](https://github.com/radiantearth/stac-spec/pull/884). And one to [clarify unique 
+ids](https://github.com/radiantearth/stac-spec/pull/883). Both need a bit more work / discussion.
 
 ## Other
 
@@ -210,8 +215,8 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 --
 
-#### Name
+#### Chris Holmes
 
-**Description:**
+**Description:** Report out on minor tasks done this sprint. And realized I forgot one - [added via & canonical rel types](https://github.com/radiantearth/stac-spec/pull/884)
 
-**Link:**
+**Link:** https://youtu.be/xH7jcSIExSQ
