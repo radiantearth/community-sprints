@@ -117,6 +117,14 @@ Update [rocket](https://rocket.snapplanet.io) Web client to supports STAC 1.0.0-
 
 [sat-search](https://github.com/sat-utils/sat-search) 0.3.0 was released, upgrading it to 1.0.0-beta.2. It's a python library and CLI to query STAC API's.
 
+### SNAP STAC [Luis Veci SkyWatch]
+
+* Java implementation of STAC Item spec within SNAP.
+* SNAP STAC extension for common metadata used by SNAP.
+* STAC writer converts any satellite data product supported by SNAP into a STAC Item.
+* STAC reader injests a STAC Item into SNAP for processing.
+https://github.com/senbox-org/s1tbx/tree/stac
+
 ### (add any software you worked on)
 
 ## Data
@@ -223,8 +231,27 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 --
 
+
+#### SNAP STAC [Luis Veci]
+
+**Description:** The SNAP STAC module implements the STAC Item spec within SNAP and provides a reader for interpreting STAC Items and a writer for converting any satellite data product supported by SNAP into a STAC Item.
+
+**Link:**  https://youtu.be/Foa19gvlNqI
+
+-
+
 #### Chris Holmes
 
 **Description:** Report out on minor tasks done this sprint. And realized I forgot one - [added via & canonical rel types](https://github.com/radiantearth/stac-spec/pull/884)
 
 **Link:** https://youtu.be/xH7jcSIExSQ
+
+--
+
+#### Name
+
+**Description:** 
+
+**Link:** 
+
+
