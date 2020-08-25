@@ -1,8 +1,8 @@
 ## Overview
 
-This document aims to record any and all progress that was made during the sprint. We want place to catalog everything that happened, no matter how small. 
+This document aims to record any and all progress that was made during the sprint. We want place to catalog everything that happened, no matter how small.
 Put what you did during the sprint in the appropriate section, and add a link to your 'demo video' at the end of the document. Everyone who adds a video
-and updates this document will get a t-shirt, and be eligible for the bigger prizes - hoodies, jackets and $5000 to continue your work. Voting for the 'community' 
+and updates this document will get a t-shirt, and be eligible for the bigger prizes - hoodies, jackets and $5000 to continue your work. Voting for the 'community'
 $5000 prize will be done by everyone who adds their video.
 
 ## Software
@@ -40,7 +40,7 @@ Created a (currently) barebones repository in the stac-utils org called [stactoo
 
 ### stac-validator.  
 
-Brought in validation from PySTAC. Started a branch with cli functionality provided by click. Talked about combining efforts with stactools which is obviously a good idea. Worked on better error handling. 
+Brought in validation from PySTAC. Started a branch with cli functionality provided by click. Talked about combining efforts with stactools which is obviously a good idea. Worked on better error handling.
 
 ### ESA FedEO (ESE-ERGO)
 * Updated ESE-ERGO STAC catalog interface to 1.0.0-beta.2. See [landing page](https://ergo.spacebel.be/).
@@ -58,10 +58,10 @@ Repository: https://github.com/stac-utils/stac-index
 
 ### STAC GeoServer/GeoTools Coverage Store
 The store is functional and capable of pointing to any STAC API service and rendering any asset in a specified collection.
-I was hoping to have it working with the new imageio-ext COG code, but those modules are still in snapshot which causes 
+I was hoping to have it working with the new imageio-ext COG code, but those modules are still in snapshot which causes
 massive conflicts with GeoServer when attempting to point to multiple versions of the same dependency.
 
-When the new imageio-ext COG reader is released, the store will work with any accessible asset, and will allow for 
+When the new imageio-ext COG reader is released, the store will work with any accessible asset, and will allow for
 custom client implementations to read COG byte ranges from any source.  
 
 ### STAC-Search-JPA
@@ -82,7 +82,7 @@ After you use JPA to create the tables you can load sample data from the data.sq
 
 ### DotNetStac
 
-.Net library for working with Spatio Temporal Asset Catalogs (STAC) 
+.Net library for working with Spatio Temporal Asset Catalogs (STAC)
 
 First public release of DotNetStac (0.2.0-beta) https://github.com/Terradue/DotNetStac with NuGet package available at https://www.nuget.org/packages/DotNetStac/
 
@@ -125,7 +125,15 @@ Update [rocket](https://rocket.snapplanet.io) Web client to supports STAC 1.0.0-
 * STAC reader injests a STAC Item into SNAP for processing.
 https://github.com/senbox-org/s1tbx/tree/stac
 
-### (add any software you worked on)
+### intake-stac
+
+[intake-stac](https://github.com/intake/intake-stac) is a Python library that facilitates browsing STAC catalogs and loading STAC item assets.
+
+* updated dependency of sat-stac to 0.4 for compatibility with STAC>1.0.x
+* added more mime types to Python driver mappings (e.g. cog->rasterio, parquet->geopandas)
+* added default plots to GUI catalog browser (Jupyter Notebook widget)
+* added 4 example notebooks with various data sources (Planet disaster catalog, demo Landsat8 catalog, Sentinel2 COGs from sat-search, nasa cmr-stac)
+  * examples can be run interactively on mybinder.org! [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pangeo-data/intake-stac/master?filepath=examples)
 
 ## Data
 
@@ -139,7 +147,7 @@ https://github.com/senbox-org/s1tbx/tree/stac
 
 ### eBird Status and Trends Model Results
 
-* Wasn't actually part of the sprint, but during the week there was the start of a new catalog at https://ebirdst-data.s3-us-west-2.amazonaws.com/catalog.json using 
+* Wasn't actually part of the sprint, but during the week there was the start of a new catalog at https://ebirdst-data.s3-us-west-2.amazonaws.com/catalog.json using
 COG's in an interesting way, and bringing a different data type into STAC.
 
 
@@ -147,12 +155,12 @@ COG's in an interesting way, and bringing a different data type into STAC.
 
 ### Rendering Hints Extension
 
-Started a Pull Request on [Rendering Hints](https://github.com/radiantearth/stac-spec/pull/879), to help dynamic tile services and other renderers be able to 
-portray STAC data more easily and efficiently. Lots of good discussion and ideas. 
+Started a Pull Request on [Rendering Hints](https://github.com/radiantearth/stac-spec/pull/879), to help dynamic tile services and other renderers be able to
+portray STAC data more easily and efficiently. Lots of good discussion and ideas.
 
 ### Iterative improvements
 
-Started a PR to [add via & canonical rel types](https://github.com/radiantearth/stac-spec/pull/884). And one to [clarify unique 
+Started a PR to [add via & canonical rel types](https://github.com/radiantearth/stac-spec/pull/884). And one to [clarify unique
 ids](https://github.com/radiantearth/stac-spec/pull/883). Both need a bit more work / discussion.
 
 ## Other
@@ -162,14 +170,14 @@ ids](https://github.com/radiantearth/stac-spec/pull/883). Both need a bit more w
 # Demo Videos
 
 Traditionally STAC Sprints have ended with a wrap up sessions where everyone talks about what they worked on and shows demos of anything they made. Since we're
-not all in person we'll do this virtually, by recording videos. Think of them as STAC sprint specific lightning talks - not serious high-production-value 
-finished-project demonstrations. Just what you'd talk about with a small room of fellow developers. Ideally this is a demo of some sort, showing off some new 
+not all in person we'll do this virtually, by recording videos. Think of them as STAC sprint specific lightning talks - not serious high-production-value
+finished-project demonstrations. Just what you'd talk about with a small room of fellow developers. Ideally this is a demo of some sort, showing off some new
 functionality built during the sprint - it can even just be using the command line. If there's nothing interactive to show you can just talk about what you did, and
 perhaps show on your screen any text or code written. This doesn't have to be fancy at all, it's just really nice to see what everyone did. Some portion of
 these will likely evolve into lightning talks to be given at 'outreach day' on September 8th, for those who are interested.
 
 Use any way to record it that you'd like. Can record in Zoom, or use your favorite screen-recording software of choice. Some options are:
-* [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/) - great solution for Linux users. 
+* [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/) - great solution for Linux users.
 * [OBS Studio](https://obsproject.com/) - Open source video streaming/recording.  Easy to setup and arrange multiple capture sources.
 * Please add other suggestions here
 
@@ -202,10 +210,10 @@ to put it up publicly but still want to be eligible for prizes and voting you ca
 
 #### STAC GeoTools Raster Store [Josh Fix]
 
-**Description:** The STAC GeoTools Raster Store is a store that allows users to build a store in GeoServer that points to a dynamic STAC catalog, definies a 
-collection and an asset ID, and allows any asset in that collection to be dynamically rendered. 
+**Description:** The STAC GeoTools Raster Store is a store that allows users to build a store in GeoServer that points to a dynamic STAC catalog, definies a
+collection and an asset ID, and allows any asset in that collection to be dynamically rendered.
 
-**Link:** https://www.youtube.com/watch?v=B894TGefRjU 
+**Link:** https://www.youtube.com/watch?v=B894TGefRjU
 
 --
 
@@ -255,10 +263,8 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 --
 
-#### Name
+#### Scott Henderson
 
-**Description:** 
+**Description:** Quick introduction to intake-stac and walking through new examples
 
-**Link:** 
-
-
+**Link:** https://vimeo.com/451382581
