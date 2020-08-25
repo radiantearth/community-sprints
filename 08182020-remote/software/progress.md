@@ -159,6 +159,17 @@ ids](https://github.com/radiantearth/stac-spec/pull/883). Both need a bit more w
 
 [STAC Datasets](https://docs.google.com/spreadsheets/d/1f-qpoGHohTdY9BVi9drb4mCRX8OLzZhlmKMJi9AEW20/edit#gid=0) spreadsheet was created to track the existence and status of the various public STAC datasets.
 
+## STAC API Indexing for the Open Data Cube
+The Open Data Cube usually consumes metadata in a bespoke YAML format, but it can handle indexing through the use of a crafted Python dictionary. This project built on top of some work that [transforms a STAC document](https://github.com/opendatacube/odc-tools/blob/develop/libs/index/odc/index/stac.py) to be one that can be indexed into the ODC, to enable the direct indexing from a STAC API.
+
+The result is two prominent projects:
+
+* First is a tool [`stac-to-dc`](https://github.com/opendatacube/datacube-index/blob/master/odc_index/stac_api_to_dc.py) that can take documents from a (pretty rigid) STAC API and index them into an ODC instance that you have
+* Second is an example implementation of that tool, in the [Cube in a Box](https://github.com/opendatacube/cube-in-a-box) project, which can be run on a local machine or on AWS using the Cloud Formation template.
+
+This, coupled with global S-2 data indexed into Earth Search means you can create a Cube in a Box on demand anywhere in the world in minutes.
+
+
 # Demo Videos
 
 Traditionally STAC Sprints have ended with a wrap up sessions where everyone talks about what they worked on and shows demos of anything they made. Since we're
