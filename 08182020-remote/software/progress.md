@@ -272,6 +272,12 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 **Link:** https://youtu.be/DmszNWvxkGs
 
 
+#### Matthew Hanson
+
+**Description:** Report on updates to stac-server, sat-search, and the deployed Earth-search API
+
+**Link:** https://youtu.be/hVy1dKAotfU
+
 --
 
 #### Scott Henderson
