@@ -278,6 +278,13 @@ collection and an asset ID, and allows any asset in that collection to be dynami
 
 **Link:** https://youtu.be/hVy1dKAotfU
 
+
+#### Rob Emanuele
+
+**Description:** Update on the PySTAC work that happened during STAC Sprint 6
+
+**Link:** https://youtu.be/55w2psbmu4c
+
 --
 
 #### Scott Henderson
