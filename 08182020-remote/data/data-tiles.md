@@ -81,9 +81,6 @@ specification][npy-nep]:
 > architecture. The format is designed to be as simple as possible while
 > achieving its limited goals
 
-`deck.gl-raster` currently includes an NPY parser, though beware this may move
-to another library, such as [loaders.gl](https://loaders.gl), in the future.
-
 The NPY format is best suited to small images as it doesn't support streaming.
 If you are loading image data from a backend, as opposed to loading image data
 directly from S3, NPY may be the best approach as it allows full bit-depth data
@@ -91,6 +88,10 @@ without a complex dependency.
 
 [npy-format]: https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html
 [npy-nep]: https://numpy.org/neps/nep-0001-npy-format.html
+
+I (Kyle) currently include an NPY parser in `deck.gl-raster`, though beware this
+may move to another library, such as [loaders.gl](https://loaders.gl), in the
+future.
 
 ### Zarr
 
@@ -100,8 +101,7 @@ supports efficient streaming from remote datasets. There's a [JavaScript
 client][zarr-js], which should enable bringing Zarr data into the browser.
 
 Zarr would be best suited towards a _collection_ of data, where each individual
-chunk represents a single "tile" that would be rendered with a modified deck.gl
-`TileLayer`.
+chunk represents a single "tile".
 
 [zarr]: https://zarr.readthedocs.io/en/stable/
 [zarr-js]: http://guido.io/zarr.js
