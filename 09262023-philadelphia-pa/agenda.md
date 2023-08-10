@@ -5,17 +5,15 @@ The sprint runs for 3 days, September 26, 27, and 28th. The main activities will
 at 9 am as one big group, including the remote attendees. Most work through the sprint will be done in smaller groups, who will work
 for a time and then come together to report out and get feedback from other groups. Virtual attendees will have the option to work with other remote attendees, but the majority of the breakout groups will not be hybrid. Breakout groups and objectives will be determined each morning. At the end of each day, a full group, hybrid session will be held to report progress made during the day.
 
-### Remote participation
+### Remote Participation
 
 We aspire to make the sprint as accessible as possible to remote attendees. At the onsite facility, there are two rooms that should
 have good built-in video conferencing facilities. We will post the information here when we get it. In the agenda below
-any session in **bold** will be in the 'main' room and we be sure the video works. Small groups are encouraged to have
-remote participation, either on Gitter/GitHub or by setting up video conferencing. The second room at the venue will also
-be available for one group to use its video capabilities - to be determined each day.
+any session in **bold** will be in the 'main' room and we be sure the video works. 
 
-All Zoom links to join main room events will be placed here. 
+All Zoom links to join main room events will be placed here.
 
-## Sprint Objectives 
+## Sprint Objectives
 
 The hourly agenda is still under construction. For now, here are some priority focus areas for this sprint:
 
@@ -42,7 +40,7 @@ This section includes STAC specification improvements as well as STAC tooling ec
 
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
-|8:30 - 9 | Arrival | In-person arrivals/breakfast at 990 Spring Garden St #5, Philadelphia, PA. |
+|8:30 - 9 | Arrival | In-person arrivals/breakfast @ 990 Spring Garden St #5, Philadelphia, PA. |
 |9 - 9:20 | **Welcome** | Overview of event, logistics, etc |
 |9:20 - 10:45 | **Introductions** | Brief introductions from everyone, so we all know who else is there and where they're coming from|
 |10:45 | Break| |
@@ -50,27 +48,26 @@ This section includes STAC specification improvements as well as STAC tooling ec
 |12:00 | Lunch ||
 |1:00 - 4:30 | Continued group work | |
 |4:30 - 5 | **Full group check-in** |
-|5:30 | Bus leaves for Happy Hour |
-|6:00 | Happy Hour starts | Informal discussion, drinks, food | |
+|6:00 | Happy Hour @ TBD | Informal discussion, drinks, food | |
 
 ## Day 2
 
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
-|8:30 - 9:00 | Arrival | In-person arrivals/breakfast at 990 Spring Garden St #5, Philadelphia, PA. |
-|9:00 - 9:45 | **Open Lightning Talks** | |
+|8:30 - 9:00 | Arrival | In-person arrivals/breakfast @ 990 Spring Garden St #5, Philadelphia, PA. |
+|9:00 - 9:45 | **Open Lightning Talks** | Talks given by [Cloud-Native Geospatial Founding, Convening, Platinum, and Gold Sponsors](https://cloudnativegeo.org/sponsor-stac-sprint-8.pdf)|
 |9:45 - 10:00 | **Small group kick-off** | Set stage and goals for small group work. |
 |10:00 - 12:00 | Small group work | Continue in groups from the previous day.|
-|12:00 | Lunch ||
+|12:00 | Lunch | |
 |1:00 - 4:30 | Continued group work | |
-|4:30 - 5 | **Full group check-in** |
-|7:00 | Social Meetup
+|4:30 - 5 | **Full group check-in** | |
+|7:00 | Social Meetup @ TBD | |
 
 ## Day 3
 
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
-|8:30 - 9:00 | Arrival | In-person arrivals/breakfast at 990 Spring Garden St #5, Philadelphia, PA. |
+|8:30 - 9:00 | Arrival | In-person arrivals/breakfast @ 990 Spring Garden St #5, Philadelphia, PA. |
 |9:00 - 9:45 | **Open Lightning Talks** | |
 |9:45 - 10:00 | **Small group kick-off** | Set stage and goals for small group work. |
 |10:00 - 12:00 | Small group work | Continue in groups from the previous day.|
