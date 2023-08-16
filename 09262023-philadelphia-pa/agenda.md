@@ -7,8 +7,8 @@ for a time and then come together to report out and get feedback from other grou
 
 ### Remote Participation
 
-We aspire to make the sprint as accessible as possible to remote attendees. Virtual attendees will have the option to work with other remote attendees, but the majority of the breakout groups will not be hybrid. Breakout groups and objectives will be determined each morning. At the end of each day, a full group, hybrid session will be held to report progress made during the day. In the agenda below
-any session in **bold** will be in the 'main' room and we be sure the video works. 
+We aspire to make the sprint as accessible as possible to remote attendees while still making the in-person work as efficient as possible. In the agenda below, any session in **bold** will be a large group, hybrid session and it will be in the 'main' room (with a good video setup). 
+As for small-group breakouts, the virtual attendees will have the option to work with other remote attendees, but **the majority of the breakout groups will not be hybrid**. Breakout groups and objectives will be determined each morning. At the end of each day, a full group, hybrid session will be held to report progress made during the day. 
 
 All Zoom links to join main room events will be placed here.
 
