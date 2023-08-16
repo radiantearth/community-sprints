@@ -35,7 +35,7 @@ These meetings are relatively new but have proven helpful to the community. The 
 
 **Meeting time:** occasional Mondays from 11 am - 12 pm EST (1-hour long meeting)
 
-September 18th @ 11 am EST
+- Monday, September 18th @ 11 am EST
 
 # Topics
 

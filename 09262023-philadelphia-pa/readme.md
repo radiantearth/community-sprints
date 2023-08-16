@@ -11,4 +11,4 @@
 
 
 -----
-This folder will evolve to hold various workspaces.
+This folder will evolve to hold various workspaces. For now, we are focusing on building out the [prep-work](./prep-work/) folder to help everyone come as prepared as possible. 
