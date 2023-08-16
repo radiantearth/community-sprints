@@ -4,7 +4,42 @@ One of the areas engineers most often underinvest in is communicating with the w
 STAC to communicate and educate well. For this set of topics we also appreciate any brainstorming 
 and creative ideas on how we can get the word out to diverse audiences more, so feel free to propose more.
 
-## stacspec.org Improvements
+## Tutorials/Guides
+
+It is crutial for the expanded adoption of STAC to improve the education ecosystem.
+
+The current STAC official tutorials can be found at [stacspec.org/en/tutorials](https://stacspec.org/en/tutorials/).
+
+More resources can be found at [stacindex.org](https://stacindex.org/).
+
+### STAC Users
+
+**Ideas for tutorials:**
+
+- Browsing STAC Catalogs
+- ...
+
+### STAC Developers
+
+**Ideas for tutorials:**
+
+- Using datasets that have STAC Catlaogs to search and perform analysis using stac ecosystem tooling (stac-utils)
+- ...
+
+### Data Providers
+
+**Ideas for tutorials:**
+
+- Building STAC Catalogs
+- ...
+
+## Best Practices Document Improvements 
+
+The best practice documents: 
+- stac-spec [best-practices.md](https://github.com/radiantearth/stac-spec/blob/master/best-practices.md)
+- No best practices document for STAC API (yet) -- should we be creating one?
+
+## STAC Website (stacspec.org) Improvements
 The STAC website is a github repo at https://github.com/radiantearth/stac-site. Tackling any of the 
 [issues raised](https://github.com/radiantearth/stac-site/issues) would be a great help. There are also a number of other
 things that are deserving of tickets that haven't been written up yet, but would be awesome to do:
@@ -25,7 +60,7 @@ https://www.youtube.com/watch?v=V5pzZegqndQ and https://www.youtube.com/watch?v=
 
 During the past two STAC working sessions, the attendees have been building an improved list of STAC FAQs. The current STAC FAQ page is neither up to date nor all encompassing to represent beginer's STAC questions. This page is often where people first go, so we want to make sure the document is top-notch. 
 
-You can find this document here: 
+You can find this document [here](https://docs.google.com/document/d/1gM_189NDaDAg7xvNb4R_OhZVcRdquACoHgcaYuuF4hc/edit).
 
 Please feel free to add to responses and add additional questions.
 
@@ -37,25 +72,3 @@ for both STAC and OGC API (features and in general).
 
 It'd also be great to brainstorm on different audiences we'd like to present to, and try to come up with a calendar of events
 to hit, and a distributed set of speakers who can attend and talk. This should include podcasts and webinars.
-
-## Tutorials/Guides
-
-It is crutial for the expanded adoption of STAC to improve the education ecosystem.
-
-### STAC Users
-
-Ideas for tutorials:
-
-- Browsing STAC Catalogs
-
-### STAC Developers
-
-Ideas for tutorials:
-
-- Using datasets that have STAC Catlaogs to search and perform analysis using stac ecosystem tooling (stac-utils)
-
-### Data Providers
-
-Ideas for tutorials:
-
-- Building STAC Catalogs

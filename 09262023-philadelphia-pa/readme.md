@@ -1,11 +1,14 @@
 ## Overview
 
-The STAC Sprint is taking place September 26-28, 2023 in Philadelphia, PA.
+**What:** The first in-person STAC Sprint since 2019.
 
-**Sprint Location:** 990 Spring Garden St 5th Floor, Philadelphia, PA 19123.
+**When:** September 26-28, 2023.
+* Check the [agenda](agenda.md) for the main schedule.
 
-How to get to the office and nearby lodging: [azavea.com/directions](https://www.azavea.com/directions).  
+**Where:** 990 Spring Garden St 5th Floor, Philadelphia, PA 19123.
 
-Check the [agenda](agenda.md) for the main schedule.
+* How to get to the office and nearby lodging: [azavea.com/directions](https://www.azavea.com/directions).
 
+
+-----
 This folder will evolve to hold various workspaces.
