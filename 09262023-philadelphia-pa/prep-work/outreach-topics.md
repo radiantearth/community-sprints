@@ -14,9 +14,9 @@ at the sprint to make sure we're not missing any tools there.
 * Better 'stac in action' section. There are more repositories that are up to speed that would be good to include. This should
 also include hosted API instances that people are relying upon (though I think we don't want to have too many that just have
 landsat in them).
-* Stand up a [sat-api-browser](https://github.com/sat-utils/sat-api-browser) instance on the site, that links to some
-stable API's, so people can try out the interaction.
-* Put links to the JSON catalogs in STAC in action, as the hosted netlify ones aren't always staying up perfectly.
+* [sat-api-browser](https://github.com/sat-utils/sat-api-browser) improvements.
+* Mirror the STAC Best Practices document on the site
+* Mirror the STAC Specification on the site
 * Survey all the previous talks / podcasts that have been given on STAC and put links to them on the website. For example 
 https://www.youtube.com/watch?v=emXgkNutUTo, and then the ARD conference has also had STAC talks each year, and recorded them. 
 https://www.youtube.com/watch?v=V5pzZegqndQ and https://www.youtube.com/watch?v=byO0ABXFI4I
