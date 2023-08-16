@@ -3,12 +3,11 @@
 The sprint runs for 3 days, September 26, 27, and 28th. The main activities will run 9-5 Eastern time (check the
 [start time on worldclock](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2019&month=11&day=5&hour=14&min=0&sec=0&p1=263&p2=136&p3=16&p4=224&p5=145) to confirm time difference). Each day we will have a kickoff in the morning
 at 9 am as one big group, including the remote attendees. Most work through the sprint will be done in smaller groups, who will work
-for a time and then come together to report out and get feedback from other groups. Virtual attendees will have the option to work with other remote attendees, but the majority of the breakout groups will not be hybrid. Breakout groups and objectives will be determined each morning. At the end of each day, a full group, hybrid session will be held to report progress made during the day.
+for a time and then come together to report out and get feedback from other groups. 
 
 ### Remote Participation
 
-We aspire to make the sprint as accessible as possible to remote attendees. At the onsite facility, there are two rooms that should
-have good built-in video conferencing facilities. We will post the information here when we get it. In the agenda below
+We aspire to make the sprint as accessible as possible to remote attendees. Virtual attendees will have the option to work with other remote attendees, but the majority of the breakout groups will not be hybrid. Breakout groups and objectives will be determined each morning. At the end of each day, a full group, hybrid session will be held to report progress made during the day. In the agenda below
 any session in **bold** will be in the 'main' room and we be sure the video works. 
 
 All Zoom links to join main room events will be placed here.
