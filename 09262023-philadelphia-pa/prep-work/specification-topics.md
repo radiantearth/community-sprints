@@ -18,6 +18,7 @@ Specification specific discussions to be had and work to be done.
 
 **GitHub Page:** [https://github.com/radiantearth/stac-api-spec](https://github.com/radiantearth/stac-api-spec)
 
+* Collection transaction operations (https://github.com/stac-api-extensions/transaction/pull/4)
 * @philvarner to add more details here.
 * ...
 * ...
