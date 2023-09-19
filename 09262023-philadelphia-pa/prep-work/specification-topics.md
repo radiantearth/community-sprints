@@ -28,5 +28,6 @@ Specification specific discussions to be had and work to be done.
 
 * Support for IAU Codes
   * Discussion found at: [PR #12](https://github.com/stac-extensions/projection/pull/12)
-* Release virtual-assets extension : https://github.com/stac-extensions/virtual-assets
-* Release composite extension: https://github.com/stac-extensions/composite
+* Discuss and support references between assets and links (e.g. https://github.com/stac-extensions/web-map-links/pull/9)
+  * Release virtual-assets extension : https://github.com/stac-extensions/virtual-assets (
+  * Release composite extension: https://github.com/stac-extensions/composite
