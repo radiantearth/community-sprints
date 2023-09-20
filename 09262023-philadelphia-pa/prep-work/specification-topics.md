@@ -18,10 +18,23 @@ Specification specific discussions to be had and work to be done.
 
 **GitHub Page:** [https://github.com/radiantearth/stac-api-spec](https://github.com/radiantearth/stac-api-spec)
 
-* Collection transaction operations (https://github.com/stac-api-extensions/transaction/pull/4)
-* @philvarner to add more details here.
-* ...
-* ...
+* Criteria for promoting extensions to Stable / 1.0.0
+* Extensions
+  * Transaction
+    * Collection transaction operations <https://github.com/stac-api-extensions/transaction/pull/4>
+    * Clarify content type headers <https://github.com/stac-api-extensions/transaction/issues/6>
+    * Ready for 1.0.0?
+  * Children
+    * Only implementation is Resto. What about stac-server and stac-fastapi
+  * Fields
+    * ready for 1.0.0?
+  * Filter
+    * should we pin to a version of CQL / Part 3 and release 1.0.0, or wait?
+  * Query
+    * Optional queryables endpoint like Filter <https://github.com/stac-api-extensions/query/issues/4>
+  * Sort
+    * Alignment with  DRAFT OGC API - Records - Part 1: Core
+    * Maybe ready for 1.0.0? 
 
 ## STAC Extensions
 
