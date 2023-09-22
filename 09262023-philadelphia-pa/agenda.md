@@ -41,11 +41,13 @@ This section includes STAC specification improvements as well as STAC tooling ec
 |--------|------------|-------------------------------|
 |8:30 - 9 | Arrival | In-person arrivals/breakfast @ 990 Spring Garden St #5, Philadelphia, PA. |
 |9 - 9:20 | **Welcome** | Overview of event, logistics, etc |
-|9:20 - 10:45 | **Introductions** | Brief introductions from everyone, so we all know who else is there and where they're coming from|
+|9:20 - 10:00 | **Introductions** | Brief introductions from everyone, so we all know who else is there and where they're coming from|
+|10:00 - 10:20| **The State of STAC** | Update talk given by Matthew Hanson and Pete Gadomski|
+|10:20 - 10:45| **Lightning Talks** | Talks given by participants |
 |10:45 | Break| |
-|11:00 - 12:00 | Group work kickoffs | Break up into small groups to advance topics |
-|12:00 | Lunch ||
-|1:00 - 4:30 | Continued group work | |
+|11:00 - 12:30 | Group work kickoffs | Break up into small groups to advance topics |
+|12:30 - 1:30| Lunch ||
+|1:30 - 4:30 | Continued group work | |
 |4:30 - 5 | **Full group check-in** |
 |5:30 - 8:00 | Microsoft Happy Hour @ Yards Brewing | Informal discussion, drinks, food | |
 
@@ -54,11 +56,12 @@ This section includes STAC specification improvements as well as STAC tooling ec
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
 |8:30 - 9:00 | Arrival | In-person arrivals/breakfast @ 990 Spring Garden St #5, Philadelphia, PA. |
-|9:00 - 9:45 | **Open Lightning Talks** | Talks given by [Cloud-Native Geospatial Founding, Convening, Platinum, and Gold Sponsors](https://cloudnativegeo.org/sponsor-stac-sprint-8.pdf)|
-|9:45 - 10:00 | **Small group kick-off** | Set stage and goals for small group work. |
-|10:00 - 12:00 | Small group work | Continue in groups from the previous day.|
-|12:00 | Lunch | |
-|1:00 - 4:30 | Continued group work | |
+|9:00 - 9:45 | **Sponsor Talks** | Talks given by [Cloud-Native Geospatial Founding, Convening, Platinum, and Gold Sponsors](https://cloudnativegeo.org/sponsor-stac-sprint-8.pdf)|
+|9:45 - 10:45 | **Lightning Talks** | Talks given by participants| 
+|10:45 - 11:00 | **Small group kick-off** | Set stage and goals for small group work. |
+|11:00  - 12:30 | Small group work | Continue in groups from the previous day.|
+|12:30 - 1:30| Lunch | |
+|1:30 - 4:30 | Continued group work | |
 |4:30 - 5 | **Full group check-in** | |
 |7:00 | Social Meetup @ TBD | |
 
@@ -67,9 +70,9 @@ This section includes STAC specification improvements as well as STAC tooling ec
 |**Time**|**Title**|**Description**|
 |--------|------------|-------------------------------|
 |8:30 - 9:00 | Arrival | In-person arrivals/breakfast @ 990 Spring Garden St #5, Philadelphia, PA. |
-|9:00 - 9:45 | **Open Lightning Talks** | |
+|9:00 - 9:45 | **Lightning Talks** | |
 |9:45 - 10:00 | **Small group kick-off** | Set stage and goals for small group work. |
-|10:00 - 12:00 | Small group work | Continue in groups from the previous day.|
-|12:00 | Lunch ||
+|10:00 - 12:30 | Small group work | Continue in groups from the previous day.|
+|12:30 - 1:30 | Lunch ||
 |1:00 - 3:00 | Continued group work | |
 |3:00 - 5:00 | **Demos and wrap-up** | Show off what you've done to the group! Everyone is encouraged to share. And commit to the next steps and actions to keep moving forward|
