@@ -47,7 +47,7 @@ This section includes STAC specification improvements as well as STAC tooling ec
 |12:00 | Lunch ||
 |1:00 - 4:30 | Continued group work | |
 |4:30 - 5 | **Full group check-in** |
-|6:00 | Happy Hour @ TBD | Informal discussion, drinks, food | |
+|5:30 - 8:00 | Microsoft Happy Hour @ Yards Brewing | Informal discussion, drinks, food | |
 
 ## Day 2
 
