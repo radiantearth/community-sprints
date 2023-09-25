@@ -10,7 +10,13 @@ for a time and then come together to report out and get feedback from other grou
 We aspire to make the sprint as accessible as possible to remote attendees while still making the in-person work as efficient as possible. In the agenda below, any session in **bold** will be a large group, hybrid session and it will be in the 'main' room (with a good video setup). 
 As for small-group breakouts, the virtual attendees will have the option to work with other remote attendees, but **the majority of the breakout groups will not be hybrid**. Breakout groups and objectives will be determined each morning. At the end of each day, a full group, hybrid session will be held to report progress made during the day. 
 
-All Zoom links to join main room events will be placed here.
+Main room zoom link (same link for all 3 days): 
+
+Join Zoom Meeting
+https://us06web.zoom.us/j/83422911951?pwd=whksoviyObBYXPyKm6gUYDrdP1tbVO.1
+
+Meeting ID: 834 2291 1951
+Passcode: 728594
 
 ## Sprint Objectives
 
