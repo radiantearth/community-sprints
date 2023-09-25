@@ -63,6 +63,8 @@ A set of STAC software is dedicated to fetching data from STAC APIs and displayi
 - [pystac-client](https://github.com/stac-utils/pystac-client)
 - **xarray**/**zarr** interoperability
   - [odc-stac](https://github.com/opendatacube/odc-stac) vs [stackstac](https://github.com/gjoseph92/stackstac)
+  - [intake-stac](https://github.com/intake/intake-stac)
+  - [xpystac](https://github.com/stac-utils/xpystac)
   - Other supporting tooling
 - **GeoParquet** interoperability
   - Should we have some standardization around how to represent STAC in GeoParquet? ref (https://github.com/vincentsarago/MAXAR_opendata_to_pgstac/issues/3#issuecomment-1719957534 and https://github.com/stac-utils/stac-geoparquet/discussions/25)
