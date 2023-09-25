@@ -63,5 +63,7 @@ A set of STAC software is dedicated to fetching data from STAC APIs and displayi
 - [pystac-client](https://github.com/stac-utils/pystac-client)
 - **xarray**/**zarr** interoperability
   - [odc-stac](https://github.com/opendatacube/odc-stac) vs [stackstac](https://github.com/gjoseph92/stackstac)
+  - [intake-stac](https://github.com/intake/intake-stac)
+  - [xpystac](https://github.com/stac-utils/xpystac)
   - Other supporting tooling
 - Add yours
