@@ -47,9 +47,9 @@ This section includes STAC specification improvements as well as STAC tooling ec
 |--------|------------|-------------------------------|
 |8:30 - 9 | Arrival | In-person arrivals/breakfast @ 990 Spring Garden St #5, Philadelphia, PA. |
 |9 - 9:20 | **Welcome** | Overview of event, logistics, etc |
-|9:20 - 10:00 | **Introductions** | Brief introductions from everyone, so we all know who else is there and where they're coming from|
-|10:00 - 10:20| **The State of STAC** | Update talk given by Matthew Hanson and Pete Gadomski|
-|10:20 - 10:45| **Lightning Talks** | Talks given by participants |
+|9:20 - 9:45 | **Introductions** | Brief introductions from everyone, so we all know who else is there and where they're coming from|
+|9:45 - 10:05| **The State of STAC** | Update talk given by Matthew Hanson and Pete Gadomski|
+|10:05 - 10:45| **Lightning Talks** | Talks given by participants |
 |10:45 | Break| |
 |11:00 - 12:30 | Group work kickoffs | Break up into small groups to advance topics |
 |12:30 - 1:30| Lunch ||
