@@ -5,6 +5,8 @@ to edit files and make new workspaces - just make a PR and we will get your info
 in other repositories that are specific to the STAC specifications or ecosystem; this space just serves as a collaboration space
 with a low barrier to entry.
 
+For the main sprint schedule, check the [agenda](../agenda.md).
+
 # Meetings to Attend
 
 There are a handful of STAC meetings occurring in the time leading up to the STAC. We encourage STAC sprint attendees to make as many of the upcoming meetings as possible to get everyone as up-to-speed as possible before the sprint.
@@ -16,26 +18,8 @@ General meeting about all things stac-spec and stac-api-spec. The meeting consis
 **Meeting time:** Every other Monday from 11 am - 12 pm EST (1-hour long meeting)
 
 - Monday, September 8th @ 11 am EST
-
 - Monday, September 22 @ 11 am EST
-
 - Monday, October 6th @ 11 am EST
-
-#### STAC Working Session
-
-A two-hour meeting that allows us to dive into a specific task and get some work done while all online. The agenda is preset by the STAC PSC and there are no intros/updates/check-ins.
-
-**Meeting time:** 1st Tuesday of the month from 11 am - 1 pm EST (2-hour long meeting)
-
-- Tuesday, September 2nd @ 11 am EST
-
-#### STAC Ecosystem (stac-utils) Meeting
-
-These meetings are relatively new but have proven helpful to the community. The format of this meeting is similar to that of the STAC Community meeting, but instead of discussing the specifications themselves (stac-spec and stac-api-spec), this meeting discusses work being done/needed for the tools built to help interact with STAC.
-
-**Meeting time:** occasional Mondays from 11 am - 12 pm EST (1-hour long meeting)
-
-- ?
 
 # Topics
 
@@ -54,7 +38,4 @@ contribute then jumping on this area is one of the best. The [implementation pag
 projects people are working on, as well as ideas for new datasets/software, and you can also offer up your skills there.
 Testing and validation are also a part of this.
 
-* **[Outreach & Education](outreach-and-education-topics.md)** - The third major topic is outreach, broadly defined. How do we get more people aware
-of STAC? How do we help those who have just learned about STAC dive into using the specification and tooling around it? Past sprints have done
-things like create the http://stacspec.org website. There are LOTS
-more improvements possible on stacspec.org. Developing tutorials for individuals with a wide range of familiarity with STAC is needed.
+* **[Outreach & Education](outreach-and-education-topics.md)** - TBD
