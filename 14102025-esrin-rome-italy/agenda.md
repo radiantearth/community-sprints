@@ -78,6 +78,9 @@ This sprint focuses on advancing STAC and Zarr integration, with particular emph
 | 13:30 - 14:30 | **Closing Plenary**   | 5-minutes group pres, next steps, action items, future collaboration plans |
 | 14:30         | **Event Conclusion**  | Departure                                                                  |
 
+STAC Sprint participants are invited to join the [Zarr summit](https://zarr-summit-2025.netlify.app/) in central Rome on Friday, October 17 for a joint adopter day.
+Please register separately by August 22 for the Zarr Adopters summit if you intend to participate in both events.
+
 ## Expected Outcomes
 
 - Concrete improvements to STAC and Zarr integration

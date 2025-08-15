@@ -10,6 +10,8 @@
 * How to get to the office: [Getting to ESRIN](https://www.esa.int/About_Us/ESRIN/Getting_to_ESRIN).
 * Nearby lodging: TBD.
 
+STAC Sprint participants are invited to join the [Zarr summit](https://zarr-summit-2025.netlify.app/) in central Rome on Friday, October 17 for a joint adopter day.
+Please register separately by August 22 for the Zarr Adopters summit if you intend to participate in both events.
 
 -----
 This folder will evolve to hold various workspaces. For now, we are focusing on building out the [prep-work](./prep-work/) folder to help everyone come as prepared as possible. The prep-work folder contains:
