@@ -23,19 +23,27 @@ General meeting about all things stac-spec and stac-api-spec. The meeting consis
 
 # Topics
 
-This sprint has a specific focus on STAC + Zarr as we would like to reach a point where we can have a set of recommendations for how to use STAC with Zarr, and how to use Zarr with STAC.
+This sprint has a **primary focus on STAC + Zarr specification development** to establish robust standards, best practices, and guidelines for STAC-Zarr integration. The goal is to reach consensus on how to use STAC with Zarr and how to use Zarr with STAC through specification work.
 
-There are three main categories of topics, and each has its own page or directory to go deeper on. These should serve
-to get people working on the topic on the same page before the sprint. Each should have a number of links to give a newer
-user the appropriate background and should attempt to frame the major points of the decision. These will likely be various
-degrees of WIP (work in progress), as everyone is too busy ahead of the sprint, but something started is better than nothing.
+Given the 3-day sprint timeframe, the main deliverables will be **specification documents, best practices, and guidelines** rather than production software implementations.
 
-* **[Specification Improvements](specification-topics.md)** - Both [stac-spec](https://github.com/radiantearth/stac-spec) and [stac-api-spec](https://github.com/radiantearth/stac-api-spec) have reached a stable version. Specific topics of work can be found in [specification-topics.md](specification-topics.md).
+Prior to the sprint, feel free to propose additional topics or areas of focus that align with the overall sprint goals.
 
-* **[Ecosystem Development/Implementation](implementation-topics.md)** - The goal of these sprints is to build - software, hosted datasets, testing
-tools, etc - with the specification being a side-effect of people working together. So if people are not sure where to
-contribute then jumping on this area is one of the best. The [implementation page](implementation-topics.md) details the various
-projects people are working on, as well as ideas for new datasets/software, and you can also offer up your skills there.
-Testing and validation are also a part of this.
+## Primary Focus: Specification Development
+
+* **[Specification Topics](specification-topics.md)** - The **main focus** of the sprint. Six proposed specification topics have been identified for breakout groups, with 4 to be selected based on participant expertise and community priorities. Topics include Zarr best practices, asset patterns, EOPF integration, datacube extension enhancements, visualization support, and performance optimization.
+
+## Supporting Activities
+
+* **[Implementation Topics](implementation-topics.md)** - Implementation work will be **secondary** and will emerge organically from specification discussions. This includes proof-of-concept prototypes to validate specification decisions, reference examples, and gap identification. Participants may propose implementation topics that align with sprint goals.
 
 * **[Outreach & Education](outreach-and-education-topics.md)** - TBD
+
+## Real-World Examples
+
+The sprint preparation includes analysis of existing STAC-Zarr implementations:
+
+- **EOAP Zarr Cloud-Native Workflows**: Producer/consumer application packages demonstrating collection assets and datacube extension usage
+- **EOPF Sample Service**: Live Sentinel-2 L2A catalog showing multi-resolution asset patterns, hierarchical data access, and engine-specific parameters
+
+These examples provide concrete patterns that will inform specification development and ensure practical applicability of the standards being developed.
