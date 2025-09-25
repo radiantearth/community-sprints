@@ -29,6 +29,7 @@ Based on participant interests and expertise, we have identified 6 focused speci
 
 - Collection-level vs item-level asset organization for Zarr stores
 - Guidelines for representing scene-based Zarr stores (EOPF products)
+- Best practises for xarray extension deprecation in favor of nd-array generic patterns
 - Asset metadata requirements for pyramids/multi-resolution data groups
 - Variable-specific asset handling within multidimensional stores
 - Link templates for direct access to Zarr subgroups and variables
