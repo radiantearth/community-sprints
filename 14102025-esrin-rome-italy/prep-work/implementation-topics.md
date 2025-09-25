@@ -6,6 +6,7 @@ This STAC + Zarr community sprint at ESA/ESRIN will **primarily focus on [specif
 
 Given the 3-day sprint timeframe, implementation activities will serve to:
 
+- **Propose immediate solutions** to specification decisions trough PRs in the corresponding repositories
 - **Validate specification decisions** through proof-of-concept implementations
 - **Test proposed patterns** with real-world data and use cases
 - **Identify gaps** in current tooling that specifications need to address
