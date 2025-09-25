@@ -6,12 +6,18 @@ Specification specific discussions to be had and work to be done, with a focus o
 
 **GitHub Page:** [https://github.com/radiantearth/stac-spec](https://github.com/radiantearth/stac-spec)
 
-### Collection Assets for Zarr Stores
+### Assets for Zarr Stores
 
 * **Collection-level Assets Implementation**
-  * Finalize support for assets at the collection level to reference large Zarr stores
+  * Define support for assets at the collection level to reference Zarr stores
   * Define asset roles and types specific to Zarr stores (e.g., "zarr-store", "zarr-metadata")
   * Establish patterns for consolidated metadata references
+
+* **Item-level Asset Patterns**
+  * Guidelines for representing Zarr arrays and shapes as STAC items
+  * Asset organization for multi-resolution datasets
+  * Handling of variable-specific assets within Zarr stores
+  * Data cube variable representation
 
 ### Datetime Handling for Multidimensional Data
 
@@ -26,6 +32,11 @@ Specification specific discussions to be had and work to be done, with a focus o
   * Guidelines for when to duplicate Zarr metadata in STAC vs when to reference
   * Strategies for keeping STAC metadata synchronized with Zarr stores
   * Performance implications of different approaches
+
+* **Geospatial metadata** Integration
+  * Define how to represent geospatial metadata in STAC
+  * Coordinate reference system handling?
+  * Spatial metadata representation
 
 ### Search and Discovery Optimization
 
