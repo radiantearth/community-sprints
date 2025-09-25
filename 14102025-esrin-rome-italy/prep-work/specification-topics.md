@@ -1,157 +1,127 @@
-# Overview
+# STAC Sprint Rome 2025 - Specification Topics
 
-Specification specific discussions to be had and work to be done, with a focus on STAC + Zarr integration challenges and improvements needed to better support multidimensional geospatial data.
+Based on participant interests and expertise, we have identified 6 focused specification topics for breakout groups. Each topic addresses critical STAC-Zarr integration challenges with clear deliverables.
 
-## STAC Specification
+## Proposed Topic 1: Zarr Store Best Practices Specification
 
-**GitHub Page:** [https://github.com/radiantearth/stac-spec](https://github.com/radiantearth/stac-spec)
+**Objective:** Initiate a Zarr section in the [STAC best practises repo](https://github.com/radiantearth/stac-best-practices/) with recommendations on how Zarr stores are represented in STAC.
 
-### Assets for Zarr Stores
+**Key Work Items:**
 
-* **Collection-level Assets Implementation**
-  * Define support for assets at the collection level to reference Zarr stores
-  * Define asset roles and types specific to Zarr stores (e.g., "zarr-store", "zarr-metadata")
-  * Establish patterns for consolidated metadata references
+- layout a mapping of Zarr store concepts to STAC concepts (e.g., groups, arrays, variables to collections, items, assets)
+- Identify existing or missing asset roles for Zarr stores (e.g. consolidated metadata, zarr hierarchy)
+- Specify metadata fields for Zarr store properties (chunk sizes, compression, storage layout)
+- Integration patterns with existing extensions (datacube, cf)
+- Asset organization for multi-resolution and hierarchical Zarr stores
+- Guidelines for storing STAC metadata within Zarr stores
 
-* **Item-level Asset Patterns**
-  * Guidelines for representing Zarr arrays and shapes as STAC items
-  * Asset organization for multi-resolution datasets
-  * Handling of variable-specific assets within Zarr stores
-  * Data cube variable representation
+**Potential Outputs:**
 
-### Datetime Handling for Multidimensional Data
+- Draft Zarr Best Practices outline
+- Set of issues/PRs to be continued post-sprint
+- Example STAC items and collections using the best practices
 
-* **Datetime Range vs Single Datetime**
-  * Address challenges with single datetime requirement for multidimensional datasets (datacube extension)
-  * Extension patterns for datetime ranges in datacube scenarios
-  * Balance between core spec simplicity and extension flexibility
+## Proposed Topic 2: STAC-Zarr Asset Discovery and Data Access Patterns
 
-### Zarr-Specific Metadata Patterns
+**Objective:** Establish standardized patterns for representing Zarr data as STAC assets with focus on navigation and discoverability.
 
-* **Metadata Duplication vs Reference**
-  * Guidelines for when to duplicate Zarr metadata in STAC vs when to reference
-  * Strategies for keeping STAC metadata synchronized with Zarr stores
-  * Performance implications of different approaches
+**Key Work Items:**
 
-* **Geospatial metadata** Integration
-  * Define how to represent geospatial metadata in STAC
-  * Coordinate reference system handling?
-  * Spatial metadata representation
+- Collection-level vs item-level asset organization for Zarr stores
+- Guidelines for representing scene-based Zarr stores (EOPF products)
+- Asset metadata requirements for pyramids/multi-resolution data groups
+- Variable-specific asset handling within multidimensional stores
+- Link templates for direct access to Zarr subgroups and variables
 
-### Search and Discovery Optimization
+**Potential Outputs:**
 
-* **Nested Structure Navigation**
-  * Improve browsability of hierarchical Zarr structures. Guidelines for identifying the collections, items and assets levels in a Zarr store
-  * Link templates for direct access to Zarr subgroups
-  * Collection search patterns for large multidimensional datasets
+- Best practices guide for STAC-Zarr asset organization
+- Reference implementations for common use cases
+- Asset pattern templates for different data types
 
-## STAC API
+> !Note: This topic is closely related to Topic 1 (Zarr Store Best Practices) and may have overlapping work items. Coordination between the two groups is encouraged to ensure consistency and avoid duplication of effort.
 
-**GitHub Page:** [https://github.com/radiantearth/stac-api-spec](https://github.com/radiantearth/stac-api-spec)
+## Proposed Topic 3: EOPF Integration Specification
 
-__The sprint will focus on the core spec and extensions that are relevant to Zarr integration but if a group forms to work on the API spec, it will be welcome to do so.__
+**Objective:** Define standardized STAC patterns for ESA EOPF Zarr products to ensure consistency across the ecosystem.
 
-### Collection Search Enhancement
+**Key Work Items:**
 
-* **Collection-level Search Optimization**
-  * Enhance collection search for Zarr catalog discovery
-  * Federated search across multiple STAC catalogs
-  * Performance optimization for large collection catalogs
+- STAC item structure for Sentinel products in Zarr format
+- Metadata inheritance patterns from SAFE to Zarr to STAC
+- Multi-resolution band organization and relationships
+- Processing extension integration for EOPF workflows
+- Collection organization for multi-temporal datasets
 
-### Query Capabilities for Multidimensional Data
+**Potential Outputs:**
 
-* **Advanced Queryables**
-  * Custom queryables for nested Zarr metadata structures
-  * Variable-based search within datacube collections
-  * Temporal and spatial subsetting query patterns
+- EOPF-STAC specification guidelines
+- Reference STAC collections and items for Sentinel products
+- Integration patterns with openEO and other processing frameworks
 
-### Asset Streaming and Access
+## Proposed Topic 4: Datacube Extension Enhancement for Zarr
 
-* **Large Asset Handling**
-  * Streaming patterns for large Zarr metadata files
-  * Partial asset access for consolidated metadata
-  * Caching strategies for frequently accessed Zarr stores
+**Objective:** Enhance the Datacube Extension to better support Zarr multidimensional data structures and CF conventions.
 
-## STAC Extensions
+**Key Work Items:**
 
-**GitHub Page:** [github.com/stac-extensions](https://github.com/stac-extensions)
+- Identify gaps in Zarr variable representation in datacube extension
+- Propose solutions for identifying coordinate variables
+- CF convention integration patterns (CF extension overlap)
+- Datetime range handling for multidimensional datasets
+- Collection-level datacube metadata for hierarchical stores
 
-### Datacube Extension Enhancements
+**Potential Outputs:**
 
-* **Zarr Integration Improvements**
-  * Better support for Zarr variable representation
-  * Dimension and coordinate handling alignment with Zarr spec
-  * CF convention integration patterns
-  * Discussion: [Datacube Extension Issues](https://github.com/stac-extensions/datacube)
+- Updated Datacube Extension specification
+- CF convention mapping guidelines
+- Example implementations for climate and Earth observation data
 
-### CF Extension Development
+## Proposed Topic 5: STAC Browser and Visualization Support
 
-* **Climate and Forecast Metadata**
-  * Alignment with CF conventions for atmospheric and oceanic data
-  * Standard name and units handling
-  * Cell methods representation for temporal aggregations
-  * Discussion: [CF Extension PR #8](https://github.com/stac-extensions/cf/pull/8)
+**Objective:** Define specification patterns that enable effective visualization and browsing of Zarr data through STAC interfaces.
 
-### Link Templates Extension
+**Key Work Items:**
 
-* **Dynamic Link Generation**
-  * Zarr subgroup access patterns
-  * Template-based navigation for nested structures
-  * Qubed integration and formalization
-  * Support for hierarchical data browsing
+- Asset metadata requirements for client-side visualization
+- Thumbnail and preview generation patterns for Zarr data
+- Queryable fields for multidimensional data discovery
+- Performance optimization patterns for large dataset browsing
+- Integration with existing STAC Browser capabilities
 
-### Zarr Extension (Proposed)
+**Potential Outputs:**
 
-* **Dedicated Zarr Extension**
-  * Zarr-specific metadata fields and patterns
-  * Asset roles and types for Zarr stores
-  * Integration with existing extensions (datacube, cf)
-  * Discussion: [Zarr Extension Discussion #1222](https://github.com/radiantearth/stac-spec/discussions/1222)
+- Visualization-friendly STAC patterns specification
+- STAC Browser enhancement recommendations
+- Performance guidelines for large Zarr catalog browsing
 
-### Virtual Assets Extension
+## Proposed Topic 6: Performance and Access Optimization
 
-* **Virtual Zarr Support**
-  * Reference file cataloging patterns
-  * Kerchunk and VirtualiZarr integration
-  * Asset organization for virtual stores
-  * Cloud-optimized access without data duplication
+**Objective:** Develop specification guidelines for optimizing STAC-Zarr integration performance and remote access patterns.
 
-## Cross-Specification Alignment
+**Key Work Items:**
 
-### GeoZarr Specification Integration
+- Chunk size and manifest optimization guidelines
+- Consolidated metadata vs distributed metadata patterns
+- Caching strategies for frequently accessed Zarr stores
+- Asset streaming patterns for large multidimensional data
+- Cloud storage optimization (S3, GCS, Azure) considerations
 
-* **Coordinate Reference System Handling**
-  * Alignment between STAC spatial properties and GeoZarr CRS encoding
-  * Multi-resolution data representation
-  * Chunking strategy recommendations
+**Potential Outputs:**
 
-### OGC Standards Alignment
+- Performance optimization guidelines
+- Reference architectures for different deployment scenarios
+- Benchmarking framework for STAC-Zarr implementations
 
-* **OGC API Compatibility**
-  * Coverage API integration for Zarr data access
-  * Processes API for Zarr data processing workflows
-  * Records API alignment for metadata discovery
+---
 
-### CF Conventions Integration
+## Selection Process
 
-* **Climate Data Standards**
-  * CF convention compliance in STAC metadata
-  * Attribute mapping between CF and STAC
-  * Temporal dimension handling for climate datasets
+From these 6 topics, **4 will be selected** based on:
 
-## EOPF-Specific Specification Needs
+- Participant expertise alignment
+- Community priority and impact
+- Technical feasibility within sprint timeframe
+- Complementary nature of selected topics
 
-### ESA Data Model Integration
-
-* **EOPF Product Structure**
-  * STAC patterns for ESA processing levels
-  * Multi-resolution band organization
-  * Metadata inheritance from SAFE to Zarr to STAC
-
-### Sentinel Data Representation
-
-* **Standardized Patterns**
-  * Consistent STAC item structure for Sentinel products in Zarr
-  * Multi-temporal collection organization
-  * Band asset organization and relationships
-  * Coordinate system handling across different Sentinel missions
+Each selected topic will form a breakout group of 4-6 participants with diverse expertise to ensure comprehensive coverage and practical outcomes.
