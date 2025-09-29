@@ -39,6 +39,7 @@ Based on participant interests and expertise, we have identified 6 focused speci
 - Best practices guide for STAC-Zarr asset organization
 - Reference implementations for common use cases
 - Asset pattern templates for different data types
+- Enhancement proposals for existing STAC Extensions
 
 > !Note: This topic is closely related to Topic 1 (Zarr Store Best Practices) and may have overlapping work items. Coordination between the two groups is encouraged to ensure consistency and avoid duplication of effort.
 
