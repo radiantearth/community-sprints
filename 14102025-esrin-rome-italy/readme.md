@@ -15,6 +15,6 @@
 This folder will evolve to hold various workspaces. For now, we are focusing on building out the [prep-work](./prep-work/) folder to help everyone come as prepared as possible. The prep-work folder contains:
 
 * **[Agenda](agenda.md)** - Main sprint schedule and timeline
-* **[Specification Topics](./prep-work/specification-topics.md)** - STAC + Zarr specification improvements and discussions
+* **[Specification Topics](./prep-work/specification-topics.md)** - STAC + Zarr specification topics
 * **[Implementation Topics](./prep-work/implementation-topics.md)** - Software development and integration work
 * **[General Information](./prep-work/readme.md)** - Meeting schedules and topic overviews
