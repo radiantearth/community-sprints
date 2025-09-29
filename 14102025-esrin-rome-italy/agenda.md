@@ -27,12 +27,12 @@ This sprint focuses on advancing STAC and Zarr integration, with particular emph
 
 Based on participant expertise and interests, 6 specification topics have been identified for potential breakout groups. **4 topics will be selected** on Day 1 based on participant alignment and community priorities:
 
-1. **Zarr Store Best Practices Specification** - Foundational concept mapping and best practices for representing Zarr stores in STAC
-2. **STAC-Zarr Asset Discovery and Data Access Patterns** - Standardized patterns for asset organization and navigation
-3. **EOPF Integration Specification** - ESA-specific STAC patterns for Sentinel products in Zarr format
-4. **Datacube Extension Enhancement for Zarr** - Improving multidimensional data support and CF convention integration
-5. **STAC Browser and Visualization Support** - Specification patterns for effective visualization and browsing
-6. **Performance and Access Optimization** - Guidelines for optimizing STAC-Zarr integration performance
+1. **STAC-Zarr Asset Discovery and Data Access Patterns** - Standardized patterns for asset organization, navigation, and templating capabilities for dynamic data access
+2. **EOPF Integration Specification** - ESA-specific STAC patterns for Sentinel products in Zarr format
+3. **Datacube Extension Enhancement for Zarr** - Improving multidimensional data support and CF convention integration
+4. **STAC Browser and Visualization Support** - Specification patterns for effective visualization and browsing
+5. **Performance and Access Optimization** - Guidelines for optimizing STAC-Zarr integration performance, including virtual Zarr stores
+6. **Zarr Store Best Practices Specification** - Foundational concept mapping and best practices for representing Zarr stores in STAC (synthesis topic for later days)
 
 Of course, these are proposed topics. Any other relevant topics may be proposed and selected on Day 1 as well if there is sufficient interest and expertise.
 
@@ -65,7 +65,7 @@ Each selected topic will form a breakout group of 4-6 participants with diverse 
 | ------------- | ------------------------ | ------------------------------------------------------------------------------------------------- |
 | 8:30 - 9:00   | Arrival                  | Breakfast available at ESA ESRIN cafeteria (at participant cost)                                  |
 | 9:00 - 9:30   | **Daily Kickoff**        | Progress review, day 2 objectives, group adjustments                                              |
-| 9:30 - 10:00  | **Lightning Talks**      | Presentations from participants                                                                   |
+| 9:30 - 10:00  | **Lightning Talks**      | Presentations from participants (call for presentations launched prior to sprint)                |
 | 10:00 - 10:15 | Break                    |                                                                                                   |
 | 10:15 - 12:30 | **Intensive Group Work** | Deep dive into technical challenges                                                               |
 | 12:30 - 13:30 | Lunch                    | ESA mensa                                                                                         |

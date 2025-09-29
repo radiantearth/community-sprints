@@ -33,6 +33,8 @@ Reference implementation: [EOPF STAC Catalog](https://stac.core.eopf.eodc.eu/) |
 
 **EOPF Sentinel-2 L2A Implementation Patterns:**
 
+*Note: Current implementation uses one Zarr store per scene - there is no aggregation across time.*
+
 **Multi-Resolution Asset Organization:**
 
 - Individual band assets at native resolutions (10m, 20m, 60m)
@@ -42,11 +44,12 @@ Reference implementation: [EOPF STAC Catalog](https://stac.core.eopf.eodc.eu/) |
 **Asset Structure Patterns:**
 
 - Media type: `application/vnd+zarr`
+- Asset href: Points to root directory of Zarr hierarchy
 - Asset roles: `["data", "reflectance", "dataset"]` for grouped bands
 - Asset roles: `["data", "reflectance"]` for individual bands
 - Asset roles: `["data", "metadata"]` for full product
 
-**Zarr Integration Specifications:**
+**Zarr Integration Specifications (xarray-specific):**
 
 - Engine-specific parameters: `"engine": "eopf-zarr"`
 - Operation modes: `"op_mode": "native"` vs `"op_mode": "analysis"`
