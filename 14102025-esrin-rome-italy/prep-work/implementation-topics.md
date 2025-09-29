@@ -115,3 +115,4 @@ Reference implementation: [EOAP Zarr Cloud-Native Format](https://eoap.github.io
 - Datacube extension alignment with Zarr conventions
 - Performance optimization for cloud-native access
 - Workflow patterns for producer/consumer applications
+- Switching from deprecated Xarray Assets STAC Extension to Zarr STAC Extension and Storage STAC Extension.
