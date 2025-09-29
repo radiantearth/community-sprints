@@ -85,7 +85,6 @@ Reference implementation: [EOPF STAC Catalog](https://stac.core.eopf.eodc.eu/) |
 
 ### EOAP Zarr Cloud-Native Workflows
 
-Based on participant input, the following real-world implementation examples provide valuable context for sprint discussions:
 
 #### Earth Observation Application Packages (EOAP)
 
