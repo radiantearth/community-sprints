@@ -61,17 +61,17 @@ Each selected topic will form a breakout group of 4-6 participants with diverse 
 
 ## Day 2 - Wednesday, October 15, 2025
 
-| **Time**      | **Title**                | **Description**                                                                                   |
-| ------------- | ------------------------ | ------------------------------------------------------------------------------------------------- |
-| 8:30 - 9:00   | Arrival                  | Breakfast available at ESA ESRIN cafeteria (at participant cost)                                  |
-| 9:00 - 9:30   | **Daily Kickoff**        | Progress review, day 2 objectives, group adjustments                                              |
-| 9:30 - 10:00  | **Lightning Talks**      | Presentations from participants (call for presentations launched prior to sprint)                 |
-| 10:00 - 10:15 | Break                    |                                                                                                   |
-| 10:15 - 12:30 | **Intensive Group Work** | Deep dive into technical challenges                                                               |
-| 12:30 - 13:30 | Lunch                    | ESA mensa                                                                                         |
-| 13:30 - 16:00 | **Continued Group Work** | Implementation, testing, documentation                                                            |
-| 16:00 - 17:00 | **Daily Wrap-up**        | Progress reports, identify blockers, final day planning                                           |
-| 19:00 - 21:00 | **Happy Hour**           | Informal networking and discussion (venue [Casadante](https://maps.app.goo.gl/ngFdeu2h1Maxgxej6)) |
+| **Time**      | **Title**                | **Description**                                                                                                             |
+| ------------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| 8:30 - 9:00   | Arrival                  | Breakfast available at ESA ESRIN cafeteria (at participant cost)                                                            |
+| 9:00 - 9:30   | **Daily Kickoff**        | Progress review, day 2 objectives, group adjustments                                                                        |
+| 9:30 - 10:00  | **Lightning Talks**      | Presentations from participants (call for presentations launched prior to sprint)                                           |
+| 10:00 - 10:15 | Break                    |                                                                                                                             |
+| 10:15 - 12:30 | **Intensive Group Work** | Deep dive into technical challenges                                                                                         |
+| 12:30 - 13:30 | Lunch                    | ESA mensa                                                                                                                   |
+| 13:30 - 16:00 | **Continued Group Work** | Implementation, testing, documentation                                                                                      |
+| 16:00 - 17:00 | **Daily Wrap-up**        | Progress reports, identify blockers, final day planning                                                                     |
+| 19:00 - 21:00 | **Happy Hour**           | Happy hour and networking time with Zarr Summit participants (venue [Casadante](https://maps.app.goo.gl/ngFdeu2h1Maxgxej6)) |
 
 ## Day 3 - Thursday, October 16, 2025
 
