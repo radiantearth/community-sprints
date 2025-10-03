@@ -47,17 +47,17 @@ Each selected topic will form a breakout group of 4-6 participants with diverse 
 
 ## Day 1 - Tuesday, October 14, 2025
 
-| **Time**      | **Title**                | **Description**                                                          |
-| ------------- | ------------------------ | ------------------------------------------------------------------------ |
-| 8:30 - 9:00   | Arrival & Registration   | Check-in at ESA ESRIN, security clearance, breakfast                     |
-| 9:00 - 9:20   | **Welcome & Logistics**  | Welcome speech, Event overview, venue orientation, logistics briefing    |
-| 9:20 - 9:55   | **Introductions**        | Brief introductions from all participants - background, interests, goals |
-| 9:55 - 10:45  | **State of STAC & Zarr** | Current status updates from community leaders                            |
-| 10:45 - 11:00 | Break                    |                                                                          |
-| 11:00 - 12:30 | Group work kickoffs      | Break up into small groups to advance topics                             |
-| 12:30 - 13:30 | Lunch                    | ESA mensa                                                                |
-| 13:30 - 16:00 | **Continued group work** | Hands-on development, coding, and discussions in breakout rooms          |
-| 16:00 - 17:00 | **Daily Wrap-up**        | Progress reports from each group, next day planning                      |
+| **Time**      | **Title**                | **Description**                                                            |
+| ------------- | ------------------------ | -------------------------------------------------------------------------- |
+| 8:30 - 9:00   | Arrival & Registration   | Check-in at ESA ESRIN, security clearance, breakfast (at participant cost) |
+| 9:00 - 9:20   | **Welcome & Logistics**  | Welcome speech, Event overview, venue orientation, logistics briefing      |
+| 9:20 - 9:55   | **Introductions**        | Brief introductions from all participants - background, interests, goals   |
+| 9:55 - 10:45  | **State of STAC & Zarr** | Current status updates from community leaders                              |
+| 10:45 - 11:00 | Break                    |                                                                            |
+| 11:00 - 12:30 | Group work kickoffs      | Break up into small groups to advance topics                               |
+| 12:30 - 13:30 | Lunch                    | ESA mensa                                                                  |
+| 13:30 - 16:00 | **Continued group work** | Hands-on development, coding, and discussions in breakout rooms            |
+| 16:00 - 17:00 | **Daily Wrap-up**        | Progress reports from each group, next day planning                        |
 
 ## Day 2 - Wednesday, October 15, 2025
 
@@ -65,7 +65,7 @@ Each selected topic will form a breakout group of 4-6 participants with diverse 
 | ------------- | ------------------------ | ------------------------------------------------------------------------------------------------- |
 | 8:30 - 9:00   | Arrival                  | Breakfast available at ESA ESRIN cafeteria (at participant cost)                                  |
 | 9:00 - 9:30   | **Daily Kickoff**        | Progress review, day 2 objectives, group adjustments                                              |
-| 9:30 - 10:00  | **Lightning Talks**      | Presentations from participants (call for presentations launched prior to sprint)                |
+| 9:30 - 10:00  | **Lightning Talks**      | Presentations from participants (call for presentations launched prior to sprint)                 |
 | 10:00 - 10:15 | Break                    |                                                                                                   |
 | 10:15 - 12:30 | **Intensive Group Work** | Deep dive into technical challenges                                                               |
 | 12:30 - 13:30 | Lunch                    | ESA mensa                                                                                         |
