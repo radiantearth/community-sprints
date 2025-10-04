@@ -54,12 +54,21 @@ Based on participant interests and expertise, we have identified 6 focused speci
 - Multi-resolution band organization and relationships
 - Processing extension integration for EOPF workflows
 - Collection organization for multi-temporal datasets
+- **EOPF Extension Deprecation** ([Issue #55](https://github.com/radiantearth/community-sprints/issues/55)):
+  - Replace EOPF-specific fields with existing STAC extensions
+  - Use `timestamps` instead of `eopf:origin_datetime`
+  - Use `product:acquisition_type` instead of `eopf:instrument_mode`
+  - Use `s1:instrument_configuration_ID` instead of `eopf:instrument_configuration_id`
+  - Use `s1:datatake_id` instead of `eopf:datatake_id`
+  - Use `s2:datastrip_id` instead of `eopf:datastrip_id`
+  - Avoid duplication of STAC elements
 
 **Potential Outputs:**
 
 - EOPF-STAC specification guidelines
 - Reference STAC collections and items for Sentinel products
 - Integration patterns with openEO and other processing frameworks
+- Deprecation plan for EOPF extension with migration guidelines
 
 ## Proposed Topic 4: Datacube Extension Enhancement for Zarr
 
@@ -108,18 +117,57 @@ Based on participant interests and expertise, we have identified 6 focused speci
 - Caching strategies for frequently accessed Zarr stores
 - Asset streaming patterns for large multidimensional data
 - Cloud storage optimization (S3, GCS, Azure) considerations
+- **Sequential HTTP request reduction** ([QGIS #62838](https://github.com/qgis/qgis/issues/62838)): Optimize Zarr access to limit the number of HTTP requests  
+- **Remote rendering performance**: Strategies for large Zarr arrays at different zoom levels
+- **Download vs streaming behavior**: Guidelines for when to stream vs download Zarr data
 
 **Potential Outputs:**
 
 - Performance optimization guidelines
 - Reference architectures for different deployment scenarios
 - Benchmarking framework for STAC-Zarr implementations
+- HTTP access pattern recommendations
+
+## Proposed Topic 7: STAC Contributions to Zarr Ecosystem
+
+**Objective:** Define how STAC metadata and conventions can enhance Zarr stores and contribute to the broader Zarr ecosystem.
+
+**Key Work Items:**
+
+- **Embedded STAC Metadata Patterns** ([STAC Discussion #1344](https://github.com/radiantearth/stac-spec/discussions/1344)):
+  - Storage location evaluation: `.zattrs` vs `.zstac` files vs Zarr arrays
+  - Self-describing Zarr stores with STAC Collection/Item metadata
+  - EOPF implementation reference (`stac_discovery` field pattern)
+  - Scalability: JSON vs chunked tabular format for large collections
+  
+- **Zarr Extensions for STAC Use Cases**:
+  - Geospatial metadata extensions (CRS, spatial reference)
+  - Temporal dimension handling conventions
+  - Multi-resolution/pyramid encoding patterns
+  
+- **STAC Encoding in Zarr Attributes**:
+  - Asset roles and types for Zarr groups/arrays
+  - STAC extension metadata encoding (eo, sat, processing)
+  - Collection-level vs item-level metadata placement
+  
+- **Cross-Domain Patterns**:
+  - Domain-agnostic catalog patterns (beyond geospatial)
+  - Tabular metadata storage in Zarr arrays
+  - Hierarchical organization for Level 2/3/4 data
+
+**Potential Outputs:**
+
+- Recommendations for embedding STAC in Zarr stores
+- Zarr attribute encoding guidelines for STAC metadata
+- Cross-domain catalog pattern specifications
+- Reference implementations and examples
+- Contribution to Zarr ecosystem standards
 
 ---
 
 ## Selection Process
 
-From these 6 topics, **4 will be selected** based on:
+From these 7 topics, **4 will be selected** based on:
 
 - Participant expertise alignment
 - Community priority and impact
