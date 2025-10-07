@@ -1,6 +1,6 @@
 ## EOPF Assets
 
-This documents describes the current EOPF Sample Service approach to EOPF assets as they are available in the [STAC catalog](https://stac.browser.user.eopf.eodc.eu/). The intention of this document is to provide some background information for the work and discussions on the specification topics.
+This documents describes the current EOPF Sample Service approach to EOPF assets as they are available in the [STAC catalog](https://stac.browser.user.eopf.eodc.eu/). The intention of this document is to provide some background information for the work on the specification topics.
 
 ### Generic assets
 
@@ -37,7 +37,6 @@ For some product types additional assets are provided. Most of them reference Za
 
 ### See also
 
-- https://stac.core.eopf.eodc.eu
-- https://stac.browser.user.eopf.eodc.eu
+- [Implementation Topics](../implementation-topics.md), section EOPF Sample Service Catalog
 - https://github.com/EOPF-Sample-Service/eopf-stac/issues/27
 - https://github.com/EOPF-Sample-Service/eopf-stac/issues/38
