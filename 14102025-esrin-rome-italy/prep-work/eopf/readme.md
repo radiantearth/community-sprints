@@ -4,5 +4,5 @@ One major use case to be considered during this sprint is the evolution of the d
 
 This folder contains some preparative material to be considered as background information for the work on the specification topics during the sprint.
 
-- [EOPF STAC item assets](eopf-assets-info.md) - The current approach to STAC Zarr assets in the EOPF Sample Service project.
-- [EOPF Zarr store structure](eopf-zarr-structure-info.md) - Details on the Zarr store layout of the different Sentinel product types.
+- **[EOPF STAC item assets](eopf-assets-info.md)** - The current approach to STAC Zarr assets in the EOPF Sample Service project.
+- **[EOPF Zarr store structure](eopf-zarr-structure-info.md)** - Details on the Zarr store layout of the different Sentinel product types.
