@@ -1,6 +1,6 @@
 ## EOPF Zarr Stores
 
-This documents gives on overview about the current EOPF Zarr store structure of the different Sentinel missions. The intention of this document is to provide some background information for the work on the specification topics.
+This document gives on overview about the EOPF Zarr store structure of the different Sentinel missions, as currently created during SAFE to EOPF conversion with [CPM](https://cpm.pages.eopf.copernicus.eu/eopf-cpm/main/index.html) by the EOPF Sample Service.
 
 ### Top-level structure
 
