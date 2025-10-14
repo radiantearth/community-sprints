@@ -54,10 +54,12 @@ Each selected topic will form a breakout group of 4-6 participants with diverse 
 | 9:20 - 9:55   | **Introductions**        | Brief introductions from all participants - background, interests, goals   |
 | 9:55 - 10:45  | **State of STAC & Zarr** | Current status updates from community leaders                              |
 | 10:45 - 11:00 | Break                    |                                                                            |
-| 11:00 - 12:30 | Group work kickoffs      | Break up into small groups to advance topics                               |
-| 12:30 - 13:30 | Lunch                    | ESA mensa                                                                  |
-| 13:30 - 16:00 | **Continued group work** | Hands-on development, coding, and discussions in breakout rooms            |
-| 16:00 - 17:00 | **Daily Wrap-up**        | Progress reports from each group, next day planning                        |
+| 11:00 - 11:45 | Group work kickoffs      | Break up into small groups to advance topics                               |
+| 11:45 - 12:00 | Go to rooms              | Room A for Group 1 (high level), Room E for Group 2 (assets)     
+| 12:00 - 13:00 | Lunch                    | ESA mensa                                                                  |
+| 13:00 - 15:30 | **Continued group work** | Hands-on development, coding, and discussions in breakout rooms            |
+| 15:30 - 16:30 | **Daily Wrap-up**        | Room A - Progress reports from each group, next day planning               |
+| 16:30 - 17:30 | **Tour**                 | Tour of ESA                                                                |
 
 ## Day 2 - Wednesday, October 15, 2025
 
