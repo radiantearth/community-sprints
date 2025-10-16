@@ -44,6 +44,7 @@ title: 'STAC+Zarr Community Sprint 2025 : Manifest & Roadmap'
 - [ ] **Draft PR for [Datacube proposal to replace variables with bands: PR #32](https://github.com/stac-extensions/datacube/pull/32)** - _Owner: @rhysrevans3_
 - [ ] **[STAC in Zarr](https://hackmd.io/@stac-sprint-2025/HJbMQV66le) new repo in https://github.com/zarr-experimental** - _Owner: ?_
 - [ ] **Capture Multiscales discussions in a PR** - _Owner: @emmanuelmathot_
+- [ ] **Capture chunk information in STAC**: It could go in the Zarr STAC Extension but it might be that this is a Zarr internal concern - _Owner: @christophreimer_
 
 ### Short-term Goals (Q4 2025 - Q1 2026)
 - [ ] **Pursue the discussion around [STAC to handle storage implementation details and access parameters](https://github.com/radiantearth/stac-spec/discussions/1367) in STAC Community Meetup** - _Lead: @emmanuelmathot_
