@@ -83,9 +83,9 @@ Each selected topic will form a breakout group of 4-6 participants with diverse 
 | 8:30 - 9:00   | Arrival               | Breakfast available at ESA ESRIN cafeteria (at participant cost)           |
 | 9:00 - 9:15   | **Final Day Kickoff** | Objectives for morning work, demo preparation if any                       |
 | 9:15 - 12:00  | **Final Sprint Work** | Complete follow-up tasks, finalize demos if any, prepare presentations     |
-| 12:00 - 13:30 | Lunch                 | ESA mensa                                                                  |
-| 13:30 - 14:30 | **Closing Plenary**   | 5-minutes group pres, next steps, action items, future collaboration plans |
-| 14:30         | **Event Conclusion**  | Departure                                                                  |
+| 12:00 - 13:00 | **Closing Plenary**   | 5-minutes group pres, next steps, action items, future collaboration plans |
+| 13:00 - 14:00 | Lunch                 | ESA mensa                                                                  |
+| 14:00         | **Event Conclusion**  | Departure                                                                  |
 
 STAC Sprint participants are invited to join the [Zarr summit](https://zarr-summit-2025.netlify.app/) in central Rome on Friday, October 17 for a joint adopter day.
 Please register separately by August 22 for the Zarr Adopters summit if you intend to participate in both events.
