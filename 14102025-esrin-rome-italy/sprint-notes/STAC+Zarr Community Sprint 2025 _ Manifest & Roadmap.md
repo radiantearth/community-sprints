@@ -25,7 +25,7 @@ title: 'STAC+Zarr Community Sprint 2025 : Manifest & Roadmap'
 
 - [Best Practices for STAC Zarr and N-Dimensional Arrays](https://github.com/radiantearth/stac-best-practices/pull/29): Draft PR to be reviewed, approved and merged soon
 - [Datacube proposal to replace variables with bands](https://github.com/stac-extensions/datacube/pull/32)
-- [STAC Best practises for EOPF Zarr](https://github.com/EOPF-Sample-Service/eopf-stac) _specific PR to be linked_
+- [STAC Best practises for EOPF Zarr](https://github.com/EOPF-Sample-Service/eopf-stac/pull/54)
 - [STAC in Zarr](https://hackmd.io/@stac-sprint-2025/HJbMQV66le)
 
 ## 💬 Open Issues and Dicussions
